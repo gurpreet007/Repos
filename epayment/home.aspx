@@ -49,6 +49,12 @@
                 <span><asp:Label ID="lblDSBCount" runat="server" text="-"></asp:Label></span>
             </p>
         </div>
+        <div class="tableRow">
+            <p>SAP DS BELOW 10KW:</p>
+            <p>
+                <span><asp:Label ID="lblSapDSBCount" runat="server" text="-"></asp:Label></span>
+            </p>
+        </div>
         <input type="hidden" id="valUserID" runat="server" />
         <input type="hidden" id="valEmpID" runat="server" />
     </form>
@@ -83,6 +89,7 @@
                         $('#lblSPCount').html(cnts[2]);
                         $('#lblDSACount').html(cnts[3]);
                         $('#lblDSBCount').html(cnts[4]);
+                        $('#lblSapDSBCount').html(cnts[5]);
                     },
                     error: function (error) {
                         $("#lblLSCount").html(error.statusText);

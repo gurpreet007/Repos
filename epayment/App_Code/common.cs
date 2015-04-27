@@ -18,6 +18,10 @@ public class common
     public const string strSAP = "sap";
     public const string strNonSAP = "nonsap";
     public const string strIV = "C05A8F2F1C83121A";
+    public const string strErrStyle = "&lt;ERR&gt;";
+    public const string strErrLetter = "E";
+    public const string strDupLetter = "D";
+
     public const string keystr = "1234567890abcdefabcdefab";
 
     public static bool DownloadXLS(string sql, string filename, Page pg)

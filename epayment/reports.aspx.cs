@@ -122,7 +122,7 @@ public partial class reports : System.Web.UI.Page
         //         "to_char(dated,'DD-MON-YYYY HH24:MI:SS') as dated from onlinebill.userrec " +
         //         "where 1=1 {0} {1} and dated between '{2}' and '{3}' order by dated desc", 
         //         sqlUser, sqlBillType, sDate, eDate);
-        sql = string.Format("select userid, categ as category, " +
+        sql = string.Format("select userid, categ as category, class as BillClass, " +
                  "insrec as Rec_Inserted, duprec as Rec_Duplicate, " +
                  "to_char(dated,'DD-MON-YYYY HH24:MI:SS') as dated from onlinebill.userrec " +
                  "where 1=1 {0} {1} and trunc(dated) between '{2}' and '{3}' order by dated desc",

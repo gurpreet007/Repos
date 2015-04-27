@@ -18,10 +18,12 @@ public partial class _Default : System.Web.UI.Page
         ServiceReference1.ServiceClient sc = new ServiceClient(); 
         
         //fill up values of parameters
-        scols.Bank_name = "s333ds";
-        scols.Contract_account_number = "3000045682";
+        scols.contract_account_number = "3000045678";
         
         //call service and check the returned value
-        strRet = sc.GetDataUsingDataContract(scols);   
+        strRet = sc.GetDataUsingDataContract(scols);
+
+        //close the service client
+        sc.Close();
     }
 }

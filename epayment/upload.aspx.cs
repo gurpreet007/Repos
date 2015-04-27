@@ -138,14 +138,14 @@ public partial class upload : System.Web.UI.Page
                         "(LINENO, ACCOUNTNO, BILLCYCLE, BILLYEAR, SESSIONID, DATED, TYPE) "+
                         "VALUES({0},'{1}','{2}','{3}','{4}',to_date('{5}','{6}'),'{7}')",
                         line + 1, fields[categ.posAccountNo], fields[categ.posBillCycle], 
-                        fields[categ.posBillYear], hidSID.Value, dtUpload, dtFmtOracle, "D"));
+                        fields[categ.posBillYear], hidSID.Value, dtUpload, dtFmtOracle, common.strDupLetter));
                 }
                 else{
                     oracle_err++;
                     sbsql.Append(string.Format("INSERT INTO ONLINEBILL.DUPBILL"+
                         "(LINENO, ACCOUNTNO, BILLCYCLE, BILLYEAR, SESSIONID, DATED, TYPE) "+
                         "VALUES({0},'{1}','{2}','{3}','{4}',to_date('{5}','{6}'),'{7}')",
-                        line + 1, "&lt;ERR&gt;", "&lt;ERR&gt;", "&lt;ERR&gt;", hidSID.Value, dtUpload, dtFmtOracle, "E"));
+                        line + 1, common.strErrStyle, common.strErrStyle, common.strErrStyle, hidSID.Value, dtUpload, dtFmtOracle, common.strErrLetter));
                     //sbsql.Append(string.Format("INSERT INTO ONLINEBILL.DUPBILL(LINENO, SESSIONID, DATED, TYPE) "+
                     //        "VALUES({0},'{1}',to_date('{2}','{3}'),'{4}')", line + 1, hidSID.Value, dtUpload, dtFmtOracle,"E"));
                 }
@@ -163,7 +163,7 @@ public partial class upload : System.Web.UI.Page
             lines.Length, oracle_ins, oracle_dup, oracle_err);
 
         //insert summary in userrec
-        InsertUserRec(oracle_ins, oracle_dup, oracle_err, dtUpload, categ.categName);
+        InsertUserRec(oracle_ins, oracle_dup, oracle_err, dtUpload, categ.categName, common.strNonSAP.ToUpper());
     }
     void UploadSAP(Categs categ)
     {
@@ -179,8 +179,8 @@ public partial class upload : System.Web.UI.Page
         //string empID = Session["empID"].ToString();
         string dtUpload = DateTime.Now.ToString(dtFmtDotNet);
         string strExtension = string.Empty;
-
         StringBuilder sbsql = new StringBuilder(2000);
+        OracleConnection con;
 
         //capture sessionid
         hidSID.Value = System.Guid.NewGuid().ToString();
@@ -219,6 +219,8 @@ public partial class upload : System.Web.UI.Page
         //if "AccountNo" word at line 0 then start from line 1 else start from line 0
         start = (lines[0].Split(categ.delimiter)[0] == "AccountNo") ? 1 : 0;
 
+        //open connection to oracle
+        con = OraDBConnection.ConnectionOpen();
         for (int line = start; line < lines.Length; line++)
         {
             //sanitize line
@@ -269,7 +271,8 @@ public partial class upload : System.Web.UI.Page
 
             try
             {
-                OraDBConnection.ExecQry(sbsql.ToString());
+                //OraDBConnection.ExecQry(sbsql.ToString());
+                OraDBConnection.ExecQryOnConnection(con, sbsql.ToString());
                 oracle_ins++;
             }
             catch (Exception ex)
@@ -282,7 +285,7 @@ public partial class upload : System.Web.UI.Page
                         "(LINENO, ACCOUNTNO, BILLCYCLE, BILLYEAR, SESSIONID, DATED, TYPE) " +
                         "VALUES({0},'{1}','{2}','{3}','{4}',to_date('{5}','{6}'),'{7}')",
                         line + 1, fields[categ.posAccountNo], fields[categ.posBillCycle],
-                        fields[categ.posBillYear], hidSID.Value, dtUpload, dtFmtOracle, "D"));
+                        fields[categ.posBillYear], hidSID.Value, dtUpload, dtFmtOracle, common.strDupLetter));
                 }
                 else
                 {
@@ -290,14 +293,18 @@ public partial class upload : System.Web.UI.Page
                     sbsql.Append(string.Format("INSERT INTO ONLINEBILL.DUPBILL" +
                         "(LINENO, ACCOUNTNO, BILLCYCLE, BILLYEAR, SESSIONID, DATED, TYPE) " +
                         "VALUES({0},'{1}','{2}','{3}','{4}',to_date('{5}','{6}'),'{7}')",
-                        line + 1, "&lt;ERR&gt;", "&lt;ERR&gt;", "&lt;ERR&gt;", hidSID.Value, dtUpload, dtFmtOracle, "E"));
+                        line + 1, common.strErrStyle, common.strErrStyle, common.strErrStyle, 
+                        hidSID.Value, dtUpload, dtFmtOracle, common.strErrLetter));
+
                     //sbsql.Append(string.Format("INSERT INTO ONLINEBILL.DUPBILL(LINENO, SESSIONID, DATED, TYPE) "+
                     //        "VALUES({0},'{1}',to_date('{2}','{3}'),'{4}')", line + 1, hidSID.Value, dtUpload, dtFmtOracle,"E"));
                 }
-                OraDBConnection.ExecQry(sbsql.ToString());
+                //OraDBConnection.ExecQry(sbsql.ToString());
+                OraDBConnection.ExecQryOnConnection(con, sbsql.ToString());
             }
         }
 
+        OraDBConnection.ConnectionClose(con);
         //enable Export Button if dup rows or error rows
         btnExport.Visible = (oracle_dup > 0 || oracle_err > 0);
 
@@ -306,9 +313,9 @@ public partial class upload : System.Web.UI.Page
             lines.Length, oracle_ins, oracle_dup, oracle_err);
 
         //insert summary in userrec
-        InsertUserRec(oracle_ins, oracle_dup, oracle_err, dtUpload, categ.categName);
+        InsertUserRec(oracle_ins, oracle_dup, oracle_err, dtUpload, categ.categName, common.strSAP.ToUpper());
     }
-    void InsertUserRec(int numInsRec, int numDupRec, int numErrRec, string dated, string categName)
+    void InsertUserRec(int numInsRec, int numDupRec, int numErrRec, string dated, string categName, string billClass)
     {
         string userID = Session["userID"].ToString();
         //string empID = Session["empID"].ToString();
@@ -317,9 +324,9 @@ public partial class upload : System.Web.UI.Page
         //sql = string.Format("insert into onlinebill.userrec (userid, empid, insrec, duprec, errrec, dated, categ) " +
         //        "values('{0}', '{1}', '{2}', '{3}', '{4}',to_date('{5}', '{6}'), '{7}')",
         //        userID, empID, numInsRec, numDupRec, numErrRec, dated, dtFmtOracle, categName);
-        sql = string.Format("insert into onlinebill.userrec (userid, empid, insrec, duprec, errrec, dated, categ) " +
-                "values('{0}', '{1}', '{2}', '{3}', '{4}',to_date('{5}', '{6}'), '{7}')",
-                userID, '0', numInsRec, numDupRec, numErrRec, dated, dtFmtOracle, categName);
+        sql = string.Format("insert into onlinebill.userrec (userid, empid, insrec, duprec, errrec, dated, categ, class) " +
+                "values('{0}', '{1}', '{2}', '{3}', '{4}',to_date('{5}', '{6}'), '{7}', '{8}')",
+                userID, '0', numInsRec, numDupRec, numErrRec, dated, dtFmtOracle, categName, billClass);
         try
         {
             OraDBConnection.ExecQry(sql);
@@ -358,10 +365,10 @@ public partial class upload : System.Web.UI.Page
             switch (billType)
             {
                 case "DSBELOW10KW":
-                    UploadSAP(new Categs("SAP_DSBELOW10KW", 11, 48, 18, "ONLINEBILL.sap_sbm_gsc_lt10_70", ',', 70));
+                    UploadSAP(new Categs("DSBELOW10KW", 11, 48, 18, "ONLINEBILL.sap_sbm_gsc_lt10_70", ',', 70));
                     break;
                 case "DSBELOW20KW":
-                    UploadSAP(new Categs("SAP_DSBELOW20KW", 11, 48, 18, "ONLINEBILL.SAP_SBM_GSC_LT20", ',', 70));
+                    UploadSAP(new Categs("DSBELOW20KW", 11, 48, 18, "ONLINEBILL.SAP_SBM_GSC_LT20", ',', 70));
                     break;
                 default:
                     lblMessage.Text = "Select a valid Bill Type "+ hidBillType.Value;

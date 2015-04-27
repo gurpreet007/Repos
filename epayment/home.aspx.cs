@@ -49,7 +49,7 @@ public partial class index : System.Web.UI.Page
     public static string GetDates(string userID, string empID)
     {
         JavaScriptSerializer js = new JavaScriptSerializer();
-        string[] arrCounts = new string[5];
+        string[] arrCounts = new string[6];
         System.Data.DataSet ds;
 
         //string sql = string.Format("select"+
@@ -76,7 +76,9 @@ public partial class index : System.Web.UI.Page
             "(select nvl(to_char(max(dtupload),'DD-MON-YYYY HH24:MI:SS'),'Never') " +
             "from onlinebill.dsabove10kw where userid='{0}') dsaDt," +
             "(select nvl(to_char(max(dtupload),'DD-MON-YYYY HH24:MI:SS'),'Never') " +
-            "from onlinebill.dsbelow10kw where userid='{0}') dsbDt " +
+            "from onlinebill.dsbelow10kw where userid='{0}') dsbDt, " +
+            "(select nvl(to_char(max(dtupload),'DD-MON-YYYY HH24:MI:SS'),'Never') " +
+            "from onlinebill.sap_sbm_gsc_lt10_70 where userid='{0}') dsbSapDt " +
             "from dual", userID, empID
             );
         ds = OraDBConnection.GetData(sql);
@@ -85,6 +87,7 @@ public partial class index : System.Web.UI.Page
         arrCounts[2] = ds.Tables[0].Rows[0]["spDt"].ToString();
         arrCounts[3] = ds.Tables[0].Rows[0]["dsaDt"].ToString();
         arrCounts[4] = ds.Tables[0].Rows[0]["dsbDt"].ToString();
+        arrCounts[5] = ds.Tables[0].Rows[0]["dsbSapDt"].ToString();
         return js.Serialize(arrCounts);
     }
 }

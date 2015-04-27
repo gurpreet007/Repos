@@ -16,8 +16,9 @@ public class Service_Rcv_SAP_Rec : IService
 		}
 
         //do all the validation and processing here
+        //
 
         //return back status to caller
-        return string.Format("{0}_{1}",scols.Contract_account_number,"SUCCESS");
+        return string.Format("{0}_{1}",scols.contract_account_number,"SUCCESS");
 	}
 }

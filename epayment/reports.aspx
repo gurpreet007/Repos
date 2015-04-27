@@ -29,11 +29,12 @@
                 <p><label for="panActivity_drpBillType">Bill Type</label></p>
                 <p><asp:DropDownList ID="panActivity_drpBillType" runat="server">
                     <asp:ListItem Value="ALL">All Bill Types</asp:ListItem>
-                    <asp:ListItem Value="DSBELOW10KW">DSBELOW10KW (Spot Billing)</asp:ListItem>
-                    <asp:ListItem>LS</asp:ListItem>
-                    <asp:ListItem>SP</asp:ListItem>
-                    <asp:ListItem>MS</asp:ListItem>
-                    <asp:ListItem>DSABOVE10KW</asp:ListItem>
+                    <asp:ListItem Value="DSBELOW10KW">NONSAP - DSBELOW10KW (Spot Billing)</asp:ListItem>
+                    <asp:ListItem Value="LS">NONSAP - LS</asp:ListItem>
+                    <asp:ListItem Value="SP">NONSAP - SP</asp:ListItem>
+                    <asp:ListItem Value="MS">NONSAP - MS</asp:ListItem>
+                    <asp:ListItem Value="DSABOVE10KW">NONSAP - DSABOVE10KW</asp:ListItem>
+                    <asp:ListItem Value="SAP_SBM_GSC_LT10_70">SAP - DSBELOW10KW</asp:ListItem>
                     </asp:DropDownList></p>
             </div>
             <div class="tableRow">
