@@ -34,7 +34,7 @@
                     <asp:ListItem Value="SP">NONSAP - SP</asp:ListItem>
                     <asp:ListItem Value="MS">NONSAP - MS</asp:ListItem>
                     <asp:ListItem Value="DSABOVE10KW">NONSAP - DSABOVE10KW</asp:ListItem>
-                    <asp:ListItem Value="SAP_SBM_GSC_LT10_70">SAP - DSBELOW10KW</asp:ListItem>
+                    <asp:ListItem Value="SAP_DSBELOW10KW">SAP - DSBELOW10KW</asp:ListItem>
                     </asp:DropDownList></p>
             </div>
             <div class="tableRow">

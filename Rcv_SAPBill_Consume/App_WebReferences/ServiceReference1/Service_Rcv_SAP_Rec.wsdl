@@ -62,80 +62,244 @@
     <xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
       <xs:complexType name="SAP_Cols">
         <xs:sequence>
-          <xs:element minOccurs="0" name="bank_name" nillable="true" type="xs:string" />
-          <xs:element minOccurs="0" name="bill_cycle" type="xs:int" />
+          <xs:element minOccurs="0" name="add_sup_unit_kva" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="add_sup_unit_kvah" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="add_sup_unit_kwh" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="address" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="adj_ed" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="adj_misc" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="adj_oct" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="adj_rental" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="adj_sop" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="adj_total" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="adv_cons_deposit" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="amt_aft_due_dat_2" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="amt_aft_due_dat_5" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="arr_curr_ed" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="arr_curr_misc" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="arr_curr_oct" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="arr_curr_rental" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="arr_curr_sop" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="arr_curr_total" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="arr_pre_ed" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="arr_pre_misc" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="arr_pre_oct" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="arr_pre_rental" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="arr_pre_sop" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="arr_pre_total" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="be_code" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="bill_cycle" nillable="true" type="xs:string" />
           <xs:element minOccurs="0" name="bill_date" nillable="true" type="xs:string" />
-          <xs:element minOccurs="0" name="bill_number" nillable="true" type="xs:string" />
-          <xs:element minOccurs="0" name="bill_type" nillable="true" type="xs:string" />
-          <xs:element minOccurs="0" name="check_no" nillable="true" type="xs:string" />
-          <xs:element minOccurs="0" name="connected_pole_ini_number" nillable="true" type="xs:string" />
-          <xs:element minOccurs="0" name="consumption_kva" type="xs:float" />
-          <xs:element minOccurs="0" name="consumption_kwah" type="xs:float" />
-          <xs:element minOccurs="0" name="consumption_kwh" type="xs:float" />
-          <xs:element minOccurs="0" name="contract_account_number" nillable="true" type="xs:string" />
-          <xs:element minOccurs="0" name="cur_meter_reader_note" nillable="true" type="xs:string" />
-          <xs:element minOccurs="0" name="cur_meter_reading_date" type="xs:dateTime" />
-          <xs:element minOccurs="0" name="cur_meter_reading_kva" type="xs:float" />
-          <xs:element minOccurs="0" name="cur_meter_reading_kvah" type="xs:float" />
-          <xs:element minOccurs="0" name="cur_meter_reading_kwh" type="xs:float" />
-          <xs:element minOccurs="0" name="cur_meter_reading_time" nillable="true" type="xs:string" />
-          <xs:element minOccurs="0" name="demand_charges" type="xs:float" />
-          <xs:element minOccurs="0" name="dssf" type="xs:float" />
-          <xs:element minOccurs="0" name="dtupload" type="xs:dateTime" />
-          <xs:element minOccurs="0" name="due_date" nillable="true" type="xs:string" />
-          <xs:element minOccurs="0" name="ed" type="xs:float" />
-          <xs:element minOccurs="0" name="empid" type="xs:float" />
-          <xs:element minOccurs="0" name="fixedcharges" type="xs:float" />
-          <xs:element minOccurs="0" name="fuel_adjustment" type="xs:float" />
-          <xs:element minOccurs="0" name="ifsc_code" nillable="true" type="xs:string" />
-          <xs:element minOccurs="0" name="inhouse_outsourced_sbm" nillable="true" type="xs:string" />
-          <xs:element minOccurs="0" name="installation" nillable="true" type="xs:string" />
-          <xs:element minOccurs="0" name="lpsc" type="xs:float" />
-          <xs:element minOccurs="0" name="manufacturer_name" nillable="true" type="xs:string" />
-          <xs:element minOccurs="0" name="manufacturer_sr_no" type="xs:int" />
-          <xs:element minOccurs="0" name="mcb_rent" type="xs:float" />
-          <xs:element minOccurs="0" name="meter_number" nillable="true" type="xs:string" />
-          <xs:element minOccurs="0" name="meter_reader_name" nillable="true" type="xs:string" />
-          <xs:element minOccurs="0" name="meter_rent" type="xs:float" />
-          <xs:element minOccurs="0" name="micrcode" nillable="true" type="xs:string" />
-          <xs:element minOccurs="0" name="miscellaneous_charges" type="xs:float" />
-          <xs:element minOccurs="0" name="monthly_min_charges" type="xs:float" />
-          <xs:element minOccurs="0" name="mr_doc_no" nillable="true" type="xs:string" />
-          <xs:element minOccurs="0" name="mru" nillable="true" type="xs:string" />
-          <xs:element minOccurs="0" name="neighbor_meter_no" nillable="true" type="xs:string" />
-          <xs:element minOccurs="0" name="no_of_days_billed" type="xs:int" />
-          <xs:element minOccurs="0" name="octroi" type="xs:float" />
-          <xs:element minOccurs="0" name="octroi_flag" nillable="true" type="xs:string" />
-          <xs:element minOccurs="0" name="payment_amount" type="xs:float" />
-          <xs:element minOccurs="0" name="payment_date" nillable="true" type="xs:string" />
-          <xs:element minOccurs="0" name="payment_id" nillable="true" type="xs:string" />
-          <xs:element minOccurs="0" name="payment_mode" nillable="true" type="xs:string" />
-          <xs:element minOccurs="0" name="payment_remark" nillable="true" type="xs:string" />
-          <xs:element minOccurs="0" name="peakload_exemption_charges" type="xs:float" />
-          <xs:element minOccurs="0" name="pf_incentive" type="xs:float" />
-          <xs:element minOccurs="0" name="pf_surcharge" type="xs:float" />
-          <xs:element minOccurs="0" name="prv_meter_reader_note" nillable="true" type="xs:string" />
-          <xs:element minOccurs="0" name="prv_meter_reading_date" type="xs:dateTime" />
-          <xs:element minOccurs="0" name="prv_meter_reading_kva" type="xs:float" />
-          <xs:element minOccurs="0" name="prv_meter_reading_kwah" type="xs:float" />
-          <xs:element minOccurs="0" name="prv_meter_reading_kwh" type="xs:float" />
-          <xs:element minOccurs="0" name="prv_meter_reading_time" nillable="true" type="xs:string" />
-          <xs:element minOccurs="0" name="sbm_number" nillable="true" type="xs:string" />
-          <xs:element minOccurs="0" name="scheduled_mrdate" type="xs:dateTime" />
-          <xs:element minOccurs="0" name="service_charge" type="xs:float" />
-          <xs:element minOccurs="0" name="service_rent" type="xs:float" />
-          <xs:element minOccurs="0" name="sop" type="xs:float" />
-          <xs:element minOccurs="0" name="street_name" nillable="true" type="xs:string" />
-          <xs:element minOccurs="0" name="sub_division_code" nillable="true" type="xs:string" />
-          <xs:element minOccurs="0" name="sundry_charges" type="xs:float" />
-          <xs:element minOccurs="0" name="surcharge_leived" type="xs:float" />
-          <xs:element minOccurs="0" name="synced" nillable="true" type="xs:string" />
-          <xs:element minOccurs="0" name="tot_amt_due_date" type="xs:float" />
-          <xs:element minOccurs="0" name="tot_billamount" type="xs:float" />
-          <xs:element minOccurs="0" name="tot_sop_ed_oct" type="xs:float" />
-          <xs:element minOccurs="0" name="transfromercode" nillable="true" type="xs:string" />
-          <xs:element minOccurs="0" name="userid" nillable="true" type="xs:string" />
-          <xs:element minOccurs="0" name="voltage_surcharge" type="xs:float" />
+          <xs:element minOccurs="0" name="cdgen" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="cdgen_date" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="cdif" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="cdif_date" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="cdpiu" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="cdpiu_date" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="cdsea" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="cdsea_date" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="circle" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="concess_cons" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="cons_kva_1" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="cons_kva_10" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="cons_kva_11" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="cons_kva_12" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="cons_kva_13" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="cons_kva_14" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="cons_kva_15" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="cons_kva_16" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="cons_kva_17" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="cons_kva_18" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="cons_kva_19" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="cons_kva_2" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="cons_kva_20" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="cons_kva_21" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="cons_kva_22" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="cons_kva_23" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="cons_kva_24" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="cons_kva_3" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="cons_kva_4" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="cons_kva_5" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="cons_kva_6" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="cons_kva_7" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="cons_kva_8" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="cons_kva_9" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="cons_kvah_1" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="cons_kvah_10" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="cons_kvah_11" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="cons_kvah_12" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="cons_kvah_13" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="cons_kvah_14" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="cons_kvah_15" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="cons_kvah_16" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="cons_kvah_17" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="cons_kvah_18" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="cons_kvah_19" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="cons_kvah_2" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="cons_kvah_20" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="cons_kvah_21" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="cons_kvah_22" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="cons_kvah_23" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="cons_kvah_24" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="cons_kvah_3" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="cons_kvah_4" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="cons_kvah_5" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="cons_kvah_6" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="cons_kvah_7" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="cons_kvah_8" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="cons_kvah_9" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="cons_kwh_1" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="cons_kwh_10" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="cons_kwh_11" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="cons_kwh_12" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="cons_kwh_13" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="cons_kwh_14" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="cons_kwh_15" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="cons_kwh_16" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="cons_kwh_17" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="cons_kwh_18" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="cons_kwh_19" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="cons_kwh_2" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="cons_kwh_20" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="cons_kwh_21" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="cons_kwh_22" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="cons_kwh_23" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="cons_kwh_24" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="cons_kwh_3" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="cons_kwh_4" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="cons_kwh_5" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="cons_kwh_6" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="cons_kwh_7" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="cons_kwh_8" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="cons_kwh_9" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ctpt" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="cur_cons_kva" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="cur_cons_kvah" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="cur_cons_kwh" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="cur_read_date" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="curr_ed" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="curr_met_red_kva" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="curr_met_red_kvah" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="curr_met_red_kwh" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="curr_misc" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="curr_oct" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="curr_rental" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="curr_round" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="curr_sop" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="curr_total" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="date_of_conn" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="division" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="dmnd_schr" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ec" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="faedn_cash" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="faedn_cheque" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="fca" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="feeder_code" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="feeder_name" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="fix_chrg" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ht_rbt" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ind_typ" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="line_ctr" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="lpcs_amnt_5" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="lpsc_amnt_2" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="mcb_rent" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="mco_date" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="meter_owner" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="metetr_read_note" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="mmc" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="mmc_add" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="mmts_corr" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="mtr_multiplier" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="mtr_ratio" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="mtr_rent" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="mtr_security_amt" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="mtr_volt_ratio" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="name" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="net_ed" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="net_misc" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="net_oct" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="net_payable" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="net_rental" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="net_sop" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="net_tot" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="nft_admvlt" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="nft_mtrvlt" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="nft_supvlt" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="no_days_bill" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="old_add_sup_kva" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="old_add_sup_kvah" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="old_add_sup_kwh" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="old_all_multiplier" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="old_cons_kva" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="old_cons_kvah" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="old_cons_kwh" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="old_curr_met_kva" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="old_curr_met_kvah" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="old_curr_met_kwh" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="old_line_ctr" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="old_mmts_corr" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="old_mtr_multiplier" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="old_mtr_ratio" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="old_mtr_volt_ratio" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="old_pre_met_kva" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="old_pre_met_kvah" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="old_pre_met_kwh" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="opbel" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ot_chrg" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="overall_multiplier" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="peak_load" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="peak_load_e_date" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="peak_load_s_date" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="pf" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="pf_int_sur" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="plec" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="pre_met_red_kva" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="pre_met_red_kvah" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="pre_met_red_kwh" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="pre_read_date" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="pre_round" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="sea_off_date" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="sea_on_date" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ser_chrg" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ser_rent" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="sjo_date" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="snd_allw_ed" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="snd_allw_misc" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="snd_allw_oct" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="snd_allw_rental" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="snd_allw_sop" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="snd_allw_total" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="snd_chrg_ed" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="snd_chrg_misc" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="snd_chrg_oct" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="snd_chrg_rental" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="snd_chrg_sop" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="snd_chrg_total" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="sndgen" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="sndgen_date" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="sndif" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="sndif_date" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="sndpiu" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="sndpiu_date" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="sndsea" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="sndsea_date" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="sop" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="sub_div" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="tariftyp" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="tod_rbt_amt" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="tod_rbt_cons" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="tod_schr_amt" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="tod_schr_cons" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="tot_cons_kva" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="tot_cons_kvah" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="tot_cons_kwh" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="tot_rentals" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="variation" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="violation_chrg" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="vkona" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="vkont" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="volt_schr" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="zz_year" nillable="true" type="xs:string" />
         </xs:sequence>
       </xs:complexType>
       <xs:element name="SAP_Cols" nillable="true" type="tns:SAP_Cols" />

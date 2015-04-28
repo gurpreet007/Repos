@@ -29,6 +29,7 @@
                     <asp:ListItem>SP</asp:ListItem>
                     <asp:ListItem>MS</asp:ListItem>
                     <asp:ListItem>DSABOVE10KW</asp:ListItem>
+                    <asp:ListItem Value="SAP_SBM_GSC_LT10_70">SAP - DSBELOW10KW</asp:ListItem>
                     </asp:DropDownList>
             </p>
         </div>

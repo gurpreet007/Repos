@@ -123,9 +123,19 @@ public partial class upload : System.Web.UI.Page
             //to handle dups we let the exception come and then continue
             //in case of error, we record the info about record containing error and continue
             
+            //end insert query
+            sbsql.Append("; ");
+
+            //append merge query
+            sbsql.Append(string.Format("merge into onlinebill.mast_account m1 using " +
+                "(select '{0}' as acno from dual) d on (m1.account_no=d.acno) " +
+                "when matched then update set m1.table_name = '{1}' " +
+                "when not matched then insert (m1.account_no,m1.table_name) values(d.acno,'{1}') ",
+                fields[categ.posAccountNo].ToUpper(), categ.tableName.ToUpper()));
             try
             {
-                OraDBConnection.ExecQryOnConnection(con, sbsql.ToString());
+                //make atomic transaction and execute
+                OraDBConnection.ExecQryOnConnection(con, string.Format("BEGIN {0}; END;",sbsql.ToString()));
                 oracle_ins++;
             }
             catch (Exception ex)
@@ -181,6 +191,7 @@ public partial class upload : System.Web.UI.Page
         string strExtension = string.Empty;
         StringBuilder sbsql = new StringBuilder(2000);
         OracleConnection con;
+        int posSancLoad = 80;
 
         //capture sessionid
         hidSID.Value = System.Guid.NewGuid().ToString();
@@ -216,8 +227,8 @@ public partial class upload : System.Web.UI.Page
         //delete uploaded file
         System.IO.File.Delete(path);
 
-        //if "AccountNo" word at line 0 then start from line 1 else start from line 0
-        start = (lines[0].Split(categ.delimiter)[0] == "AccountNo") ? 1 : 0;
+        //skip header line, header lines end with H in the last field
+        start = (lines[0].Split(categ.delimiter)[6] == "H") ? 1 : 0;
 
         //open connection to oracle
         con = OraDBConnection.ConnectionOpen();
@@ -230,13 +241,25 @@ public partial class upload : System.Web.UI.Page
             string[] fields = lines[line].Split(categ.delimiter);
 
             //check the field length (for first record in the file)
-            if (fields.Length != categ.numFields && line == start)
+            if (line == start && fields.Length != categ.numFields )
             {
                 lblMessage.Text = "Error. Invalid File.";
                 return;
             }
 
-            //set/reset sbsql
+            //check the sanctioned load for correct filetype, for the first row only
+            if (line == start && categ.categName == "SAP_DSBELOW10KW" && float.Parse(fields[posSancLoad]) > 10.0)
+            {
+                lblMessage.Text = "Error. Invalid File.";
+                return;
+            }
+            else if (line == start && categ.categName == "SAP_DSBELOW20KW" && float.Parse(fields[posSancLoad]) <= 10.0)
+            {
+                lblMessage.Text = "Error. Invalid File.";
+                return;
+            }
+
+            //reset sbsql
             sbsql.Clear();
 
             sbsql.Append(string.Format("INSERT INTO {0} VALUES (", categ.tableName));
@@ -269,10 +292,20 @@ public partial class upload : System.Web.UI.Page
             //to handle dups we let the exception come and then continue
             //in case of error, we record the info about record containing error and continue
 
+            
+            //end insert query
+            sbsql.Append("; ");
+
+            //append merge query
+            sbsql.Append(string.Format("merge into onlinebill.mast_account m1 using " +
+                "(select '{0}' as acno from dual) d on (m1.account_no=d.acno) " +
+                "when matched then update set m1.table_name = '{1}' " +
+                "when not matched then insert (m1.account_no,m1.table_name) values(d.acno,'{1}') ",
+                fields[categ.posAccountNo].ToUpper(), categ.tableName.ToUpper()));
             try
             {
-                //OraDBConnection.ExecQry(sbsql.ToString());
-                OraDBConnection.ExecQryOnConnection(con, sbsql.ToString());
+                //make atomic transaction and execute
+                OraDBConnection.ExecQryOnConnection(con, string.Format("BEGIN {0}; END;",sbsql.ToString()));
                 oracle_ins++;
             }
             catch (Exception ex)
@@ -365,10 +398,10 @@ public partial class upload : System.Web.UI.Page
             switch (billType)
             {
                 case "DSBELOW10KW":
-                    UploadSAP(new Categs("DSBELOW10KW", 11, 48, 18, "ONLINEBILL.sap_sbm_gsc_lt10_70", ',', 70));
+                    UploadSAP(new Categs("SAP_DSBELOW10KW", 11, 48, 18, "ONLINEBILL.sap_sbm_gsc_lt10", ',', 122));
                     break;
                 case "DSBELOW20KW":
-                    UploadSAP(new Categs("DSBELOW20KW", 11, 48, 18, "ONLINEBILL.SAP_SBM_GSC_LT20", ',', 70));
+                    UploadSAP(new Categs("SAP_DSBELOW20KW", 11, 48, 18, "ONLINEBILL.SAP_SBM_GSC_LT20", ',', 122));
                     break;
                 default:
                     lblMessage.Text = "Select a valid Bill Type "+ hidBillType.Value;
