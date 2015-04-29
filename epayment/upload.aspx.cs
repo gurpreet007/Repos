@@ -191,7 +191,7 @@ public partial class upload : System.Web.UI.Page
         string strExtension = string.Empty;
         StringBuilder sbsql = new StringBuilder(2000);
         OracleConnection con;
-        int posSancLoad = 80;
+        //int posSancLoad = 80;
 
         //capture sessionid
         hidSID.Value = System.Guid.NewGuid().ToString();
@@ -240,6 +240,12 @@ public partial class upload : System.Web.UI.Page
             //get fields
             string[] fields = lines[line].Split(categ.delimiter);
 
+            if (fields.Length == 70)
+            {
+                categ.numFields = 70;
+                categ.tableName = "ONLINEBILL.SAP_SBM_GSC_70";
+            }
+
             //check the field length (for first record in the file)
             if (line == start && fields.Length != categ.numFields )
             {
@@ -248,16 +254,16 @@ public partial class upload : System.Web.UI.Page
             }
 
             //check the sanctioned load for correct filetype, for the first row only
-            if (line == start && categ.categName == "SAP_DSBELOW10KW" && float.Parse(fields[posSancLoad]) > 10.0)
-            {
-                lblMessage.Text = "Error. Invalid File.";
-                return;
-            }
-            else if (line == start && categ.categName == "SAP_DSBELOW20KW" && float.Parse(fields[posSancLoad]) <= 10.0)
-            {
-                lblMessage.Text = "Error. Invalid File.";
-                return;
-            }
+            //if (line == start && categ.categName == "SAP_DSBELOW10KW" && float.Parse(fields[posSancLoad]) > 10.0)
+            //{
+            //    lblMessage.Text = "Error. Invalid File.";
+            //    return;
+            //}
+            //else if (line == start && categ.categName == "SAP_DSBELOW20KW" && float.Parse(fields[posSancLoad]) <= 10.0)
+            //{
+            //    lblMessage.Text = "Error. Invalid File.";
+            //    return;
+            //}
 
             //reset sbsql
             sbsql.Clear();
@@ -271,7 +277,7 @@ public partial class upload : System.Web.UI.Page
                 {
                     sbsql.Append(string.Format("to_date('{0}','dd/mm/yyyy'),",fields[field]));
                 }
-                else if (field == 18)
+                else if (field == 18 || field == 49)
                 {
                     sbsql.Append(string.Format("to_date('{0}','dd-mm-yyyy'),", fields[field]));
                 }
@@ -283,29 +289,25 @@ public partial class upload : System.Web.UI.Page
                 }
             }
 
-            //add userID, empID and date_upload at last, we already have comma and space at the end of string
-            //sbsql.Append(string.Format("'{0}', '{1}', to_date('{2}','{3}'))", userID, empID, dtUpload, dtFmtOracle));
-            sbsql.Append(string.Format("'{0}', '{1}', to_date('{2}','{3}'),'{4}')", userID, '0', dtUpload, dtFmtOracle,string.Empty));
+            //add userID, empID, date_upload and synched as NULL at last, we already have comma and space at the end of string
+            //add semicolon at end of query to enable it to run in atomic BEGIN END block
+            sbsql.Append(string.Format("'{0}', '{1}', to_date('{2}','{3}'),NULL); ", userID, '0', dtUpload, dtFmtOracle));
 
             //insert into oracle 
             //Composite Primary Key: ACCOUNTNO, BILLCYCLE, BILLYEAR
             //to handle dups we let the exception come and then continue
             //in case of error, we record the info about record containing error and continue
 
-            
-            //end insert query
-            sbsql.Append("; ");
-
-            //append merge query
+            //append merge query, with semicolon at end to make part of BEGIN END block
             sbsql.Append(string.Format("merge into onlinebill.mast_account m1 using " +
                 "(select '{0}' as acno from dual) d on (m1.account_no=d.acno) " +
                 "when matched then update set m1.table_name = '{1}' " +
-                "when not matched then insert (m1.account_no,m1.table_name) values(d.acno,'{1}') ",
+                "when not matched then insert (m1.account_no,m1.table_name) values(d.acno,'{1}'); ",
                 fields[categ.posAccountNo].ToUpper(), categ.tableName.ToUpper()));
             try
             {
                 //make atomic transaction and execute
-                OraDBConnection.ExecQryOnConnection(con, string.Format("BEGIN {0}; END;",sbsql.ToString()));
+                OraDBConnection.ExecQryOnConnection(con, string.Format("BEGIN {0} END;",sbsql.ToString()));
                 oracle_ins++;
             }
             catch (Exception ex)
@@ -328,11 +330,7 @@ public partial class upload : System.Web.UI.Page
                         "VALUES({0},'{1}','{2}','{3}','{4}',to_date('{5}','{6}'),'{7}')",
                         line + 1, common.strErrStyle, common.strErrStyle, common.strErrStyle, 
                         hidSID.Value, dtUpload, dtFmtOracle, common.strErrLetter));
-
-                    //sbsql.Append(string.Format("INSERT INTO ONLINEBILL.DUPBILL(LINENO, SESSIONID, DATED, TYPE) "+
-                    //        "VALUES({0},'{1}',to_date('{2}','{3}'),'{4}')", line + 1, hidSID.Value, dtUpload, dtFmtOracle,"E"));
                 }
-                //OraDBConnection.ExecQry(sbsql.ToString());
                 OraDBConnection.ExecQryOnConnection(con, sbsql.ToString());
             }
         }
@@ -398,10 +396,8 @@ public partial class upload : System.Web.UI.Page
             switch (billType)
             {
                 case "DSBELOW10KW":
-                    UploadSAP(new Categs("SAP_DSBELOW10KW", 11, 48, 18, "ONLINEBILL.sap_sbm_gsc_lt10", ',', 122));
-                    break;
                 case "DSBELOW20KW":
-                    UploadSAP(new Categs("SAP_DSBELOW20KW", 11, 48, 18, "ONLINEBILL.SAP_SBM_GSC_LT20", ',', 122));
+                    UploadSAP(new Categs("SAP_GSC", 11, 48, 18, "ONLINEBILL.SAP_SBM_GSC", ',', 122));
                     break;
                 default:
                     lblMessage.Text = "Select a valid Bill Type "+ hidBillType.Value;
