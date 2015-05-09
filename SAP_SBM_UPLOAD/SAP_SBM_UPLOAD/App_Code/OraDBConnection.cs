@@ -7,7 +7,7 @@ using System.Data.Odbc ;
 using System.Data.OracleClient;
 public class OraDBConnection
 {
-    private const string constr = "user id=onlinebill;password=pspcl;"+
+    private const string constr = "user id=onlinebill;password=123;"+
         "data source="+
             "(DESCRIPTION="+
                 "(ADDRESS_LIST="+
@@ -15,7 +15,7 @@ public class OraDBConnection
                              "(HOST=127.0.0.1)"+
                              "(PORT=1521)"+
                     ")"+
-                ")(CONNECT_DATA=(SERVICE_NAME=pshr))"+
+                ")(CONNECT_DATA=(SERVICE_NAME=xe))"+
             ")";
     
     public static DataSet GetData(String sql)
@@ -119,11 +119,6 @@ public class OraDBConnection
             cmd.Dispose();
             con.Dispose();
         }
-    }
-    public static void FillGrid(ref System.Web.UI.WebControls.GridView gv, string sql)
-    {
-        gv.DataSource = GetData(sql);
-        gv.DataBind();
     }
     public static bool ExecProc(string procName)
     {

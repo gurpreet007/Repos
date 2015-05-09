@@ -253,6 +253,7 @@ public class SAP_Cols
     public string tod_schr_amt;
     public string tod_rbt_cons;
     public string tod_rbt_amt;
+    public string opbel_hash;
 
     //public string sub_division_code;
     //public string mru;

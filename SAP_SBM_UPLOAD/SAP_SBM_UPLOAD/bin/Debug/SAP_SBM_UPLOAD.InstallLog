@@ -1,0 +1,188 @@
+﻿Installing assembly 'c:\Users\Gurpreet\Documents\Visual Studio 2010\Projects\SAP_SBM_UPLOAD\SAP_SBM_UPLOAD\bin\Debug\SAP_SBM_UPLOAD.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\Users\Gurpreet\Documents\Visual Studio 2010\Projects\SAP_SBM_UPLOAD\SAP_SBM_UPLOAD\bin\Debug\SAP_SBM_UPLOAD.InstallLog
+   assemblypath = c:\Users\Gurpreet\Documents\Visual Studio 2010\Projects\SAP_SBM_UPLOAD\SAP_SBM_UPLOAD\bin\Debug\SAP_SBM_UPLOAD.exe
+Installing service SAP_SBM_UPLOAD...
+Service SAP_SBM_UPLOAD has been successfully installed.
+Creating EventLog source SAP_SBM_UPLOAD in log Application...
+Committing assembly 'c:\Users\Gurpreet\Documents\Visual Studio 2010\Projects\SAP_SBM_UPLOAD\SAP_SBM_UPLOAD\bin\Debug\SAP_SBM_UPLOAD.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\Users\Gurpreet\Documents\Visual Studio 2010\Projects\SAP_SBM_UPLOAD\SAP_SBM_UPLOAD\bin\Debug\SAP_SBM_UPLOAD.InstallLog
+   assemblypath = c:\Users\Gurpreet\Documents\Visual Studio 2010\Projects\SAP_SBM_UPLOAD\SAP_SBM_UPLOAD\bin\Debug\SAP_SBM_UPLOAD.exe
+Installing assembly 'c:\Users\Gurpreet\Documents\Visual Studio 2010\Projects\SAP_SBM_UPLOAD\SAP_SBM_UPLOAD\bin\Debug\SAP_SBM_UPLOAD.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\Users\Gurpreet\Documents\Visual Studio 2010\Projects\SAP_SBM_UPLOAD\SAP_SBM_UPLOAD\bin\Debug\SAP_SBM_UPLOAD.InstallLog
+   assemblypath = c:\Users\Gurpreet\Documents\Visual Studio 2010\Projects\SAP_SBM_UPLOAD\SAP_SBM_UPLOAD\bin\Debug\SAP_SBM_UPLOAD.exe
+Installing service SAP_SBM_UPLOAD...
+Creating EventLog source SAP_SBM_UPLOAD in log Application...
+Rolling back assembly 'c:\Users\Gurpreet\Documents\Visual Studio 2010\Projects\SAP_SBM_UPLOAD\SAP_SBM_UPLOAD\bin\Debug\SAP_SBM_UPLOAD.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\Users\Gurpreet\Documents\Visual Studio 2010\Projects\SAP_SBM_UPLOAD\SAP_SBM_UPLOAD\bin\Debug\SAP_SBM_UPLOAD.InstallLog
+   assemblypath = c:\Users\Gurpreet\Documents\Visual Studio 2010\Projects\SAP_SBM_UPLOAD\SAP_SBM_UPLOAD\bin\Debug\SAP_SBM_UPLOAD.exe
+Restoring event log to previous state for source SAP_SBM_UPLOAD.
+Uninstalling assembly 'c:\Users\Gurpreet\Documents\Visual Studio 2010\Projects\SAP_SBM_UPLOAD\SAP_SBM_UPLOAD\bin\Debug\SAP_SBM_UPLOAD.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\Users\Gurpreet\Documents\Visual Studio 2010\Projects\SAP_SBM_UPLOAD\SAP_SBM_UPLOAD\bin\Debug\SAP_SBM_UPLOAD.InstallLog
+   assemblypath = c:\Users\Gurpreet\Documents\Visual Studio 2010\Projects\SAP_SBM_UPLOAD\SAP_SBM_UPLOAD\bin\Debug\SAP_SBM_UPLOAD.exe
+Removing EventLog source SAP_SBM_UPLOAD.
+Service SAP_SBM_UPLOAD is being removed from the system...
+Service SAP_SBM_UPLOAD was successfully removed from the system.
+Installing assembly 'c:\Users\Gurpreet\Documents\Visual Studio 2010\Projects\SAP_SBM_UPLOAD\SAP_SBM_UPLOAD\bin\Debug\SAP_SBM_UPLOAD.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\Users\Gurpreet\Documents\Visual Studio 2010\Projects\SAP_SBM_UPLOAD\SAP_SBM_UPLOAD\bin\Debug\SAP_SBM_UPLOAD.InstallLog
+   assemblypath = c:\Users\Gurpreet\Documents\Visual Studio 2010\Projects\SAP_SBM_UPLOAD\SAP_SBM_UPLOAD\bin\Debug\SAP_SBM_UPLOAD.exe
+Installing service SAP_SBM_UPLOAD...
+Service SAP_SBM_UPLOAD has been successfully installed.
+Creating EventLog source SAP_SBM_UPLOAD in log Application...
+Committing assembly 'c:\Users\Gurpreet\Documents\Visual Studio 2010\Projects\SAP_SBM_UPLOAD\SAP_SBM_UPLOAD\bin\Debug\SAP_SBM_UPLOAD.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\Users\Gurpreet\Documents\Visual Studio 2010\Projects\SAP_SBM_UPLOAD\SAP_SBM_UPLOAD\bin\Debug\SAP_SBM_UPLOAD.InstallLog
+   assemblypath = c:\Users\Gurpreet\Documents\Visual Studio 2010\Projects\SAP_SBM_UPLOAD\SAP_SBM_UPLOAD\bin\Debug\SAP_SBM_UPLOAD.exe
+Uninstalling assembly 'c:\Users\Gurpreet\Documents\Visual Studio 2010\Projects\SAP_SBM_UPLOAD\SAP_SBM_UPLOAD\bin\Debug\SAP_SBM_UPLOAD.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\Users\Gurpreet\Documents\Visual Studio 2010\Projects\SAP_SBM_UPLOAD\SAP_SBM_UPLOAD\bin\Debug\SAP_SBM_UPLOAD.InstallLog
+   assemblypath = c:\Users\Gurpreet\Documents\Visual Studio 2010\Projects\SAP_SBM_UPLOAD\SAP_SBM_UPLOAD\bin\Debug\SAP_SBM_UPLOAD.exe
+Removing EventLog source SAP_SBM_UPLOAD.
+Service SAP_SBM_UPLOAD is being removed from the system...
+Service SAP_SBM_UPLOAD was successfully removed from the system.
+Installing assembly 'c:\Users\Gurpreet\Documents\Visual Studio 2010\Projects\SAP_SBM_UPLOAD\SAP_SBM_UPLOAD\bin\Debug\SAP_SBM_UPLOAD.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\Users\Gurpreet\Documents\Visual Studio 2010\Projects\SAP_SBM_UPLOAD\SAP_SBM_UPLOAD\bin\Debug\SAP_SBM_UPLOAD.InstallLog
+   assemblypath = c:\Users\Gurpreet\Documents\Visual Studio 2010\Projects\SAP_SBM_UPLOAD\SAP_SBM_UPLOAD\bin\Debug\SAP_SBM_UPLOAD.exe
+Installing service SAP_SBM_UPLOAD...
+Creating EventLog source SAP_SBM_UPLOAD in log Application...
+Rolling back assembly 'c:\Users\Gurpreet\Documents\Visual Studio 2010\Projects\SAP_SBM_UPLOAD\SAP_SBM_UPLOAD\bin\Debug\SAP_SBM_UPLOAD.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\Users\Gurpreet\Documents\Visual Studio 2010\Projects\SAP_SBM_UPLOAD\SAP_SBM_UPLOAD\bin\Debug\SAP_SBM_UPLOAD.InstallLog
+   assemblypath = c:\Users\Gurpreet\Documents\Visual Studio 2010\Projects\SAP_SBM_UPLOAD\SAP_SBM_UPLOAD\bin\Debug\SAP_SBM_UPLOAD.exe
+Restoring event log to previous state for source SAP_SBM_UPLOAD.
+Installing assembly 'c:\Users\Gurpreet\Documents\Visual Studio 2010\Projects\SAP_SBM_UPLOAD\SAP_SBM_UPLOAD\bin\Debug\SAP_SBM_UPLOAD.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\Users\Gurpreet\Documents\Visual Studio 2010\Projects\SAP_SBM_UPLOAD\SAP_SBM_UPLOAD\bin\Debug\SAP_SBM_UPLOAD.InstallLog
+   assemblypath = c:\Users\Gurpreet\Documents\Visual Studio 2010\Projects\SAP_SBM_UPLOAD\SAP_SBM_UPLOAD\bin\Debug\SAP_SBM_UPLOAD.exe
+Installing service SAP_SBM_UPLOAD...
+Creating EventLog source SAP_SBM_UPLOAD in log Application...
+Rolling back assembly 'c:\Users\Gurpreet\Documents\Visual Studio 2010\Projects\SAP_SBM_UPLOAD\SAP_SBM_UPLOAD\bin\Debug\SAP_SBM_UPLOAD.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\Users\Gurpreet\Documents\Visual Studio 2010\Projects\SAP_SBM_UPLOAD\SAP_SBM_UPLOAD\bin\Debug\SAP_SBM_UPLOAD.InstallLog
+   assemblypath = c:\Users\Gurpreet\Documents\Visual Studio 2010\Projects\SAP_SBM_UPLOAD\SAP_SBM_UPLOAD\bin\Debug\SAP_SBM_UPLOAD.exe
+Restoring event log to previous state for source SAP_SBM_UPLOAD.
+Uninstalling assembly 'c:\Users\Gurpreet\Documents\Visual Studio 2010\Projects\SAP_SBM_UPLOAD\SAP_SBM_UPLOAD\bin\Debug\SAP_SBM_UPLOAD.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\Users\Gurpreet\Documents\Visual Studio 2010\Projects\SAP_SBM_UPLOAD\SAP_SBM_UPLOAD\bin\Debug\SAP_SBM_UPLOAD.InstallLog
+   assemblypath = c:\Users\Gurpreet\Documents\Visual Studio 2010\Projects\SAP_SBM_UPLOAD\SAP_SBM_UPLOAD\bin\Debug\SAP_SBM_UPLOAD.exe
+Removing EventLog source SAP_SBM_UPLOAD.
+Warning: The source SAP_SBM_UPLOAD is not registered on the local machine.
+Service SAP_SBM_UPLOAD is being removed from the system...
+Service SAP_SBM_UPLOAD was successfully removed from the system.
+Installing assembly 'c:\Users\Gurpreet\Documents\Visual Studio 2010\Projects\SAP_SBM_UPLOAD\SAP_SBM_UPLOAD\bin\Debug\SAP_SBM_UPLOAD.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\Users\Gurpreet\Documents\Visual Studio 2010\Projects\SAP_SBM_UPLOAD\SAP_SBM_UPLOAD\bin\Debug\SAP_SBM_UPLOAD.InstallLog
+   assemblypath = c:\Users\Gurpreet\Documents\Visual Studio 2010\Projects\SAP_SBM_UPLOAD\SAP_SBM_UPLOAD\bin\Debug\SAP_SBM_UPLOAD.exe
+Installing service SAP_SBM_UPLOAD...
+Service SAP_SBM_UPLOAD has been successfully installed.
+Creating EventLog source SAP_SBM_UPLOAD in log Application...
+Committing assembly 'c:\Users\Gurpreet\Documents\Visual Studio 2010\Projects\SAP_SBM_UPLOAD\SAP_SBM_UPLOAD\bin\Debug\SAP_SBM_UPLOAD.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\Users\Gurpreet\Documents\Visual Studio 2010\Projects\SAP_SBM_UPLOAD\SAP_SBM_UPLOAD\bin\Debug\SAP_SBM_UPLOAD.InstallLog
+   assemblypath = c:\Users\Gurpreet\Documents\Visual Studio 2010\Projects\SAP_SBM_UPLOAD\SAP_SBM_UPLOAD\bin\Debug\SAP_SBM_UPLOAD.exe
+Uninstalling assembly 'c:\Users\Gurpreet\Documents\Visual Studio 2010\Projects\SAP_SBM_UPLOAD\SAP_SBM_UPLOAD\bin\Debug\SAP_SBM_UPLOAD.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\Users\Gurpreet\Documents\Visual Studio 2010\Projects\SAP_SBM_UPLOAD\SAP_SBM_UPLOAD\bin\Debug\SAP_SBM_UPLOAD.InstallLog
+   assemblypath = c:\Users\Gurpreet\Documents\Visual Studio 2010\Projects\SAP_SBM_UPLOAD\SAP_SBM_UPLOAD\bin\Debug\SAP_SBM_UPLOAD.exe
+Removing EventLog source SAP_SBM_UPLOAD.
+Service SAP_SBM_UPLOAD is being removed from the system...
+Service SAP_SBM_UPLOAD was successfully removed from the system.
+Installing assembly 'c:\Users\Gurpreet\Documents\Visual Studio 2010\Projects\SAP_SBM_UPLOAD\SAP_SBM_UPLOAD\bin\Debug\SAP_SBM_UPLOAD.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\Users\Gurpreet\Documents\Visual Studio 2010\Projects\SAP_SBM_UPLOAD\SAP_SBM_UPLOAD\bin\Debug\SAP_SBM_UPLOAD.InstallLog
+   assemblypath = c:\Users\Gurpreet\Documents\Visual Studio 2010\Projects\SAP_SBM_UPLOAD\SAP_SBM_UPLOAD\bin\Debug\SAP_SBM_UPLOAD.exe
+Installing service SAP_SBM_UPLOAD...
+Service SAP_SBM_UPLOAD has been successfully installed.
+Creating EventLog source SAP_SBM_UPLOAD in log Application...
+Committing assembly 'c:\Users\Gurpreet\Documents\Visual Studio 2010\Projects\SAP_SBM_UPLOAD\SAP_SBM_UPLOAD\bin\Debug\SAP_SBM_UPLOAD.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\Users\Gurpreet\Documents\Visual Studio 2010\Projects\SAP_SBM_UPLOAD\SAP_SBM_UPLOAD\bin\Debug\SAP_SBM_UPLOAD.InstallLog
+   assemblypath = c:\Users\Gurpreet\Documents\Visual Studio 2010\Projects\SAP_SBM_UPLOAD\SAP_SBM_UPLOAD\bin\Debug\SAP_SBM_UPLOAD.exe
+Uninstalling assembly 'c:\Users\Gurpreet\Documents\Visual Studio 2010\Projects\SAP_SBM_UPLOAD\SAP_SBM_UPLOAD\bin\Debug\SAP_SBM_UPLOAD.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\Users\Gurpreet\Documents\Visual Studio 2010\Projects\SAP_SBM_UPLOAD\SAP_SBM_UPLOAD\bin\Debug\SAP_SBM_UPLOAD.InstallLog
+   assemblypath = c:\Users\Gurpreet\Documents\Visual Studio 2010\Projects\SAP_SBM_UPLOAD\SAP_SBM_UPLOAD\bin\Debug\SAP_SBM_UPLOAD.exe
+Removing EventLog source SAP_SBM_UPLOAD.
+Warning: The source SAP_SBM_UPLOAD is not registered on the local machine.
+Service SAP_SBM_UPLOAD is being removed from the system...
+Service SAP_SBM_UPLOAD was successfully removed from the system.
+Installing assembly 'c:\Users\Gurpreet\Documents\Visual Studio 2010\Projects\SAP_SBM_UPLOAD\SAP_SBM_UPLOAD\bin\Debug\SAP_SBM_UPLOAD.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\Users\Gurpreet\Documents\Visual Studio 2010\Projects\SAP_SBM_UPLOAD\SAP_SBM_UPLOAD\bin\Debug\SAP_SBM_UPLOAD.InstallLog
+   assemblypath = c:\Users\Gurpreet\Documents\Visual Studio 2010\Projects\SAP_SBM_UPLOAD\SAP_SBM_UPLOAD\bin\Debug\SAP_SBM_UPLOAD.exe
+Installing service SAP_SBM_UPLOAD...
+Service SAP_SBM_UPLOAD has been successfully installed.
+Creating EventLog source SAP_SBM_UPLOAD in log Application...
+Committing assembly 'c:\Users\Gurpreet\Documents\Visual Studio 2010\Projects\SAP_SBM_UPLOAD\SAP_SBM_UPLOAD\bin\Debug\SAP_SBM_UPLOAD.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\Users\Gurpreet\Documents\Visual Studio 2010\Projects\SAP_SBM_UPLOAD\SAP_SBM_UPLOAD\bin\Debug\SAP_SBM_UPLOAD.InstallLog
+   assemblypath = c:\Users\Gurpreet\Documents\Visual Studio 2010\Projects\SAP_SBM_UPLOAD\SAP_SBM_UPLOAD\bin\Debug\SAP_SBM_UPLOAD.exe
+Uninstalling assembly 'c:\Users\Gurpreet\Documents\Visual Studio 2010\Projects\SAP_SBM_UPLOAD\SAP_SBM_UPLOAD\bin\Debug\SAP_SBM_UPLOAD.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\Users\Gurpreet\Documents\Visual Studio 2010\Projects\SAP_SBM_UPLOAD\SAP_SBM_UPLOAD\bin\Debug\SAP_SBM_UPLOAD.InstallLog
+   assemblypath = c:\Users\Gurpreet\Documents\Visual Studio 2010\Projects\SAP_SBM_UPLOAD\SAP_SBM_UPLOAD\bin\Debug\SAP_SBM_UPLOAD.exe
+Removing EventLog source SAP_SBM_UPLOAD.
+Service SAP_SBM_UPLOAD is being removed from the system...
+Service SAP_SBM_UPLOAD was successfully removed from the system.
+Installing assembly 'c:\Users\Gurpreet\Documents\Visual Studio 2010\Projects\SAP_SBM_UPLOAD\SAP_SBM_UPLOAD\bin\Debug\SAP_SBM_UPLOAD.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\Users\Gurpreet\Documents\Visual Studio 2010\Projects\SAP_SBM_UPLOAD\SAP_SBM_UPLOAD\bin\Debug\SAP_SBM_UPLOAD.InstallLog
+   assemblypath = c:\Users\Gurpreet\Documents\Visual Studio 2010\Projects\SAP_SBM_UPLOAD\SAP_SBM_UPLOAD\bin\Debug\SAP_SBM_UPLOAD.exe
+Installing service SAP_SBM_UPLOAD...
+Service SAP_SBM_UPLOAD has been successfully installed.
+Creating EventLog source SAP_SBM_UPLOAD in log Application...
+Committing assembly 'c:\Users\Gurpreet\Documents\Visual Studio 2010\Projects\SAP_SBM_UPLOAD\SAP_SBM_UPLOAD\bin\Debug\SAP_SBM_UPLOAD.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\Users\Gurpreet\Documents\Visual Studio 2010\Projects\SAP_SBM_UPLOAD\SAP_SBM_UPLOAD\bin\Debug\SAP_SBM_UPLOAD.InstallLog
+   assemblypath = c:\Users\Gurpreet\Documents\Visual Studio 2010\Projects\SAP_SBM_UPLOAD\SAP_SBM_UPLOAD\bin\Debug\SAP_SBM_UPLOAD.exe
+Uninstalling assembly 'c:\Users\Gurpreet\Documents\Visual Studio 2010\Projects\SAP_SBM_UPLOAD\SAP_SBM_UPLOAD\bin\Debug\SAP_SBM_UPLOAD.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\Users\Gurpreet\Documents\Visual Studio 2010\Projects\SAP_SBM_UPLOAD\SAP_SBM_UPLOAD\bin\Debug\SAP_SBM_UPLOAD.InstallLog
+   assemblypath = c:\Users\Gurpreet\Documents\Visual Studio 2010\Projects\SAP_SBM_UPLOAD\SAP_SBM_UPLOAD\bin\Debug\SAP_SBM_UPLOAD.exe
+Removing EventLog source SAP_SBM_UPLOAD.
+Service SAP_SBM_UPLOAD is being removed from the system...
+Service SAP_SBM_UPLOAD was successfully removed from the system.
+Installing assembly 'c:\Users\Gurpreet\Documents\Visual Studio 2010\Projects\SAP_SBM_UPLOAD\SAP_SBM_UPLOAD\bin\Debug\SAP_SBM_UPLOAD.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\Users\Gurpreet\Documents\Visual Studio 2010\Projects\SAP_SBM_UPLOAD\SAP_SBM_UPLOAD\bin\Debug\SAP_SBM_UPLOAD.InstallLog
+   assemblypath = c:\Users\Gurpreet\Documents\Visual Studio 2010\Projects\SAP_SBM_UPLOAD\SAP_SBM_UPLOAD\bin\Debug\SAP_SBM_UPLOAD.exe
+Installing service SAP_SBM_UPLOAD...
+Service SAP_SBM_UPLOAD has been successfully installed.
+Creating EventLog source SAP_SBM_UPLOAD in log Application...
+Committing assembly 'c:\Users\Gurpreet\Documents\Visual Studio 2010\Projects\SAP_SBM_UPLOAD\SAP_SBM_UPLOAD\bin\Debug\SAP_SBM_UPLOAD.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\Users\Gurpreet\Documents\Visual Studio 2010\Projects\SAP_SBM_UPLOAD\SAP_SBM_UPLOAD\bin\Debug\SAP_SBM_UPLOAD.InstallLog
+   assemblypath = c:\Users\Gurpreet\Documents\Visual Studio 2010\Projects\SAP_SBM_UPLOAD\SAP_SBM_UPLOAD\bin\Debug\SAP_SBM_UPLOAD.exe

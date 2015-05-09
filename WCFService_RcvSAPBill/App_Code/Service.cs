@@ -8,6 +8,9 @@ using System.Text;
 
 public class Service_Rcv_SAP_Rec : IService
 {
+    private const string crypto_key = "1121231234zyx12345123456";
+    private const string crypto_iv = "A1B2C3D4E5F6A7B8";
+
     public string GetDataUsingDataContract(SAP_Cols scols)
 	{
         string sql, sql_merge, sql_atomic;
@@ -16,6 +19,13 @@ public class Service_Rcv_SAP_Rec : IService
 		{
 			throw new ArgumentNullException("No object received");
 		}
+
+        string strcipher= Crypto.Cipher(scols.opbel, crypto_key, crypto_iv);
+
+        if (strcipher != scols.opbel_hash)
+        {
+            return string.Format("{0}_{1}", scols.opbel, "INVALIDHASH");
+        }
 
         //do all the validation and processing here
         sql = string.Format(
@@ -45,7 +55,7 @@ public class Service_Rcv_SAP_Rec : IService
                 cons_kva_20, cons_kwh_21, cons_kvah_21, cons_kva_21, cons_kwh_22, cons_kvah_22, cons_kva_22, cons_kwh_23, cons_kvah_23, cons_kva_23, 
                 cons_kwh_24, cons_kvah_24, cons_kva_24, variation, tod_schr_cons, tod_schr_amt, tod_rbt_cons, tod_rbt_amt, dated
                 ) VALUES (
-                '{0}', '{1}', '{2}', '{3}', '{4}', '{5}', '{6}', '{7}', '{8}', '{9}', '{10}', 
+                '{0}', '{1}', '{2}', '{3}', '{4}', '{5}', '{6}', '{7}', to_date('{8}','dd-MON-yyyy'), '{9}', '{10}', 
                 '{11}', '{12}', '{13}', '{14}', '{15}', '{16}', '{17}', '{18}', '{19}', '{20}', 
                 '{21}', '{22}', '{23}', '{24}', '{25}', '{26}', '{27}', '{28}', '{29}', '{30}', 
                 '{31}', '{32}', '{33}', '{34}', '{35}', '{36}', '{37}', '{38}', '{39}', '{40}', 

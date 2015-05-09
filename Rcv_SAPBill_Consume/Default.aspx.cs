@@ -27,7 +27,7 @@ public partial class _Default : System.Web.UI.Page
         scols.zz_year = "5";
         scols.bill_date = "6";
         scols.opbel = "7";
-        scols.faedn_cash = "8";
+        scols.faedn_cash = "02-MAY-2015";
         scols.faedn_cheque = "9";
         scols.nft_admvlt = "10";
         scols.nft_supvlt = "11";
@@ -257,7 +257,7 @@ public partial class _Default : System.Web.UI.Page
         scols.tod_schr_amt = "235";
         scols.tod_rbt_cons = "236";
         scols.tod_rbt_amt = "237";
-
+        scols.opbel_hash = Crypto.Cipher(scols.opbel, "1121231234zyx12345123456", "A1B2C3D4E5F6A7B8");
 
         
         //call service and check the returned value

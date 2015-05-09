@@ -1,0 +1,8 @@
+c:\users\gurpreet\documents\visual studio 2010\Projects\SAP_SBM_UPLOAD\SAP_SBM_UPLOAD\bin\Debug\SAP_SBM_UPLOAD.exe.config
+c:\users\gurpreet\documents\visual studio 2010\Projects\SAP_SBM_UPLOAD\SAP_SBM_UPLOAD\bin\Debug\SAP_SBM_UPLOAD.exe
+c:\users\gurpreet\documents\visual studio 2010\Projects\SAP_SBM_UPLOAD\SAP_SBM_UPLOAD\bin\Debug\SAP_SBM_UPLOAD.pdb
+c:\users\gurpreet\documents\visual studio 2010\Projects\SAP_SBM_UPLOAD\SAP_SBM_UPLOAD\obj\x86\Debug\SAP_SBM_UPLOAD.ProjectInstaller.resources
+c:\users\gurpreet\documents\visual studio 2010\Projects\SAP_SBM_UPLOAD\SAP_SBM_UPLOAD\obj\x86\Debug\SAP_SBM_UPLOAD.SAP_SBM_UPLOAD.resources
+c:\users\gurpreet\documents\visual studio 2010\Projects\SAP_SBM_UPLOAD\SAP_SBM_UPLOAD\obj\x86\Debug\SAP_SBM_UPLOAD.csproj.GenerateResource.Cache
+c:\users\gurpreet\documents\visual studio 2010\Projects\SAP_SBM_UPLOAD\SAP_SBM_UPLOAD\obj\x86\Debug\SAP_SBM_UPLOAD.exe
+c:\users\gurpreet\documents\visual studio 2010\Projects\SAP_SBM_UPLOAD\SAP_SBM_UPLOAD\obj\x86\Debug\SAP_SBM_UPLOAD.pdb

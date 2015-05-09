@@ -245,6 +245,7 @@
           <xs:element minOccurs="0" name="old_pre_met_kvah" nillable="true" type="xs:string" />
           <xs:element minOccurs="0" name="old_pre_met_kwh" nillable="true" type="xs:string" />
           <xs:element minOccurs="0" name="opbel" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="opbel_hash" nillable="true" type="xs:string" />
           <xs:element minOccurs="0" name="ot_chrg" nillable="true" type="xs:string" />
           <xs:element minOccurs="0" name="overall_multiplier" nillable="true" type="xs:string" />
           <xs:element minOccurs="0" name="peak_load" nillable="true" type="xs:string" />
