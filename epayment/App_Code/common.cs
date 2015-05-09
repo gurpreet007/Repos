@@ -21,8 +21,38 @@ public class common
     public const string strErrStyle = "&lt;ERR&gt;";
     public const string strErrLetter = "E";
     public const string strDupLetter = "D";
-
+    public const string dtFmtDotNet = "dd-MMM-yyyy HH:mm:ss";
+    public const string dtFmtOracle = "DD-MON-YYYY HH24:MI:SS";
     public const string keystr = "1234567890abcdefabcdefab";
+
+    public struct Categs
+    {
+        public readonly string categName;
+        public readonly int posAccountNo;
+        public readonly int posBillCycle;
+        public readonly int posBillYear;
+        public readonly string tableName;
+        public readonly char delimiter;
+        public readonly int numFields;
+
+        public Categs(string categName, int posAccountNo, int posBillCycle,
+            int posBillYear, string tableName, char delimiter, int numFields)
+        {
+            this.categName = categName;
+            this.posAccountNo = posAccountNo;
+            this.posBillCycle = posBillCycle;
+            this.posBillYear = posBillYear;
+            this.tableName = tableName;
+            this.delimiter = delimiter;
+            this.numFields = numFields;
+        }
+    };
+    public readonly static Categs cat_LS = new Categs("LS", 0, 1, 2, "ONLINEBILL.LS", '"', 111);
+    public readonly static Categs cat_SAP_GSC = new Categs("SAP_GSC", 11, 48, 18, "ONLINEBILL.SAP_SBM_GSC", ',', 122);
+    public readonly static Categs cat_SP = new Categs("SP", 0, 18, 68, "ONLINEBILL.SP", '"', 69);
+    public readonly static Categs cat_MS = new Categs("MS", 0, 28, 81, "ONLINEBILL.MS", '"', 92);
+    public readonly static Categs cat_DSBELOW10KW = new Categs("DSBELOW10KW", 0, 18, 55, "ONLINEBILL.DSBELOW10KW", '"', 72);
+    public readonly static Categs cat_DSABOVE10KW = new Categs("DSABOVE10KW", 0, 18, 55, "ONLINEBILL.DSABOVE10KW", '"', 76);
 
     public static bool DownloadXLS(string sql, string filename, Page pg)
     {
@@ -110,5 +140,26 @@ public class common
 
         tdes.Clear();
         return UTF8Encoding.UTF8.GetString(resultArray);
+    }
+}
+
+namespace ExtensionMethods
+{
+    public static class Extensions
+    {
+        public static StringBuilder FixedFormat(this string str, StringBuilder sb, int desiredWidth)
+        {
+            sb.Clear();
+            if (str.Length >= desiredWidth)
+            {
+                sb.Append(str, 0, desiredWidth);
+            }
+            else
+            {
+                sb.Append(str);
+                sb.Append(' ', desiredWidth - str.Length);
+            }
+            return sb;
+        }
     }
 }

@@ -9,32 +9,7 @@ using System.Data.OracleClient;
 
 public partial class upload : System.Web.UI.Page
 {
-    const string dtFmtDotNet = "dd-MMM-yyyy HH:mm:ss";
-    const string dtFmtOracle = "DD-MON-YYYY HH24:MI:SS";
-    struct Categs
-    {
-        public string categName;
-        public int posAccountNo;
-        public int posBillCycle;
-        public int posBillYear;
-        public string tableName;
-        public char delimiter;
-        public int numFields;
-
-        public Categs(string categName, int posAccountNo, int posBillCycle,
-            int posBillYear, string tableName, char delimiter, int numFields)
-        {
-            this.categName = categName;
-            this.posAccountNo = posAccountNo;
-            this.posBillCycle = posBillCycle;
-            this.posBillYear = posBillYear;
-            this.tableName = tableName;
-            this.delimiter = delimiter;
-            this.numFields = numFields;
-        }
-    };
-
-    void UploadNonSAP(Categs categ)
+    void UploadNonSAP(common.Categs categ)
     {
         string path = string.Empty;
         string[] lines;
@@ -44,7 +19,7 @@ public partial class upload : System.Web.UI.Page
         int start = 0;
         string userID = Session["userID"].ToString();
         //string empID = Session["empID"].ToString();
-        string dtUpload = DateTime.Now.ToString(dtFmtDotNet);
+        string dtUpload = DateTime.Now.ToString(common.dtFmtDotNet);
         string strExtension = string.Empty;
         OracleConnection con;
 
@@ -115,8 +90,8 @@ public partial class upload : System.Web.UI.Page
             }
 
             //add userID, empID and date_upload at last, we already have comma and space at the end of string
-            //sbsql.Append(string.Format("'{0}', '{1}', to_date('{2}','{3}'))", userID, empID, dtUpload, dtFmtOracle));
-            sbsql.Append(string.Format("'{0}', '{1}', to_date('{2}','{3}'))", userID, '0', dtUpload, dtFmtOracle));
+            //sbsql.Append(string.Format("'{0}', '{1}', to_date('{2}','{3}'))", userID, empID, dtUpload, common.dtFmtOracle));
+            sbsql.Append(string.Format("'{0}', '{1}', to_date('{2}','{3}'))", userID, '0', dtUpload, common.dtFmtOracle));
 
             //insert into oracle 
             //Composite Primary Key: ACCOUNTNO, BILLCYCLE, BILLYEAR
@@ -148,16 +123,16 @@ public partial class upload : System.Web.UI.Page
                         "(LINENO, ACCOUNTNO, BILLCYCLE, BILLYEAR, SESSIONID, DATED, TYPE) "+
                         "VALUES({0},'{1}','{2}','{3}','{4}',to_date('{5}','{6}'),'{7}')",
                         line + 1, fields[categ.posAccountNo], fields[categ.posBillCycle], 
-                        fields[categ.posBillYear], hidSID.Value, dtUpload, dtFmtOracle, common.strDupLetter));
+                        fields[categ.posBillYear], hidSID.Value, dtUpload, common.dtFmtOracle, common.strDupLetter));
                 }
                 else{
                     oracle_err++;
                     sbsql.Append(string.Format("INSERT INTO ONLINEBILL.DUPBILL"+
                         "(LINENO, ACCOUNTNO, BILLCYCLE, BILLYEAR, SESSIONID, DATED, TYPE) "+
                         "VALUES({0},'{1}','{2}','{3}','{4}',to_date('{5}','{6}'),'{7}')",
-                        line + 1, common.strErrStyle, common.strErrStyle, common.strErrStyle, hidSID.Value, dtUpload, dtFmtOracle, common.strErrLetter));
+                        line + 1, common.strErrStyle, common.strErrStyle, common.strErrStyle, hidSID.Value, dtUpload, common.dtFmtOracle, common.strErrLetter));
                     //sbsql.Append(string.Format("INSERT INTO ONLINEBILL.DUPBILL(LINENO, SESSIONID, DATED, TYPE) "+
-                    //        "VALUES({0},'{1}',to_date('{2}','{3}'),'{4}')", line + 1, hidSID.Value, dtUpload, dtFmtOracle,"E"));
+                    //        "VALUES({0},'{1}',to_date('{2}','{3}'),'{4}')", line + 1, hidSID.Value, dtUpload, common.dtFmtOracle,"E"));
                 }
                 OraDBConnection.ExecQryOnConnection(con, sbsql.ToString());
             }
@@ -175,7 +150,7 @@ public partial class upload : System.Web.UI.Page
         //insert summary in userrec
         InsertUserRec(oracle_ins, oracle_dup, oracle_err, dtUpload, categ.categName, common.strNonSAP.ToUpper());
     }
-    void UploadSAP(Categs categ)
+    void UploadSAP(common.Categs categ)
     {
         string path = string.Empty;
         string cypherText;
@@ -187,10 +162,13 @@ public partial class upload : System.Web.UI.Page
         int start = 0;
         string userID = Session["userID"].ToString();
         //string empID = Session["empID"].ToString();
-        string dtUpload = DateTime.Now.ToString(dtFmtDotNet);
+        string dtUpload = DateTime.Now.ToString(common.dtFmtDotNet);
         string strExtension = string.Empty;
         StringBuilder sbsql = new StringBuilder(2000);
         OracleConnection con;
+        int actualNumFields;
+        string actualTableName;
+
         //int posSancLoad = 80;
 
         //capture sessionid
@@ -242,12 +220,17 @@ public partial class upload : System.Web.UI.Page
 
             if (fields.Length == 70)
             {
-                categ.numFields = 70;
-                categ.tableName = "ONLINEBILL.SAP_SBM_GSC_70";
+                actualNumFields = 70;
+                actualTableName = "ONLINEBILL.SAP_SBM_GSC_70";
+            }
+            else
+            {
+                actualNumFields = categ.numFields;
+                actualTableName = categ.tableName;
             }
 
             //check the field length (for first record in the file)
-            if (line == start && fields.Length != categ.numFields )
+            if (line == start && fields.Length != actualNumFields )
             {
                 lblMessage.Text = "Error. Invalid File.";
                 return;
@@ -268,7 +251,7 @@ public partial class upload : System.Web.UI.Page
             //reset sbsql
             sbsql.Clear();
 
-            sbsql.Append(string.Format("INSERT INTO {0} VALUES (", categ.tableName));
+            sbsql.Append(string.Format("INSERT INTO {0} VALUES (", actualTableName));
 
             //make the insert query
             for (int field = 0; field < fields.Length; field++)
@@ -291,7 +274,7 @@ public partial class upload : System.Web.UI.Page
 
             //add userID, empID, date_upload and synched as NULL at last, we already have comma and space at the end of string
             //add semicolon at end of query to enable it to run in atomic BEGIN END block
-            sbsql.Append(string.Format("'{0}', '{1}', to_date('{2}','{3}'),NULL); ", userID, '0', dtUpload, dtFmtOracle));
+            sbsql.Append(string.Format("'{0}', '{1}', to_date('{2}','{3}'),NULL); ", userID, '0', dtUpload, common.dtFmtOracle));
 
             //insert into oracle 
             //Composite Primary Key: ACCOUNTNO, BILLCYCLE, BILLYEAR
@@ -303,7 +286,7 @@ public partial class upload : System.Web.UI.Page
                 "(select '{0}' as acno from dual) d on (m1.account_no=d.acno) " +
                 "when matched then update set m1.table_name = '{1}' " +
                 "when not matched then insert (m1.account_no,m1.table_name) values(d.acno,'{1}'); ",
-                fields[categ.posAccountNo].ToUpper(), categ.tableName.ToUpper()));
+                fields[categ.posAccountNo].ToUpper(), actualTableName.ToUpper()));
             try
             {
                 //make atomic transaction and execute
@@ -320,7 +303,7 @@ public partial class upload : System.Web.UI.Page
                         "(LINENO, ACCOUNTNO, BILLCYCLE, BILLYEAR, SESSIONID, DATED, TYPE) " +
                         "VALUES({0},'{1}','{2}','{3}','{4}',to_date('{5}','{6}'),'{7}')",
                         line + 1, fields[categ.posAccountNo], fields[categ.posBillCycle],
-                        fields[categ.posBillYear], hidSID.Value, dtUpload, dtFmtOracle, common.strDupLetter));
+                        fields[categ.posBillYear], hidSID.Value, dtUpload, common.dtFmtOracle, common.strDupLetter));
                 }
                 else
                 {
@@ -329,7 +312,7 @@ public partial class upload : System.Web.UI.Page
                         "(LINENO, ACCOUNTNO, BILLCYCLE, BILLYEAR, SESSIONID, DATED, TYPE) " +
                         "VALUES({0},'{1}','{2}','{3}','{4}',to_date('{5}','{6}'),'{7}')",
                         line + 1, common.strErrStyle, common.strErrStyle, common.strErrStyle, 
-                        hidSID.Value, dtUpload, dtFmtOracle, common.strErrLetter));
+                        hidSID.Value, dtUpload, common.dtFmtOracle, common.strErrLetter));
                 }
                 OraDBConnection.ExecQryOnConnection(con, sbsql.ToString());
             }
@@ -354,10 +337,10 @@ public partial class upload : System.Web.UI.Page
 
         //sql = string.Format("insert into onlinebill.userrec (userid, empid, insrec, duprec, errrec, dated, categ) " +
         //        "values('{0}', '{1}', '{2}', '{3}', '{4}',to_date('{5}', '{6}'), '{7}')",
-        //        userID, empID, numInsRec, numDupRec, numErrRec, dated, dtFmtOracle, categName);
+        //        userID, empID, numInsRec, numDupRec, numErrRec, dated, common.dtFmtOracle, categName);
         sql = string.Format("insert into onlinebill.userrec (userid, empid, insrec, duprec, errrec, dated, categ, class) " +
                 "values('{0}', '{1}', '{2}', '{3}', '{4}',to_date('{5}', '{6}'), '{7}', '{8}')",
-                userID, '0', numInsRec, numDupRec, numErrRec, dated, dtFmtOracle, categName, billClass);
+                userID, '0', numInsRec, numDupRec, numErrRec, dated, common.dtFmtOracle, categName, billClass);
         try
         {
             OraDBConnection.ExecQry(sql);
@@ -397,7 +380,7 @@ public partial class upload : System.Web.UI.Page
             {
                 case "DSBELOW10KW":
                 case "DSBELOW20KW":
-                    UploadSAP(new Categs("SAP_GSC", 11, 48, 18, "ONLINEBILL.SAP_SBM_GSC", ',', 122));
+                    UploadSAP(common.cat_SAP_GSC);
                     break;
                 default:
                     lblMessage.Text = "Select a valid Bill Type "+ hidBillType.Value;
@@ -409,19 +392,19 @@ public partial class upload : System.Web.UI.Page
             switch (billType)
             {
                 case "LS":
-                    UploadNonSAP(new Categs("LS", 0, 1, 2, "ONLINEBILL.LS", '"', 111));
+                    UploadNonSAP(common.cat_LS);
                     break;
                 case "SP":
-                    UploadNonSAP(new Categs("SP", 0, 18, 68, "ONLINEBILL.SP", '"', 69));
+                    UploadNonSAP(common.cat_SP);
                     break;
                 case "MS":
-                    UploadNonSAP(new Categs("MS", 0, 28, 81, "ONLINEBILL.MS", '"', 92));
+                    UploadNonSAP(common.cat_MS);
                     break;
                 case "DSBELOW10KW":
-                    UploadNonSAP(new Categs("DSBELOW10KW", 0, 18, 55, "ONLINEBILL.DSBELOW10KW", '"', 72));
+                    UploadNonSAP(common.cat_DSBELOW10KW);
                     break;
                 case "DSABOVE10KW":
-                    UploadNonSAP(new Categs("DSABOVE10KW", 0, 18, 55, "ONLINEBILL.DSABOVE10KW", '"', 76));
+                    UploadNonSAP(common.cat_DSABOVE10KW);
                     break;
                 default:
                     lblMessage.Text = "Select a valid Bill Type "+ hidBillType.Value;

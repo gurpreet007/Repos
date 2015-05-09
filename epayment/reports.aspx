@@ -54,7 +54,7 @@
                 <p><input type="text" runat="server" id="sDate" placeholder="DD/MM/YYYY"/></p>
             </div> 
             <div class="tableRow exactDate">
-                <p><label for="sDate">End Date</label></p>
+                <p><label for="eDate">End Date</label></p>
                 <p><input type="text" runat="server" id="eDate" placeholder="DD/MM/YYYY"/></p>
             </div>
             <div class="tableRow">
@@ -69,6 +69,7 @@
     </asp:Panel>
     <footer id="pageFooter" class="pageFooter"></footer>
     <script src="scripts/jquery-2.1.3.min.js"></script>
+    <script src="scripts/common.js"></script>
     <script>
         $(document).ready(function () {
             $("#pageHeader").load("resources/snippets.html #snipPageHeader");
@@ -83,30 +84,13 @@
             $("#pageFooter").load("resources/snippets.html #snipPageFooter");
 
             //date handling
-            var isChrome = /chrom/.test(navigator.userAgent.toLowerCase());
-            var d = new Date();
-            var day = d.getDate();
-            var month = d.getMonth() + 1;
-            var year = d.getFullYear();
-            day = (day < 10) ? "0" + day : day;
-            month = (month < 10) ? "0" + month : month;
+            var curdate = GetDate();
             if ($("#sDate").val() == "") {
-                if (isChrome) {
-                    $("#sDate").val(new Date().toJSON().substring(0, 10));
-                }
-                else {
-                    $("#sDate").val(day + '/' + month + '/' + year);
-                }
+                $("#sDate").val(curdate);
             }
             if ($("#eDate").val() == "") {
-                if (isChrome) {
-                    $("#eDate").val(new Date().toJSON().substring(0, 10));
-                }
-                else {
-                    $("#eDate").val(day + '/' + month + '/' + year);
-                }
+                $("#eDate").val(curdate);
             }
-            
 
             $(".exactDate").removeClass("tableRow");
             $(".exactDate").addClass("hide");

@@ -29,14 +29,55 @@
                     <asp:ListItem>SP</asp:ListItem>
                     <asp:ListItem>MS</asp:ListItem>
                     <asp:ListItem>DSABOVE10KW</asp:ListItem>
-                    <asp:ListItem Value="SAP_SBM_GSC">SAP GSC NEW</asp:ListItem>
-                    <asp:ListItem Value="SAP_SBM_GSC_70">SAP GSC OLD</asp:ListItem>
                     </asp:DropDownList>
+                <input type="button" ID="btnCount"  Value="Get Count" />
             </p>
         </div>
         <div class="tableRow">
+            <p> <label for="drpCircle">Select Circle</label></p>
+            <p>
+                <asp:DropDownList ID="drpCircles" runat="server">
+                <asp:ListItem Selected="True" Value="ALL">All Circles</asp:ListItem>
+                <asp:ListItem>A</asp:ListItem>
+                <asp:ListItem>B</asp:ListItem>
+                <asp:ListItem>C</asp:ListItem>
+                <asp:ListItem>D</asp:ListItem>
+                <asp:ListItem>E</asp:ListItem>
+                <asp:ListItem>F</asp:ListItem>
+                <asp:ListItem>G</asp:ListItem>
+                <asp:ListItem>H</asp:ListItem>
+                <asp:ListItem>I</asp:ListItem>
+                <asp:ListItem>J</asp:ListItem>
+                <asp:ListItem>K</asp:ListItem>
+                <asp:ListItem>L</asp:ListItem>
+                <asp:ListItem>M</asp:ListItem>
+                <asp:ListItem>N</asp:ListItem>
+                <asp:ListItem>O</asp:ListItem>
+                <asp:ListItem>P</asp:ListItem>
+                <asp:ListItem>Q</asp:ListItem>
+                <asp:ListItem>R</asp:ListItem>
+                <asp:ListItem>S</asp:ListItem>
+                <asp:ListItem>T</asp:ListItem>
+                <asp:ListItem>U</asp:ListItem>
+                <asp:ListItem>V</asp:ListItem>
+                <asp:ListItem>W</asp:ListItem>
+                <asp:ListItem>X</asp:ListItem>
+                <asp:ListItem>Y</asp:ListItem>
+                <asp:ListItem>Z</asp:ListItem>
+                </asp:DropDownList>
+            </p>
+        </div>
+        <div class="tableRow exactDate">
+            <p><label for="sDate">Start Date</label></p>
+            <p><input type="text" runat="server" id="sDate" placeholder="DD/MM/YYYY"/></p>
+        </div>
+        <div class="tableRow exactDate">
+            <p><label for="eDate">End Date</label></p>
+            <p><input type="text" runat="server" id="eDate" placeholder="DD/MM/YYYY"/></p>
+        </div>
+        <div class="tableRow">
             <p></p>
-            <p><input type="button" ID="btnDownload"  Value="Show Count" />
+            <p><asp:Button ID="btnDownload" Text="Get SBM Data" runat="server" onclick="btnDownload_Click" />
             </p>
         </div>
         <div class="tableRow">
@@ -45,14 +86,10 @@
                 <span class="msg"><asp:Label ID="lblMessage" runat="server" class="msg"></asp:Label></span>
             </p>
         </div>
-        <div class="tableRow">
-            <p></p>
-            <p><%--<input type="button" ID="btnEmpty" runat="server" Value="Empty All Tables" />--%>
-            </p>
-        </div>
     </form>
     <footer id="pageFooter" class="pageFooter">	</footer>
     <script src="scripts/jquery-2.1.3.min.js"></script>
+    <script src="scripts/common.js"></script>
     <script>
         $(function () {
             $("#pageHeader").load("resources/snippets.html #snipPageHeader")
@@ -65,8 +102,8 @@
                 );
             });
             $("#pageFooter").load("resources/snippets.html #snipPageFooter");
-            
-            $("#btnDownload").click(function () {
+
+            $("#btnCount").click(function () {
                 var billType = $('#drpBillType option:selected').val();
                 if (billType == "BT") {
                     $("#lblMessage").html("Select a Bill Type");
@@ -86,21 +123,15 @@
                     }
                 });
             });
-//            $("#btnEmpty").click(function () {
-//                $.ajax({
-//                    type: "POST",
-//                    url: "download.aspx/EmptyTables",
-//                    data: '{}',
-//                    contentType: "application/json; charset=utf-8",
-//                    dataType: "json",
-//                    success: function (response) {
-//                        $("#lblMessage").html(response.d);
-//                    },
-//                    error: function (error) {
-//                        $("#lblMessage").html(error.statusText);
-//                    }
-//                });
-//            });
+
+            //date handling
+            var curdate = GetDate();
+            if ($("#sDate").val() == "") {
+                $("#sDate").val(curdate);
+            }
+            if ($("#eDate").val() == "") {
+                $("#eDate").val(curdate);
+            }
         });
     </script>
 </body>
