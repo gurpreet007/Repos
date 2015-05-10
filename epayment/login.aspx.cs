@@ -11,10 +11,39 @@ public partial class login : System.Web.UI.Page
     {
         Session.Clear();
     }
+    private string GetIPAddress()
+    {
+        System.Web.HttpContext context = System.Web.HttpContext.Current;
+        string ipAddress = context.Request.ServerVariables["HTTP_X_FORWARDED_FOR"];
+
+        if (!string.IsNullOrEmpty(ipAddress))
+        {
+            string[] addresses = ipAddress.Split(',');
+            if (addresses.Length != 0)
+            {
+                return addresses[0];
+            }
+        }
+        return context.Request.ServerVariables["REMOTE_ADDR"];
+    }
+    private void DoLoginAudit(string userID, string userPass, bool isValid, string ip)
+    {
+        string sql;
+        sql = string.Format("insert into onlinebill.loginaudit values('{0}','{1}',{2},'{3}',sysdate)",
+            userID, userPass, isValid?1:0, ip);
+        try
+        {
+            OraDBConnection.ExecQry(sql);
+        }
+        catch
+        {
+            Response.Redirect(Request.RawUrl);
+        }
+    }
     protected void btnLogin_Click(object sender, EventArgs e)
     {
-        string userID = txtUserID.Value.Replace("'","").ToUpper();
-        string userPass = txtUserPass.Value.Replace("'", "");
+        string userID = txtUserID.Value.Replace("'","QUOTE").ToUpper();
+        string userPass = txtUserPass.Value.Replace("'", "QUOTE");
         //string empID = txtEmpID.Value.Replace("'", "");
         //string hrPass = txtHRPass.Value.Replace("'", "");
         string sql = string.Empty;
@@ -31,8 +60,10 @@ public partial class login : System.Web.UI.Page
         //    sql = string.Format("select count(*) from pshr.netlogin where upper(eid) = upper('{0}') and pwd='{1}'", empID, hrPass);
         //    hrLoginOK = OraDBConnection.GetScalar(sql) == "1";
         //}
-
         //if (appLoginOK && hrLoginOK)
+
+        DoLoginAudit(userID, userPass, appLoginOK, GetIPAddress());
+
         if (appLoginOK)
         {
             string location = string.Empty;
