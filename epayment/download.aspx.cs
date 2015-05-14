@@ -142,7 +142,13 @@ public partial class download : System.Web.UI.Page
     private void DownloadFile(string billType, string circleID, 
         string startDate, string endDate, StringBuilder sbResult)
     {
-        string fileName = string.Format("{0}_{1}_{2}_{3}.txt",billType,circleID,startDate,endDate);
+        string sdate = string.Empty;
+        string edate = string.Empty;
+
+        sdate = DateTime.ParseExact(startDate, "dd-MMMM-yyyy", null).ToString("yyyyMMdd");
+        edate = DateTime.ParseExact(endDate, "dd-MMMM-yyyy", null).ToString("yyyyMMdd");
+
+        string fileName = string.Format("{0}-{1}-{2}-{3}.txt", circleID, "DS", sdate, edate);
         Response.Clear();
         Response.ClearHeaders();
 

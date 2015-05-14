@@ -81,6 +81,11 @@ public partial class upload : System.Web.UI.Page
 
             sbsql.Append(string.Format("INSERT INTO {0} VALUES (", categ.tableName));
 
+            //trim the PK fields to remove any whitespace
+            fields[categ.posAccountNo] = fields[categ.posAccountNo].Trim();
+            fields[categ.posBillCycle] = fields[categ.posBillCycle].Trim();
+            fields[categ.posBillYear] = fields[categ.posBillYear].Trim();
+
             //make the insert query
             for (int field = 0; field < fields.Length; field++)
             {
@@ -252,6 +257,11 @@ public partial class upload : System.Web.UI.Page
             sbsql.Clear();
 
             sbsql.Append(string.Format("INSERT INTO {0} VALUES (", actualTableName));
+
+            //trim the PK fields to remove any whitespace
+            fields[categ.posAccountNo] = fields[categ.posAccountNo].Trim();
+            fields[categ.posBillCycle] = fields[categ.posBillCycle].Trim();
+            fields[categ.posBillYear] = fields[categ.posBillYear].Trim();
 
             //make the insert query
             for (int field = 0; field < fields.Length; field++)
