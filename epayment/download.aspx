@@ -17,7 +17,7 @@
         <asp:Label ID="lblLoggedInAs" runat="server"></asp:Label> 
     </div>
     <nav id="pageNav"></nav>
-    <header class="sectionHeader">Download Billing Data</header>
+    <header class="sectionHeader">Download Billing Data (NonSAP SBM)</header>
     <form runat="server" class="tableWrapper">
         <div class="tableRow">
             <p> <label for="drpBillType">Bill Type</label></p>
@@ -25,12 +25,12 @@
                 <asp:DropDownList ID="drpBillType" runat="server">
                     <asp:ListItem Selected="True" Value="BT">Bill Type</asp:ListItem>
                     <asp:ListItem Value="DSBELOW10KW">DSBELOW10KW (Spot Billing)</asp:ListItem>
-                    <asp:ListItem>LS</asp:ListItem>
+                    <%--<asp:ListItem>LS</asp:ListItem>
                     <asp:ListItem>SP</asp:ListItem>
-                    <asp:ListItem>MS</asp:ListItem>
+                    <asp:ListItem>MS</asp:ListItem>--%>
                     <asp:ListItem>DSABOVE10KW</asp:ListItem>
                     </asp:DropDownList>
-                <input type="button" ID="btnCount"  Value="Get Count" />
+                <input type="button" ID="btnCount"  Value="Get Count"  hidden/>
             </p>
         </div>
         <div class="tableRow">
@@ -77,7 +77,7 @@
         </div>
         <div class="tableRow">
             <p></p>
-            <p><asp:Button ID="btnDownload" Text="Get SBM Data" runat="server" onclick="btnDownload_Click" />
+            <p><asp:Button ID="btnDownload" Text="Get SBM Data" runat="server" onclick="btnDownload_Click"/>
             </p>
         </div>
         <div class="tableRow">

@@ -34,7 +34,7 @@
                     <asp:ListItem Value="SP">NONSAP - SP</asp:ListItem>
                     <asp:ListItem Value="MS">NONSAP - MS</asp:ListItem>
                     <asp:ListItem Value="DSABOVE10KW">NONSAP - DSABOVE10KW</asp:ListItem>
-                    <asp:ListItem Value="SAP_GSC">SAP - DSBELOW10KW</asp:ListItem>
+                    <asp:ListItem Value="SAP_SBM_GSC">SAP - DSBELOW10KW</asp:ListItem>
                     </asp:DropDownList></p>
             </div>
             <div class="tableRow">
@@ -59,12 +59,17 @@
             </div>
             <div class="tableRow">
                 <p></p>
-                <p><asp:Button ID="panActivity_btnAddUser" Text="Activity Log" runat="server" onclick="btnUserActivity_Click" /></p>
+                <p><asp:Label ID="panActivity_lblMsg" class="msg" runat="server"></asp:Label></p>
             </div>
             <div class="tableRow">
                 <p></p>
-                <p><asp:Label ID="panActivity_lblMsg" class="msg" runat="server"></asp:Label></p>
+                <p><asp:Button ID="panActivity_btnShowCount" Text="Show Count" runat="server" onclick="btnShowCount_Click" /></p>
             </div>
+            <div class="tableRow">
+                <p></p>
+                <p><asp:Button ID="panActivity_btnAddUser" Text="Activity Log" runat="server" onclick="btnUserActivity_Click" /></p>
+            </div>
+            
         </form>
     </asp:Panel>
     <footer id="pageFooter" class="pageFooter"></footer>
