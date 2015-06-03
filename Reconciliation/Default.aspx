@@ -63,8 +63,16 @@
                     Bank Payments Reconciliation</td>
             </tr>
             <tr>
-                <td colspan="8" bgcolor="#666633">
-                    &nbsp;</td>
+                <td colspan="8" bgcolor="#666633" align="right">
+                    <asp:LinkButton ID="lnkLogout" runat="server" Font-Bold="True" 
+                        ForeColor="White" onclick="lnkLogout_Click">Logout</asp:LinkButton>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="8" bgcolor="#666633" align="left" style="color: #FFFFFF">
+                    Welcome:
+                    <asp:Label ID="lblUser" runat="server" ForeColor="White"></asp:Label>
+                </td>
             </tr>
             <tr>
                 <td bgcolor="#D5D5A6" style="font-weight: 700" colspan="2">
@@ -74,7 +82,7 @@
                 <td nowrap="nowrap" colspan="2">
                     &nbsp;</td>
                 <td class="style7" colspan="2">
-                    &nbsp;</td>
+                    &nbsp; </td>
             </tr>
             <tr>
                 <td nowrap="nowrap" colspan="2">
@@ -214,9 +222,10 @@
                 </td>
                 <td class="style4" nowrap="nowrap" colspan="2">
                     
-                    &nbsp;</td>
+                    <strong>Amount</strong></td>
             <td align="left" class="style7" colspan="2">                
-                    &nbsp;</td>
+                    <asp:Label ID="lblamt" runat="server" Width="280px"></asp:Label>
+                </td>
             </tr>
             <tr>
                 <td colspan="2">

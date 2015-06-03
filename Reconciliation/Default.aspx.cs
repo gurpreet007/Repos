@@ -18,7 +18,12 @@ public partial class _Default : System.Web.UI.Page
         {
             txtdt_txn.Attributes["type"] = "date";
             FillVendors();
-            Session["LOGIN_USER"] = "CSC";
+            if (Session["LOGIN_USER"] == null)
+            {
+                Session["LOGIN_USER"] = "RECON";
+                //Response.Redirect("./Login.aspx");
+            }
+            lblUser.Text = Session["LOGIN_USER"].ToString();
             txtdt_txn.Text = "2015-02-02";
         }
     }
@@ -144,7 +149,7 @@ public partial class _Default : System.Web.UI.Page
             }
         }
         OraDBConnection.ConnectionClose(con);
-        sql = "select nvl(LISTAGG(txnid, ',') WITHIN GROUP (ORDER BY txnid),'no_dup') from " +
+        sql = "select NVL(string_agg(txnid),'no_dup') from " +
               "(select txnid from " + tempTable + " group by txnid having count(*)>1)";
 
         try
@@ -366,8 +371,11 @@ public partial class _Default : System.Web.UI.Page
             return;
         }
         sql = "BEGIN ";
-        sql += string.Format("update onlinebill.payment set status_p='SUCCESS', receiptno=RECEIPT_NO.NEXTVAL, receiptdt=sysdate where txnid ='{0}'; ", txnid);
-        sql += string.Format("insert into recon_audit values('{0}', '{1}', RECEIPT_NO.CURRVAL, sysdate, '{2}'); ",txnid, v_gw, Session["LOGIN_USER"]);
+        sql += string.Format("update onlinebill.payment set status_p='SUCCESS', "+
+            "receiptno=RECEIPT_NO.NEXTVAL, receiptdt=sysdate where txnid ='{0}' and receiptno is null; ", txnid);
+        sql += "IF sql%rowcount = 1 THEN ";
+        sql += string.Format("insert into recon_audit values('{0}', '{1}', RECEIPT_NO.CURRVAL, sysdate, '{2}'); ",txnid, v_gw, lblUser.Text);
+        sql += "END IF; ";
         sql += "END; ";
         try
         {
@@ -406,7 +414,7 @@ public partial class _Default : System.Web.UI.Page
         sqlMatched = "upper(nvl(status_p,'blank')) = 'SUCCESS' and p.amt = b.amt and p.vid = b.vid";
         sqlUnmatched = "upper(nvl(status_p,'blank')) <> 'SUCCESS' or p.amt <> b.amt or p.vid <> b.vid";
         sql = string.Format("select count(*), count(case when {0} then 1 end), count(case when {1} then 1 end)," +
-                " string_agg(distinct trunc(b.txndate)), string_agg(distinct trunc(b.settle_dt)) from ({2}) b " +
+                " string_agg(distinct trunc(b.txndate)), string_agg(distinct trunc(b.settle_dt)), sum(b.amt) from ({2}) b " +
                 " left outer join ({3}) p on b.txnid=p.txnid",sqlMatched,sqlUnmatched, sql_gw, sql_pay);
 
         try
@@ -418,6 +426,7 @@ public partial class _Default : System.Web.UI.Page
                 lblpend.Text = ds.Tables[0].Rows[0][2].ToString();
                 lbltxn.Text = ds.Tables[0].Rows[0][3].ToString();
                 lblsettl.Text = ds.Tables[0].Rows[0][4].ToString();
+                lblamt.Text = ds.Tables[0].Rows[0][5].ToString();
             }
         }
         catch (Exception ex)
@@ -482,6 +491,8 @@ public partial class _Default : System.Web.UI.Page
         string sqlSum;
         string sqlCount;
         int recCount;
+        string arcTableName;
+        string arcDate;
 
         //convert transaction date format
         tDate = ConvertDate(txtdt_txn.Text,outformat: "dd-MMM-yy");
@@ -512,8 +523,8 @@ public partial class _Default : System.Web.UI.Page
         sql = "select vtype from master_payment_vendor where vid = " + vid;
         isB2B = OraDBConnection.GetScalar(sql) == "B2B";
 
-        sqlSum   = string.Format("select sum(amt) from {0} where RECON_ID is null and TXNDATE = '{1}'", gw, tDate);
-        sqlCount = string.Format("select count(*) from {0} where RECON_ID is null and TXNDATE = '{1}'", gw, tDate);
+        sqlSum   = string.Format("select sum(amt) from {0} where RECON_ID is null and to_char(TXNDATE,'dd-MON-yy') = '{1}'", gw, tDate);
+        sqlCount = string.Format("select count(*) from {0} where RECON_ID is null and to_char(TXNDATE,'dd-MON-yy') = '{1}'", gw, tDate);
 
         recCount = int.Parse(OraDBConnection.GetScalar(sqlCount));
 
@@ -523,26 +534,56 @@ public partial class _Default : System.Web.UI.Page
             return;
         }
 
+        //create archieve tablename and archieve-till-date
+        arcTableName = string.Format("ARCBILL.ARC_{0}_{1}", 
+            ConvertDate(tDate, informat: "dd-MMM-yy", outformat: "yyyy"), gw);
+
+        arcDate = DateTime.Parse(tDate).AddDays(-1).ToString("yyyyMMdd");
+
+        //check if archieve table exists, create if not
+        sql = "DECLARE ";
+        sql += "cnt number; ";
+        sql += "BEGIN ";
+        sql += string.Format("select count(*) into cnt from all_tables "+
+            "where owner = '{0}' and table_name = '{1}'; ", 
+            arcTableName.Split('.')[0],
+            arcTableName.Split('.')[1]);
+        sql += "if cnt = 1 then return; end if; ";
+        sql += string.Format("execute immediate 'create table {0} as select * from {1} where 1=2'; ",arcTableName, gw);
+        sql += "COMMIT; END; ";
+
+        try
+        {
+            OraDBConnection.ExecQry(sql);
+        }
+        catch (Exception ex)
+        {
+            lblmsg.Text = "Error handling archieve." + ex.Message;
+            return;
+        }
+
         //make atomic block to perform finalise actions
         sql = "DECLARE ";
         sql += "curRID number; ";
         sql += "cntPending number; ";
+        sql += "sumAmt number(20,4); ";
         sql += "BEGIN ";
-        sql += string.Format("select count(*) into cntPending from {0} where RECON_ID is null and TXNDATE = '{1}'; ", gw, tDate);
+        sql += string.Format("select count(*), sum(amt) into cntPending, sumAmt from {0} where RECON_ID is null and to_char(TXNDATE,'dd-MON-yy') = '{1}'; ", gw, tDate);
         sql += "if cntPending = 0 then    RETURN;  end if; ";
         sql += "select rid_seq.nextval into curRID from dual; ";
         sql += string.Format("insert into onlinebill.recon_upto(rid, vid, tdate, tcount, tamount, rdate, ruser) values" +
-            "(curRID, {0}, '{1}', ({2}), ({3}), sysdate, '{4}'); ", vid, tDate, sqlCount, sqlSum, Session["LOGIN_USER"]);
-        sql += string.Format("update {0} set recon_id = RID_SEQ.CURRVAL where recon_id is null and txndate = '{1}'; ", gw, tDate);
+            "(RID_SEQ.CURRVAL, {0}, '{1}', ({2}), ({3}), sysdate, '{4}'); ", vid, tDate, sqlCount, sqlSum, lblUser.Text);
+        sql += string.Format("update {0} set recon_id = RID_SEQ.CURRVAL where recon_id is null and to_char(TXNDATE,'dd-MON-yy') = '{1}'; ", gw, tDate);
         sql += string.Format("update onlinebill.payment set recon_id = RID_SEQ.CURRVAL where txnid in "+
             "(SELECT txnid FROM {0} WHERE recon_id = curRID); ", gw);
         //payu is currently set as B2B for testing
         if (isB2B)
         {
-            sql += string.Format("update vendor_wallet set dueamt = nvl(dueamt,0) + " +
-                "(select nvl(sum(amt),0) from payment where recon_id = curRID) " +
-                " where vid = {0}; ", vid);
+            sql += string.Format("update vendor_wallet set dueamt = nvl(dueamt, 0) + nvl(sumAmt,0) where vid = {0}; ", vid);
         }
+        sql += string.Format("insert into {0} select * from {1} "+
+            "where to_char(txndate,'yyyymmdd') <= '{2}' and vid={3}; ", arcTableName, gw, arcDate, vid);
+        sql += string.Format("delete from {0} where to_char(txndate,'yyyymmdd') <= '{1}' and vid={2}; ", gw, arcDate, vid);
         sql += " COMMIT; END; ";
 
         //run finalise block
@@ -556,5 +597,10 @@ public partial class _Default : System.Web.UI.Page
             return;
         }
         lblmsg.Text = "Finalised upto " + tDate;
+    }
+    protected void lnkLogout_Click(object sender, EventArgs e)
+    {
+        Session.Clear();
+        Response.Redirect("./Login.aspx");
     }
 }
