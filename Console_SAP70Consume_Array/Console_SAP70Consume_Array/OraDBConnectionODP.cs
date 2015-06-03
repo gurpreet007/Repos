@@ -3,24 +3,23 @@ using System.Data;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
-using System.Data.Odbc ;
-using System.Data.OracleClient;
+using Oracle.DataAccess.Client;
 public class OraDBConnection
 {
-    private const string constr = "user id=onlinebill;password=123;"+
+    private const string conn_str = "user id=onlinebill;password=pspcl;"+
         "data source="+
             "(DESCRIPTION="+
                 "(ADDRESS_LIST="+
                     "(ADDRESS=(PROTOCOL=TCP)"+
-                             "(HOST=127.0.0.1)"+
+                             "(HOST=10.61.7.144)"+
                              "(PORT=1521)"+
                     ")"+
-                ")(CONNECT_DATA=(SERVICE_NAME=xe))"+
+                ")(CONNECT_DATA=(SERVICE_NAME=pshr))"+
             ")";
     
     public static DataSet GetData(String sql)
     {
-        OracleDataAdapter adp = new OracleDataAdapter(sql, constr);
+        OracleDataAdapter adp = new OracleDataAdapter(sql, conn_str);
         DataSet ds = new DataSet();
         try
         {
@@ -39,7 +38,7 @@ public class OraDBConnection
     }
     public static OracleConnection ConnectionOpen()
     {
-        OracleConnection con = new OracleConnection(OraDBConnection.constr);
+        OracleConnection con = new OracleConnection(OraDBConnection.conn_str);
         try
         {
             con.Open();
@@ -75,14 +74,13 @@ public class OraDBConnection
     }
     public static Boolean ExecQry(string sql)
     {
-        OracleConnection con = new OracleConnection(constr);
+        OracleConnection con = new OracleConnection(conn_str);
         OracleCommand cmd = new OracleCommand(sql, con);
         
         //user, time, <sql>
         try
         {
             con.Open();
-            
             cmd.ExecuteNonQuery();
             return true;
         }
@@ -99,7 +97,7 @@ public class OraDBConnection
     }
     public static string GetScalar(string sql)
     {
-        OracleConnection con = new OracleConnection(constr);
+        OracleConnection con = new OracleConnection(conn_str);
         OracleCommand cmd = new OracleCommand(sql, con);
         object obj;
         try
@@ -120,14 +118,14 @@ public class OraDBConnection
             con.Dispose();
         }
     }
-    public static void FillGrid(ref System.Web.UI.WebControls.GridView gv, string sql)
-    {
-        gv.DataSource = GetData(sql);
-        gv.DataBind();
-    }
+    //public static void FillGrid(ref System.Web.UI.WebControls.GridView gv, string sql)
+    //{
+    //    gv.DataSource = GetData(sql);
+    //    gv.DataBind();
+    //}
     public static bool ExecProc(string procName)
     {
-        OracleConnection con = new OracleConnection(constr);
+        OracleConnection con = new OracleConnection(conn_str);
         OracleCommand cmd = new OracleCommand(procName, con);
         cmd.CommandType = CommandType.StoredProcedure;
         try

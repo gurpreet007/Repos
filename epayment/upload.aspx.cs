@@ -5,8 +5,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using System.Data.OracleClient;
-
+using Oracle.DataAccess.Client;
 public partial class upload : System.Web.UI.Page
 {
     void UploadNonSAP(common.Categs categ)
@@ -79,7 +78,7 @@ public partial class upload : System.Web.UI.Page
             //set/reset sbsql
             sbsql.Clear();
 
-            sbsql.Append(string.Format("INSERT INTO {0} VALUES (", categ.tableName));
+            sbsql.AppendFormat("INSERT INTO {0} VALUES (", categ.tableName);
 
             //trim the PK fields to remove any whitespace
             fields[categ.posAccountNo] = fields[categ.posAccountNo].Trim();
@@ -95,8 +94,8 @@ public partial class upload : System.Web.UI.Page
             }
 
             //add userID, empID and date_upload at last, we already have comma and space at the end of string
-            //sbsql.Append(string.Format("'{0}', '{1}', to_date('{2}','{3}'))", userID, empID, dtUpload, common.dtFmtOracle));
-            sbsql.Append(string.Format("'{0}', '{1}', to_date('{2}','{3}'))", userID, '0', dtUpload, common.dtFmtOracle));
+            //sbsql.AppendFormat("'{0}', '{1}', to_date('{2}','{3}'))", userID, empID, dtUpload, common.dtFmtOracle);
+            sbsql.AppendFormat("'{0}', '{1}', to_date('{2}','{3}'))", userID, '0', dtUpload, common.dtFmtOracle);
 
             //insert into oracle 
             //Composite Primary Key: ACCOUNTNO, BILLCYCLE, BILLYEAR
@@ -107,11 +106,11 @@ public partial class upload : System.Web.UI.Page
             sbsql.Append("; ");
 
             //append merge query
-            sbsql.Append(string.Format("merge into onlinebill.mast_account m1 using " +
+            sbsql.AppendFormat("merge into onlinebill.mast_account m1 using " +
                 "(select '{0}' as acno from dual) d on (m1.account_no=d.acno) " +
                 "when matched then update set m1.table_name = '{1}' " +
                 "when not matched then insert (m1.account_no,m1.table_name) values(d.acno,'{1}') ",
-                fields[categ.posAccountNo].ToUpper(), categ.tableName.ToUpper()));
+                fields[categ.posAccountNo].ToUpper(), categ.tableName.ToUpper());
             try
             {
                 //make atomic transaction and execute
@@ -124,20 +123,20 @@ public partial class upload : System.Web.UI.Page
                 if (ex.Message.Contains("ORA-00001:"))
                 {
                     oracle_dup++;
-                    sbsql.Append(string.Format("INSERT INTO ONLINEBILL.DUPBILL"+
+                    sbsql.AppendFormat("INSERT INTO ONLINEBILL.DUPBILL"+
                         "(LINENO, ACCOUNTNO, BILLCYCLE, BILLYEAR, SESSIONID, DATED, TYPE) "+
                         "VALUES({0},'{1}','{2}','{3}','{4}',to_date('{5}','{6}'),'{7}')",
                         line + 1, fields[categ.posAccountNo], fields[categ.posBillCycle], 
-                        fields[categ.posBillYear], hidSID.Value, dtUpload, common.dtFmtOracle, common.strDupLetter));
+                        fields[categ.posBillYear], hidSID.Value, dtUpload, common.dtFmtOracle, common.strDupLetter);
                 }
                 else{
                     oracle_err++;
-                    sbsql.Append(string.Format("INSERT INTO ONLINEBILL.DUPBILL"+
+                    sbsql.AppendFormat("INSERT INTO ONLINEBILL.DUPBILL"+
                         "(LINENO, ACCOUNTNO, BILLCYCLE, BILLYEAR, SESSIONID, DATED, TYPE) "+
                         "VALUES({0},'{1}','{2}','{3}','{4}',to_date('{5}','{6}'),'{7}')",
-                        line + 1, common.strErrStyle, common.strErrStyle, common.strErrStyle, hidSID.Value, dtUpload, common.dtFmtOracle, common.strErrLetter));
-                    //sbsql.Append(string.Format("INSERT INTO ONLINEBILL.DUPBILL(LINENO, SESSIONID, DATED, TYPE) "+
-                    //        "VALUES({0},'{1}',to_date('{2}','{3}'),'{4}')", line + 1, hidSID.Value, dtUpload, common.dtFmtOracle,"E"));
+                        line + 1, common.strErrStyle, common.strErrStyle, common.strErrStyle, hidSID.Value, dtUpload, common.dtFmtOracle, common.strErrLetter);
+                    //sbsql.AppendFormat("INSERT INTO ONLINEBILL.DUPBILL(LINENO, SESSIONID, DATED, TYPE) "+
+                    //        "VALUES({0},'{1}',to_date('{2}','{3}'),'{4}')", line + 1, hidSID.Value, dtUpload, common.dtFmtOracle,"E");
                 }
                 OraDBConnection.ExecQryOnConnection(con, sbsql.ToString());
             }
@@ -256,7 +255,7 @@ public partial class upload : System.Web.UI.Page
             //reset sbsql
             sbsql.Clear();
 
-            sbsql.Append(string.Format("INSERT INTO {0} VALUES (", actualTableName));
+            sbsql.AppendFormat("INSERT INTO {0} VALUES (", actualTableName);
 
             //trim the PK fields to remove any whitespace
             fields[categ.posAccountNo] = fields[categ.posAccountNo].Trim();
@@ -268,11 +267,11 @@ public partial class upload : System.Web.UI.Page
             {
                 if (field == 7 || field == 24)
                 {
-                    sbsql.Append(string.Format("to_date('{0}','dd/mm/yyyy'),",fields[field]));
+                    sbsql.AppendFormat("to_date('{0}','dd/mm/yyyy'),",fields[field]);
                 }
                 else if (field == 18 || field == 49)
                 {
-                    sbsql.Append(string.Format("to_date('{0}','dd-mm-yyyy'),", fields[field]));
+                    sbsql.AppendFormat("to_date('{0}','dd-mm-yyyy'),", fields[field]);
                 }
                 else
                 {
@@ -282,9 +281,9 @@ public partial class upload : System.Web.UI.Page
                 }
             }
 
-            //add userID, empID, date_upload and synched as NULL at last, we already have comma and space at the end of string
+            //add userID, empID, date_upload, synched, syncmsg, syncdt as NULL at last, we already have comma and space at the end of string
             //add semicolon at end of query to enable it to run in atomic BEGIN END block
-            sbsql.Append(string.Format("'{0}', '{1}', to_date('{2}','{3}'),NULL); ", userID, '0', dtUpload, common.dtFmtOracle));
+            sbsql.AppendFormat("'{0}', '{1}', to_date('{2}','{3}'), NULL, NULL, NULL); ", userID, '0', dtUpload, common.dtFmtOracle);
 
             //insert into oracle 
             //Composite Primary Key: ACCOUNTNO, BILLCYCLE, BILLYEAR
@@ -292,11 +291,11 @@ public partial class upload : System.Web.UI.Page
             //in case of error, we record the info about record containing error and continue
 
             //append merge query, with semicolon at end to make part of BEGIN END block
-            sbsql.Append(string.Format("merge into onlinebill.mast_account m1 using " +
+            sbsql.AppendFormat("merge into onlinebill.mast_account m1 using " +
                 "(select '{0}' as acno from dual) d on (m1.account_no=d.acno) " +
                 "when matched then update set m1.table_name = '{1}' " +
                 "when not matched then insert (m1.account_no,m1.table_name) values(d.acno,'{1}'); ",
-                fields[categ.posAccountNo].ToUpper(), actualTableName.ToUpper()));
+                fields[categ.posAccountNo].ToUpper(), actualTableName.ToUpper());
             try
             {
                 //make atomic transaction and execute
@@ -309,20 +308,20 @@ public partial class upload : System.Web.UI.Page
                 if (ex.Message.Contains("ORA-00001:"))
                 {
                     oracle_dup++;
-                    sbsql.Append(string.Format("INSERT INTO ONLINEBILL.DUPBILL" +
+                    sbsql.AppendFormat("INSERT INTO ONLINEBILL.DUPBILL" +
                         "(LINENO, ACCOUNTNO, BILLCYCLE, BILLYEAR, SESSIONID, DATED, TYPE) " +
                         "VALUES({0},'{1}','{2}','{3}','{4}',to_date('{5}','{6}'),'{7}')",
                         line + 1, fields[categ.posAccountNo], fields[categ.posBillCycle],
-                        fields[categ.posBillYear], hidSID.Value, dtUpload, common.dtFmtOracle, common.strDupLetter));
+                        fields[categ.posBillYear], hidSID.Value, dtUpload, common.dtFmtOracle, common.strDupLetter);
                 }
                 else
                 {
                     oracle_err++;
-                    sbsql.Append(string.Format("INSERT INTO ONLINEBILL.DUPBILL" +
+                    sbsql.AppendFormat("INSERT INTO ONLINEBILL.DUPBILL" +
                         "(LINENO, ACCOUNTNO, BILLCYCLE, BILLYEAR, SESSIONID, DATED, TYPE) " +
                         "VALUES({0},'{1}','{2}','{3}','{4}',to_date('{5}','{6}'),'{7}')",
                         line + 1, common.strErrStyle, common.strErrStyle, common.strErrStyle, 
-                        hidSID.Value, dtUpload, common.dtFmtOracle, common.strErrLetter));
+                        hidSID.Value, dtUpload, common.dtFmtOracle, common.strErrLetter);
                 }
                 OraDBConnection.ExecQryOnConnection(con, sbsql.ToString());
             }
