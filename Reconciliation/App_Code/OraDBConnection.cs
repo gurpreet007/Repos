@@ -7,7 +7,7 @@ using System.Data.Odbc ;
 using System.Data.OracleClient;
 public class OraDBConnection
 {
-    private const string constr = "user id=onlinebill;password=123;"+
+    private const string constr = "user id=onlinebill;password=pspcl;"+
         "data source="+
             "(DESCRIPTION="+
                 "(ADDRESS_LIST="+
@@ -15,7 +15,7 @@ public class OraDBConnection
                              "(HOST=127.0.0.1)"+
                              "(PORT=1521)"+
                     ")"+
-                ")(CONNECT_DATA=(SERVICE_NAME=xe))"+
+                ")(CONNECT_DATA=(SERVICE_NAME=pshr))"+
             ")";
     
     public static DataSet GetData(String sql)

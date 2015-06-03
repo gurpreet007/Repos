@@ -101,7 +101,7 @@
                 <td nowrap="nowrap" colspan="2">
                     Transaction Date</td>
                 <td colspan="2">
-                    <asp:TextBox ID="txtdt_txn" runat="server" placeholder="01-JAN-15"></asp:TextBox>
+                    <asp:TextBox ID="txtdt_txn" runat="server" type="date"></asp:TextBox>
                 </td>
                 <td nowrap="nowrap" colspan="2">
                     &nbsp;</td>
