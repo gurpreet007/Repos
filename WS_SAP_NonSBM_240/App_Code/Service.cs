@@ -12,8 +12,8 @@ public class Service_WS_SAP_NonSBM_240 : IService
     private EventLog eventLog1;
 
     #region cyphercode
-    //private const string crypto_key = "1121231234zyx12345123456";
-    //private const string crypto_iv = "A1B2C3D4E5F6A7B8";
+    private const string crypto_key = "1121231234zyx12345123456";
+    private const string crypto_iv = "A1B2C3D4E5F6A7B8";
     #endregion
     public SAP_Cols_Ret[] GetDataUsingDataContract(SAP_Cols[] arr_scols)
     {
@@ -69,7 +69,7 @@ public class Service_WS_SAP_NonSBM_240 : IService
                     cons_kwh_24, cons_kvah_24, cons_kva_24, variation, tod_schr_cons, 
                     tod_schr_amt, tod_rbt_cons, tod_rbt_amt, dated
                     ) VALUES (
-                    '{0}', '{1}', '{2}', '{3}', '{4}', '{5}', '{6}', '{7}', to_date('{8}','yyyymmdd'), '{9}', '{10}', 
+                    '{0}', '{1}', '{2}', '{3}', '{4}', '{5}',to_date('{6}','yyyymmdd'), '{7}', to_date('{8}','yyyymmdd'), to_date('{9}','yyyymmdd'), '{10}', 
                     '{11}', '{12}', '{13}', '{14}', '{15}', '{16}', '{17}', '{18}', '{19}', '{20}', 
                     '{21}', '{22}', '{23}', '{24}', '{25}', '{26}', '{27}', '{28}', '{29}', '{30}', 
                     '{31}', '{32}', '{33}', '{34}', '{35}', '{36}', '{37}', '{38}', '{39}', '{40}', 
@@ -109,13 +109,6 @@ public class Service_WS_SAP_NonSBM_240 : IService
                 throw new ArgumentNullException("No Object Received");
             }
 
-            #region cyphercode
-            //string strcipher= Crypto.Cipher(scols.opbel, crypto_key, crypto_iv);
-            //if (strcipher != scols.opbel_hash)
-            //{
-            //    return string.Format("{0}_{1}", scols.opbel, "INVALIDHASH");
-            //}
-            #endregion
             foreach (SAP_Cols scols in arr_scols)
             {
                 #region queries
@@ -176,12 +169,19 @@ public class Service_WS_SAP_NonSBM_240 : IService
                 #endregion 
                 try
                 {
-                    OraDBConnection.ExecQry(sql_atomic);
-                    lstColsRet.Add(new SAP_Cols_Ret(scols.Vkont, "S"));
+                   // if (Crypto.Cipher(scols.Opbel, crypto_key, crypto_iv) != scols.Opbel_Hash)
+                    //{
+                      //  lstColsRet.Add(new SAP_Cols_Ret(scols.Opbel, "F", "Invalid Hash"));
+                  //  }
+                  //  else
+                  //  {
+                        OraDBConnection.ExecQry(sql_atomic);
+                        lstColsRet.Add(new SAP_Cols_Ret(scols.Opbel, "S"));
+                   // }
                 }
                 catch (Exception ex)
                 {
-                    lstColsRet.Add(new SAP_Cols_Ret(scols.Vkont, "F", ex.Message.Replace(Environment.NewLine, " ")));
+                    lstColsRet.Add(new SAP_Cols_Ret(scols.Opbel, "F", ex.Message.Replace(Environment.NewLine, " ")));
                     eventLog1.WriteEntry(string.Format("{0}_{1}_{2}", scols.Opbel, "FAILURE", ex.Message));
                 }
             }

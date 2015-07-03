@@ -1,0 +1,6 @@
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Console_SAP_Payment_Post\Console_SAP_Payment_Post\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Console_SAP_Payment_Post\Console_SAP_Payment_Post\bin\Debug\Console_SAP_Payment_Post.exe
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Console_SAP_Payment_Post\Console_SAP_Payment_Post\bin\Debug\Console_SAP_Payment_Post.pdb
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Console_SAP_Payment_Post\Console_SAP_Payment_Post\obj\x86\Debug\Console_SAP_Payment_Post.exe
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Console_SAP_Payment_Post\Console_SAP_Payment_Post\obj\x86\Debug\Console_SAP_Payment_Post.pdb
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\Console_SAP_Payment_Post\Console_SAP_Payment_Post\bin\Debug\Console_SAP_Payment_Post.exe.config

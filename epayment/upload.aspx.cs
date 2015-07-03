@@ -269,7 +269,7 @@ public partial class upload : System.Web.UI.Page
                 {
                     sbsql.AppendFormat("to_date('{0}','dd/mm/yyyy'),",fields[field]);
                 }
-                else if (field == 18 || field == 49)
+                else if (field == 18 || field == 49 || field == 50)
                 {
                     sbsql.AppendFormat("to_date('{0}','dd-mm-yyyy'),", fields[field]);
                 }

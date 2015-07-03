@@ -25,4 +25,5 @@ public class SAP_Payment_Cols
     public string RCPTDT { get; set; }
     public string TXNID { get; set; }
     public string TXNDT { get; set; }
+    public string TXNID_HASH { get; set; }
 }

@@ -11,8 +11,8 @@ public class Service_SAP_NCODE : IService
 {
     private EventLog eventLog1;
 
-    //private const string crypto_key = "1121231234zyx12345123456";
-    //private const string crypto_iv = "A1B2C3D4E5F6A7B8";
+    private const string crypto_key = "1121231234zyx12345123456";
+    private const string crypto_iv = "A1B2C3D4E5F6A7B8";
     public string GetDataUsingDataContract(SAP_Cols_NCode scols)
     {
         string sql, sql_merge, sql_atomic;
@@ -27,7 +27,7 @@ public class Service_SAP_NCODE : IService
                 throw new ArgumentNullException("No Object Received");
             }
 
-            //string strcipher= Crypto.Cipher(scols.Mr_Doc_No, crypto_key, crypto_iv);
+            //string strcipher = Crypto.Cipher(scols.Mr_Doc_No, crypto_key, crypto_iv);
             //if (strcipher != scols.Mr_Doc_No_Hash)
             //{
             //    return string.Format("{0}_{1}", scols.Mr_Doc_No, "INVALIDHASH");
@@ -59,7 +59,7 @@ public class Service_SAP_NCODE : IService
                 advancecons_deposit,  complaintcenterphonenumber,  metersecurityamt,  nearestcashcounter,  multiplicationfactor, 
                 overallmf,  contractedload_kva,  miscexpensesdetails,  previouskwhcycle_1,  previouskwhcycle_2, 
                 previouskwhcycle_3,  previouskwhcycle_4,  previouskwhcycle_5,  previouskwhcycle_6,  rounding_present, 
-                estimation_type,  rectype, dtupload, synced
+                estimation_type,  rectype, dtupload, synced,syncdt
                 ) VALUES (
                 '{0}', '{1}', '{2}', '{3}', '{4}', 
                 '{5}', '{6}', to_date('{7}','dd/mm/yyyy'), '{8}', '{9}', 
@@ -71,7 +71,7 @@ public class Service_SAP_NCODE : IService
                 '{35}', '{36}', '{37}', '{38}', '{39}', 
                 '{40}', '{41}', '{42}', '{43}', '{44}', 
                 '{45}', '{46}', '{47}', '{48}', to_date('{49}','dd-mm-yyyy'),
-                '{50}', '{51}', '{52}', '{53}', '{54}', 
+                to_date('{50}','dd-mm-yyyy'), '{51}', '{52}', '{53}', '{54}', 
                 '{55}', '{56}', '{57}', '{58}', '{59}',
                 '{60}', '{61}', '{62}', '{63}', '{64}',
                 '{65}', '{66}', '{67}', '{68}', '{69}', 
@@ -85,7 +85,7 @@ public class Service_SAP_NCODE : IService
                 '{105}', '{106}', '{107}', '{108}', '{109}',
                 '{110}', '{111}', '{112}', '{113}', '{114}', 
                 '{115}', '{116}', '{117}', '{118}', '{119}', 
-                '{120}', '{121}', sysdate, 'NCODE'
+                '{120}', '{121}', sysdate, 'NCODE',sysdate
                 ) ",
                 scols.Sub_Division_Code, scols.Mru, scols.Connected_Pole_Ini_Number, scols.Neighbor_Meter_No, scols.Street_Name, 
                 scols.Installation, scols.Mr_Doc_No, scols.Scheduled_Mrdate, scols.Meter_Number, scols.Manufacturer_Sr_No, 
@@ -127,11 +127,11 @@ public class Service_SAP_NCODE : IService
             }
             catch (Exception ex)
             {
-                strRet = string.Format("{0}_{1}_{2}", scols.Mr_Doc_No, "FAILURE", ex.Message);
+                strRet = string.Format("{0}_{1}_{2}", scols.Mr_Doc_No, "F", ex.Message.Replace('_',' '));
                 eventLog1.WriteEntry(strRet);
                 return strRet;
             }
-            strRet = string.Format("{0}_{1}", scols.Mr_Doc_No, "SUCCESS");
+            strRet = string.Format("{0}_{1}", scols.Mr_Doc_No, "S");
             eventLog1.WriteEntry(strRet);
         }
         return strRet;

@@ -25,16 +25,19 @@ using System.Xml.Serialization;
 [System.Diagnostics.DebuggerStepThroughAttribute()]
 [System.ComponentModel.DesignerCategoryAttribute("code")]
 [System.Web.Services.WebServiceBindingAttribute(Name="SI_BillingData_SBM_WebService_OBBinding", Namespace="http://pspcl.com/xi/SBM/IF0066_BillingData_Web_Service_100")]
-public partial class WebService : System.Web.Services.Protocols.SoapHttpClientProtocol {
+//public partial class XI_369ec687829430a7b99c025f72d26859_Service : System.Web.Services.Protocols.SoapHttpClientProtocol {
+public partial class WebService : System.Web.Services.Protocols.SoapHttpClientProtocol
+{
     
     private System.Threading.SendOrPostCallback SI_BillingData_SBM_WebService_OBOperationCompleted;
     
     /// <remarks/>
-    public WebService() {
-        this.Url = "http://sapdevpi1:50200/XISOAPAdapter/MessageServlet?senderParty=&senderService=SB" +
-            "M_DV&receiverParty=&receiverService=&interface=SI_BillingData_SBM_WebService_OB&" +
-            "interfaceNamespace=http%3A%2F%2Fpspcl.com%2Fxi%2FSBM%2FIF0066_BillingData_Web_Se" +
-            "rvice_100";
+    public WebService()
+    {
+        this.Url = "http://10.61.3.16:55000/XISOAPAdapter/MessageServlet?senderParty=&senderService=" +
+            "SBM_PID&receiverParty=&receiverService=&interface=SI_BillingData_SBM_WebService_" +
+            "OB&interfaceNamespace=http%3A%2F%2Fpspcl.com%2Fxi%2FSBM%2FIF0066_BillingData_Web" +
+            "_Service_100";
     }
     
     /// <remarks/>

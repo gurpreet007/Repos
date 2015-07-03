@@ -11,14 +11,14 @@ public class SERVICE_SAP_PAYMENT : IService
 {
     private EventLog eventLog1;
 
-    //private const string crypto_key = "1121231234zyx12345123456";
+   //Private const string crypto_key = "1121231234zyx12345123456";
     //private const string crypto_iv = "A1B2C3D4E5F6A7B8";
     public string GetDataUsingDataContract(SAP_Payment_Cols scols)
     {
-        string sql, sql_merge, sql_atomic;
+        string sql, sql_atomic;
         string strRet;
 
-        System.Threading.Thread.Sleep(15000);
+        //System.Threading.Thread.Sleep(15000);
         using (eventLog1 = new EventLog("ePayment", ".", "WS_SAP_PAYMENT"))
         {
             if (scols == null)
@@ -27,10 +27,10 @@ public class SERVICE_SAP_PAYMENT : IService
                 throw new ArgumentNullException("No Object Received");
             }
 
-            //string strcipher= Crypto.Cipher(scols.Mr_Doc_No, crypto_key, crypto_iv);
-            //if (strcipher != scols.Mr_Doc_No_Hash)
+            //string strcipher = Crypto.Cipher(scols.TXNID, crypto_key, crypto_iv);
+            //if (strcipher != scols.TXNID_HASH)
             //{
-            //    return string.Format("{0}_{1}", scols.Mr_Doc_No, "INVALIDHASH");
+            //    return string.Format("{0}_{1}", scols.TXNID, "INVALIDHASH");
             //}
 
             sql = string.Format(
@@ -47,24 +47,18 @@ public class SERVICE_SAP_PAYMENT : IService
                 scols.AMNT, scols.RCPTNO, scols.RCPTDT, scols.TXNID, scols.TXNDT
                 );
 
-            sql_merge = string.Format("merge into onlinebill.mast_account m1 using " +
-                    "(select '{0}' as acno from dual) d on (m1.account_no=d.acno) " +
-                    "when matched then update set m1.table_name = '{1}' " +
-                    "when not matched then insert (m1.account_no,m1.table_name) values(d.acno,'{1}')",
-                    scols.ACNO, "ONLINEBILL.SAP_SBM_GSC");
-
-            sql_atomic = string.Format("BEGIN {0}; {1}; END; ", sql, sql_merge).Replace(Environment.NewLine, "");
+            sql_atomic = string.Format("BEGIN {0}; END; ", sql).Replace(Environment.NewLine, "");
             try
             {
                 OraDBConnection.ExecQry(sql_atomic);
             }
             catch (Exception ex)
             {
-                strRet = string.Format("{0}_{1}_{2}", scols.MR_DOC_NO, "FAILURE", ex.Message);
+                strRet = string.Format("{0}_{1}_{2}", scols.TXNID, "FAILURE", ex.Message);
                 eventLog1.WriteEntry(strRet);
                 return strRet;
             }
-            strRet = string.Format("{0}_{1}", scols.MR_DOC_NO, "SUCCESS");
+            strRet = string.Format("{0}_{1}", scols.TXNID, "SUCCESS");
             eventLog1.WriteEntry(strRet);
         }
         return strRet;

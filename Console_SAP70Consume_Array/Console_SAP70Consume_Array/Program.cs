@@ -1,6 +1,7 @@
-﻿#define DEBUG
-//#undef DEBUG
-#define RUN_ONLY_ONCE
+﻿//#define DEBUG
+#undef DEBUG
+//#define RUN_ONLY_ONCE
+#undef RUN_ONLY_ONCE
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -115,22 +116,22 @@ namespace Console_SAP70Consume_Array
 
             sbSql.Append("SELECT ");
             sbSql.Append("SUB_DIVISION_CODE, MRU, CONNECTED_POLE_INI_NUMBER, NEIGHBOR_METER_NO, STREET_NAME, ");
-            sbSql.Append("INSTALLATION, MR_DOC_NO, SCHEDULED_MRDATE, METER_NUMBER, MANUFACTURER_SR_NO, ");
+            sbSql.Append("INSTALLATION, MR_DOC_NO, to_char(SCHEDULED_MRDATE,'dd-mm-yyyy') as SCHEDULED_MRDATE, METER_NUMBER, MANUFACTURER_SR_NO, ");
             sbSql.Append("MANUFACTURER_NAME, CONTRACT_ACCOUNT_NUMBER, CONSUMPTION_KWH, CONSUMPTION_KWAH, CONSUMPTION_KVA, ");
-            sbSql.Append("CUR_METER_READING_KWH, CUR_METER_READING_KVA, CUR_METER_READING_KVAH, CUR_METER_READING_DATE, CUR_METER_READING_TIME, ");
-            sbSql.Append("CUR_METER_READER_NOTE, PRV_METER_READING_KWH, PRV_METER_READING_KVA, PRV_METER_READING_KWAH, PRV_METER_READING_DATE, ");
+            sbSql.Append("CUR_METER_READING_KWH, CUR_METER_READING_KVA, CUR_METER_READING_KVAH, to_char(CUR_METER_READING_DATE,'dd-mm-yyyy') as CUR_METER_READING_DATE, CUR_METER_READING_TIME, ");
+            sbSql.Append("CUR_METER_READER_NOTE, PRV_METER_READING_KWH, PRV_METER_READING_KVA, PRV_METER_READING_KWAH, to_char(PRV_METER_READING_DATE,'dd-mm-yyyy') as PRV_METER_READING_DATE, ");
             sbSql.Append("PRV_METER_READING_TIME, PRV_METER_READER_NOTE, OCTROI_FLAG, SOP, ED, ");
             sbSql.Append("OCTROI, DSSF, SURCHARGE_LEIVED, SERVICE_RENT, METER_RENT, ");
             sbSql.Append("SERVICE_CHARGE, MONTHLY_MIN_CHARGES, PF_SURCHARGE, PF_INCENTIVE, DEMAND_CHARGES, ");
             sbSql.Append("FIXEDCHARGES, VOLTAGE_SURCHARGE, PEAKLOAD_EXEMPTION_CHARGES, SUNDRY_CHARGES, MISCELLANEOUS_CHARGES, ");
-            sbSql.Append("FUEL_ADJUSTMENT, BILL_NUMBER, NO_OF_DAYS_BILLED, BILL_CYCLE, BILL_DATE, ");
-            sbSql.Append("DUE_DATE, BILL_TYPE, PAYMENT_AMOUNT, PAYMENT_MODE, CHECK_NO, ");
+            sbSql.Append("FUEL_ADJUSTMENT, BILL_NUMBER, NO_OF_DAYS_BILLED, BILL_CYCLE, to_char(BILL_DATE,'dd-mm-yyyy') as BILL_DATE, ");
+            sbSql.Append("to_char(DUE_DATE,'dd-mm-yyyy') AS DUE_DATE, BILL_TYPE, PAYMENT_AMOUNT, PAYMENT_MODE, CHECK_NO, ");
             sbSql.Append("BANK_NAME, PAYMENT_ID, IFSC_CODE, MICRCODE, PAYMENT_DATE, ");
             sbSql.Append("PAYMENT_REMARK, TOT_BILLAMOUNT, SBM_NUMBER, METER_READER_NAME, INHOUSE_OUTSOURCED_SBM, ");
             sbSql.Append("TRANSFROMERCODE, MCB_RENT, LPSC, TOT_AMT_DUE_DATE, TOT_SOP_ED_OCT ");
             sbSql.Append("FROM ONLINEBILL.SAP_SBM_GSC WHERE SYNCDT IS NULL AND ROWNUM <= ").Append(maxTimes);
             #endregion
-            srv.Credentials = new System.Net.NetworkCredential("pidemo", "pidemo");
+            srv.Credentials = new System.Net.NetworkCredential("routesms", "admin@123");
 #if DEBUG
             swall.Start();
 #endif
@@ -190,9 +191,9 @@ namespace Console_SAP70Consume_Array
 #if RUN_ONLY_ONCE
                     break;
 #else
-                    //sleep for 1 hour
+                    //sleep for 1/2 hour
                     Console.WriteLine("Sleeping");
-                    System.Threading.Thread.Sleep(3600 * 1000);
+                    System.Threading.Thread.Sleep(1800 * 1000);
 #endif
                 }
             }

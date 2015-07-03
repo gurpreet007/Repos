@@ -265,9 +265,11 @@ public class SAP_Cols_Ret
     public string Status { get; private set; }
     [DataMember]
     public string Message { get; private set; }
-    public SAP_Cols_Ret(string vkont, string status, string message = "")
+    public SAP_Cols_Ret(string opbel, string status, string message = "")
     {
-        this.Vkont = vkont;
+        //sending opbel in the wrongly named Vkont field
+        //name not corrected because this is a breaking change at SAP side
+        this.Vkont = opbel;
         this.Status = status;
         this.Message = message;
     }
