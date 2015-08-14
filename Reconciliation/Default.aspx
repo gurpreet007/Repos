@@ -4,8 +4,15 @@
 <!doctype html />
 <html>
 <head id="Head1" runat="server">
+<script>
+    window.history.forward(1);
+</script>
     <title></title>
        <style type="text/css">
+           .lnkPadded
+           {
+               padding:10px;
+           }
         th
         {
             font: italic bold 15px serif; 
@@ -64,8 +71,42 @@
             </tr>
             <tr>
                 <td colspan="8" bgcolor="#666633" align="right">
-                    <asp:LinkButton ID="lnkLogout" runat="server" Font-Bold="True" 
-                        ForeColor="White" onclick="lnkLogout_Click">Logout</asp:LinkButton>
+                    <asp:Menu ID="Menu1" runat="server" BackColor="#666633" 
+                        DynamicHorizontalOffset="4" Font-Bold="True" Font-Names="Verdana" 
+                        Font-Size="0.8em" ForeColor="White" Orientation="Horizontal" 
+                        StaticSubMenuIndent="20px" onmenuitemclick="Menu1_MenuItemClick" 
+                        BorderStyle="Solid">
+                        <DynamicHoverStyle BackColor="#284E98" ForeColor="White" />
+                        <DynamicMenuItemStyle HorizontalPadding="15px" VerticalPadding="8px" 
+                            BorderStyle="Solid" />
+                        <DynamicMenuStyle BackColor="#666633" />
+                        <DynamicSelectedStyle BackColor="#507CD1" />
+                        <Items>
+                            <asp:MenuItem Selected="false" Text="Logout" 
+                                Value="Logout"></asp:MenuItem>
+                            <asp:MenuItem Text="Reports" Value="Reports" Selectable="False">
+                                <asp:MenuItem Text="SAP" Value="SAP" Selectable="False">
+                                    <asp:MenuItem Text="Abstract Report" Value="SAP_ABS" 
+                                        NavigateUrl=".\Reports\rptabstract.aspx?rpt=SAP_ABSTRACT_REPORT"></asp:MenuItem>
+                                    <asp:MenuItem Text="Summary Report" Value="SAP_SUM" 
+                                        NavigateUrl=".\Reports\rptsummary.aspx?rpt=SAP_SUMMARY_REPORT"></asp:MenuItem>
+                                    <asp:MenuItem Text="Transaction Report" Value="NONSAP_TRAN" 
+                                        NavigateUrl=".\Reports\rptsummary.aspx?rpt=SAP_TRANSACTION_REPORT"></asp:MenuItem>
+                                </asp:MenuItem>
+                                <asp:MenuItem Text="NON SAP" Value="NON SAP" Selectable="False">
+                                    <asp:MenuItem Text="Abstract Report" Value="NONSAP_ABS" 
+                                        NavigateUrl=".\Reports\rptabstract.aspx?rpt=NONSAP_ABSTRACT_REPORT"></asp:MenuItem>
+                                    <asp:MenuItem Text="Summary Report" Value="NONSAP_SUM" 
+                                        NavigateUrl=".\Reports\rptsummary.aspx?rpt=NONSAP_SUMMARY_REPORT"></asp:MenuItem>
+                                    <asp:MenuItem Text="Transaction Report" Value="NONSAP_TRAN" 
+                                        NavigateUrl=".\Reports\rptsummary.aspx?rpt=NONSAP_TRANSACTION_REPORT"></asp:MenuItem>
+                                </asp:MenuItem>
+                            </asp:MenuItem>
+                        </Items>
+                        <StaticHoverStyle BackColor="#284E98" ForeColor="White" />
+                        <StaticMenuItemStyle HorizontalPadding="15px" VerticalPadding="10px" />
+                        <StaticSelectedStyle BackColor="#507CD1" />
+                    </asp:Menu>
                 </td>
             </tr>
             <tr>
@@ -141,11 +182,15 @@
                         width="160px" onclick="btnAccept_Click" />
                 </td>
                 <td colspan="2" class="style8">
-                    <asp:Button ID="btnFinalise" runat="server" Text="FINALISE" height="29px" 
-                        width="160px" onclick="btnFinalise_Click" />
+                    <asp:Button ID="btnDelete" runat="server" Text="DELETE" height="29px" 
+                        width="160px" onclick="btnDelete_Click" />
                 </td>
                 <td class="style9" colspan="2">
-                    &nbsp;</td>
+                    <asp:Button ID="btnFinalise" runat="server" Text="FINALISE" height="29px" 
+                        width="160px" onclick="btnFinalise_Click" />
+                    <asp:LinkButton ID="lnkException" runat="server" Font-Bold="True" 
+                        ForeColor="Black" onclick="lnkException_Click" CssClass="lnkPadded">Exceptions</asp:LinkButton>
+                    </td>
             </tr>
             <tr>
                 <td colspan="6">
@@ -200,7 +245,7 @@
                 </td>
                 <td class="style4" nowrap="nowrap" colspan="2">
                     
-                    <strong>Transaction Date</strong></td>
+                    <strong>Transaction Date GW</strong></td>
 <td align="left" class="style7" colspan="2">                
                     <asp:Label ID="lbltxn" runat="server" Width="280px"></asp:Label>
                 </td>
@@ -209,20 +254,20 @@
                 <td class="style4" colspan="2">
                     <asp:Label ID="lblupdtd" runat="server" CssClass="style5" Width="270px"></asp:Label>
                 </td>
-                <td class="style4" nowrap="nowrap" colspan="2">
+                <td class="style4" nowrap="nowrap" colspan="2" style="font-weight: bold">
                     
-                    <strong>Settlement Date</strong></td>
+                    T. Count (GW / PSPCL)</td>
                     <td align="left" class="style7" colspan="2">                
-                    <asp:Label ID="lblsettl" runat="server" Width="280px"></asp:Label>
+                    <asp:Label ID="lbltcount" runat="server" Width="280px"></asp:Label>
                 </td>
             </tr>
             <tr>
                 <td class="style4" colspan="2">
                     <asp:Label ID="lblpend" runat="server" CssClass="style5" Width="270px"></asp:Label>
                 </td>
-                <td class="style4" nowrap="nowrap" colspan="2">
+                <td class="style4" nowrap="nowrap" colspan="2" style="font-weight: bold">
                     
-                    <strong>Amount</strong></td>
+                    <strong>Amount (GW / PSPCL)</strong></td>
             <td align="left" class="style7" colspan="2">                
                     <asp:Label ID="lblamt" runat="server" Width="280px"></asp:Label>
                 </td>
@@ -273,24 +318,9 @@
                                             <asp:Label ID="lblvid" runat="server" Text='<%# Eval("GATEWAY") %>'></asp:Label>
                                         </ItemTemplate>
                                     </asp:TemplateField>
-                                    <asp:TemplateField HeaderText="BANK REF">
-                                        <ItemTemplate>
-                                            <asp:Label ID="lblbank_ref" runat="server" Text='<%# Eval("BANK_REF") %>'></asp:Label>
-                                        </ItemTemplate>
-                                    </asp:TemplateField>
-                                    <asp:TemplateField HeaderText="PGI_REF">
-                                        <ItemTemplate>
-                                            <asp:Label ID="lblpgi_ref" runat="server" Text='<%# Eval("PGI_REF") %>'></asp:Label>
-                                        </ItemTemplate>
-                                    </asp:TemplateField>
                                     <asp:TemplateField HeaderText="TXNID">
                                         <ItemTemplate>
                                             <asp:Label ID="lblref_1" runat="server" Text='<%# Eval("txnid") %>'></asp:Label>
-                                        </ItemTemplate>
-                                    </asp:TemplateField>
-                                    <asp:TemplateField HeaderText="SETTLE DATE">
-                                        <ItemTemplate>
-                                            <asp:Label ID="lblsett_dt" runat="server" Text='<%# Eval("SETTLE_DT") %>'></asp:Label>
                                         </ItemTemplate>
                                     </asp:TemplateField>
                                     <asp:TemplateField HeaderText="NET AMOUNT">

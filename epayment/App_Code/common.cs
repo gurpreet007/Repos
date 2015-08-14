@@ -48,7 +48,7 @@ public class common
         }
     };
     public readonly static Categs cat_LS = new Categs("LS", 0, 1, 2, "ONLINEBILL.LS", '"', 111);
-    public readonly static Categs cat_SAP_GSC = new Categs("SAP_GSC", 11, 48, 18, "ONLINEBILL.SAP_SBM_GSC", ',', 122);
+    public readonly static Categs cat_SAP_GSC = new Categs("SAP_SBM_GSC", 11, 48, 18, "ONLINEBILL.SAP_SBM_GSC", ',', 122);
     public readonly static Categs cat_SP = new Categs("SP", 0, 18, 68, "ONLINEBILL.SP", '"', 69);
     public readonly static Categs cat_MS = new Categs("MS", 0, 28, 81, "ONLINEBILL.MS", '"', 92);
     public readonly static Categs cat_DSBELOW10KW = new Categs("DSBELOW10KW", 0, 18, 55, "ONLINEBILL.DSBELOW10KW", '"', 72);

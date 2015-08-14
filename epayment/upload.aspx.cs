@@ -68,12 +68,32 @@ public partial class upload : System.Web.UI.Page
             //get fields
             string[] fields = lines[line].Split(categ.delimiter);
 
-            //check the field length (for first record in the file)
-            if (fields.Length != categ.numFields && line == start)
+            #region invalid_record_check
+            //check the field length for every record 
+            //to avoid crash if sbm m/c malfunctions
+            if (fields.Length != categ.numFields)
             {
-                lblMessage.Text = "Error. Invalid File.";
-                return;
+                //if its first line then exit
+                //as its an invalid file
+                if (line == start)
+                {
+                    lblMessage.Text = "Error. Invalid File.";
+                    return;
+                }
+                else
+                {
+                    sbsql.Clear();
+                    oracle_err++;
+                    sbsql.AppendFormat("INSERT INTO ONLINEBILL.DUPBILL" +
+                        "(LINENO, ACCOUNTNO, BILLCYCLE, BILLYEAR, SESSIONID, DATED, TYPE) " +
+                        "VALUES({0},'{1}','{2}','{3}','{4}',to_date('{5}','{6}'),'{7}')",
+                        line + 1, common.strErrStyle, common.strErrStyle, common.strErrStyle,
+                        hidSID.Value, dtUpload, common.dtFmtOracle, common.strErrLetter);
+                    OraDBConnection.ExecQryOnConnection(con, sbsql.ToString());
+                    continue;
+                }
             }
+            #endregion
 
             //set/reset sbsql
             sbsql.Clear();
@@ -170,8 +190,6 @@ public partial class upload : System.Web.UI.Page
         string strExtension = string.Empty;
         StringBuilder sbsql = new StringBuilder(2000);
         OracleConnection con;
-        int actualNumFields;
-        string actualTableName;
 
         //int posSancLoad = 80;
 
@@ -209,6 +227,12 @@ public partial class upload : System.Web.UI.Page
         //delete uploaded file
         System.IO.File.Delete(path);
 
+        if (lines.Length == 0)
+        {
+            lblMessage.Text = "No Record to Upload";
+            return;
+        }
+
         //skip header line, header lines end with H in the last field
         start = (lines[0].Split(categ.delimiter)[6] == "H") ? 1 : 0;
 
@@ -222,23 +246,32 @@ public partial class upload : System.Web.UI.Page
             //get fields
             string[] fields = lines[line].Split(categ.delimiter);
 
-            if (fields.Length == 70)
+            #region invalid_record_check
+            //check the field length for every record 
+            //to avoid crash if sbm m/c malfunctions
+            if (fields.Length != categ.numFields)
             {
-                actualNumFields = 70;
-                actualTableName = "ONLINEBILL.SAP_SBM_GSC_70";
+                //if its first line then exit
+                //as its an invalid file
+                if (line == start)
+                {
+                    lblMessage.Text = "Error. Invalid File.";
+                    return;
+                }
+                else
+                {
+                    sbsql.Clear();
+                    oracle_err++;
+                    sbsql.AppendFormat("INSERT INTO ONLINEBILL.DUPBILL" +
+                        "(LINENO, ACCOUNTNO, BILLCYCLE, BILLYEAR, SESSIONID, DATED, TYPE) " +
+                        "VALUES({0},'{1}','{2}','{3}','{4}',to_date('{5}','{6}'),'{7}')",
+                        line + 1, common.strErrStyle, common.strErrStyle, common.strErrStyle,
+                        hidSID.Value, dtUpload, common.dtFmtOracle, common.strErrLetter);
+                    OraDBConnection.ExecQryOnConnection(con, sbsql.ToString());
+                    continue;
+                }
             }
-            else
-            {
-                actualNumFields = categ.numFields;
-                actualTableName = categ.tableName;
-            }
-
-            //check the field length (for first record in the file)
-            if (line == start && fields.Length != actualNumFields )
-            {
-                lblMessage.Text = "Error. Invalid File.";
-                return;
-            }
+            #endregion
 
             //check the sanctioned load for correct filetype, for the first row only
             //if (line == start && categ.categName == "SAP_DSBELOW10KW" && float.Parse(fields[posSancLoad]) > 10.0)
@@ -255,7 +288,7 @@ public partial class upload : System.Web.UI.Page
             //reset sbsql
             sbsql.Clear();
 
-            sbsql.AppendFormat("INSERT INTO {0} VALUES (", actualTableName);
+            sbsql.AppendFormat("INSERT INTO {0} VALUES (", categ.tableName);
 
             //trim the PK fields to remove any whitespace
             fields[categ.posAccountNo] = fields[categ.posAccountNo].Trim();
@@ -295,7 +328,7 @@ public partial class upload : System.Web.UI.Page
                 "(select '{0}' as acno from dual) d on (m1.account_no=d.acno) " +
                 "when matched then update set m1.table_name = '{1}' " +
                 "when not matched then insert (m1.account_no,m1.table_name) values(d.acno,'{1}'); ",
-                fields[categ.posAccountNo].ToUpper(), actualTableName.ToUpper());
+                fields[categ.posAccountNo].ToUpper(), categ.tableName.ToUpper());
             try
             {
                 //make atomic transaction and execute

@@ -20,7 +20,7 @@ public class Service_WS_SAP_NonSBM_240 : IService
         #region variables
         string sql, sql_merge, sql_atomic;
         string sqlIns = @"INSERT INTO ONLINEBILL.SAP_NONSBM(
-                    tariftyp, circle, division, sub_div, bill_cycle, 
+                    tariftyp, circle, division, sub_div, bill_cycle,
                     zz_year, bill_date, opbel, faedn_cash, faedn_cheque, 
                     nft_admvlt, nft_supvlt, nft_mtrvlt, vkont, vkona, 
                     name, address, date_of_conn, sndgen, sndif, 
@@ -67,7 +67,7 @@ public class Service_WS_SAP_NonSBM_240 : IService
                     cons_kva_20, cons_kwh_21, cons_kvah_21, cons_kva_21, cons_kwh_22, 
                     cons_kvah_22, cons_kva_22, cons_kwh_23, cons_kvah_23, cons_kva_23, 
                     cons_kwh_24, cons_kvah_24, cons_kva_24, variation, tod_schr_cons, 
-                    tod_schr_amt, tod_rbt_cons, tod_rbt_amt, dated
+                    tod_schr_amt, tod_rbt_cons, tod_rbt_amt, sub_div_code, dated
                     ) VALUES (
                     '{0}', '{1}', '{2}', '{3}', '{4}', '{5}',to_date('{6}','yyyymmdd'), '{7}', to_date('{8}','yyyymmdd'), to_date('{9}','yyyymmdd'), '{10}', 
                     '{11}', '{12}', '{13}', '{14}', '{15}', '{16}', '{17}', '{18}', '{19}', '{20}', 
@@ -92,7 +92,7 @@ public class Service_WS_SAP_NonSBM_240 : IService
                     '{201}', '{202}', '{203}', '{204}', '{205}', '{206}', '{207}', '{208}', '{209}', '{210}', 
                     '{211}', '{212}', '{213}', '{214}', '{215}', '{216}', '{217}', '{218}', '{219}', '{220}', 
                     '{221}', '{222}', '{223}', '{224}', '{225}', '{226}', '{227}', '{228}', '{229}', '{230}', 
-                    '{231}', '{232}', '{233}', '{234}', '{235}', '{236}', '{237}', sysdate
+                    '{231}', '{232}', '{233}', '{234}', '{235}', '{236}', '{237}', '{238}', sysdate
                     ) ";
         string sqlMerge = "merge into onlinebill.mast_account m1 using " +
                     "(select '{0}' as acno from dual) d on (m1.account_no=d.acno) " +
@@ -116,7 +116,7 @@ public class Service_WS_SAP_NonSBM_240 : IService
                         scols.Tariff_Type, scols.Circle, scols.Division, scols.Sub_Div, scols.Bill_Cycle,
                         scols.Zz_Year, scols.Bill_Date, scols.Opbel, scols.Faedn_Cash, scols.Faedn_Cheque,
                         scols.Nft_Admvlt, scols.Nft_Supvlt, scols.Nft_Mtrvlt, scols.Vkont, scols.Vkona,
-                        scols.Name, scols.Address, scols.Date_Of_Conn, scols.Sndgen, scols.Sndif,
+                        scols.Name, scols.Address.Replace("'",""), scols.Date_Of_Conn, scols.Sndgen, scols.Sndif,
                         scols.Sndpiu, scols.Sndsea, scols.Sndgen_Date, scols.Sndif_Date, scols.Sndpiu_Date,
                         scols.Sndsea_Date, scols.Cdgen, scols.Cdif, scols.Cdpiu, scols.Cdsea,
                         scols.Cdgen_Date, scols.Cdif_Date, scols.Cdpiu_Date, scols.Cdsea_Date, scols.Ind_Typ,
@@ -160,7 +160,7 @@ public class Service_WS_SAP_NonSBM_240 : IService
                         scols.Cons_Kva_20, scols.Cons_Kwh_21, scols.Cons_Kvah_21, scols.Cons_Kva_21, scols.Cons_Kwh_22,
                         scols.Cons_Kvah_22, scols.Cons_Kva_22, scols.Cons_Kwh_23, scols.Cons_Kvah_23, scols.Cons_Kva_23,
                         scols.Cons_Kwh_24, scols.Cons_Kvah_24, scols.Cons_Kva_24, scols.Variation, scols.Tod_Schr_Cons,
-                        scols.Tod_Schr_Amt, scols.Tod_Rbt_Cons, scols.Tod_Rbt_Amt, scols.Opbel_Hash
+                        scols.Tod_Schr_Amt, scols.Tod_Rbt_Cons, scols.Tod_Rbt_Amt, scols.Opbel_Hash, scols.Sub_Div_Code
                     );
 
                 sql_merge = string.Format(sqlMerge, scols.Vkont, "ONLINEBILL.SAP_NONSBM");
@@ -182,7 +182,7 @@ public class Service_WS_SAP_NonSBM_240 : IService
                 catch (Exception ex)
                 {
                     lstColsRet.Add(new SAP_Cols_Ret(scols.Opbel, "F", ex.Message.Replace(Environment.NewLine, " ")));
-                    eventLog1.WriteEntry(string.Format("{0}_{1}_{2}", scols.Opbel, "FAILURE", ex.Message));
+                    eventLog1.WriteEntry(string.Format("{0}_{1}_{2}_{3}", scols.Opbel, "FAILURE", ex.Message, scols.ToString()));
                 }
             }
             

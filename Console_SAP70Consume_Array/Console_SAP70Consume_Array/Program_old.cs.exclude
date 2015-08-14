@@ -94,20 +94,24 @@ namespace Console_SAP70Consume_Array
             sbm.TOT_AMT_DUE_DATE = drow["TOT_AMT_DUE_DATE"].ToString();
             sbm.TOT_SOP_ED_OCT = drow["TOT_SOP_ED_OCT"].ToString();
         }
-
-        private void SAP_SBM_Upload()
+        
+        private void ConsumerLoop()
         {
             WebService srv = new WebService();
-            const int maxRecs = 1000;
+            const int maxTimes = 1000;
             DataSet ds;
             StringBuilder sbSql = new StringBuilder(1000);
-            StringBuilder sbUpdate = new StringBuilder(500 * maxRecs);
+            StringBuilder sbUpdate = new StringBuilder(500 * maxTimes);
             DT_SBMWebService_ReqBillingData_SBM[] sbm;
-            DT_SBMWebService_ResRecords[] resrec;
             int numRows;
+#if DEBUG
+            Stopwatch sw = new Stopwatch();
+            Stopwatch swall = new Stopwatch();
+#endif
+            DT_SBMWebService_ResRecords[] resrec;
 
             #region SQLs
-            string strSyncCondition = " (SYNCDT IS NULL OR (synced='F' AND TO_CHAR(sysdate,'yyyymmdd') <= TO_CHAR(dtupload + 1,'yyyymmdd'))) ";
+            string strSyncCondition =" (SYNCDT IS NULL OR (synced='F' AND TO_CHAR(sysdate,'yyyymmdd') <= TO_CHAR(dtupload + 1,'yyyymmdd'))) ";
             string strUpdate = "UPDATE ONLINEBILL.SAP_SBM_GSC SET SYNCED = '{0}', SYNCMSG = '{1}', SYNCDT = sysdate WHERE MR_DOC_NO='{2}'; ";
             string sqlCount = "SELECT count(*) FROM ONLINEBILL.SAP_SBM_GSC WHERE " + strSyncCondition;
 
@@ -126,14 +130,24 @@ namespace Console_SAP70Consume_Array
             sbSql.Append("BANK_NAME, PAYMENT_ID, IFSC_CODE, MICRCODE, PAYMENT_DATE, ");
             sbSql.Append("PAYMENT_REMARK, TOT_BILLAMOUNT, SBM_NUMBER, METER_READER_NAME, INHOUSE_OUTSOURCED_SBM, ");
             sbSql.Append("TRANSFROMERCODE, MCB_RENT, LPSC, TOT_AMT_DUE_DATE, TOT_SOP_ED_OCT ");
-            sbSql.Append("FROM ONLINEBILL.SAP_SBM_GSC WHERE " + strSyncCondition + " AND ROWNUM <= ").Append(maxRecs);
+            sbSql.Append("FROM ONLINEBILL.SAP_SBM_GSC WHERE " + strSyncCondition + " AND ROWNUM <= ").Append(maxTimes);
             #endregion
             srv.Credentials = new System.Net.NetworkCredential("routesms", "admin@123");
-
+#if DEBUG
+            swall.Start();
+#endif
             while (true)
             {
+#if DEBUG
+                sw.Reset();
+                sw.Start();
+#endif
+
                 ds = OraDBConnection.GetData(sbSql.ToString());
                 numRows = ds.Tables[0].Rows.Count;
+#if DEBUG
+                Console.WriteLine("Got {0} from DB", numRows);
+#endif
                 sbm = new DT_SBMWebService_ReqBillingData_SBM[numRows];
 
                 for (int i = 0; i < numRows; i++)
@@ -151,8 +165,10 @@ namespace Console_SAP70Consume_Array
                 }
                 catch (Exception ex)
                 {
-                    Console.WriteLine("SAP_SBM_Upload: Problem: " + ex.Message);
-                    break;
+                    Console.WriteLine("Problem: " + ex.Message);
+                    Console.WriteLine("Sleeping " + DateTime.Now.ToString());
+                    System.Threading.Thread.Sleep(1800 * 1000);
+                    continue;
                 }
 
                 sbUpdate.Clear();
@@ -168,32 +184,44 @@ namespace Console_SAP70Consume_Array
                     try
                     {
                         OraDBConnection.ExecQry(sbUpdate.ToString());
-                        Console.WriteLine("SAP_SBM_Upload: " + numRows + " of " + resrec.Length + " Records Transferred");
+                        Console.WriteLine(numRows + " of " + resrec.Length + " Records Transferred");
                     }
                     catch (Exception ex)
                     {
-                        Console.WriteLine("SAP_SBM_Upload: Error:" + ex.Message);
+                        Console.WriteLine("Error:" + ex.Message);
                     }
                 }
+#if DEBUG
+                sw.Stop();
+                TimeSpan ts = sw.Elapsed;
 
+                 //Format and display the TimeSpan value. 
+                string elapsedTime = String.Format("{0:00}:{1:00}:{2:00}.{3:00}",
+                    ts.Hours, ts.Minutes, ts.Seconds,
+                    ts.Milliseconds / 10);
+                Console.WriteLine("{0} Records in {1} " , resrec.Length, elapsedTime);
+#endif
                 if ("0" == OraDBConnection.GetScalar(sqlCount))
                 {
-                    Console.WriteLine("SAP_SBM_Upload: Complete");
+#if RUN_ONLY_ONCE
                     break;
+#else
+                    //sleep for 1/2 hour
+                    Console.WriteLine("Sleeping " + DateTime.Now.ToString());
+                    System.Threading.Thread.Sleep(1800 * 1000);
+#endif
                 }
             }
-        }
-        private void ConsumerLoop()
-        {
-            while (true)
-            {
-                //service 1
-                SAP_SBM_Upload();
+#if DEBUG
+            swall.Stop();
+            TimeSpan tsall = swall.Elapsed;
 
-                //sleep for 1/2 hour
-                Console.WriteLine("Sleeping " + DateTime.Now.ToString());
-                System.Threading.Thread.Sleep(1800 * 1000);
-            }
+            // Format and display the TimeSpan value. 
+            string elapsedTime2 = String.Format("{0:00}:{1:00}:{2:00}.{3:00}",
+                tsall.Hours, tsall.Minutes, tsall.Seconds,
+                tsall.Milliseconds / 10);
+            Console.WriteLine("RunTime " + elapsedTime2);
+#endif
         }
     }
 }

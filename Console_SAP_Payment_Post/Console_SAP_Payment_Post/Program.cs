@@ -1,4 +1,4 @@
-﻿#undef DEBUG 
+﻿//#undef DEBUG 
 #undef RUN_ONLY_ONCE
 using System;
 using System.Collections.Generic;
@@ -28,7 +28,8 @@ namespace Console_SAP_Payment_Post
             sbm.PAYMENT_AMOUNT = drow["AMT"].ToString();
             sbm.DOCUMENT_DATE = DateTime.Parse(drow["TXNDT"].ToString());
             sbm.DOCUMENT_DATESpecified = true;
-            sbm.POSTING_DATE = DateTime.Parse(drow["TXNDT"].ToString());
+            //sbm.POSTING_DATE = DateTime.Parse(drow["TXNDT"].ToString());
+            sbm.POSTING_DATE = DateTime.Now;
             sbm.VALUE_DATE = DateTime.Parse(drow["TXNDT"].ToString());
             //passing DOCUMENT_NUMBER as empty, accenture will return 
             //PAYMENT_DOC_NUMB containing contract account number
@@ -60,20 +61,23 @@ namespace Console_SAP_Payment_Post
 #endif
             DT_PostPayment_ResPAYMENT[] resrec;
 #region SQLs
+            string synccondition = "  SYNCDT IS NULL AND IF_SAP='Y' AND STATUS_P = 'SUCCESS' "; 
             string strUpdate = "UPDATE ONLINEBILL.PAYMENT SET SYNCED = '{0}', "+
                                 "SYNCMSG = '{1}', SYNCDT = sysdate WHERE TXNID='{2}' AND ACNO='{3}'; ";
 
-            string sqlCount = "SELECT count(*) FROM ONLINEBILL.PAYMENT WHERE SYNCDT IS NULL";
+            string sqlCount = "SELECT count(*) FROM ONLINEBILL.PAYMENT WHERE " + synccondition;
 
             sbSql.Append("SELECT TXNID, ONLINEBILL.GET_SOURCECODE(VID) AS SOURCE_CODE,AGENCY_CODE, ACNO, AMT, ");
             sbSql.Append("TO_CHAR(TXNDATE, 'dd-MON-yyyy') as TXNDT, ");
             sbSql.Append("PAYMENT_MODE, BRANCH, CASHDESK, CHEQUE_NO, TO_CHAR(CHEQUE_DATE,'dd-MON-yyyy') as CHEQUE_DATE ");
             sbSql.Append("FROM ONLINEBILL.PAYMENT WHERE ");
-            //sbSql.Append("RECON_ID IS NOT NULL ");                //sync only reconciled
-            sbSql.Append("SYNCDT IS NULL ");                        //sync only unsynced
-            sbSql.Append("AND IF_SAP = 'Y' ");                      //sync only SAP payments
-            sbSql.Append("AND ROWNUM <= ").Append(maxTimes);        //this much rows at a time
-            #endregion
+            ////sbSql.Append("RECON_ID IS NOT NULL ");                //sync only reconciled
+            //sbSql.Append("STATUS_P = 'SUCCESS' ");                  //sync only successful payments
+            //sbSql.Append("AND SYNCDT IS NULL ");                    //sync only unsynced
+            //sbSql.Append("AND IF_SAP = 'Y' ");                      //sync only SAP payments
+            sbSql.Append(synccondition);
+            sbSql.Append(" AND ROWNUM <= ").Append(maxTimes);        //this much rows at a time
+#endregion
 
             srv.Credentials = new System.Net.NetworkCredential("pidemo", "pidemo");
 #if DEBUG
@@ -109,7 +113,7 @@ namespace Console_SAP_Payment_Post
                 for (int i = 0; i < resrec.Length; i++)
                 {
                     //PAYMENT_DOC_NUMB will contain contract account number
-                    sbUpdate.AppendFormat(strUpdate, resrec[i].ErrorCode==""?"S":"F",
+                    sbUpdate.AppendFormat(strUpdate, String.IsNullOrEmpty(resrec[i].ErrorCode)?"S":"F",
                         resrec[i].ErrorCode + "~" + resrec[i].ErrorDescr, 
                         resrec[i].TRANSACTION_ID, resrec[i].PAYMENT_DOC_NUMB);
                 }

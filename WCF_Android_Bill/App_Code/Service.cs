@@ -6,6 +6,7 @@ using System.ServiceModel;
 using System.ServiceModel.Web;
 using System.Text;
 using System.Diagnostics;
+using System.Globalization;
 
 public class Service : IAndroidService
 {
@@ -66,20 +67,52 @@ public class Service : IAndroidService
             }
             foreach (Android_Bill_Cols scols in arr_scols)
             {
+                #region Validations
+                if (scols.BillDate < DateTime.Now.AddYears(-1))
+                {
+                    lstColsRet.Add(new Android_Bill_Ret(scols.LtBillID.ToString(), "F", "Invalid BillDate"));
+                    eventLog1.WriteEntry(string.Format("{0}_{1}_{2}_{3}", scols.LtBillID, "FAILURE", "Invalid BillDate",scols.ToString()));
+                    continue;
+                }
+                else if (scols.CashDueDate < DateTime.Now.AddYears(-1))
+                {
+                    lstColsRet.Add(new Android_Bill_Ret(scols.LtBillID.ToString(), "F", "Invalid CashDueDate"));
+                    eventLog1.WriteEntry(string.Format("{0}_{1}_{2}_{3}", scols.LtBillID, "FAILURE", "Invalid CashDueDate", scols.ToString()));
+                    continue;
+                }
+                else if (scols.ChequeDueDate < DateTime.Now.AddYears(-1))
+                {
+                    lstColsRet.Add(new Android_Bill_Ret(scols.LtBillID.ToString(), "F", "Invalid ChequeDueDate"));
+                    eventLog1.WriteEntry(string.Format("{0}_{1}_{2}_{3}", scols.LtBillID, "FAILURE", "Invalid ChequeDueDate", scols.ToString()));
+                    continue;
+                }
+                else if (scols.CurrentReadingDate < DateTime.Now.AddYears(-1))
+                {
+                    lstColsRet.Add(new Android_Bill_Ret(scols.LtBillID.ToString(), "F", "Invalid CurrentReadingDate"));
+                    eventLog1.WriteEntry(string.Format("{0}_{1}_{2}_{3}", scols.LtBillID, "FAILURE", "Invalid CurrentReadingDate", scols.ToString()));
+                    continue;
+                }
+                else if (scols.PreviousReadingDate < DateTime.Now.AddYears(-1))
+                {
+                    lstColsRet.Add(new Android_Bill_Ret(scols.LtBillID.ToString(), "F", "Invalid PreviousReadingDate"));
+                    eventLog1.WriteEntry(string.Format("{0}_{1}_{2}_{3}", scols.LtBillID, "FAILURE", "Invalid PreviousReadingDate", scols.ToString()));
+                    continue;
+                }
+#endregion
                 #region queries
                 sql = string.Format(sqlIns,
-                        scols.LtBillID, scols.SubDivisionName, scols.AccountNumber, scols.ConsumerName, scols.Address, 
-                        scols.BillNumber, scols.BillDate, scols.BillingGroup, scols.CashDueDate, scols.ChequeDueDate, 
-                        scols.CollectionCentre, scols.ComplaintCentrePhone, scols.TariffCode, scols.PhaseCode, scols.MeterMultiplier, 
-                        scols.LineCTRatio, scols.MeterCTRatio, scols.OverallMultiplyingFactor, scols.ConnectedLoad, scols.CurrentMeterReading, 
-                        scols.CurrentReadingDate, scols.PreviousMeterReading, scols.PreviousReadingDate, scols.CurrentConsumption, scols.PreviousConsumption, 
-                        scols.TotalConsumption, scols.SecurityDeposit, scols.CBillStatus, scols.ConcessionUnits, scols.BillPeriod, 
-                        scols.CurrentSOP, scols.CurrentED, scols.CurrentOctroi, scols.PreviousRoundAmount, scols.CurrentMeterRent, 
-                        scols.CurrentServiceCharges, scols.AvgAdjustmentAmount, scols.FixedCharges, scols.FuelCostAdjustment, scols.OtherCharges, 
-                        scols.VoltageSurcharge, scols.PreviousArrears, scols.CurrentArrears, scols.SundryCharges, scols.SundryAllowances, 
-                        scols.NetSOP, scols.NetED, scols.NetOctroi, scols.NetAmount, scols.Surcharge, 
-                        scols.GrossAmount, scols.AdjustmentAmountDetail, scols.SundryChargesDetail, scols.MMCCharges, scols.CurrentRoundAmount, 
-                        scols.BillCycle, scols.MeterNo, scols.CurrentMeterCode, scols.PreviousMeterCode, scols.AvgAdjustmentPeriod, 
+                        scols.LtBillID, scols.SubDivisionName, scols.AccountNumber, scols.ConsumerName, scols.Address,
+                        scols.BillNumber, scols.BillDate.ToString("dd-MMM-yyyy", CultureInfo.InvariantCulture), scols.BillingGroup, scols.CashDueDate.ToString("dd-MMM-yyyy", CultureInfo.InvariantCulture), scols.ChequeDueDate.ToString("dd-MMM-yyyy", CultureInfo.InvariantCulture),
+                        scols.CollectionCentre, scols.ComplaintCentrePhone, scols.TariffCode, scols.PhaseCode, scols.MeterMultiplier,
+                        scols.LineCTRatio, scols.MeterCTRatio, scols.OverallMultiplyingFactor, scols.ConnectedLoad, scols.CurrentMeterReading,
+                        scols.CurrentReadingDate.ToString("dd-MMM-yyyy", CultureInfo.InvariantCulture), scols.PreviousMeterReading, scols.PreviousReadingDate.ToString("dd-MMM-yyyy", CultureInfo.InvariantCulture), scols.CurrentConsumption, scols.PreviousConsumption,
+                        scols.TotalConsumption, scols.SecurityDeposit, scols.CBillStatus, scols.ConcessionUnits, scols.BillPeriod,
+                        scols.CurrentSOP, scols.CurrentED, scols.CurrentOctroi, scols.PreviousRoundAmount, scols.CurrentMeterRent,
+                        scols.CurrentServiceCharges, scols.AvgAdjustmentAmount, scols.FixedCharges, scols.FuelCostAdjustment, scols.OtherCharges,
+                        scols.VoltageSurcharge, scols.PreviousArrears, scols.CurrentArrears, scols.SundryCharges, scols.SundryAllowances,
+                        scols.NetSOP, scols.NetED, scols.NetOctroi, scols.NetAmount, scols.Surcharge,
+                        scols.GrossAmount, scols.AdjustmentAmountDetail, scols.SundryChargesDetail, scols.MMCCharges, scols.CurrentRoundAmount,
+                        scols.BillCycle, scols.MeterNo, scols.CurrentMeterCode, scols.PreviousMeterCode, scols.AvgAdjustmentPeriod,
                         scols.ConcealedUnits, scols.BillYear, scols.FinYear, scols.Consumption1, scols.Consumption2,
                         scols.Consumption3, scols.Consumption4, scols.Consumption5, scols.Consumption6
                     );
@@ -90,20 +123,20 @@ public class Service : IAndroidService
                 #endregion
                 try
                 {
-                    if (Crypto.Cipher(scols.LtBillID, crypto_key, crypto_iv) != scols.LtBillID_Hash)
+                    if (Crypto.Cipher(scols.LtBillID.ToString(), crypto_key, crypto_iv) != scols.LtBillID_Hash)
                     {
-                        lstColsRet.Add(new Android_Bill_Ret(scols.LtBillID, "F", "Invalid Hash"));
+                        lstColsRet.Add(new Android_Bill_Ret(scols.LtBillID.ToString(), "F", "Invalid Hash"));
                     }
                     else
                     {
                         OraDBConnection.ExecQry(sql_atomic);
-                        lstColsRet.Add(new Android_Bill_Ret(scols.LtBillID, "S"));
+                        lstColsRet.Add(new Android_Bill_Ret(scols.LtBillID.ToString(), "S"));
                     }
                 }
                 catch (Exception ex)
                 {
-                    lstColsRet.Add(new Android_Bill_Ret(scols.LtBillID, "F", ex.Message.Replace(Environment.NewLine, " ")));
-                    eventLog1.WriteEntry(string.Format("{0}_{1}_{2}", scols.LtBillID, "FAILURE", ex.Message));
+                    lstColsRet.Add(new Android_Bill_Ret(scols.LtBillID.ToString(), "F", ex.Message.Replace(Environment.NewLine, " ")));
+                    eventLog1.WriteEntry(string.Format("{0}_{1}_{2}_{3}", scols.LtBillID, "FAILURE", ex.Message, scols.ToString()));
                 }
             }
 

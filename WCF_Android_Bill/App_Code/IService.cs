@@ -17,7 +17,7 @@ public interface IAndroidService
 public class Android_Bill_Cols
 {
     [DataMember]
-    public string LtBillID { get; set; }
+    public long LtBillID { get; set; }
     [DataMember]
     public string SubDivisionName { get; set; }
     [DataMember]
@@ -27,15 +27,15 @@ public class Android_Bill_Cols
     [DataMember]
     public string Address { get; set; }
     [DataMember]
-    public string BillNumber { get; set; }
+    public long BillNumber { get; set; }
     [DataMember]
-    public string BillDate { get; set; }
+    public DateTime BillDate { get; set; }
     [DataMember]
     public string BillingGroup { get; set; }
     [DataMember]
-    public string CashDueDate { get; set; }
+    public DateTime CashDueDate { get; set; }
     [DataMember]
-    public string ChequeDueDate { get; set; }
+    public DateTime ChequeDueDate { get; set; }
     [DataMember]
     public string CollectionCentre { get; set; }
     [DataMember]
@@ -45,87 +45,87 @@ public class Android_Bill_Cols
     [DataMember]
     public string PhaseCode { get; set; }
     [DataMember]
-    public string MeterMultiplier { get; set; }
+    public double MeterMultiplier { get; set; }
     [DataMember]
     public string LineCTRatio { get; set; }
     [DataMember]
     public string MeterCTRatio { get; set; }
     [DataMember]
-    public string OverallMultiplyingFactor { get; set; }
+    public double OverallMultiplyingFactor { get; set; }
     [DataMember]
-    public string ConnectedLoad { get; set; }
+    public double ConnectedLoad { get; set; }
     [DataMember]
-    public string CurrentMeterReading { get; set; }
+    public long CurrentMeterReading { get; set; }
     [DataMember]
-    public string CurrentReadingDate { get; set; }
+    public DateTime CurrentReadingDate { get; set; }
     [DataMember]
-    public string PreviousMeterReading { get; set; }
+    public long PreviousMeterReading { get; set; }
     [DataMember]
-    public string PreviousReadingDate { get; set; }
+    public DateTime PreviousReadingDate { get; set; }
     [DataMember]
-    public string CurrentConsumption { get; set; }
+    public long CurrentConsumption { get; set; }
     [DataMember]
-    public string PreviousConsumption { get; set; }
+    public long PreviousConsumption { get; set; }
     [DataMember]
-    public string TotalConsumption { get; set; }
+    public long TotalConsumption { get; set; }
     [DataMember]
-    public string SecurityDeposit { get; set; }
+    public decimal SecurityDeposit { get; set; }
     [DataMember]
     public string CBillStatus { get; set; }
     [DataMember]
-    public string ConcessionUnits { get; set; }
+    public long ConcessionUnits { get; set; }
     [DataMember]
-    public string BillPeriod { get; set; }
+    public long BillPeriod { get; set; }
     [DataMember]
-    public string CurrentSOP { get; set; }
+    public decimal CurrentSOP { get; set; }
     [DataMember]
-    public string CurrentED { get; set; }
+    public decimal CurrentED { get; set; }
     [DataMember]
-    public string CurrentOctroi { get; set; }
+    public decimal CurrentOctroi { get; set; }
     [DataMember]
-    public string PreviousRoundAmount { get; set; }
+    public short PreviousRoundAmount { get; set; }
     [DataMember]
-    public string CurrentMeterRent { get; set; }
+    public decimal CurrentMeterRent { get; set; }
     [DataMember]
-    public string CurrentServiceCharges { get; set; }
+    public decimal CurrentServiceCharges { get; set; }
     [DataMember]
-    public string AvgAdjustmentAmount { get; set; }
+    public decimal AvgAdjustmentAmount { get; set; }
     [DataMember]
-    public string FixedCharges { get; set; }
+    public decimal FixedCharges { get; set; }
     [DataMember]
-    public string FuelCostAdjustment { get; set; }
+    public decimal FuelCostAdjustment { get; set; }
     [DataMember]
-    public string OtherCharges { get; set; }
+    public decimal OtherCharges { get; set; }
     [DataMember]
-    public string VoltageSurcharge { get; set; }
+    public decimal VoltageSurcharge { get; set; }
     [DataMember]
-    public string PreviousArrears { get; set; }
+    public decimal PreviousArrears { get; set; }
     [DataMember]
-    public string CurrentArrears { get; set; }
+    public decimal CurrentArrears { get; set; }
     [DataMember]
-    public string SundryCharges { get; set; }
+    public decimal SundryCharges { get; set; }
     [DataMember]
-    public string SundryAllowances { get; set; }
+    public decimal SundryAllowances { get; set; }
     [DataMember]
-    public string NetSOP { get; set; }
+    public decimal NetSOP { get; set; }
     [DataMember]
-    public string NetED { get; set; }
+    public decimal NetED { get; set; }
     [DataMember]
-    public string NetOctroi { get; set; }
+    public decimal NetOctroi { get; set; }
     [DataMember]
-    public string NetAmount { get; set; }
+    public decimal NetAmount { get; set; }
     [DataMember]
-    public string Surcharge { get; set; }
+    public decimal Surcharge { get; set; }
     [DataMember]
-    public string GrossAmount { get; set; }
+    public decimal GrossAmount { get; set; }
     [DataMember]
     public string AdjustmentAmountDetail { get; set; }
     [DataMember]
     public string SundryChargesDetail { get; set; }
     [DataMember]
-    public string MMCCharges { get; set; }
+    public decimal MMCCharges { get; set; }
     [DataMember]
-    public string CurrentRoundAmount { get; set; }
+    public short CurrentRoundAmount { get; set; }
     [DataMember]
     public string BillCycle { get; set; }
     [DataMember]
@@ -135,27 +135,101 @@ public class Android_Bill_Cols
     [DataMember]
     public string PreviousMeterCode { get; set; }
     [DataMember]
-    public string AvgAdjustmentPeriod { get; set; }
+    public long AvgAdjustmentPeriod { get; set; }
     [DataMember]
-    public string ConcealedUnits { get; set; }
+    public long ConcealedUnits { get; set; }
     [DataMember]
     public string BillYear { get; set; }
     [DataMember]
     public string FinYear { get; set; }
     [DataMember]
-    public string Consumption1 { get; set; }
+    public long Consumption1 { get; set; }
     [DataMember]
-    public string Consumption2 { get; set; }
+    public long Consumption2 { get; set; }
     [DataMember]
-    public string Consumption3 { get; set; }
+    public long Consumption3 { get; set; }
     [DataMember]
-    public string Consumption4 { get; set; }
+    public long Consumption4 { get; set; }
     [DataMember]
-    public string Consumption5 { get; set; }
+    public long Consumption5 { get; set; }
     [DataMember]
-    public string Consumption6 { get; set; }
+    public long Consumption6 { get; set; }
     [DataMember]
     public string LtBillID_Hash { get; set; }
+
+    public override string ToString()
+    {
+        string str = "LtBillID = " + LtBillID + "\r\n " +
+                    "SubDivisionName = " + SubDivisionName + "\r\n " +
+                    "AccountNumber = " + AccountNumber + "\r\n " +
+                    "ConsumerName = " + ConsumerName + "\r\n " +
+                    "Address = " + Address + "\r\n " +
+                    "BillNumber = " + BillNumber + "\r\n " +
+                    "BillDate = " + BillDate + "\r\n " +
+                    "BillingGroup = " + BillingGroup + "\r\n " +
+                    "CashDueDate = " + CashDueDate + "\r\n " +
+                    "ChequeDueDate = " + ChequeDueDate + "\r\n " +
+                    "CollectionCentre = " + CollectionCentre + "\r\n " +
+                    "ComplaintCentrePhone = " + ComplaintCentrePhone + "\r\n " +
+                    "TariffCode = " + TariffCode + "\r\n " +
+                    "PhaseCode = " + PhaseCode + "\r\n " +
+                    "MeterMultiplier = " + MeterMultiplier + "\r\n " +
+                    "LineCTRatio = " + LineCTRatio + "\r\n " +
+                    "MeterCTRatio = " + MeterCTRatio + "\r\n " +
+                    "OverallMultiplyingFactor = " + OverallMultiplyingFactor + "\r\n " +
+                    "ConnectedLoad = " + ConnectedLoad + "\r\n " +
+                    "CurrentMeterReading = " + CurrentMeterReading + "\r\n " +
+                    "CurrentReadingDate = " + CurrentReadingDate + "\r\n " +
+                    "PreviousMeterReading = " + PreviousMeterReading + "\r\n " +
+                    "PreviousReadingDate = " + PreviousReadingDate + "\r\n " +
+                    "CurrentConsumption = " + CurrentConsumption + "\r\n " +
+                    "PreviousConsumption = " + PreviousConsumption + "\r\n " +
+                    "TotalConsumption = " + TotalConsumption + "\r\n " +
+                    "SecurityDeposit = " + SecurityDeposit + "\r\n " +
+                    "CBillStatus = " + CBillStatus + "\r\n " +
+                    "ConcessionUnits = " + ConcessionUnits + "\r\n " +
+                    "BillPeriod = " + BillPeriod + "\r\n " +
+                    "CurrentSOP = " + CurrentSOP + "\r\n " +
+                    "CurrentED = " + CurrentED + "\r\n " +
+                    "CurrentOctroi = " + CurrentOctroi + "\r\n " +
+                    "PreviousRoundAmount = " + PreviousRoundAmount + "\r\n " +
+                    "CurrentMeterRent = " + CurrentMeterRent + "\r\n " +
+                    "CurrentServiceCharges = " + CurrentServiceCharges + "\r\n " +
+                    "AvgAdjustmentAmount = " + AvgAdjustmentAmount + "\r\n " +
+                    "FixedCharges = " + FixedCharges + "\r\n " +
+                    "FuelCostAdjustment = " + FuelCostAdjustment + "\r\n " +
+                    "OtherCharges = " + OtherCharges + "\r\n " +
+                    "VoltageSurcharge = " + VoltageSurcharge + "\r\n " +
+                    "PreviousArrears = " + PreviousArrears + "\r\n " +
+                    "CurrentArrears = " + CurrentArrears + "\r\n " +
+                    "SundryCharges = " + SundryCharges + "\r\n " +
+                    "SundryAllowances = " + SundryAllowances + "\r\n " +
+                    "NetSOP = " + NetSOP + "\r\n " +
+                    "NetED = " + NetED + "\r\n " +
+                    "NetOctroi = " + NetOctroi + "\r\n " +
+                    "NetAmount = " + NetAmount + "\r\n " +
+                    "Surcharge = " + Surcharge + "\r\n " +
+                    "GrossAmount = " + GrossAmount + "\r\n " +
+                    "AdjustmentAmountDetail = " + AdjustmentAmountDetail + "\r\n " +
+                    "SundryChargesDetail = " + SundryChargesDetail + "\r\n " +
+                    "MMCCharges = " + MMCCharges + "\r\n " +
+                    "CurrentRoundAmount = " + CurrentRoundAmount + "\r\n " +
+                    "BillCycle = " + BillCycle + "\r\n " +
+                    "MeterNo = " + MeterNo + "\r\n " +
+                    "CurrentMeterCode = " + CurrentMeterCode + "\r\n " +
+                    "PreviousMeterCode = " + PreviousMeterCode + "\r\n " +
+                    "AvgAdjustmentPeriod = " + AvgAdjustmentPeriod + "\r\n " +
+                    "ConcealedUnits = " + ConcealedUnits + "\r\n " +
+                    "BillYear = " + BillYear + "\r\n " +
+                    "FinYear = " + FinYear + "\r\n " +
+                    "Consumption1 = " + Consumption1 + "\r\n " +
+                    "Consumption2 = " + Consumption2 + "\r\n " +
+                    "Consumption3 = " + Consumption3 + "\r\n " +
+                    "Consumption4 = " + Consumption4 + "\r\n " +
+                    "Consumption5 = " + Consumption5 + "\r\n " +
+                    "Consumption6 = " + Consumption6 + "\r\n ";
+        return str;
+    }
 }
 
 [DataContract]

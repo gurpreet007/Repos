@@ -135,7 +135,6 @@ public partial class reports : System.Web.UI.Page
             panActivity_lblMsg.Text = "No Record Exist";
         }
     }
-
     protected void btnShowCount_Click(object sender, EventArgs e)
     {
         string userID = panActivity_drpUsers.SelectedValue;
@@ -145,6 +144,7 @@ public partial class reports : System.Web.UI.Page
         string sDate = string.Empty;
         string eDate = string.Empty;
         string strCount = string.Empty;
+        string strSQLSynced = string.Empty;
         bool dtReturn = false;
 
         dtReturn = getDates(out sDate, out eDate);
@@ -162,13 +162,16 @@ public partial class reports : System.Web.UI.Page
             panActivity_lblMsg.Text = "Please select a Bill Type";
             return;
         }
-        
+        else if (billType == "SAP_SBM_GSC")
+        {
+            strSQLSynced = " and nvl(SYNCED,'NULL')<>'NCODE' ";
+        }
+
         sql = string.Format("select count(*) from onlinebill.{0} " +
-                 "where 1=1 {1} and trunc(dtupload) between '{2}' and '{3}'",
-                 billType, sqlUser, sDate, eDate);
+                 "where 1=1 {1} and trunc(dtupload) between '{2}' and '{3}' {4}",
+                 billType, sqlUser, sDate, eDate, strSQLSynced);
 
         strCount = OraDBConnection.GetScalar(sql);
         panActivity_lblMsg.Text = strCount;
-        
     }
 }
