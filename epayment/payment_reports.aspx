@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="reports.aspx.cs" Inherits="reports" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="payment_reports.aspx.cs" Inherits="reports" %>
 
 <!DOCTYPE html>
 <html>
@@ -18,23 +18,37 @@
         <asp:Label ID="lblLoggedInAs" runat="server"></asp:Label> 
 	</div>
     <nav id="pageNav"></nav>
-    <header class="sectionHeader">Activity Log</header>
+    <header class="sectionHeader">Payment Reports</header>
     <asp:Panel class="reportPanel" ID="panActivity" runat="server" Visible="True">
         <form id="form1" runat="server" class="tableWrapper">
             <div class="tableRow">
-                <p><label for="panActivity_drpUsers">User</label></p>
-                <p><asp:DropDownList ID="panActivity_drpUsers" runat="server" autofocus></asp:DropDownList></p>
+                <p><label for="panActivity_drpDuration">Type</label></p>
+                <p><asp:DropDownList ID="drpType" runat="server">
+                        <asp:ListItem Value="sap">SAP</asp:ListItem>
+                        <asp:ListItem Value="nonsap">Non SAP</asp:ListItem>
+                    </asp:DropDownList>
+                </p>
             </div>
             <div class="tableRow">
-                <p><label for="panActivity_drpBillType">Bill Type</label></p>
-                <p><asp:DropDownList ID="panActivity_drpBillType" runat="server">
-                    <asp:ListItem Value="ALL">All Bill Types</asp:ListItem>
-                    <asp:ListItem Value="DSBELOW10KW">NONSAP - DSBELOW10KW (Spot Billing)</asp:ListItem>
-                    <asp:ListItem Value="LS">NONSAP - LS</asp:ListItem>
-                    <asp:ListItem Value="SP">NONSAP - SP</asp:ListItem>
-                    <asp:ListItem Value="MS">NONSAP - MS</asp:ListItem>
-                    <asp:ListItem Value="DSABOVE10KW">NONSAP - DSABOVE10KW</asp:ListItem>
-                    <asp:ListItem Value="SAP_SBM_GSC">SAP - DSBELOW10KW</asp:ListItem>
+                <p style="vertical-align:middle"><label for="txtLoc">Location</label></p>
+                <p style="margin-left:0px; padding-left:0px;"><input type="text" runat="server" id="txtLoc" maxlength="4" placeholder="e.g. U11, 1234" required/></p>
+            </div>
+            <div class="tableRow">
+                <p><label for="drpVendor">Vendors</label></p>
+                <p><asp:DropDownList ID="drpVendor" runat="server">
+                    </asp:DropDownList></p>
+            </div>
+            <div class="tableRow">
+                <p><label for="drpPayMode">Payment Mode</label></p>
+                <p><asp:DropDownList ID="drpPayMode" runat="server">
+                        <asp:ListItem Value="ALL">All</asp:ListItem>
+                        <asp:ListItem Value="CS">Cash</asp:ListItem>
+                        <asp:ListItem Value="CH">Cheque</asp:ListItem>
+                   </asp:DropDownList></p>
+            </div>
+            <div class="tableRow">
+                <p><label for="drpCategory">Category</label></p>
+                <p><asp:DropDownList ID="drpCategory" runat="server">
                     </asp:DropDownList></p>
             </div>
             <div class="tableRow">
@@ -59,17 +73,12 @@
             </div>
             <div class="tableRow">
                 <p></p>
-                <p><asp:Label ID="panActivity_lblMsg" class="msg" runat="server"></asp:Label></p>
+                <p><asp:Label ID="lblMsg" class="msg" runat="server"></asp:Label></p>
             </div>
             <div class="tableRow">
                 <p></p>
-                <p><asp:Button ID="panActivity_btnShowCount" Text="Show Count" runat="server" onclick="btnShowCount_Click" /></p>
+                <p><asp:Button ID="btnShowReport" Text="Show Report" runat="server" OnClick="btnShowReport_Click" onclientclick="$('#lblMsg').text('')"/></p>
             </div>
-            <div class="tableRow">
-                <p></p>
-                <p><asp:Button ID="panActivity_btnAddUser" Text="Activity Log" runat="server" onclick="btnUserActivity_Click" /></p>
-            </div>
-            
         </form>
     </asp:Panel>
     <footer id="pageFooter" class="pageFooter"></footer>
@@ -80,10 +89,10 @@
             $("#pageHeader").load("resources/snippets.html #snipPageHeader");
             $("#pageNav").load("resources/snippets.html #snipPageNav", function () {
                 $("#pageNav li").removeClass("selected");
-                $("#pageNav #nvReports").addClass("selected");
+                $("#pageNav #nvPaymentReports").addClass("selected");
                 $("#pageNav").hover(
                     function () { $("#pageNav li").removeClass("selected"); },
-                    function () { $("#pageNav #nvReports").addClass("selected"); }
+                    function () { $("#pageNav #nvPaymentReports").addClass("selected"); }
                 );
             });
             $("#pageFooter").load("resources/snippets.html #snipPageFooter");
@@ -99,8 +108,7 @@
 
             $(".exactDate").removeClass("tableRow");
             $(".exactDate").addClass("hide");
-            function exactDates()
-            {
+            function exactDates() {
                 var drpDur = $("#panActivity_drpDuration option:selected").val();
                 if (drpDur == "dates") {
                     $(".exactDate").removeClass("hide");
@@ -111,7 +119,8 @@
                     $(".exactDate").addClass("hide");
                 }
             }
-            exactDates();//needed incase of FF refresh while Exact Date is selected in drpdown
+
+            exactDates(); //needed incase of FF refresh while Exact Date is selected in drpdown
             $("#panActivity_drpDuration").change(exactDates);
             $("#panActivity_btnAddUser").click(function () {
                 $("#panActivity_lblMsg").html("");

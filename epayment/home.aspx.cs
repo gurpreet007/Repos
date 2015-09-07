@@ -78,7 +78,7 @@ public partial class index : System.Web.UI.Page
             "(select nvl(to_char(max(dtupload),'DD-MON-YYYY HH24:MI:SS'),'Never') " +
             "from onlinebill.dsbelow10kw where userid='{0}') dsbDt, " +
             "(select nvl(to_char(max(dtupload),'DD-MON-YYYY HH24:MI:SS'),'Never') " +
-            "from onlinebill.sap_sbm_gsc where userid='{0}') dsbSapDt " +
+            "from onlinebill.sap_sbm_gsc_70 where userid='{0}') dsbSapDt " +
             "from dual", userID, empID
             );
         ds = OraDBConnection.GetData(sql);

@@ -174,4 +174,49 @@ public partial class reports : System.Web.UI.Page
         strCount = OraDBConnection.GetScalar(sql);
         panActivity_lblMsg.Text = strCount;
     }
+    protected void btnShowIndvRecs_Click(object sender, EventArgs e)
+    {
+        string userID = panActivity_drpUsers.SelectedValue;
+        string billType = panActivity_drpBillType.SelectedValue;
+        string sql = string.Empty;
+        string sqlUser = string.Empty;
+        string sDate = string.Empty;
+        string eDate = string.Empty;
+        string strCount = string.Empty;
+        string strSQLSynced = string.Empty;
+        bool dtReturn = false;
+        bool xlReturn = false;
+
+        dtReturn = getDates(out sDate, out eDate);
+        if (dtReturn == false)
+        {
+            //date error, msg already shown, return
+            return;
+        }
+        if (userID != "ALL")
+        {
+            sqlUser = string.Format("and userid = '{0}'", userID);
+        }
+        if (billType == "ALL")
+        {
+            panActivity_lblMsg.Text = "Please select a Bill Type";
+            return;
+        }
+        else if (billType == "SAP_SBM_GSC")
+        {
+            strSQLSynced = " and nvl(SYNCED,'NULL')<>'NCODE' ";
+        }
+
+        sql = string.Format("select * from onlinebill.{0} " +
+                 "where 1=1 {1} and trunc(dtupload) between '{2}' and '{3}' {4}",
+                 billType, sqlUser, sDate, eDate, strSQLSynced);
+
+        xlReturn = common.DownloadXLS(sql, billType+".xls", this);
+
+
+        if (xlReturn == false)
+        {
+            panActivity_lblMsg.Text = "No Record Exist";
+        }
+    }
 }

@@ -3,7 +3,8 @@ using System.Data;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
-using Oracle.DataAccess.Client;
+using System.Data.Odbc ;
+using System.Data.OracleClient;
 public class OraDBConnection
 {
     private const string constr = "user id=onlinebill;password=123;"+

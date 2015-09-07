@@ -21,7 +21,7 @@ public partial class upload : System.Web.UI.Page
         string dtUpload = DateTime.Now.ToString(common.dtFmtDotNet);
         string strExtension = string.Empty;
         OracleConnection con;
-
+        string[] qtdFields;
         StringBuilder sbsql = new StringBuilder(2000);
 
         //capture sessionid
@@ -106,16 +106,19 @@ public partial class upload : System.Web.UI.Page
             fields[categ.posBillYear] = fields[categ.posBillYear].Trim();
 
             //make the insert query
-            for (int field = 0; field < fields.Length; field++)
-            {
-                sbsql.Append("'")
-                    .Append(fields[field])
-                    .Append("', ");
-            }
+            qtdFields = fields.Select(n => "'" + n + "'").ToArray();
+            sbsql.Append(string.Join(",", qtdFields));
+
+            //for (int field = 0; field < fields.Length; field++)
+            //{
+            //    sbsql.Append("'")
+            //        .Append(fields[field])
+            //        .Append("', ");
+            //}
 
             //add userID, empID and date_upload at last, we already have comma and space at the end of string
             //sbsql.AppendFormat("'{0}', '{1}', to_date('{2}','{3}'))", userID, empID, dtUpload, common.dtFmtOracle);
-            sbsql.AppendFormat("'{0}', '{1}', to_date('{2}','{3}'))", userID, '0', dtUpload, common.dtFmtOracle);
+            sbsql.AppendFormat(",'{0}', '{1}', to_date('{2}','{3}'))", userID, '0', dtUpload, common.dtFmtOracle);
 
             //insert into oracle 
             //Composite Primary Key: ACCOUNTNO, BILLCYCLE, BILLYEAR
@@ -190,6 +193,7 @@ public partial class upload : System.Web.UI.Page
         string strExtension = string.Empty;
         StringBuilder sbsql = new StringBuilder(2000);
         OracleConnection con;
+        string[] qtdFields;
 
         //int posSancLoad = 80;
 
@@ -249,10 +253,17 @@ public partial class upload : System.Web.UI.Page
             #region invalid_record_check
             //check the field length for every record 
             //to avoid crash if sbm m/c malfunctions
-            if (fields.Length != categ.numFields)
+            //Supporting SBM Reading Data for MS/SP/Temp Records:
+            //only accept this file if 
+            //1. for SAP_SBM_READING type MRU field contains the word "READING"
+            //2. for other types MRU field doesn't containg the word "READING"
+            if (fields.Length != categ.numFields ||
+                (categ.categName == "SAP_SBM_READING" &&
+                fields[categ.posMRU].Trim().ToUpper() != common.strReading) ||
+                (categ.categName != "SAP_SBM_READING" &&
+                fields[categ.posMRU].Trim().ToUpper() == common.strReading))
             {
-                //if its first line then exit
-                //as its an invalid file
+                //if its first line then exit as its an invalid file
                 if (line == start)
                 {
                     lblMessage.Text = "Error. Invalid File.";
@@ -273,18 +284,6 @@ public partial class upload : System.Web.UI.Page
             }
             #endregion
 
-            //check the sanctioned load for correct filetype, for the first row only
-            //if (line == start && categ.categName == "SAP_DSBELOW10KW" && float.Parse(fields[posSancLoad]) > 10.0)
-            //{
-            //    lblMessage.Text = "Error. Invalid File.";
-            //    return;
-            //}
-            //else if (line == start && categ.categName == "SAP_DSBELOW20KW" && float.Parse(fields[posSancLoad]) <= 10.0)
-            //{
-            //    lblMessage.Text = "Error. Invalid File.";
-            //    return;
-            //}
-
             //reset sbsql
             sbsql.Clear();
 
@@ -296,27 +295,17 @@ public partial class upload : System.Web.UI.Page
             fields[categ.posBillYear] = fields[categ.posBillYear].Trim();
 
             //make the insert query
-            for (int field = 0; field < fields.Length; field++)
-            {
-                if (field == 7 || field == 24)
-                {
-                    sbsql.AppendFormat("to_date('{0}','dd/mm/yyyy'),",fields[field]);
-                }
-                else if (field == 18 || field == 49 || field == 50)
-                {
-                    sbsql.AppendFormat("to_date('{0}','dd-mm-yyyy'),", fields[field]);
-                }
-                else
-                {
-                    sbsql.Append("'");
-                    sbsql.Append(fields[field]);
-                    sbsql.Append("', ");
-                }
-            }
+            qtdFields = fields.Select(n => "'" + n + "'").ToArray();
+            qtdFields[7] = string.Format("to_date({0},'dd/mm/yyyy')", qtdFields[7]);
+            qtdFields[24] = string.Format("to_date({0},'dd/mm/yyyy')", qtdFields[24]);
+            qtdFields[18] = string.Format("to_date({0},'dd-mm-yyyy')", qtdFields[18]);
+            qtdFields[49] = string.Format("to_date({0},'dd-mm-yyyy')", qtdFields[49]);
+            qtdFields[50] = string.Format("to_date({0},'dd-mm-yyyy')", qtdFields[50]);
+            sbsql.Append(string.Join(",", qtdFields));
 
             //add userID, empID, date_upload, synched, syncmsg, syncdt as NULL at last, we already have comma and space at the end of string
             //add semicolon at end of query to enable it to run in atomic BEGIN END block
-            sbsql.AppendFormat("'{0}', '{1}', to_date('{2}','{3}'), NULL, NULL, NULL); ", userID, '0', dtUpload, common.dtFmtOracle);
+            sbsql.AppendFormat(",'{0}', '{1}', to_date('{2}','{3}'), NULL, NULL, NULL); ", userID, '0', dtUpload, common.dtFmtOracle);
 
             //insert into oracle 
             //Composite Primary Key: ACCOUNTNO, BILLCYCLE, BILLYEAR
@@ -324,11 +313,16 @@ public partial class upload : System.Web.UI.Page
             //in case of error, we record the info about record containing error and continue
 
             //append merge query, with semicolon at end to make part of BEGIN END block
-            sbsql.AppendFormat("merge into onlinebill.mast_account m1 using " +
-                "(select '{0}' as acno from dual) d on (m1.account_no=d.acno) " +
-                "when matched then update set m1.table_name = '{1}' " +
-                "when not matched then insert (m1.account_no,m1.table_name) values(d.acno,'{1}'); ",
-                fields[categ.posAccountNo].ToUpper(), categ.tableName.ToUpper());
+            //not to merge in case of SAP_SBM_READING
+            if (categ.categName != "SAP_SBM_READING")
+            {
+                sbsql.AppendFormat("merge into onlinebill.mast_account m1 using " +
+                    "(select '{0}' as acno from dual) d on (m1.account_no=d.acno) " +
+                    "when matched then update set m1.table_name = '{1}' " +
+                    "when not matched then insert (m1.account_no,m1.table_name) values(d.acno,'{1}'); ",
+                    fields[categ.posAccountNo].ToUpper(), categ.tableName.ToUpper());
+            }
+
             try
             {
                 //make atomic transaction and execute
@@ -411,6 +405,7 @@ public partial class upload : System.Web.UI.Page
         string billType = string.Empty;
         
         if(hidBillType.Value == "0") {
+            lblMessage.Text = "Select a valid Bill Type";
             return;
         }
         
@@ -424,8 +419,11 @@ public partial class upload : System.Web.UI.Page
                 case "DSBELOW20KW":
                     UploadSAP(common.cat_SAP_GSC);
                     break;
+                case "SBMREADING":
+                    UploadSAP(common.cat_SAP_SBM_READING);
+                    break;
                 default:
-                    lblMessage.Text = "Select a valid Bill Type "+ hidBillType.Value;
+                    lblMessage.Text = "Select a valid Bill Type";
                     return;
             }
         }
@@ -449,7 +447,7 @@ public partial class upload : System.Web.UI.Page
                     UploadNonSAP(common.cat_DSABOVE10KW);
                     break;
                 default:
-                    lblMessage.Text = "Select a valid Bill Type "+ hidBillType.Value;
+                    lblMessage.Text = "Select a valid Bill Type";
                     return;
             }
         }

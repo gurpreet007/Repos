@@ -18,18 +18,19 @@ public partial class login : System.Web.UI.Page
 
         if (!string.IsNullOrEmpty(ipAddress))
         {
-            return ipAddress;
+            string[] addresses = ipAddress.Split(',');
+            if (addresses.Length != 0)
+            {
+                return addresses[0];
+            }
         }
-        else
-        {
-            return context.Request.ServerVariables["REMOTE_ADDR"];
-        }
+        return context.Request.ServerVariables["REMOTE_ADDR"];
     }
     private void DoLoginAudit(string userID, string userPass, bool isValid, string ip)
     {
         string sql;
         sql = string.Format("insert into onlinebill.loginaudit values('{0}','{1}',{2},'{3}',sysdate)",
-            userID, userPass, isValid ? 1 : 0, ip);
+            userID, userPass, isValid?1:0, ip);
         try
         {
             OraDBConnection.ExecQry(sql);
