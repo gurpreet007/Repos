@@ -1,0 +1,2224 @@
+27-08-2015 09:36:24 AM: SID 1's Send Day is in future. Send Day: 29, Today: 27
+27-08-2015 09:36:24 AM: Processing SID 2
+27-08-2015 09:36:24 AM: SID 3 skipped due to pending recon. To: 20150824, Recon: 20150817
+27-08-2015 09:36:24 AM: Processing SID 4
+27-08-2015 09:36:24 AM: Processing SID 5
+27-08-2015 09:36:24 AM: Processing SID 6
+27-08-2015 09:36:24 AM: SID 7 skipped due to pending recon. To: 20150824, Recon: 20150817
+27-08-2015 09:36:24 AM: Processing SID 8
+27-08-2015 09:36:24 AM: Processing SID 9
+27-08-2015 09:36:24 AM: Processing SID 10
+27-08-2015 09:36:24 AM: SID 11 skipped due to pending recon. To: 20150824, Recon: 20150817
+27-08-2015 09:36:24 AM: Processing SID 12
+27-08-2015 09:36:24 AM: Processing SID 13
+27-08-2015 09:36:24 AM: Processing SID 14
+27-08-2015 09:36:24 AM: SID 15 skipped due to pending recon. To: 20150824, Recon: 20150817
+27-08-2015 09:36:24 AM: Processing SID 16
+27-08-2015 09:36:24 AM: Processing SID 17
+27-08-2015 09:36:24 AM: SID 18 skipped due to pending recon. To: 20150818, Recon: 20150817
+27-08-2015 09:36:24 AM: SID 19's Send Day is in future. Send Day: 28, Today: 27
+27-08-2015 09:36:24 AM: Processing SID 20
+27-08-2015 09:36:24 AM: Processing SID 21
+27-08-2015 09:36:24 AM: SID 22 skipped due to pending recon. To: 20150818, Recon: 20150817
+27-08-2015 09:36:24 AM: SID 23's Send Day is in future. Send Day: 28, Today: 27
+27-08-2015 09:36:24 AM: Processing SID 24
+27-08-2015 09:39:07 AM: SID 1's Send Day is in future. Send Day: 29, Today: 27
+27-08-2015 09:39:07 AM: Processing SID 2
+27-08-2015 09:39:07 AM: SID 3 skipped due to pending recon. To: 20150824, Recon: 20150817
+27-08-2015 09:39:07 AM: Processing SID 4
+27-08-2015 09:39:07 AM: Processing SID 5
+27-08-2015 09:39:07 AM: Processing SID 6
+27-08-2015 09:39:07 AM: SID 7 skipped due to pending recon. To: 20150824, Recon: 20150817
+27-08-2015 09:39:07 AM: Processing SID 8
+27-08-2015 09:39:07 AM: Processing SID 9
+27-08-2015 09:39:07 AM: Processing SID 10
+27-08-2015 09:39:07 AM: SID 11 skipped due to pending recon. To: 20150824, Recon: 20150817
+27-08-2015 09:39:07 AM: Processing SID 12
+27-08-2015 09:39:07 AM: Processing SID 13
+27-08-2015 09:39:07 AM: Processing SID 14
+27-08-2015 09:39:07 AM: SID 15 skipped due to pending recon. To: 20150824, Recon: 20150817
+27-08-2015 09:39:07 AM: Processing SID 16
+27-08-2015 09:39:07 AM: Processing SID 17
+27-08-2015 09:39:07 AM: SID 18 skipped due to pending recon. To: 20150818, Recon: 20150817
+27-08-2015 09:39:07 AM: SID 19's Send Day is in future. Send Day: 28, Today: 27
+27-08-2015 09:39:07 AM: Processing SID 20
+27-08-2015 09:39:07 AM: Processing SID 21
+27-08-2015 09:39:07 AM: SID 22 skipped due to pending recon. To: 20150818, Recon: 20150817
+27-08-2015 09:39:07 AM: SID 23's Send Day is in future. Send Day: 28, Today: 27
+27-08-2015 09:39:07 AM: Processing SID 24
+27-08-2015 10:04:08 AM: Processing SID 1
+27-08-2015 10:04:08 AM: Processing SID 2
+27-08-2015 10:04:08 AM: SID 3 skipped due to pending recon. To: 20150824, Recon: 20150817
+27-08-2015 10:04:08 AM: Processing SID 4
+27-08-2015 10:04:08 AM: Processing SID 5
+27-08-2015 10:04:08 AM: Processing SID 6
+27-08-2015 10:04:08 AM: SID 7 skipped due to pending recon. To: 20150824, Recon: 20150817
+27-08-2015 10:04:08 AM: Processing SID 8
+27-08-2015 10:04:08 AM: Processing SID 9
+27-08-2015 10:04:08 AM: Processing SID 10
+27-08-2015 10:04:08 AM: SID 11 skipped due to pending recon. To: 20150824, Recon: 20150817
+27-08-2015 10:04:08 AM: Processing SID 12
+27-08-2015 10:04:08 AM: Processing SID 13
+27-08-2015 10:04:08 AM: Processing SID 14
+27-08-2015 10:04:08 AM: SID 15 skipped due to pending recon. To: 20150824, Recon: 20150817
+27-08-2015 10:04:08 AM: Processing SID 16
+27-08-2015 10:04:08 AM: Processing SID 17
+27-08-2015 10:04:08 AM: SID 18 skipped due to pending recon. To: 20150818, Recon: 20150817
+27-08-2015 10:04:08 AM: SID 19's Send Day is in future. Send Day: 28, Today: 27
+27-08-2015 10:04:08 AM: Processing SID 20
+27-08-2015 10:04:08 AM: Processing SID 21
+27-08-2015 10:04:08 AM: SID 22 skipped due to pending recon. To: 20150818, Recon: 20150817
+27-08-2015 10:04:08 AM: SID 23's Send Day is in future. Send Day: 28, Today: 27
+27-08-2015 10:04:08 AM: Processing SID 24
+27-08-2015 10:15:15 AM: Processing SID 1
+27-08-2015 10:15:15 AM: substr(acno,1,1) = 'B' and tbl_name = 'DSBELOW10KW' and recon_id is not null and if_sap = 'N' and elid is null and txndate between '20150801' and '20150810' 
+27-08-2015 10:15:15 AM: Processing SID 2
+27-08-2015 10:15:15 AM: substr(acno,1,1) = 'B' and tbl_name = 'DSBELOW10KW' and recon_id is not null and if_sap = 'N' and elid is null and txndate between '20150811' and '20150816' 
+27-08-2015 10:15:15 AM: SID 3 skipped due to pending recon. To: 20150824, Recon: 20150817
+27-08-2015 10:15:15 AM: Processing SID 4
+27-08-2015 10:15:15 AM: substr(acno,1,1) = 'B' and tbl_name = 'DSBELOW10KW' and recon_id is not null and if_sap = 'N' and elid is null and txndate between '20150725' and '20150731' 
+27-08-2015 10:15:15 AM: Processing SID 5
+27-08-2015 10:15:15 AM: substr(acno,1,1) = 'L' and tbl_name = 'DSBELOW10KW' and recon_id is not null and if_sap = 'N' and elid is null and txndate between '20150801' and '20150810' 
+27-08-2015 10:15:15 AM: Processing SID 6
+27-08-2015 10:15:15 AM: substr(acno,1,1) = 'L' and tbl_name = 'DSBELOW10KW' and recon_id is not null and if_sap = 'N' and elid is null and txndate between '20150811' and '20150816' 
+27-08-2015 10:15:15 AM: SID 7 skipped due to pending recon. To: 20150824, Recon: 20150817
+27-08-2015 10:15:15 AM: Processing SID 8
+27-08-2015 10:15:15 AM: substr(acno,1,1) = 'L' and tbl_name = 'DSBELOW10KW' and recon_id is not null and if_sap = 'N' and elid is null and txndate between '20150725' and '20150731' 
+27-08-2015 10:15:15 AM: Processing SID 9
+27-08-2015 10:15:15 AM: substr(acno,1,1) = 'S' and tbl_name = 'DSBELOW10KW' and recon_id is not null and if_sap = 'N' and elid is null and txndate between '20150801' and '20150810' 
+27-08-2015 10:15:15 AM: Processing SID 10
+27-08-2015 10:15:15 AM: substr(acno,1,1) = 'S' and tbl_name = 'DSBELOW10KW' and recon_id is not null and if_sap = 'N' and elid is null and txndate between '20150811' and '20150816' 
+27-08-2015 10:15:15 AM: SID 11 skipped due to pending recon. To: 20150824, Recon: 20150817
+27-08-2015 10:15:15 AM: Processing SID 12
+27-08-2015 10:15:15 AM: substr(acno,1,1) = 'S' and tbl_name = 'DSBELOW10KW' and recon_id is not null and if_sap = 'N' and elid is null and txndate between '20150725' and '20150731' 
+27-08-2015 10:15:15 AM: Processing SID 13
+27-08-2015 10:15:15 AM: substr(acno,1,1) = 'P' and tbl_name = 'DSBELOW10KW' and recon_id is not null and if_sap = 'N' and elid is null and txndate between '20150801' and '20150813' 
+27-08-2015 10:15:15 AM: Processing SID 14
+27-08-2015 10:15:15 AM: substr(acno,1,1) = 'P' and tbl_name = 'DSBELOW10KW' and recon_id is not null and if_sap = 'N' and elid is null and txndate between '20150814' and '20150817' 
+27-08-2015 10:15:15 AM: SID 15 skipped due to pending recon. To: 20150824, Recon: 20150817
+27-08-2015 10:15:15 AM: Processing SID 16
+27-08-2015 10:15:15 AM: substr(acno,1,1) = 'P' and tbl_name = 'DSBELOW10KW' and recon_id is not null and if_sap = 'N' and elid is null and txndate between '20150725' and '20150731' 
+27-08-2015 10:15:15 AM: Processing SID 17
+27-08-2015 10:15:15 AM: substr(acno,1,1) = 'J' and tbl_name = 'DSBELOW10KW' and recon_id is not null and if_sap = 'N' and elid is null and txndate between '20150804' and '20150812' 
+27-08-2015 10:15:15 AM: SID 18 skipped due to pending recon. To: 20150818, Recon: 20150817
+27-08-2015 10:15:15 AM: SID 19's Send Day is in future. Send Day: 28, Today: 27
+27-08-2015 10:15:15 AM: Processing SID 20
+27-08-2015 10:15:15 AM: substr(acno,1,1) = 'J' and tbl_name = 'DSBELOW10KW' and recon_id is not null and if_sap = 'N' and elid is null and txndate between '20150727' and '20150803' 
+27-08-2015 10:15:15 AM: Processing SID 21
+27-08-2015 10:15:15 AM: substr(acno,1,1) = 'H' and tbl_name = 'DSBELOW10KW' and recon_id is not null and if_sap = 'N' and elid is null and txndate between '20150804' and '20150813' 
+27-08-2015 10:15:15 AM: SID 22 skipped due to pending recon. To: 20150818, Recon: 20150817
+27-08-2015 10:15:15 AM: SID 23's Send Day is in future. Send Day: 28, Today: 27
+27-08-2015 10:15:15 AM: Processing SID 24
+27-08-2015 10:15:15 AM: substr(acno,1,1) = 'H' and tbl_name = 'DSBELOW10KW' and recon_id is not null and if_sap = 'N' and elid is null and txndate between '20150727' and '20150803' 
+27-08-2015 10:16:50 AM: Processing SID 1
+27-08-2015 10:17:05 AM: Processing SID 1
+27-08-2015 10:17:05 AM: substr(acno,1,1) = 'B' and tbl_name = 'DSBELOW10KW' and recon_id is not null and if_sap = 'N' and elid is null and txndate between to_date('20150801','yyyymmdd') and to_date('20150810','yyyymmdd') 
+27-08-2015 10:17:05 AM: Processing SID 2
+27-08-2015 10:17:05 AM: substr(acno,1,1) = 'B' and tbl_name = 'DSBELOW10KW' and recon_id is not null and if_sap = 'N' and elid is null and txndate between to_date('20150811','yyyymmdd') and to_date('20150816','yyyymmdd') 
+27-08-2015 10:17:05 AM: SID 3 skipped due to pending recon. To: 20150824, Recon: 20150817
+27-08-2015 10:17:05 AM: Processing SID 4
+27-08-2015 10:17:05 AM: substr(acno,1,1) = 'B' and tbl_name = 'DSBELOW10KW' and recon_id is not null and if_sap = 'N' and elid is null and txndate between to_date('20150725','yyyymmdd') and to_date('20150731','yyyymmdd') 
+27-08-2015 10:17:05 AM: Processing SID 5
+27-08-2015 10:17:05 AM: substr(acno,1,1) = 'L' and tbl_name = 'DSBELOW10KW' and recon_id is not null and if_sap = 'N' and elid is null and txndate between to_date('20150801','yyyymmdd') and to_date('20150810','yyyymmdd') 
+27-08-2015 10:17:05 AM: Processing SID 6
+27-08-2015 10:17:05 AM: substr(acno,1,1) = 'L' and tbl_name = 'DSBELOW10KW' and recon_id is not null and if_sap = 'N' and elid is null and txndate between to_date('20150811','yyyymmdd') and to_date('20150816','yyyymmdd') 
+27-08-2015 10:17:05 AM: SID 7 skipped due to pending recon. To: 20150824, Recon: 20150817
+27-08-2015 10:17:05 AM: Processing SID 8
+27-08-2015 10:17:05 AM: substr(acno,1,1) = 'L' and tbl_name = 'DSBELOW10KW' and recon_id is not null and if_sap = 'N' and elid is null and txndate between to_date('20150725','yyyymmdd') and to_date('20150731','yyyymmdd') 
+27-08-2015 10:17:05 AM: Processing SID 9
+27-08-2015 10:17:05 AM: substr(acno,1,1) = 'S' and tbl_name = 'DSBELOW10KW' and recon_id is not null and if_sap = 'N' and elid is null and txndate between to_date('20150801','yyyymmdd') and to_date('20150810','yyyymmdd') 
+27-08-2015 10:17:05 AM: Processing SID 10
+27-08-2015 10:17:05 AM: substr(acno,1,1) = 'S' and tbl_name = 'DSBELOW10KW' and recon_id is not null and if_sap = 'N' and elid is null and txndate between to_date('20150811','yyyymmdd') and to_date('20150816','yyyymmdd') 
+27-08-2015 10:17:05 AM: SID 11 skipped due to pending recon. To: 20150824, Recon: 20150817
+27-08-2015 10:17:05 AM: Processing SID 12
+27-08-2015 10:17:05 AM: substr(acno,1,1) = 'S' and tbl_name = 'DSBELOW10KW' and recon_id is not null and if_sap = 'N' and elid is null and txndate between to_date('20150725','yyyymmdd') and to_date('20150731','yyyymmdd') 
+27-08-2015 10:17:05 AM: Processing SID 13
+27-08-2015 10:17:05 AM: substr(acno,1,1) = 'P' and tbl_name = 'DSBELOW10KW' and recon_id is not null and if_sap = 'N' and elid is null and txndate between to_date('20150801','yyyymmdd') and to_date('20150813','yyyymmdd') 
+27-08-2015 10:17:05 AM: Processing SID 14
+27-08-2015 10:17:05 AM: substr(acno,1,1) = 'P' and tbl_name = 'DSBELOW10KW' and recon_id is not null and if_sap = 'N' and elid is null and txndate between to_date('20150814','yyyymmdd') and to_date('20150817','yyyymmdd') 
+27-08-2015 10:17:05 AM: SID 15 skipped due to pending recon. To: 20150824, Recon: 20150817
+27-08-2015 10:17:05 AM: Processing SID 16
+27-08-2015 10:17:05 AM: substr(acno,1,1) = 'P' and tbl_name = 'DSBELOW10KW' and recon_id is not null and if_sap = 'N' and elid is null and txndate between to_date('20150725','yyyymmdd') and to_date('20150731','yyyymmdd') 
+27-08-2015 10:17:05 AM: Processing SID 17
+27-08-2015 10:17:05 AM: substr(acno,1,1) = 'J' and tbl_name = 'DSBELOW10KW' and recon_id is not null and if_sap = 'N' and elid is null and txndate between to_date('20150804','yyyymmdd') and to_date('20150812','yyyymmdd') 
+27-08-2015 10:17:05 AM: SID 18 skipped due to pending recon. To: 20150818, Recon: 20150817
+27-08-2015 10:17:05 AM: SID 19's Send Day is in future. Send Day: 28, Today: 27
+27-08-2015 10:17:05 AM: Processing SID 20
+27-08-2015 10:17:05 AM: substr(acno,1,1) = 'J' and tbl_name = 'DSBELOW10KW' and recon_id is not null and if_sap = 'N' and elid is null and txndate between to_date('20150727','yyyymmdd') and to_date('20150803','yyyymmdd') 
+27-08-2015 10:17:05 AM: Processing SID 21
+27-08-2015 10:17:05 AM: substr(acno,1,1) = 'H' and tbl_name = 'DSBELOW10KW' and recon_id is not null and if_sap = 'N' and elid is null and txndate between to_date('20150804','yyyymmdd') and to_date('20150813','yyyymmdd') 
+27-08-2015 10:17:05 AM: SID 22 skipped due to pending recon. To: 20150818, Recon: 20150817
+27-08-2015 10:17:05 AM: SID 23's Send Day is in future. Send Day: 28, Today: 27
+27-08-2015 10:17:05 AM: Processing SID 24
+27-08-2015 10:17:05 AM: substr(acno,1,1) = 'H' and tbl_name = 'DSBELOW10KW' and recon_id is not null and if_sap = 'N' and elid is null and txndate between to_date('20150727','yyyymmdd') and to_date('20150803','yyyymmdd') 
+27-08-2015 10:18:14 AM: Processing SID 1
+27-08-2015 10:18:14 AM: substr(acno,1,1) = 'B' and tbl_name = 'DSBELOW10KW' and recon_id is not null and if_sap = 'N' and elid is null and to_date(txndate,'yyyymmdd') between '20150801' and '20150810' 
+27-08-2015 10:18:14 AM: Processing SID 2
+27-08-2015 10:18:14 AM: substr(acno,1,1) = 'B' and tbl_name = 'DSBELOW10KW' and recon_id is not null and if_sap = 'N' and elid is null and to_date(txndate,'yyyymmdd') between '20150811' and '20150816' 
+27-08-2015 10:18:14 AM: SID 3 skipped due to pending recon. To: 20150824, Recon: 20150817
+27-08-2015 10:18:14 AM: Processing SID 4
+27-08-2015 10:18:14 AM: substr(acno,1,1) = 'B' and tbl_name = 'DSBELOW10KW' and recon_id is not null and if_sap = 'N' and elid is null and to_date(txndate,'yyyymmdd') between '20150725' and '20150731' 
+27-08-2015 10:18:14 AM: Processing SID 5
+27-08-2015 10:18:14 AM: substr(acno,1,1) = 'L' and tbl_name = 'DSBELOW10KW' and recon_id is not null and if_sap = 'N' and elid is null and to_date(txndate,'yyyymmdd') between '20150801' and '20150810' 
+27-08-2015 10:18:14 AM: Processing SID 6
+27-08-2015 10:18:14 AM: substr(acno,1,1) = 'L' and tbl_name = 'DSBELOW10KW' and recon_id is not null and if_sap = 'N' and elid is null and to_date(txndate,'yyyymmdd') between '20150811' and '20150816' 
+27-08-2015 10:18:14 AM: SID 7 skipped due to pending recon. To: 20150824, Recon: 20150817
+27-08-2015 10:18:14 AM: Processing SID 8
+27-08-2015 10:18:14 AM: substr(acno,1,1) = 'L' and tbl_name = 'DSBELOW10KW' and recon_id is not null and if_sap = 'N' and elid is null and to_date(txndate,'yyyymmdd') between '20150725' and '20150731' 
+27-08-2015 10:18:14 AM: Processing SID 9
+27-08-2015 10:18:14 AM: substr(acno,1,1) = 'S' and tbl_name = 'DSBELOW10KW' and recon_id is not null and if_sap = 'N' and elid is null and to_date(txndate,'yyyymmdd') between '20150801' and '20150810' 
+27-08-2015 10:18:14 AM: Processing SID 10
+27-08-2015 10:18:14 AM: substr(acno,1,1) = 'S' and tbl_name = 'DSBELOW10KW' and recon_id is not null and if_sap = 'N' and elid is null and to_date(txndate,'yyyymmdd') between '20150811' and '20150816' 
+27-08-2015 10:18:14 AM: SID 11 skipped due to pending recon. To: 20150824, Recon: 20150817
+27-08-2015 10:18:14 AM: Processing SID 12
+27-08-2015 10:18:14 AM: substr(acno,1,1) = 'S' and tbl_name = 'DSBELOW10KW' and recon_id is not null and if_sap = 'N' and elid is null and to_date(txndate,'yyyymmdd') between '20150725' and '20150731' 
+27-08-2015 10:18:14 AM: Processing SID 13
+27-08-2015 10:18:14 AM: substr(acno,1,1) = 'P' and tbl_name = 'DSBELOW10KW' and recon_id is not null and if_sap = 'N' and elid is null and to_date(txndate,'yyyymmdd') between '20150801' and '20150813' 
+27-08-2015 10:18:14 AM: Processing SID 14
+27-08-2015 10:18:14 AM: substr(acno,1,1) = 'P' and tbl_name = 'DSBELOW10KW' and recon_id is not null and if_sap = 'N' and elid is null and to_date(txndate,'yyyymmdd') between '20150814' and '20150817' 
+27-08-2015 10:18:14 AM: SID 15 skipped due to pending recon. To: 20150824, Recon: 20150817
+27-08-2015 10:18:14 AM: Processing SID 16
+27-08-2015 10:18:14 AM: substr(acno,1,1) = 'P' and tbl_name = 'DSBELOW10KW' and recon_id is not null and if_sap = 'N' and elid is null and to_date(txndate,'yyyymmdd') between '20150725' and '20150731' 
+27-08-2015 10:18:14 AM: Processing SID 17
+27-08-2015 10:18:14 AM: substr(acno,1,1) = 'J' and tbl_name = 'DSBELOW10KW' and recon_id is not null and if_sap = 'N' and elid is null and to_date(txndate,'yyyymmdd') between '20150804' and '20150812' 
+27-08-2015 10:18:14 AM: SID 18 skipped due to pending recon. To: 20150818, Recon: 20150817
+27-08-2015 10:18:14 AM: SID 19's Send Day is in future. Send Day: 28, Today: 27
+27-08-2015 10:18:14 AM: Processing SID 20
+27-08-2015 10:18:14 AM: substr(acno,1,1) = 'J' and tbl_name = 'DSBELOW10KW' and recon_id is not null and if_sap = 'N' and elid is null and to_date(txndate,'yyyymmdd') between '20150727' and '20150803' 
+27-08-2015 10:18:14 AM: Processing SID 21
+27-08-2015 10:18:14 AM: substr(acno,1,1) = 'H' and tbl_name = 'DSBELOW10KW' and recon_id is not null and if_sap = 'N' and elid is null and to_date(txndate,'yyyymmdd') between '20150804' and '20150813' 
+27-08-2015 10:18:14 AM: SID 22 skipped due to pending recon. To: 20150818, Recon: 20150817
+27-08-2015 10:18:14 AM: SID 23's Send Day is in future. Send Day: 28, Today: 27
+27-08-2015 10:18:14 AM: Processing SID 24
+27-08-2015 10:18:14 AM: substr(acno,1,1) = 'H' and tbl_name = 'DSBELOW10KW' and recon_id is not null and if_sap = 'N' and elid is null and to_date(txndate,'yyyymmdd') between '20150727' and '20150803' 
+27-08-2015 10:24:37 AM: Processing SID 1
+27-08-2015 10:25:01 AM: Processing SID 1
+27-08-2015 10:25:01 AM: SID 1 has no records
+27-08-2015 10:25:01 AM: Processing SID 2
+27-08-2015 10:25:01 AM: SID 2 has no records
+27-08-2015 10:25:01 AM: SID 3 skipped due to pending recon. To: 20150824, Recon: 20150817
+27-08-2015 10:25:01 AM: Processing SID 4
+27-08-2015 10:25:01 AM: SID 4 has no records
+27-08-2015 10:25:02 AM: Processing SID 5
+27-08-2015 10:25:02 AM: SID 5 has no records
+27-08-2015 10:25:02 AM: Processing SID 6
+27-08-2015 10:25:02 AM: SID 6 has no records
+27-08-2015 10:25:02 AM: SID 7 skipped due to pending recon. To: 20150824, Recon: 20150817
+27-08-2015 10:25:02 AM: Processing SID 8
+27-08-2015 10:25:02 AM: SID 8 has no records
+27-08-2015 10:25:02 AM: Processing SID 9
+27-08-2015 10:25:02 AM: SID 9 has no records
+27-08-2015 10:25:02 AM: Processing SID 10
+27-08-2015 10:25:02 AM: SID 10 has no records
+27-08-2015 10:25:02 AM: SID 11 skipped due to pending recon. To: 20150824, Recon: 20150817
+27-08-2015 10:25:02 AM: Processing SID 12
+27-08-2015 10:25:02 AM: SID 12 has no records
+27-08-2015 10:25:02 AM: Processing SID 13
+27-08-2015 10:25:02 AM: SID 13 has no records
+27-08-2015 10:25:02 AM: Processing SID 14
+27-08-2015 10:25:02 AM: SID 14 has no records
+27-08-2015 10:25:02 AM: SID 15 skipped due to pending recon. To: 20150824, Recon: 20150817
+27-08-2015 10:25:02 AM: Processing SID 16
+27-08-2015 10:25:02 AM: SID 16 has no records
+27-08-2015 10:25:02 AM: Processing SID 17
+27-08-2015 10:25:02 AM: SID 17 has no records
+27-08-2015 10:25:02 AM: SID 18 skipped due to pending recon. To: 20150818, Recon: 20150817
+27-08-2015 10:25:02 AM: SID 19's Send Day is in future. Send Day: 28, Today: 27
+27-08-2015 10:25:02 AM: Processing SID 20
+27-08-2015 10:25:02 AM: SID 20 has no records
+27-08-2015 10:25:02 AM: Processing SID 21
+27-08-2015 10:25:02 AM: SID 21 has no records
+27-08-2015 10:25:02 AM: SID 22 skipped due to pending recon. To: 20150818, Recon: 20150817
+27-08-2015 10:25:02 AM: SID 23's Send Day is in future. Send Day: 28, Today: 27
+27-08-2015 10:25:02 AM: Processing SID 24
+27-08-2015 10:25:02 AM: SID 24 has no records
+27-08-2015 10:25:18 AM: Processing SID 1
+27-08-2015 10:25:18 AM: SID 1 has no records
+27-08-2015 10:25:18 AM: Processing SID 2
+27-08-2015 10:25:18 AM: SID 2 has no records
+27-08-2015 10:25:18 AM: SID 3 skipped due to pending recon. To: 20150824, Recon: 20150817
+27-08-2015 10:25:18 AM: Processing SID 4
+27-08-2015 10:25:18 AM: SID 4 has no records
+27-08-2015 10:25:18 AM: Processing SID 5
+27-08-2015 10:25:18 AM: SID 5 has no records
+27-08-2015 10:25:18 AM: Processing SID 6
+27-08-2015 10:25:18 AM: SID 6 has no records
+27-08-2015 10:25:18 AM: SID 7 skipped due to pending recon. To: 20150824, Recon: 20150817
+27-08-2015 10:25:18 AM: Processing SID 8
+27-08-2015 10:25:18 AM: SID 8 has no records
+27-08-2015 10:25:18 AM: Processing SID 9
+27-08-2015 10:25:18 AM: SID 9 has no records
+27-08-2015 10:25:18 AM: Processing SID 10
+27-08-2015 10:25:18 AM: SID 10 has no records
+27-08-2015 10:25:18 AM: SID 11 skipped due to pending recon. To: 20150824, Recon: 20150817
+27-08-2015 10:25:18 AM: Processing SID 12
+27-08-2015 10:25:18 AM: SID 12 has no records
+27-08-2015 10:25:18 AM: Processing SID 13
+27-08-2015 10:25:18 AM: SID 13 has no records
+27-08-2015 10:25:18 AM: Processing SID 14
+27-08-2015 10:25:18 AM: SID 14 has no records
+27-08-2015 10:25:18 AM: SID 15 skipped due to pending recon. To: 20150824, Recon: 20150817
+27-08-2015 10:25:18 AM: Processing SID 16
+27-08-2015 10:25:18 AM: SID 16 has no records
+27-08-2015 10:25:18 AM: Processing SID 17
+27-08-2015 10:25:18 AM: SID 17 has no records
+27-08-2015 10:25:18 AM: SID 18 skipped due to pending recon. To: 20150818, Recon: 20150817
+27-08-2015 10:25:18 AM: SID 19's Send Day is in future. Send Day: 28, Today: 27
+27-08-2015 10:25:18 AM: Processing SID 20
+27-08-2015 10:25:18 AM: SID 20 has no records
+27-08-2015 10:25:18 AM: Processing SID 21
+27-08-2015 10:25:18 AM: SID 21 has no records
+27-08-2015 10:25:18 AM: SID 22 skipped due to pending recon. To: 20150818, Recon: 20150817
+27-08-2015 10:25:18 AM: SID 23's Send Day is in future. Send Day: 28, Today: 27
+27-08-2015 10:25:18 AM: Processing SID 24
+27-08-2015 10:25:18 AM: SID 24 has no records
+27-08-2015 10:36:25 AM: Processing SID 1
+27-08-2015 10:36:25 AM: SID 1 has 0 records
+27-08-2015 10:36:25 AM: Processing SID 2
+27-08-2015 10:36:25 AM: SID 2 has 0 records
+27-08-2015 10:36:25 AM: SID 3 skipped due to pending recon. To: 20150824, Recon: 20150818
+27-08-2015 10:36:25 AM: Processing SID 4
+27-08-2015 10:36:25 AM: SID 4 has 0 records
+27-08-2015 10:36:25 AM: Processing SID 5
+27-08-2015 10:36:25 AM: SID 5 has 0 records
+27-08-2015 10:36:25 AM: Processing SID 6
+27-08-2015 10:36:25 AM: SID 6 has 0 records
+27-08-2015 10:36:25 AM: SID 7 skipped due to pending recon. To: 20150824, Recon: 20150818
+27-08-2015 10:36:25 AM: Processing SID 8
+27-08-2015 10:36:25 AM: SID 8 has 0 records
+27-08-2015 10:36:25 AM: Processing SID 9
+27-08-2015 10:36:25 AM: SID 9 has 0 records
+27-08-2015 10:36:25 AM: Processing SID 10
+27-08-2015 10:36:25 AM: SID 10 has 0 records
+27-08-2015 10:36:25 AM: SID 11 skipped due to pending recon. To: 20150824, Recon: 20150818
+27-08-2015 10:36:25 AM: Processing SID 12
+27-08-2015 10:36:25 AM: SID 12 has 0 records
+27-08-2015 10:36:25 AM: Processing SID 13
+27-08-2015 10:36:25 AM: SID 13 has 0 records
+27-08-2015 10:36:25 AM: Processing SID 14
+27-08-2015 10:36:25 AM: SID 14 has 0 records
+27-08-2015 10:36:25 AM: SID 15 skipped due to pending recon. To: 20150824, Recon: 20150818
+27-08-2015 10:36:25 AM: Processing SID 16
+27-08-2015 10:36:25 AM: SID 16 has 0 records
+27-08-2015 10:36:25 AM: Processing SID 17
+27-08-2015 10:36:25 AM: SID 17 has 0 records
+27-08-2015 10:36:25 AM: Processing SID 18
+27-08-2015 10:36:25 AM: SID 18 has 0 records
+27-08-2015 10:36:25 AM: SID 19's Send Day is in future. Send Day: 28, Today: 27
+27-08-2015 10:36:25 AM: Processing SID 20
+27-08-2015 10:36:25 AM: SID 20 has 0 records
+27-08-2015 10:36:25 AM: Processing SID 21
+27-08-2015 10:36:25 AM: SID 21 has 0 records
+27-08-2015 10:36:25 AM: Processing SID 22
+27-08-2015 10:36:25 AM: SID 22 has 0 records
+27-08-2015 10:36:25 AM: SID 23's Send Day is in future. Send Day: 28, Today: 27
+27-08-2015 10:36:25 AM: Processing SID 24
+27-08-2015 10:36:25 AM: SID 24 has 0 records
+27-08-2015 10:44:15 AM: Processing SID 1
+27-08-2015 10:44:15 AM: SID 1 has 0 records
+27-08-2015 10:44:15 AM: Processing SID 2
+27-08-2015 10:44:15 AM: SID 2 has 0 records
+27-08-2015 10:44:15 AM: SID 3 skipped due to pending recon. To: 20150824, Recon: 20150818
+27-08-2015 10:44:15 AM: Processing SID 4
+27-08-2015 10:44:15 AM: SID 4 has 0 records
+27-08-2015 10:44:15 AM: Processing SID 5
+27-08-2015 10:44:15 AM: SID 5 has 0 records
+27-08-2015 10:44:15 AM: Processing SID 6
+27-08-2015 10:44:15 AM: SID 6 has 0 records
+27-08-2015 10:44:15 AM: SID 7 skipped due to pending recon. To: 20150824, Recon: 20150818
+27-08-2015 10:44:15 AM: Processing SID 8
+27-08-2015 10:44:15 AM: SID 8 has 0 records
+27-08-2015 10:44:15 AM: Processing SID 9
+27-08-2015 10:44:15 AM: SID 9 has 0 records
+27-08-2015 10:44:15 AM: Processing SID 10
+27-08-2015 10:44:15 AM: SID 10 has 0 records
+27-08-2015 10:44:15 AM: SID 11 skipped due to pending recon. To: 20150824, Recon: 20150818
+27-08-2015 10:44:15 AM: Processing SID 12
+27-08-2015 10:44:15 AM: SID 12 has 0 records
+27-08-2015 10:44:15 AM: Processing SID 13
+27-08-2015 10:44:15 AM: SID 13 has 0 records
+27-08-2015 10:44:15 AM: Processing SID 14
+27-08-2015 10:44:15 AM: SID 14 has 0 records
+27-08-2015 10:44:15 AM: SID 15 skipped due to pending recon. To: 20150824, Recon: 20150818
+27-08-2015 10:44:15 AM: Processing SID 16
+27-08-2015 10:44:15 AM: SID 16 has 0 records
+27-08-2015 10:44:15 AM: Processing SID 17
+27-08-2015 10:44:15 AM: SID 17 has 0 records
+27-08-2015 10:44:15 AM: Processing SID 18
+27-08-2015 10:44:15 AM: SID 18 has 0 records
+27-08-2015 10:44:15 AM: SID 19's Send Day is in future. Send Day: 28, Today: 27
+27-08-2015 10:44:15 AM: Processing SID 20
+27-08-2015 10:44:15 AM: SID 20 has 0 records
+27-08-2015 10:44:15 AM: Processing SID 21
+27-08-2015 10:44:15 AM: SID 21 has 0 records
+27-08-2015 10:44:15 AM: Processing SID 22
+27-08-2015 10:44:16 AM: SID 22 has 0 records
+27-08-2015 10:44:16 AM: SID 23's Send Day is in future. Send Day: 28, Today: 27
+27-08-2015 10:44:16 AM: Processing SID 24
+27-08-2015 10:44:16 AM: SID 24 has 0 records
+27-08-2015 10:49:42 AM: Processing SID 1
+27-08-2015 10:49:42 AM: SID 1 has 0 records
+27-08-2015 10:49:42 AM: Processing SID 2
+27-08-2015 10:49:42 AM: SID 2 has 0 records
+27-08-2015 10:49:42 AM: SID 3 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 10:49:42 AM: Processing SID 4
+27-08-2015 10:49:42 AM: SID 4 has 0 records
+27-08-2015 10:49:42 AM: Processing SID 5
+27-08-2015 10:49:42 AM: SID 5 has 0 records
+27-08-2015 10:49:42 AM: Processing SID 6
+27-08-2015 10:49:42 AM: SID 6 has 0 records
+27-08-2015 10:49:42 AM: SID 7 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 10:49:42 AM: Processing SID 8
+27-08-2015 10:49:42 AM: SID 8 has 0 records
+27-08-2015 10:49:42 AM: Processing SID 9
+27-08-2015 10:49:42 AM: SID 9 has 0 records
+27-08-2015 10:49:42 AM: Processing SID 10
+27-08-2015 10:49:42 AM: SID 10 has 0 records
+27-08-2015 10:49:42 AM: SID 11 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 10:49:42 AM: Processing SID 12
+27-08-2015 10:49:42 AM: SID 12 has 0 records
+27-08-2015 10:49:42 AM: Processing SID 13
+27-08-2015 10:49:42 AM: SID 13 has 0 records
+27-08-2015 10:49:42 AM: Processing SID 14
+27-08-2015 10:49:42 AM: SID 14 has 0 records
+27-08-2015 10:49:42 AM: SID 15 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 10:49:42 AM: Processing SID 16
+27-08-2015 10:49:42 AM: SID 16 has 0 records
+27-08-2015 10:49:42 AM: Processing SID 17
+27-08-2015 10:49:42 AM: SID 17 has 0 records
+27-08-2015 10:49:42 AM: Processing SID 18
+27-08-2015 10:49:42 AM: SID 18 has 0 records
+27-08-2015 10:49:42 AM: SID 19's Send Day is in future. Send Day: 28, Today: 27
+27-08-2015 10:49:42 AM: Processing SID 20
+27-08-2015 10:49:42 AM: SID 20 has 0 records
+27-08-2015 10:49:42 AM: Processing SID 21
+27-08-2015 10:49:42 AM: SID 21 has 0 records
+27-08-2015 10:49:42 AM: Processing SID 22
+27-08-2015 10:49:42 AM: SID 22 has 0 records
+27-08-2015 10:49:42 AM: SID 23's Send Day is in future. Send Day: 28, Today: 27
+27-08-2015 10:49:42 AM: Processing SID 24
+27-08-2015 10:49:42 AM: SID 24 has 0 records
+27-08-2015 10:53:16 AM: Processing SID 1
+27-08-2015 10:53:16 AM: Processing SID 2
+27-08-2015 10:53:16 AM: SID 2 has 0 records
+27-08-2015 10:53:16 AM: SID 3 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 10:53:16 AM: Processing SID 4
+27-08-2015 10:53:16 AM: SID 4 has 0 records
+27-08-2015 10:53:16 AM: Processing SID 5
+27-08-2015 10:53:16 AM: SID 5 has 0 records
+27-08-2015 10:53:16 AM: Processing SID 6
+27-08-2015 10:53:16 AM: SID 6 has 0 records
+27-08-2015 10:53:16 AM: SID 7 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 10:53:16 AM: Processing SID 8
+27-08-2015 10:53:16 AM: SID 8 has 0 records
+27-08-2015 10:53:16 AM: Processing SID 9
+27-08-2015 10:53:16 AM: SID 9 has 0 records
+27-08-2015 10:53:16 AM: Processing SID 10
+27-08-2015 10:53:16 AM: SID 10 has 0 records
+27-08-2015 10:53:16 AM: SID 11 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 10:53:16 AM: Processing SID 12
+27-08-2015 10:53:16 AM: SID 12 has 0 records
+27-08-2015 10:53:16 AM: Processing SID 13
+27-08-2015 10:53:16 AM: SID 13 has 0 records
+27-08-2015 10:53:16 AM: Processing SID 14
+27-08-2015 10:53:16 AM: SID 14 has 0 records
+27-08-2015 10:53:16 AM: SID 15 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 10:53:16 AM: Processing SID 16
+27-08-2015 10:53:16 AM: SID 16 has 0 records
+27-08-2015 10:53:16 AM: Processing SID 17
+27-08-2015 10:53:16 AM: SID 17 has 0 records
+27-08-2015 10:53:16 AM: Processing SID 18
+27-08-2015 10:53:16 AM: SID 18 has 0 records
+27-08-2015 10:53:16 AM: SID 19's Send Day is in future. Send Day: 28, Today: 27
+27-08-2015 10:53:16 AM: Processing SID 20
+27-08-2015 10:53:16 AM: SID 20 has 0 records
+27-08-2015 10:53:16 AM: Processing SID 21
+27-08-2015 10:53:16 AM: SID 21 has 0 records
+27-08-2015 10:53:16 AM: Processing SID 22
+27-08-2015 10:53:16 AM: SID 22 has 0 records
+27-08-2015 10:53:16 AM: SID 23's Send Day is in future. Send Day: 28, Today: 27
+27-08-2015 10:53:16 AM: Processing SID 24
+27-08-2015 10:53:16 AM: SID 24 has 0 records
+27-08-2015 10:53:42 AM: Processing SID 1
+27-08-2015 10:53:42 AM: SID 1 has 1 records
+27-08-2015 10:53:42 AM: Processing SID 2
+27-08-2015 10:53:42 AM: SID 2 has 0 records
+27-08-2015 10:53:42 AM: SID 2 has 0 records
+27-08-2015 10:53:42 AM: SID 3 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 10:53:42 AM: Processing SID 4
+27-08-2015 10:53:42 AM: SID 4 has 0 records
+27-08-2015 10:53:42 AM: SID 4 has 0 records
+27-08-2015 10:53:42 AM: Processing SID 5
+27-08-2015 10:53:42 AM: SID 5 has 0 records
+27-08-2015 10:53:42 AM: SID 5 has 0 records
+27-08-2015 10:53:42 AM: Processing SID 6
+27-08-2015 10:53:42 AM: SID 6 has 0 records
+27-08-2015 10:53:42 AM: SID 6 has 0 records
+27-08-2015 10:53:42 AM: SID 7 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 10:53:42 AM: Processing SID 8
+27-08-2015 10:53:42 AM: SID 8 has 0 records
+27-08-2015 10:53:42 AM: SID 8 has 0 records
+27-08-2015 10:53:42 AM: Processing SID 9
+27-08-2015 10:53:42 AM: SID 9 has 0 records
+27-08-2015 10:53:42 AM: SID 9 has 0 records
+27-08-2015 10:53:42 AM: Processing SID 10
+27-08-2015 10:53:42 AM: SID 10 has 0 records
+27-08-2015 10:53:42 AM: SID 10 has 0 records
+27-08-2015 10:53:42 AM: SID 11 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 10:53:42 AM: Processing SID 12
+27-08-2015 10:53:42 AM: SID 12 has 0 records
+27-08-2015 10:53:42 AM: SID 12 has 0 records
+27-08-2015 10:53:42 AM: Processing SID 13
+27-08-2015 10:53:42 AM: SID 13 has 0 records
+27-08-2015 10:53:42 AM: SID 13 has 0 records
+27-08-2015 10:53:42 AM: Processing SID 14
+27-08-2015 10:53:42 AM: SID 14 has 0 records
+27-08-2015 10:53:42 AM: SID 14 has 0 records
+27-08-2015 10:53:42 AM: SID 15 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 10:53:42 AM: Processing SID 16
+27-08-2015 10:53:42 AM: SID 16 has 0 records
+27-08-2015 10:53:42 AM: SID 16 has 0 records
+27-08-2015 10:53:42 AM: Processing SID 17
+27-08-2015 10:53:42 AM: SID 17 has 0 records
+27-08-2015 10:53:42 AM: SID 17 has 0 records
+27-08-2015 10:53:42 AM: Processing SID 18
+27-08-2015 10:53:42 AM: SID 18 has 0 records
+27-08-2015 10:53:42 AM: SID 18 has 0 records
+27-08-2015 10:53:42 AM: SID 19's Send Day is in future. Send Day: 28, Today: 27
+27-08-2015 10:53:42 AM: Processing SID 20
+27-08-2015 10:53:42 AM: SID 20 has 0 records
+27-08-2015 10:53:42 AM: SID 20 has 0 records
+27-08-2015 10:53:42 AM: Processing SID 21
+27-08-2015 10:53:42 AM: SID 21 has 0 records
+27-08-2015 10:53:42 AM: SID 21 has 0 records
+27-08-2015 10:53:42 AM: Processing SID 22
+27-08-2015 10:53:42 AM: SID 22 has 0 records
+27-08-2015 10:53:42 AM: SID 22 has 0 records
+27-08-2015 10:53:42 AM: SID 23's Send Day is in future. Send Day: 28, Today: 27
+27-08-2015 10:53:42 AM: Processing SID 24
+27-08-2015 10:53:42 AM: SID 24 has 0 records
+27-08-2015 10:53:42 AM: SID 24 has 0 records
+27-08-2015 10:55:50 AM: Processing SID 1
+27-08-2015 10:55:50 AM: SID 1 has 4 records
+27-08-2015 10:55:50 AM: Processing SID 2
+27-08-2015 10:55:50 AM: SID 2 has 5 records
+27-08-2015 10:55:50 AM: SID 3 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 10:55:50 AM: Processing SID 4
+27-08-2015 10:55:50 AM: SID 4 has 0 records
+27-08-2015 10:55:50 AM: SID 4 has 0 records
+27-08-2015 10:55:50 AM: Processing SID 5
+27-08-2015 10:55:50 AM: SID 5 has 0 records
+27-08-2015 10:55:50 AM: SID 5 has 0 records
+27-08-2015 10:55:50 AM: Processing SID 6
+27-08-2015 10:55:50 AM: SID 6 has 0 records
+27-08-2015 10:55:50 AM: SID 6 has 0 records
+27-08-2015 10:55:50 AM: SID 7 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 10:55:50 AM: Processing SID 8
+27-08-2015 10:55:50 AM: SID 8 has 0 records
+27-08-2015 10:55:50 AM: SID 8 has 0 records
+27-08-2015 10:55:50 AM: Processing SID 9
+27-08-2015 10:55:50 AM: SID 9 has 0 records
+27-08-2015 10:55:50 AM: SID 9 has 0 records
+27-08-2015 10:55:50 AM: Processing SID 10
+27-08-2015 10:55:50 AM: SID 10 has 0 records
+27-08-2015 10:55:50 AM: SID 10 has 0 records
+27-08-2015 10:55:50 AM: SID 11 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 10:55:50 AM: Processing SID 12
+27-08-2015 10:55:50 AM: SID 12 has 0 records
+27-08-2015 10:55:50 AM: SID 12 has 0 records
+27-08-2015 10:55:50 AM: Processing SID 13
+27-08-2015 10:55:50 AM: SID 13 has 0 records
+27-08-2015 10:55:50 AM: SID 13 has 0 records
+27-08-2015 10:55:50 AM: Processing SID 14
+27-08-2015 10:55:50 AM: SID 14 has 0 records
+27-08-2015 10:55:50 AM: SID 14 has 0 records
+27-08-2015 10:55:50 AM: SID 15 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 10:55:50 AM: Processing SID 16
+27-08-2015 10:55:50 AM: SID 16 has 0 records
+27-08-2015 10:55:50 AM: SID 16 has 0 records
+27-08-2015 10:55:50 AM: Processing SID 17
+27-08-2015 10:55:50 AM: SID 17 has 0 records
+27-08-2015 10:55:50 AM: SID 17 has 0 records
+27-08-2015 10:55:50 AM: Processing SID 18
+27-08-2015 10:55:50 AM: SID 18 has 0 records
+27-08-2015 10:55:50 AM: SID 18 has 0 records
+27-08-2015 10:55:50 AM: SID 19's Send Day is in future. Send Day: 28, Today: 27
+27-08-2015 10:55:50 AM: Processing SID 20
+27-08-2015 10:55:50 AM: SID 20 has 0 records
+27-08-2015 10:55:50 AM: SID 20 has 0 records
+27-08-2015 10:55:50 AM: Processing SID 21
+27-08-2015 10:55:50 AM: SID 21 has 0 records
+27-08-2015 10:55:50 AM: SID 21 has 0 records
+27-08-2015 10:55:50 AM: Processing SID 22
+27-08-2015 10:55:50 AM: SID 22 has 0 records
+27-08-2015 10:55:50 AM: SID 22 has 0 records
+27-08-2015 10:55:50 AM: SID 23's Send Day is in future. Send Day: 28, Today: 27
+27-08-2015 10:55:50 AM: Processing SID 24
+27-08-2015 10:55:50 AM: SID 24 has 0 records
+27-08-2015 10:55:50 AM: SID 24 has 0 records
+27-08-2015 10:56:59 AM: Processing SID 1
+27-08-2015 10:56:59 AM: SID 1 has 4 records
+27-08-2015 10:56:59 AM: Processing SID 2
+27-08-2015 10:56:59 AM: SID 2 has 5 records
+27-08-2015 10:56:59 AM: SID 3 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 10:56:59 AM: Processing SID 4
+27-08-2015 10:56:59 AM: SID 4 has 0 records
+27-08-2015 10:56:59 AM: Processing SID 5
+27-08-2015 10:56:59 AM: SID 5 has 0 records
+27-08-2015 10:56:59 AM: Processing SID 6
+27-08-2015 10:56:59 AM: SID 6 has 0 records
+27-08-2015 10:56:59 AM: SID 7 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 10:56:59 AM: Processing SID 8
+27-08-2015 10:56:59 AM: SID 8 has 0 records
+27-08-2015 10:56:59 AM: Processing SID 9
+27-08-2015 10:56:59 AM: SID 9 has 0 records
+27-08-2015 10:56:59 AM: Processing SID 10
+27-08-2015 10:56:59 AM: SID 10 has 0 records
+27-08-2015 10:56:59 AM: SID 11 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 10:56:59 AM: Processing SID 12
+27-08-2015 10:56:59 AM: SID 12 has 0 records
+27-08-2015 10:56:59 AM: Processing SID 13
+27-08-2015 10:56:59 AM: SID 13 has 0 records
+27-08-2015 10:56:59 AM: Processing SID 14
+27-08-2015 10:56:59 AM: SID 14 has 0 records
+27-08-2015 10:56:59 AM: SID 15 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 10:56:59 AM: Processing SID 16
+27-08-2015 10:56:59 AM: SID 16 has 0 records
+27-08-2015 10:56:59 AM: Processing SID 17
+27-08-2015 10:56:59 AM: SID 17 has 0 records
+27-08-2015 10:56:59 AM: Processing SID 18
+27-08-2015 10:56:59 AM: SID 18 has 0 records
+27-08-2015 10:56:59 AM: SID 19's Send Day is in future. Send Day: 28, Today: 27
+27-08-2015 10:56:59 AM: Processing SID 20
+27-08-2015 10:56:59 AM: SID 20 has 0 records
+27-08-2015 10:56:59 AM: Processing SID 21
+27-08-2015 10:56:59 AM: SID 21 has 0 records
+27-08-2015 10:56:59 AM: Processing SID 22
+27-08-2015 10:56:59 AM: SID 22 has 0 records
+27-08-2015 10:56:59 AM: SID 23's Send Day is in future. Send Day: 28, Today: 27
+27-08-2015 10:56:59 AM: Processing SID 24
+27-08-2015 10:56:59 AM: SID 24 has 0 records
+27-08-2015 11:04:45 AM: Processing SID 1
+27-08-2015 11:04:45 AM: SID 1 has 4 records
+27-08-2015 11:04:55 AM: Processing SID 1
+27-08-2015 11:04:55 AM: SID 1 has 4 records
+27-08-2015 11:05:08 AM: Processing SID 1
+27-08-2015 11:05:08 AM: SID 1 has 4 records
+27-08-2015 11:05:08 AM: BEB51B72GT190315X0000220102082015100000257WSD
+27-08-2015 11:05:08 AM: BEB51B72GT190117M0001372102082015100000259WSD
+27-08-2015 11:05:08 AM: BEB51B72GT190122X0000090102082015100000260DS
+27-08-2015 11:05:08 AM: BEB51B72GT190127W0002137102082015100000288DS
+27-08-2015 11:05:08 AM: Processing SID 2
+27-08-2015 11:05:08 AM: SID 2 has 5 records
+27-08-2015 11:05:08 AM: BEB51B72GT190327M0000539112082015100000264WSD
+27-08-2015 11:05:08 AM: BEB51B94DL220191Y0001802112082015100000276NRS
+27-08-2015 11:05:08 AM: BEB51B73LS130046W0000173112082015100000277DS
+27-08-2015 11:05:08 AM: BEB51B73LS130440F0000742112082015100000278DS
+27-08-2015 11:05:08 AM: BEB51B72GT190311F0000833112082015100000284WSD
+27-08-2015 11:05:08 AM: SID 3 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 11:05:08 AM: Processing SID 4
+27-08-2015 11:05:08 AM: SID 4 has 0 records
+27-08-2015 11:05:08 AM: Processing SID 5
+27-08-2015 11:05:08 AM: SID 5 has 0 records
+27-08-2015 11:05:08 AM: Processing SID 6
+27-08-2015 11:05:08 AM: SID 6 has 0 records
+27-08-2015 11:05:08 AM: SID 7 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 11:05:08 AM: Processing SID 8
+27-08-2015 11:05:08 AM: SID 8 has 0 records
+27-08-2015 11:05:08 AM: Processing SID 9
+27-08-2015 11:05:08 AM: SID 9 has 0 records
+27-08-2015 11:05:08 AM: Processing SID 10
+27-08-2015 11:05:08 AM: SID 10 has 0 records
+27-08-2015 11:05:08 AM: SID 11 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 11:05:08 AM: Processing SID 12
+27-08-2015 11:05:08 AM: SID 12 has 0 records
+27-08-2015 11:05:08 AM: Processing SID 13
+27-08-2015 11:05:08 AM: SID 13 has 0 records
+27-08-2015 11:05:08 AM: Processing SID 14
+27-08-2015 11:05:08 AM: SID 14 has 0 records
+27-08-2015 11:05:08 AM: SID 15 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 11:05:08 AM: Processing SID 16
+27-08-2015 11:05:08 AM: SID 16 has 0 records
+27-08-2015 11:05:08 AM: Processing SID 17
+27-08-2015 11:05:08 AM: SID 17 has 0 records
+27-08-2015 11:05:08 AM: Processing SID 18
+27-08-2015 11:05:08 AM: SID 18 has 0 records
+27-08-2015 11:05:08 AM: SID 19's Send Day is in future. Send Day: 28, Today: 27
+27-08-2015 11:05:08 AM: Processing SID 20
+27-08-2015 11:05:08 AM: SID 20 has 0 records
+27-08-2015 11:05:08 AM: Processing SID 21
+27-08-2015 11:05:08 AM: SID 21 has 0 records
+27-08-2015 11:05:08 AM: Processing SID 22
+27-08-2015 11:05:08 AM: SID 22 has 0 records
+27-08-2015 11:05:08 AM: SID 23's Send Day is in future. Send Day: 28, Today: 27
+27-08-2015 11:05:08 AM: Processing SID 24
+27-08-2015 11:05:08 AM: SID 24 has 0 records
+27-08-2015 11:06:44 AM: Processing SID 1
+27-08-2015 11:06:44 AM: SID 1 has 4 records
+27-08-2015 11:06:44 AM: BEB51B72GT190315X0000220102082015100000257WSD
+27-08-2015 11:06:44 AM: BEB51B72GT190117M0001372102082015100000259WSD
+27-08-2015 11:06:44 AM: BEB51B72GT190122X0000090102082015100000260DS
+27-08-2015 11:06:44 AM: BEB51B72GT190127W0002137102082015100000288DS
+27-08-2015 11:06:44 AM: lakhvirsmrar@gmail.com
+27-08-2015 11:06:44 AM: lakhvirsmrar@gmail.com
+27-08-2015 11:06:44 AM: lakhvirsmrar@gmail.com
+27-08-2015 11:06:44 AM: lakhvirsmrar@gmail.com
+27-08-2015 11:06:44 AM: Processing SID 2
+27-08-2015 11:06:44 AM: SID 2 has 5 records
+27-08-2015 11:06:44 AM: BEB51B72GT190327M0000539112082015100000264WSD
+27-08-2015 11:06:44 AM: BEB51B94DL220191Y0001802112082015100000276NRS
+27-08-2015 11:06:44 AM: BEB51B73LS130046W0000173112082015100000277DS
+27-08-2015 11:06:44 AM: BEB51B73LS130440F0000742112082015100000278DS
+27-08-2015 11:06:44 AM: BEB51B72GT190311F0000833112082015100000284WSD
+27-08-2015 11:06:44 AM: lakhvirsmrar@gmail.com
+27-08-2015 11:06:44 AM: lakhvirsmrar@gmail.com
+27-08-2015 11:06:44 AM: lakhvirsmrar@gmail.com
+27-08-2015 11:06:44 AM: lakhvirsmrar@gmail.com
+27-08-2015 11:06:44 AM: SID 3 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 11:06:44 AM: Processing SID 4
+27-08-2015 11:06:44 AM: SID 4 has 0 records
+27-08-2015 11:06:44 AM: Processing SID 5
+27-08-2015 11:06:44 AM: SID 5 has 0 records
+27-08-2015 11:06:44 AM: Processing SID 6
+27-08-2015 11:06:44 AM: SID 6 has 0 records
+27-08-2015 11:06:44 AM: SID 7 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 11:06:44 AM: Processing SID 8
+27-08-2015 11:06:44 AM: SID 8 has 0 records
+27-08-2015 11:06:44 AM: Processing SID 9
+27-08-2015 11:06:44 AM: SID 9 has 0 records
+27-08-2015 11:06:44 AM: Processing SID 10
+27-08-2015 11:06:44 AM: SID 10 has 0 records
+27-08-2015 11:06:44 AM: SID 11 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 11:06:44 AM: Processing SID 12
+27-08-2015 11:06:44 AM: SID 12 has 0 records
+27-08-2015 11:06:44 AM: Processing SID 13
+27-08-2015 11:06:44 AM: SID 13 has 0 records
+27-08-2015 11:06:44 AM: Processing SID 14
+27-08-2015 11:06:44 AM: SID 14 has 0 records
+27-08-2015 11:06:44 AM: SID 15 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 11:06:44 AM: Processing SID 16
+27-08-2015 11:06:44 AM: SID 16 has 0 records
+27-08-2015 11:06:44 AM: Processing SID 17
+27-08-2015 11:06:44 AM: SID 17 has 0 records
+27-08-2015 11:06:44 AM: Processing SID 18
+27-08-2015 11:06:44 AM: SID 18 has 0 records
+27-08-2015 11:06:44 AM: SID 19's Send Day is in future. Send Day: 28, Today: 27
+27-08-2015 11:06:44 AM: Processing SID 20
+27-08-2015 11:06:44 AM: SID 20 has 0 records
+27-08-2015 11:06:44 AM: Processing SID 21
+27-08-2015 11:06:44 AM: SID 21 has 0 records
+27-08-2015 11:06:44 AM: Processing SID 22
+27-08-2015 11:06:44 AM: SID 22 has 0 records
+27-08-2015 11:06:44 AM: SID 23's Send Day is in future. Send Day: 28, Today: 27
+27-08-2015 11:06:44 AM: Processing SID 24
+27-08-2015 11:06:44 AM: SID 24 has 0 records
+27-08-2015 12:38:06 PM: Processing SID 1
+27-08-2015 12:38:06 PM: SID 1 has 4 records
+27-08-2015 12:38:06 PM: BEB51B72GT190315X0000220102082015100000257WSD
+27-08-2015 12:38:06 PM: BEB51B72GT190117M0001372102082015100000259WSD
+27-08-2015 12:38:06 PM: BEB51B72GT190122X0000090102082015100000260DS
+27-08-2015 12:38:06 PM: BEB51B72GT190127W0002137102082015100000288DS
+27-08-2015 12:38:06 PM: lakhvirsmrar@gmail.com
+27-08-2015 12:38:06 PM: lakhvirsmrar@gmail.com
+27-08-2015 12:38:06 PM: lakhvirsmrar@gmail.com
+27-08-2015 12:38:06 PM: lakhvirsmrar@gmail.com
+27-08-2015 12:38:06 PM: Processing SID 2
+27-08-2015 12:38:06 PM: SID 2 has 5 records
+27-08-2015 12:38:06 PM: BEB51B72GT190327M0000539112082015100000264WSD
+27-08-2015 12:38:06 PM: BEB51B94DL220191Y0001802112082015100000276NRS
+27-08-2015 12:38:06 PM: BEB51B73LS130046W0000173112082015100000277DS
+27-08-2015 12:38:06 PM: BEB51B73LS130440F0000742112082015100000278DS
+27-08-2015 12:38:06 PM: BEB51B72GT190311F0000833112082015100000284WSD
+27-08-2015 12:38:06 PM: lakhvirsmrar@gmail.com
+27-08-2015 12:38:06 PM: lakhvirsmrar@gmail.com
+27-08-2015 12:38:06 PM: lakhvirsmrar@gmail.com
+27-08-2015 12:38:06 PM: lakhvirsmrar@gmail.com
+27-08-2015 12:38:06 PM: SID 3 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 12:38:06 PM: Processing SID 4
+27-08-2015 12:38:06 PM: SID 4 has 0 records
+27-08-2015 12:38:06 PM: Processing SID 5
+27-08-2015 12:38:06 PM: SID 5 has 0 records
+27-08-2015 12:38:06 PM: Processing SID 6
+27-08-2015 12:38:06 PM: SID 6 has 0 records
+27-08-2015 12:38:06 PM: SID 7 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 12:38:06 PM: Processing SID 8
+27-08-2015 12:38:06 PM: SID 8 has 0 records
+27-08-2015 12:38:06 PM: Processing SID 9
+27-08-2015 12:38:06 PM: SID 9 has 0 records
+27-08-2015 12:38:06 PM: Processing SID 10
+27-08-2015 12:38:06 PM: SID 10 has 0 records
+27-08-2015 12:38:06 PM: SID 11 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 12:38:06 PM: Processing SID 12
+27-08-2015 12:38:06 PM: SID 12 has 0 records
+27-08-2015 12:38:06 PM: Processing SID 13
+27-08-2015 12:38:06 PM: SID 13 has 0 records
+27-08-2015 12:38:06 PM: Processing SID 14
+27-08-2015 12:38:06 PM: SID 14 has 0 records
+27-08-2015 12:38:06 PM: SID 15 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 12:38:06 PM: Processing SID 16
+27-08-2015 12:38:06 PM: SID 16 has 0 records
+27-08-2015 12:38:06 PM: Processing SID 17
+27-08-2015 12:38:06 PM: SID 17 has 0 records
+27-08-2015 12:38:06 PM: Processing SID 18
+27-08-2015 12:38:06 PM: SID 18 has 0 records
+27-08-2015 12:38:06 PM: SID 19's Send Day is in future. Send Day: 28, Today: 27
+27-08-2015 12:38:06 PM: Processing SID 20
+27-08-2015 12:38:06 PM: SID 20 has 0 records
+27-08-2015 12:38:06 PM: Processing SID 21
+27-08-2015 12:38:06 PM: SID 21 has 0 records
+27-08-2015 12:38:06 PM: Processing SID 22
+27-08-2015 12:38:06 PM: SID 22 has 0 records
+27-08-2015 12:38:06 PM: SID 23's Send Day is in future. Send Day: 28, Today: 27
+27-08-2015 12:38:06 PM: Processing SID 24
+27-08-2015 12:38:06 PM: SID 24 has 0 records
+27-08-2015 01:08:10 PM: Processing SID 1
+27-08-2015 01:08:10 PM: SID 1 has 4 records
+27-08-2015 01:08:10 PM: BEB51B72GT190315X0000220102082015100000257WSD
+27-08-2015 01:08:10 PM: BEB51B72GT190117M0001372102082015100000259WSD
+27-08-2015 01:08:11 PM: BEB51B72GT190122X0000090102082015100000260DS
+27-08-2015 01:08:11 PM: BEB51B72GT190127W0002137102082015100000288DS
+27-08-2015 01:08:11 PM: lakhvirsmrar@gmail.com
+27-08-2015 01:08:11 PM: lakhvirsmrar@gmail.com
+27-08-2015 01:08:11 PM: lakhvirsmrar@gmail.com
+27-08-2015 01:08:11 PM: lakhvirsmrar@gmail.com
+27-08-2015 01:13:27 PM: Processing SID 1
+27-08-2015 01:13:27 PM: SID 1 has 4 records
+27-08-2015 01:13:27 PM: BEB51B72GT190315X0000220102082015100000257WSD
+27-08-2015 01:13:27 PM: BEB51B72GT190117M0001372102082015100000259WSD
+27-08-2015 01:13:27 PM: BEB51B72GT190122X0000090102082015100000260DS
+27-08-2015 01:13:27 PM: BEB51B72GT190127W0002137102082015100000288DS
+27-08-2015 01:13:27 PM: lakhvirsmrar@gmail.com
+27-08-2015 01:13:27 PM: lakhvirsmrar@gmail.com
+27-08-2015 01:13:27 PM: lakhvirsmrar@gmail.com
+27-08-2015 01:13:27 PM: lakhvirsmrar@gmail.com
+27-08-2015 01:17:05 PM: Processing SID 1
+27-08-2015 01:17:05 PM: SID 1 has 4 records
+27-08-2015 01:17:05 PM: BEB51B72GT190315X0000220102082015100000257WSD
+27-08-2015 01:17:05 PM: BEB51B72GT190117M0001372102082015100000259WSD
+27-08-2015 01:17:05 PM: BEB51B72GT190122X0000090102082015100000260DS
+27-08-2015 01:17:05 PM: BEB51B72GT190127W0002137102082015100000288DS
+27-08-2015 01:17:05 PM: lakhvirsmrar@gmail.com
+27-08-2015 01:17:05 PM: lakhvirsmrar@gmail.com
+27-08-2015 01:17:05 PM: lakhvirsmrar@gmail.com
+27-08-2015 01:17:05 PM: lakhvirsmrar@gmail.com
+27-08-2015 01:20:33 PM: Processing SID 1
+27-08-2015 01:20:33 PM: SID 1 has 4 records
+27-08-2015 01:20:33 PM: BEB51B72GT190315X0000220102082015100000257WSD
+27-08-2015 01:20:33 PM: BEB51B72GT190117M0001372102082015100000259WSD
+27-08-2015 01:20:33 PM: BEB51B72GT190122X0000090102082015100000260DS
+27-08-2015 01:20:33 PM: BEB51B72GT190127W0002137102082015100000288DS
+27-08-2015 01:20:33 PM: lakhvirsmrar@gmail.com
+27-08-2015 01:20:33 PM: lakhvirsmrar@gmail.com
+27-08-2015 01:20:33 PM: lakhvirsmrar@gmail.com
+27-08-2015 01:20:33 PM: lakhvirsmrar@gmail.com
+27-08-2015 02:23:02 PM: Processing SID 1
+27-08-2015 02:23:02 PM: SID 1 has 4 records
+27-08-2015 02:23:02 PM: BEB51B72GT190315X0000220102082015100000257WSD
+27-08-2015 02:23:02 PM: BEB51B72GT190117M0001372102082015100000259WSD
+27-08-2015 02:23:02 PM: BEB51B72GT190122X0000090102082015100000260DS
+27-08-2015 02:23:02 PM: BEB51B72GT190127W0002137102082015100000288DS
+27-08-2015 02:23:02 PM: lakhvirsmrar@gmail.com
+27-08-2015 02:23:02 PM: lakhvirsmrar@gmail.com
+27-08-2015 02:23:02 PM: lakhvirsmrar@gmail.com
+27-08-2015 02:23:02 PM: lakhvirsmrar@gmail.com
+27-08-2015 02:23:40 PM: Processing SID 1
+27-08-2015 02:23:40 PM: SID 1 has 4 records
+27-08-2015 02:23:40 PM: BEB51B72GT190315X0000220102082015100000257WSD
+27-08-2015 02:23:40 PM: BEB51B72GT190117M0001372102082015100000259WSD
+27-08-2015 02:23:40 PM: BEB51B72GT190122X0000090102082015100000260DS
+27-08-2015 02:23:40 PM: BEB51B72GT190127W0002137102082015100000288DS
+27-08-2015 02:23:40 PM: lakhvirsmrar@gmail.com
+27-08-2015 02:23:40 PM: lakhvirsmrar@gmail.com
+27-08-2015 02:23:40 PM: lakhvirsmrar@gmail.com
+27-08-2015 02:23:40 PM: lakhvirsmrar@gmail.com
+27-08-2015 02:37:19 PM: Processing SID 1
+27-08-2015 02:37:19 PM: SID 1 has 4 records
+27-08-2015 02:37:19 PM: BEB51B72GT190315X0000220102082015100000257WSD
+27-08-2015 02:37:19 PM: BEB51B72GT190117M0001372102082015100000259WSD
+27-08-2015 02:37:19 PM: BEB51B72GT190122X0000090102082015100000260DS
+27-08-2015 02:37:19 PM: BEB51B72GT190127W0002137102082015100000288DS
+27-08-2015 02:37:19 PM: lakhvirsmrar@gmail.com
+27-08-2015 02:37:19 PM: lakhvirsmrar@gmail.com
+27-08-2015 02:37:19 PM: lakhvirsmrar@gmail.com
+27-08-2015 02:37:19 PM: lakhvirsmrar@gmail.com
+27-08-2015 02:37:39 PM: Mail Sent
+27-08-2015 02:37:39 PM: Processing SID 2
+27-08-2015 02:37:39 PM: SID 2 has 5 records
+27-08-2015 02:37:39 PM: BEB51B72GT190327M0000539112082015100000264WSD
+27-08-2015 02:37:39 PM: BEB51B94DL220191Y0001802112082015100000276NRS
+27-08-2015 02:37:39 PM: BEB51B73LS130046W0000173112082015100000277DS
+27-08-2015 02:37:39 PM: BEB51B73LS130440F0000742112082015100000278DS
+27-08-2015 02:37:39 PM: BEB51B72GT190311F0000833112082015100000284WSD
+27-08-2015 02:37:39 PM: lakhvirsmrar@gmail.com
+27-08-2015 02:37:39 PM: lakhvirsmrar@gmail.com
+27-08-2015 02:37:39 PM: lakhvirsmrar@gmail.com
+27-08-2015 02:37:39 PM: lakhvirsmrar@gmail.com
+27-08-2015 02:37:44 PM: Mail Sent
+27-08-2015 02:37:44 PM: SID 3 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 02:37:44 PM: Processing SID 4
+27-08-2015 02:37:44 PM: SID 4 has 0 records
+27-08-2015 02:37:44 PM: Processing SID 5
+27-08-2015 02:37:44 PM: SID 5 has 0 records
+27-08-2015 02:37:44 PM: Processing SID 6
+27-08-2015 02:37:44 PM: SID 6 has 0 records
+27-08-2015 02:37:44 PM: SID 7 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 02:37:44 PM: Processing SID 8
+27-08-2015 02:37:44 PM: SID 8 has 0 records
+27-08-2015 02:37:44 PM: Processing SID 9
+27-08-2015 02:37:44 PM: SID 9 has 0 records
+27-08-2015 02:37:44 PM: Processing SID 10
+27-08-2015 02:37:44 PM: SID 10 has 0 records
+27-08-2015 02:37:44 PM: SID 11 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 02:37:44 PM: Processing SID 12
+27-08-2015 02:37:44 PM: SID 12 has 0 records
+27-08-2015 02:37:44 PM: Processing SID 13
+27-08-2015 02:37:44 PM: SID 13 has 0 records
+27-08-2015 02:37:44 PM: Processing SID 14
+27-08-2015 02:37:44 PM: SID 14 has 0 records
+27-08-2015 02:37:44 PM: SID 15 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 02:37:44 PM: Processing SID 16
+27-08-2015 02:37:44 PM: SID 16 has 0 records
+27-08-2015 02:37:44 PM: Processing SID 17
+27-08-2015 02:37:44 PM: SID 17 has 0 records
+27-08-2015 02:37:44 PM: Processing SID 18
+27-08-2015 02:37:44 PM: SID 18 has 0 records
+27-08-2015 02:37:44 PM: SID 19's Send Day is in future. Send Day: 28, Today: 27
+27-08-2015 02:37:44 PM: Processing SID 20
+27-08-2015 02:37:44 PM: SID 20 has 0 records
+27-08-2015 02:37:44 PM: Processing SID 21
+27-08-2015 02:37:44 PM: SID 21 has 0 records
+27-08-2015 02:37:44 PM: Processing SID 22
+27-08-2015 02:37:44 PM: SID 22 has 0 records
+27-08-2015 02:37:44 PM: SID 23's Send Day is in future. Send Day: 28, Today: 27
+27-08-2015 02:37:44 PM: Processing SID 24
+27-08-2015 02:37:44 PM: SID 24 has 0 records
+27-08-2015 02:39:36 PM: Processing SID 1
+27-08-2015 02:39:36 PM: SID 1 has 4 records
+27-08-2015 02:39:36 PM: BEB51B72GT190315X0000220102082015100000257WSD
+27-08-2015 02:39:36 PM: BEB51B72GT190117M0001372102082015100000259WSD
+27-08-2015 02:39:36 PM: BEB51B72GT190122X0000090102082015100000260DS
+27-08-2015 02:39:36 PM: BEB51B72GT190127W0002137102082015100000288DS
+27-08-2015 02:39:36 PM: lakhvirsmrar@gmail.com
+27-08-2015 02:39:36 PM: lakhvirsmrar@gmail.com
+27-08-2015 02:39:36 PM: lakhvirsmrar@gmail.com
+27-08-2015 02:39:36 PM: lakhvirsmrar@gmail.com
+27-08-2015 02:39:43 PM: Mail Sent
+27-08-2015 02:39:43 PM: Processing SID 2
+27-08-2015 02:39:43 PM: SID 2 has 5 records
+27-08-2015 02:39:43 PM: BEB51B72GT190327M0000539112082015100000264WSD
+27-08-2015 02:39:43 PM: BEB51B94DL220191Y0001802112082015100000276NRS
+27-08-2015 02:39:43 PM: BEB51B73LS130046W0000173112082015100000277DS
+27-08-2015 02:39:43 PM: BEB51B73LS130440F0000742112082015100000278DS
+27-08-2015 02:39:43 PM: BEB51B72GT190311F0000833112082015100000284WSD
+27-08-2015 02:39:43 PM: lakhvirsmrar@gmail.com
+27-08-2015 02:39:43 PM: lakhvirsmrar@gmail.com
+27-08-2015 02:39:43 PM: lakhvirsmrar@gmail.com
+27-08-2015 02:39:43 PM: lakhvirsmrar@gmail.com
+27-08-2015 02:39:49 PM: Mail Sent
+27-08-2015 02:39:49 PM: SID 3 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 02:39:49 PM: Processing SID 4
+27-08-2015 02:39:49 PM: SID 4 has 0 records
+27-08-2015 02:39:49 PM: Processing SID 5
+27-08-2015 02:39:49 PM: SID 5 has 0 records
+27-08-2015 02:39:49 PM: Processing SID 6
+27-08-2015 02:39:49 PM: SID 6 has 0 records
+27-08-2015 02:39:49 PM: SID 7 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 02:39:49 PM: Processing SID 8
+27-08-2015 02:39:49 PM: SID 8 has 0 records
+27-08-2015 02:39:49 PM: Processing SID 9
+27-08-2015 02:39:49 PM: SID 9 has 0 records
+27-08-2015 02:39:49 PM: Processing SID 10
+27-08-2015 02:39:49 PM: SID 10 has 0 records
+27-08-2015 02:39:49 PM: SID 11 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 02:39:49 PM: Processing SID 12
+27-08-2015 02:39:49 PM: SID 12 has 0 records
+27-08-2015 02:39:49 PM: Processing SID 13
+27-08-2015 02:39:49 PM: SID 13 has 0 records
+27-08-2015 02:39:49 PM: Processing SID 14
+27-08-2015 02:39:49 PM: SID 14 has 0 records
+27-08-2015 02:39:49 PM: SID 15 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 02:39:49 PM: Processing SID 16
+27-08-2015 02:39:49 PM: SID 16 has 0 records
+27-08-2015 02:39:49 PM: Processing SID 17
+27-08-2015 02:39:49 PM: SID 17 has 0 records
+27-08-2015 02:39:49 PM: Processing SID 18
+27-08-2015 02:39:49 PM: SID 18 has 0 records
+27-08-2015 02:39:49 PM: SID 19's Send Day is in future. Send Day: 28, Today: 27
+27-08-2015 02:39:49 PM: Processing SID 20
+27-08-2015 02:39:50 PM: SID 20 has 0 records
+27-08-2015 02:39:50 PM: Processing SID 21
+27-08-2015 02:39:50 PM: SID 21 has 0 records
+27-08-2015 02:39:50 PM: Processing SID 22
+27-08-2015 02:39:50 PM: SID 22 has 0 records
+27-08-2015 02:39:50 PM: SID 23's Send Day is in future. Send Day: 28, Today: 27
+27-08-2015 02:39:50 PM: Processing SID 24
+27-08-2015 02:39:50 PM: SID 24 has 0 records
+27-08-2015 02:46:30 PM: Processing SID 1
+27-08-2015 02:46:30 PM: SID 1 has 4 records
+27-08-2015 02:46:30 PM: BEB51B72GT190315X0000220102082015100000257WSD
+27-08-2015 02:46:30 PM: BEB51B72GT190117M0001372102082015100000259WSD
+27-08-2015 02:46:30 PM: BEB51B72GT190122X0000090102082015100000260DS
+27-08-2015 02:46:30 PM: BEB51B72GT190127W0002137102082015100000288DS
+27-08-2015 02:46:30 PM: gurpreet007@gmail.com
+27-08-2015 02:46:30 PM: bsbhogal@gmail.com
+27-08-2015 02:46:30 PM: lakhvirsmrar@gmail.com
+27-08-2015 02:46:30 PM: lakhvirsmrar@gmail.com
+27-08-2015 02:46:35 PM: Mail Sent
+27-08-2015 02:46:35 PM: Processing SID 2
+27-08-2015 02:46:35 PM: SID 2 has 5 records
+27-08-2015 02:46:35 PM: BEB51B72GT190327M0000539112082015100000264WSD
+27-08-2015 02:46:35 PM: BEB51B94DL220191Y0001802112082015100000276NRS
+27-08-2015 02:46:35 PM: BEB51B73LS130046W0000173112082015100000277DS
+27-08-2015 02:46:35 PM: BEB51B73LS130440F0000742112082015100000278DS
+27-08-2015 02:46:35 PM: BEB51B72GT190311F0000833112082015100000284WSD
+27-08-2015 02:46:35 PM: gurpreet007@gmail.com
+27-08-2015 02:46:35 PM: bsbhogal@gmail.com
+27-08-2015 02:46:35 PM: lakhvirsmrar@gmail.com
+27-08-2015 02:46:35 PM: lakhvirsmrar@gmail.com
+27-08-2015 02:46:42 PM: Mail Sent
+27-08-2015 02:46:42 PM: SID 3 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 02:46:42 PM: Processing SID 4
+27-08-2015 02:46:42 PM: SID 4 has 0 records
+27-08-2015 02:46:42 PM: Processing SID 5
+27-08-2015 02:46:42 PM: SID 5 has 0 records
+27-08-2015 02:46:42 PM: Processing SID 6
+27-08-2015 02:46:42 PM: SID 6 has 0 records
+27-08-2015 02:46:42 PM: SID 7 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 02:46:42 PM: Processing SID 8
+27-08-2015 02:46:42 PM: SID 8 has 0 records
+27-08-2015 02:46:42 PM: Processing SID 9
+27-08-2015 02:46:42 PM: SID 9 has 0 records
+27-08-2015 02:46:42 PM: Processing SID 10
+27-08-2015 02:46:42 PM: SID 10 has 0 records
+27-08-2015 02:46:42 PM: SID 11 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 02:46:42 PM: Processing SID 12
+27-08-2015 02:46:42 PM: SID 12 has 0 records
+27-08-2015 02:46:42 PM: Processing SID 13
+27-08-2015 02:46:42 PM: SID 13 has 0 records
+27-08-2015 02:46:42 PM: Processing SID 14
+27-08-2015 02:46:42 PM: SID 14 has 0 records
+27-08-2015 02:46:42 PM: SID 15 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 02:46:42 PM: Processing SID 16
+27-08-2015 02:46:42 PM: SID 16 has 0 records
+27-08-2015 02:46:42 PM: Processing SID 17
+27-08-2015 02:46:42 PM: SID 17 has 0 records
+27-08-2015 02:46:42 PM: Processing SID 18
+27-08-2015 02:46:42 PM: SID 18 has 0 records
+27-08-2015 02:46:42 PM: SID 19's Send Day is in future. Send Day: 28, Today: 27
+27-08-2015 02:46:42 PM: Processing SID 20
+27-08-2015 02:46:42 PM: SID 20 has 0 records
+27-08-2015 02:46:42 PM: Processing SID 21
+27-08-2015 02:46:42 PM: SID 21 has 0 records
+27-08-2015 02:46:42 PM: Processing SID 22
+27-08-2015 02:46:42 PM: SID 22 has 0 records
+27-08-2015 02:46:42 PM: SID 23's Send Day is in future. Send Day: 28, Today: 27
+27-08-2015 02:46:42 PM: Processing SID 24
+27-08-2015 02:46:42 PM: SID 24 has 0 records
+27-08-2015 02:49:07 PM: Processing SID 1
+27-08-2015 02:49:07 PM: SID 1 has 4 records
+27-08-2015 02:49:07 PM: BEB51B72GT190315X0000220102082015100000257WSD
+27-08-2015 02:49:07 PM: BEB51B72GT190117M0001372102082015100000259WSD
+27-08-2015 02:49:07 PM: BEB51B72GT190122X0000090102082015100000260DS
+27-08-2015 02:49:07 PM: BEB51B72GT190127W0002137102082015100000288DS
+27-08-2015 02:49:07 PM: gurpreet007@gmail.com
+27-08-2015 02:49:07 PM: bsbhogal@gmail.com
+27-08-2015 02:49:07 PM: lakhvirsmrar@gmail.com
+27-08-2015 02:49:07 PM: lakhvirsmrar@gmail.com
+27-08-2015 02:49:21 PM: Mail Sent
+27-08-2015 02:49:21 PM: Processing SID 2
+27-08-2015 02:49:21 PM: SID 2 has 5 records
+27-08-2015 02:49:21 PM: BEB51B72GT190327M0000539112082015100000264WSD
+27-08-2015 02:49:21 PM: BEB51B94DL220191Y0001802112082015100000276NRS
+27-08-2015 02:49:21 PM: BEB51B73LS130046W0000173112082015100000277DS
+27-08-2015 02:49:21 PM: BEB51B73LS130440F0000742112082015100000278DS
+27-08-2015 02:49:21 PM: BEB51B72GT190311F0000833112082015100000284WSD
+27-08-2015 02:49:21 PM: gurpreet007@gmail.com
+27-08-2015 02:49:21 PM: bsbhogal@gmail.com
+27-08-2015 02:49:21 PM: lakhvirsmrar@gmail.com
+27-08-2015 02:49:21 PM: lakhvirsmrar@gmail.com
+27-08-2015 02:49:28 PM: Mail Sent
+27-08-2015 02:49:28 PM: SID 3 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 02:49:28 PM: Processing SID 4
+27-08-2015 02:49:28 PM: SID 4 has 0 records
+27-08-2015 02:49:28 PM: Processing SID 5
+27-08-2015 02:49:28 PM: SID 5 has 0 records
+27-08-2015 02:49:28 PM: Processing SID 6
+27-08-2015 02:49:28 PM: SID 6 has 0 records
+27-08-2015 02:49:28 PM: SID 7 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 02:49:28 PM: Processing SID 8
+27-08-2015 02:49:28 PM: SID 8 has 0 records
+27-08-2015 02:49:28 PM: Processing SID 9
+27-08-2015 02:49:28 PM: SID 9 has 0 records
+27-08-2015 02:49:28 PM: Processing SID 10
+27-08-2015 02:49:28 PM: SID 10 has 0 records
+27-08-2015 02:49:28 PM: SID 11 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 02:49:28 PM: Processing SID 12
+27-08-2015 02:49:28 PM: SID 12 has 0 records
+27-08-2015 02:49:28 PM: Processing SID 13
+27-08-2015 02:49:28 PM: SID 13 has 0 records
+27-08-2015 02:49:28 PM: Processing SID 14
+27-08-2015 02:49:28 PM: SID 14 has 0 records
+27-08-2015 02:49:28 PM: SID 15 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 02:49:28 PM: Processing SID 16
+27-08-2015 02:49:28 PM: SID 16 has 0 records
+27-08-2015 02:49:28 PM: Processing SID 17
+27-08-2015 02:49:28 PM: SID 17 has 0 records
+27-08-2015 02:49:28 PM: Processing SID 18
+27-08-2015 02:49:28 PM: SID 18 has 0 records
+27-08-2015 02:49:28 PM: SID 19's Send Day is in future. Send Day: 28, Today: 27
+27-08-2015 02:49:28 PM: Processing SID 20
+27-08-2015 02:49:28 PM: SID 20 has 0 records
+27-08-2015 02:49:28 PM: Processing SID 21
+27-08-2015 02:49:28 PM: SID 21 has 0 records
+27-08-2015 02:49:28 PM: Processing SID 22
+27-08-2015 02:49:28 PM: SID 22 has 0 records
+27-08-2015 02:49:28 PM: SID 23's Send Day is in future. Send Day: 28, Today: 27
+27-08-2015 02:49:28 PM: Processing SID 24
+27-08-2015 02:49:28 PM: SID 24 has 0 records
+27-08-2015 02:56:09 PM: Processing SID 1
+27-08-2015 02:56:09 PM: SID 1 has 4 records
+27-08-2015 02:56:09 PM: BEB51B72GT190315X0000220102082015100000257WSD
+27-08-2015 02:56:09 PM: BEB51B72GT190117M0001372102082015100000259WSD
+27-08-2015 02:56:09 PM: BEB51B72GT190122X0000090102082015100000260DS
+27-08-2015 02:56:09 PM: BEB51B72GT190127W0002137102082015100000288DS
+27-08-2015 02:56:09 PM: gurpreet007@gmail.com
+27-08-2015 02:56:09 PM: bsbhogal@gmail.com
+27-08-2015 02:56:09 PM: lakhvirsmrar@gmail.com
+27-08-2015 02:56:09 PM: lakhvirsmrar@gmail.com
+27-08-2015 02:57:22 PM: Processing SID 1
+27-08-2015 02:57:22 PM: SID 1 has 4 records
+27-08-2015 02:57:22 PM: BEB51B72GT190315X0000220102082015100000257WSD
+27-08-2015 02:57:22 PM: BEB51B72GT190117M0001372102082015100000259WSD
+27-08-2015 02:57:22 PM: BEB51B72GT190122X0000090102082015100000260DS
+27-08-2015 02:57:22 PM: BEB51B72GT190127W0002137102082015100000288DS
+27-08-2015 02:57:22 PM: gurpreet007@gmail.com
+27-08-2015 02:57:22 PM: bsbhogal@gmail.com
+27-08-2015 02:57:22 PM: lakhvirsmrar@gmail.com
+27-08-2015 02:57:22 PM: lakhvirsmrar@gmail.com
+27-08-2015 02:58:00 PM: Mail Sent
+27-08-2015 02:58:00 PM: Processing SID 2
+27-08-2015 02:58:00 PM: SID 2 has 5 records
+27-08-2015 02:58:00 PM: BEB51B72GT190327M0000539112082015100000264WSD
+27-08-2015 02:58:00 PM: BEB51B94DL220191Y0001802112082015100000276NRS
+27-08-2015 02:58:00 PM: BEB51B73LS130046W0000173112082015100000277DS
+27-08-2015 02:58:00 PM: BEB51B73LS130440F0000742112082015100000278DS
+27-08-2015 02:58:00 PM: BEB51B72GT190311F0000833112082015100000284WSD
+27-08-2015 02:58:00 PM: gurpreet007@gmail.com
+27-08-2015 02:58:00 PM: bsbhogal@gmail.com
+27-08-2015 02:58:00 PM: lakhvirsmrar@gmail.com
+27-08-2015 02:58:00 PM: lakhvirsmrar@gmail.com
+27-08-2015 02:58:36 PM: Mail Sent
+27-08-2015 02:58:36 PM: SID 3 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 02:58:36 PM: Processing SID 4
+27-08-2015 02:58:36 PM: SID 4 has 0 records
+27-08-2015 02:58:36 PM: Processing SID 5
+27-08-2015 02:58:36 PM: SID 5 has 0 records
+27-08-2015 02:58:36 PM: Processing SID 6
+27-08-2015 02:58:36 PM: SID 6 has 0 records
+27-08-2015 02:58:36 PM: SID 7 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 02:58:36 PM: Processing SID 8
+27-08-2015 02:58:36 PM: SID 8 has 0 records
+27-08-2015 02:58:36 PM: Processing SID 9
+27-08-2015 02:58:36 PM: SID 9 has 0 records
+27-08-2015 02:58:36 PM: Processing SID 10
+27-08-2015 02:58:36 PM: SID 10 has 0 records
+27-08-2015 02:58:36 PM: SID 11 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 02:58:36 PM: Processing SID 12
+27-08-2015 02:58:36 PM: SID 12 has 0 records
+27-08-2015 02:58:36 PM: Processing SID 13
+27-08-2015 02:58:36 PM: SID 13 has 0 records
+27-08-2015 02:58:36 PM: Processing SID 14
+27-08-2015 02:58:36 PM: SID 14 has 0 records
+27-08-2015 02:58:36 PM: SID 15 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 02:58:36 PM: Processing SID 16
+27-08-2015 02:58:36 PM: SID 16 has 0 records
+27-08-2015 02:58:36 PM: Processing SID 17
+27-08-2015 02:58:36 PM: SID 17 has 0 records
+27-08-2015 02:58:36 PM: Processing SID 18
+27-08-2015 02:58:36 PM: SID 18 has 0 records
+27-08-2015 02:58:36 PM: SID 19's Send Day is in future. Send Day: 28, Today: 27
+27-08-2015 02:58:36 PM: Processing SID 20
+27-08-2015 02:58:36 PM: SID 20 has 0 records
+27-08-2015 02:58:36 PM: Processing SID 21
+27-08-2015 02:58:36 PM: SID 21 has 0 records
+27-08-2015 02:58:36 PM: Processing SID 22
+27-08-2015 02:58:36 PM: SID 22 has 0 records
+27-08-2015 02:58:36 PM: SID 23's Send Day is in future. Send Day: 28, Today: 27
+27-08-2015 02:58:36 PM: Processing SID 24
+27-08-2015 02:58:36 PM: SID 24 has 0 records
+27-08-2015 02:59:35 PM: Processing SID 1
+27-08-2015 02:59:35 PM: SID 1 has 4 records
+27-08-2015 02:59:35 PM: BEB51B72GT190315X0000220102082015100000257WSD
+27-08-2015 02:59:35 PM: BEB51B72GT190117M0001372102082015100000259WSD
+27-08-2015 02:59:36 PM: BEB51B72GT190122X0000090102082015100000260DS
+27-08-2015 02:59:36 PM: BEB51B72GT190127W0002137102082015100000288DS
+27-08-2015 02:59:36 PM: gurpreet007@gmail.com
+27-08-2015 02:59:36 PM: bsbhogal@gmail.com
+27-08-2015 02:59:36 PM: lakhvirsmrar@gmail.com
+27-08-2015 02:59:36 PM: lakhvirsmrar@gmail.com
+27-08-2015 03:00:27 PM: Mail Sent
+27-08-2015 03:00:27 PM: Processing SID 2
+27-08-2015 03:00:27 PM: SID 2 has 5 records
+27-08-2015 03:00:27 PM: BEB51B72GT190327M0000539112082015100000264WSD
+27-08-2015 03:00:27 PM: BEB51B94DL220191Y0001802112082015100000276NRS
+27-08-2015 03:00:27 PM: BEB51B73LS130046W0000173112082015100000277DS
+27-08-2015 03:00:27 PM: BEB51B73LS130440F0000742112082015100000278DS
+27-08-2015 03:00:27 PM: BEB51B72GT190311F0000833112082015100000284WSD
+27-08-2015 03:00:27 PM: gurpreet007@gmail.com
+27-08-2015 03:00:27 PM: bsbhogal@gmail.com
+27-08-2015 03:00:27 PM: lakhvirsmrar@gmail.com
+27-08-2015 03:00:27 PM: lakhvirsmrar@gmail.com
+27-08-2015 03:01:52 PM: Mail Sent
+27-08-2015 03:01:52 PM: SID 3 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 03:01:52 PM: Processing SID 4
+27-08-2015 03:01:52 PM: SID 4 has 0 records
+27-08-2015 03:01:52 PM: Processing SID 5
+27-08-2015 03:01:52 PM: SID 5 has 0 records
+27-08-2015 03:01:52 PM: Processing SID 6
+27-08-2015 03:01:52 PM: SID 6 has 0 records
+27-08-2015 03:01:52 PM: SID 7 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 03:01:52 PM: Processing SID 8
+27-08-2015 03:01:52 PM: SID 8 has 0 records
+27-08-2015 03:01:52 PM: Processing SID 9
+27-08-2015 03:01:52 PM: SID 9 has 0 records
+27-08-2015 03:01:52 PM: Processing SID 10
+27-08-2015 03:01:52 PM: SID 10 has 0 records
+27-08-2015 03:01:52 PM: SID 11 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 03:01:52 PM: Processing SID 12
+27-08-2015 03:01:52 PM: SID 12 has 0 records
+27-08-2015 03:01:52 PM: Processing SID 13
+27-08-2015 03:01:52 PM: SID 13 has 0 records
+27-08-2015 03:01:52 PM: Processing SID 14
+27-08-2015 03:01:52 PM: SID 14 has 0 records
+27-08-2015 03:01:52 PM: SID 15 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 03:01:52 PM: Processing SID 16
+27-08-2015 03:01:52 PM: SID 16 has 0 records
+27-08-2015 03:01:52 PM: Processing SID 17
+27-08-2015 03:01:52 PM: SID 17 has 0 records
+27-08-2015 03:01:52 PM: Processing SID 18
+27-08-2015 03:01:52 PM: SID 18 has 0 records
+27-08-2015 03:01:52 PM: SID 19's Send Day is in future. Send Day: 28, Today: 27
+27-08-2015 03:01:52 PM: Processing SID 20
+27-08-2015 03:01:53 PM: SID 20 has 0 records
+27-08-2015 03:01:53 PM: Processing SID 21
+27-08-2015 03:01:53 PM: SID 21 has 0 records
+27-08-2015 03:01:53 PM: Processing SID 22
+27-08-2015 03:01:53 PM: SID 22 has 0 records
+27-08-2015 03:01:53 PM: SID 23's Send Day is in future. Send Day: 28, Today: 27
+27-08-2015 03:01:53 PM: Processing SID 24
+27-08-2015 03:01:53 PM: SID 24 has 0 records
+27-08-2015 03:36:09 PM: Processing SID 1
+27-08-2015 03:36:09 PM: SID 1 has 4 records
+27-08-2015 03:36:09 PM: BEB51B72GT190315X0000220102082015100000257WSD
+27-08-2015 03:36:09 PM: BEB51B72GT190117M0001372102082015100000259WSD
+27-08-2015 03:36:09 PM: BEB51B72GT190122X0000090102082015100000260DS
+27-08-2015 03:36:09 PM: BEB51B72GT190127W0002137102082015100000288DS
+27-08-2015 03:36:09 PM: gurpreet007@gmail.com
+27-08-2015 03:36:09 PM: bsbhogal@gmail.com
+27-08-2015 03:36:09 PM: lakhvirsmrar@gmail.com
+27-08-2015 03:36:09 PM: lakhvirsmrar@gmail.com
+27-08-2015 03:36:31 PM: Processing SID 1
+27-08-2015 03:36:31 PM: SID 1 has 4 records
+27-08-2015 03:36:31 PM: BEB51B72GT190315X0000220102082015100000257WSD
+27-08-2015 03:36:31 PM: BEB51B72GT190117M0001372102082015100000259WSD
+27-08-2015 03:36:31 PM: BEB51B72GT190122X0000090102082015100000260DS
+27-08-2015 03:36:31 PM: BEB51B72GT190127W0002137102082015100000288DS
+27-08-2015 03:36:31 PM: gurpreet007@gmail.com
+27-08-2015 03:36:31 PM: bsbhogal@gmail.com
+27-08-2015 03:36:31 PM: lakhvirsmrar@gmail.com
+27-08-2015 03:36:31 PM: lakhvirsmrar@gmail.com
+27-08-2015 03:38:44 PM: Processing SID 1
+27-08-2015 03:38:44 PM: SID 1 has 4 records
+27-08-2015 03:38:44 PM: BEB51B72GT190315X0000220102082015100000257WSD
+27-08-2015 03:38:44 PM: BEB51B72GT190117M0001372102082015100000259WSD
+27-08-2015 03:38:44 PM: BEB51B72GT190122X0000090102082015100000260DS
+27-08-2015 03:38:44 PM: BEB51B72GT190127W0002137102082015100000288DS
+27-08-2015 03:38:44 PM: gurpreet007@gmail.com
+27-08-2015 03:38:44 PM: bsbhogal@gmail.com
+27-08-2015 03:38:44 PM: lakhvirsmrar@gmail.com
+27-08-2015 03:38:44 PM: lakhvirsmrar@gmail.com
+27-08-2015 03:38:53 PM: Mail Sent
+27-08-2015 03:38:53 PM: Processing SID 2
+27-08-2015 03:38:53 PM: SID 2 has 5 records
+27-08-2015 03:38:53 PM: BEB51B72GT190327M0000539112082015100000264WSD
+27-08-2015 03:38:53 PM: BEB51B94DL220191Y0001802112082015100000276NRS
+27-08-2015 03:38:53 PM: BEB51B73LS130046W0000173112082015100000277DS
+27-08-2015 03:38:53 PM: BEB51B73LS130440F0000742112082015100000278DS
+27-08-2015 03:38:53 PM: BEB51B72GT190311F0000833112082015100000284WSD
+27-08-2015 03:38:53 PM: gurpreet007@gmail.com
+27-08-2015 03:38:53 PM: bsbhogal@gmail.com
+27-08-2015 03:38:53 PM: lakhvirsmrar@gmail.com
+27-08-2015 03:38:53 PM: lakhvirsmrar@gmail.com
+27-08-2015 03:39:03 PM: Mail Sent
+27-08-2015 03:39:03 PM: SID 3 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 03:39:03 PM: Processing SID 4
+27-08-2015 03:39:03 PM: SID 4 has 0 records
+27-08-2015 03:39:03 PM: Processing SID 5
+27-08-2015 03:39:03 PM: SID 5 has 0 records
+27-08-2015 03:39:03 PM: Processing SID 6
+27-08-2015 03:39:03 PM: SID 6 has 0 records
+27-08-2015 03:39:03 PM: SID 7 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 03:39:03 PM: Processing SID 8
+27-08-2015 03:39:03 PM: SID 8 has 0 records
+27-08-2015 03:39:03 PM: Processing SID 9
+27-08-2015 03:39:03 PM: SID 9 has 0 records
+27-08-2015 03:39:03 PM: Processing SID 10
+27-08-2015 03:39:03 PM: SID 10 has 0 records
+27-08-2015 03:39:03 PM: SID 11 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 03:39:03 PM: Processing SID 12
+27-08-2015 03:39:03 PM: SID 12 has 0 records
+27-08-2015 03:39:03 PM: Processing SID 13
+27-08-2015 03:39:03 PM: SID 13 has 0 records
+27-08-2015 03:39:03 PM: Processing SID 14
+27-08-2015 03:39:03 PM: SID 14 has 0 records
+27-08-2015 03:39:03 PM: SID 15 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 03:39:03 PM: Processing SID 16
+27-08-2015 03:39:03 PM: SID 16 has 0 records
+27-08-2015 03:39:03 PM: Processing SID 17
+27-08-2015 03:39:03 PM: SID 17 has 0 records
+27-08-2015 03:39:03 PM: Processing SID 18
+27-08-2015 03:39:03 PM: SID 18 has 0 records
+27-08-2015 03:39:03 PM: SID 19's Send Day is in future. Send Day: 28, Today: 27
+27-08-2015 03:39:03 PM: Processing SID 20
+27-08-2015 03:39:03 PM: SID 20 has 0 records
+27-08-2015 03:39:03 PM: Processing SID 21
+27-08-2015 03:39:03 PM: SID 21 has 0 records
+27-08-2015 03:39:03 PM: Processing SID 22
+27-08-2015 03:39:03 PM: SID 22 has 0 records
+27-08-2015 03:39:03 PM: SID 23's Send Day is in future. Send Day: 28, Today: 27
+27-08-2015 03:39:03 PM: Processing SID 24
+27-08-2015 03:39:03 PM: SID 24 has 0 records
+27-08-2015 03:55:47 PM: Processing SID 1
+27-08-2015 03:55:47 PM: SID 1 has 4 records
+27-08-2015 03:55:47 PM: BEB51B72GT190315X0000220102082015100000257WSD
+27-08-2015 03:55:47 PM: BEB51B72GT190117M0001372102082015100000259WSD
+27-08-2015 03:55:47 PM: BEB51B72GT190122X0000090102082015100000260DS
+27-08-2015 03:55:47 PM: BEB51B72GT190127W0002137102082015100000288DS
+27-08-2015 03:55:47 PM: gurpreet007@gmail.com
+27-08-2015 03:55:47 PM: bsbhogal@gmail.com
+27-08-2015 03:55:47 PM: lakhvirsmrar@gmail.com
+27-08-2015 03:55:47 PM: lakhvirsmrar@gmail.com
+27-08-2015 03:55:58 PM: Mail Sent
+27-08-2015 03:55:58 PM: Processing SID 2
+27-08-2015 03:55:58 PM: SID 2 has 5 records
+27-08-2015 03:55:58 PM: BEB51B72GT190327M0000539112082015100000264WSD
+27-08-2015 03:55:58 PM: BEB51B94DL220191Y0001802112082015100000276NRS
+27-08-2015 03:55:58 PM: BEB51B73LS130046W0000173112082015100000277DS
+27-08-2015 03:55:58 PM: BEB51B73LS130440F0000742112082015100000278DS
+27-08-2015 03:55:58 PM: BEB51B72GT190311F0000833112082015100000284WSD
+27-08-2015 03:55:58 PM: gurpreet007@gmail.com
+27-08-2015 03:55:58 PM: bsbhogal@gmail.com
+27-08-2015 03:55:58 PM: lakhvirsmrar@gmail.com
+27-08-2015 03:55:58 PM: lakhvirsmrar@gmail.com
+27-08-2015 03:56:09 PM: Mail Sent
+27-08-2015 03:56:09 PM: SID 3 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 03:56:09 PM: Processing SID 4
+27-08-2015 03:56:09 PM: SID 4 has 0 records
+27-08-2015 03:56:09 PM: Processing SID 5
+27-08-2015 03:56:09 PM: SID 5 has 0 records
+27-08-2015 03:56:09 PM: Processing SID 6
+27-08-2015 03:56:09 PM: SID 6 has 0 records
+27-08-2015 03:56:09 PM: SID 7 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 03:56:09 PM: Processing SID 8
+27-08-2015 03:56:09 PM: SID 8 has 0 records
+27-08-2015 03:56:09 PM: Processing SID 9
+27-08-2015 03:56:09 PM: SID 9 has 0 records
+27-08-2015 03:56:09 PM: Processing SID 10
+27-08-2015 03:56:09 PM: SID 10 has 0 records
+27-08-2015 03:56:09 PM: SID 11 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 03:56:09 PM: Processing SID 12
+27-08-2015 03:56:09 PM: SID 12 has 0 records
+27-08-2015 03:56:09 PM: Processing SID 13
+27-08-2015 03:56:09 PM: SID 13 has 0 records
+27-08-2015 03:56:09 PM: Processing SID 14
+27-08-2015 03:56:09 PM: SID 14 has 0 records
+27-08-2015 03:56:09 PM: SID 15 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 03:56:09 PM: Processing SID 16
+27-08-2015 03:56:09 PM: SID 16 has 0 records
+27-08-2015 03:56:09 PM: Processing SID 17
+27-08-2015 03:56:09 PM: SID 17 has 0 records
+27-08-2015 03:56:09 PM: Processing SID 18
+27-08-2015 03:56:09 PM: SID 18 has 0 records
+27-08-2015 03:56:09 PM: SID 19's Send Day is in future. Send Day: 28, Today: 27
+27-08-2015 03:56:09 PM: Processing SID 20
+27-08-2015 03:56:09 PM: SID 20 has 0 records
+27-08-2015 03:56:09 PM: Processing SID 21
+27-08-2015 03:56:09 PM: SID 21 has 0 records
+27-08-2015 03:56:09 PM: Processing SID 22
+27-08-2015 03:56:09 PM: SID 22 has 0 records
+27-08-2015 03:56:09 PM: SID 23's Send Day is in future. Send Day: 28, Today: 27
+27-08-2015 03:56:09 PM: Processing SID 24
+27-08-2015 03:56:09 PM: SID 24 has 0 records
+27-08-2015 04:05:47 PM: Processing SID 1
+27-08-2015 04:05:47 PM: SID 1 has 4 records
+27-08-2015 04:05:47 PM: BEB51B72GT190315X0000220102082015100000257WSD
+27-08-2015 04:05:47 PM: BEB51B72GT190117M0001372102082015100000259WSD
+27-08-2015 04:05:47 PM: BEB51B72GT190122X0000090102082015100000260DS
+27-08-2015 04:05:47 PM: BEB51B72GT190127W0002137102082015100000288DS
+27-08-2015 04:05:47 PM: gurpreet007@gmail.com
+27-08-2015 04:05:47 PM: bsbhogal@gmail.com
+27-08-2015 04:05:47 PM: lakhvirsmrar@gmail.com
+27-08-2015 04:05:47 PM: lakhvirsmrar@gmail.com
+27-08-2015 04:05:55 PM: Mail Sent
+27-08-2015 04:05:55 PM: Processing SID 2
+27-08-2015 04:05:55 PM: SID 2 has 5 records
+27-08-2015 04:05:55 PM: BEB51B72GT190327M0000539112082015100000264WSD
+27-08-2015 04:05:55 PM: BEB51B94DL220191Y0001802112082015100000276NRS
+27-08-2015 04:05:55 PM: BEB51B73LS130046W0000173112082015100000277DS
+27-08-2015 04:05:55 PM: BEB51B73LS130440F0000742112082015100000278DS
+27-08-2015 04:05:55 PM: BEB51B72GT190311F0000833112082015100000284WSD
+27-08-2015 04:05:55 PM: gurpreet007@gmail.com
+27-08-2015 04:05:55 PM: bsbhogal@gmail.com
+27-08-2015 04:05:55 PM: lakhvirsmrar@gmail.com
+27-08-2015 04:05:55 PM: lakhvirsmrar@gmail.com
+27-08-2015 04:06:03 PM: Mail Sent
+27-08-2015 04:06:03 PM: SID 3 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 04:06:03 PM: Processing SID 4
+27-08-2015 04:06:03 PM: SID 4 has 0 records
+27-08-2015 04:06:03 PM: Processing SID 5
+27-08-2015 04:06:03 PM: SID 5 has 0 records
+27-08-2015 04:06:03 PM: Processing SID 6
+27-08-2015 04:06:03 PM: SID 6 has 0 records
+27-08-2015 04:06:03 PM: SID 7 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 04:06:03 PM: Processing SID 8
+27-08-2015 04:06:03 PM: SID 8 has 0 records
+27-08-2015 04:06:03 PM: Processing SID 9
+27-08-2015 04:06:03 PM: SID 9 has 0 records
+27-08-2015 04:06:03 PM: Processing SID 10
+27-08-2015 04:06:03 PM: SID 10 has 0 records
+27-08-2015 04:06:03 PM: SID 11 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 04:06:03 PM: Processing SID 12
+27-08-2015 04:06:03 PM: SID 12 has 0 records
+27-08-2015 04:06:03 PM: Processing SID 13
+27-08-2015 04:06:03 PM: SID 13 has 0 records
+27-08-2015 04:06:03 PM: Processing SID 14
+27-08-2015 04:06:03 PM: SID 14 has 0 records
+27-08-2015 04:06:03 PM: SID 15 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 04:06:03 PM: Processing SID 16
+27-08-2015 04:06:03 PM: SID 16 has 0 records
+27-08-2015 04:06:03 PM: Processing SID 17
+27-08-2015 04:06:03 PM: SID 17 has 0 records
+27-08-2015 04:06:03 PM: Processing SID 18
+27-08-2015 04:06:03 PM: SID 18 has 0 records
+27-08-2015 04:06:03 PM: SID 19's Send Day is in future. Send Day: 28, Today: 27
+27-08-2015 04:06:03 PM: Processing SID 20
+27-08-2015 04:06:03 PM: SID 20 has 0 records
+27-08-2015 04:06:03 PM: Processing SID 21
+27-08-2015 04:06:03 PM: SID 21 has 0 records
+27-08-2015 04:06:03 PM: Processing SID 22
+27-08-2015 04:06:03 PM: SID 22 has 0 records
+27-08-2015 04:06:03 PM: SID 23's Send Day is in future. Send Day: 28, Today: 27
+27-08-2015 04:06:03 PM: Processing SID 24
+27-08-2015 04:06:03 PM: SID 24 has 0 records
+27-08-2015 04:08:07 PM: Processing SID 1
+27-08-2015 04:08:07 PM: SID 1 has 4 records
+27-08-2015 04:08:07 PM: BEB51B72GT190315X0000220102082015100000257DS
+27-08-2015 04:08:07 PM: BEB51B72GT190117M0001372102082015100000259DS
+27-08-2015 04:08:07 PM: BEB51B72GT190122X0000090102082015100000260DS
+27-08-2015 04:08:07 PM: BEB51B72GT190127W0002137102082015100000288DS
+27-08-2015 04:08:07 PM: gurpreet007@gmail.com
+27-08-2015 04:08:07 PM: bsbhogal@gmail.com
+27-08-2015 04:08:07 PM: lakhvirsmrar@gmail.com
+27-08-2015 04:08:07 PM: lakhvirsmrar@gmail.com
+27-08-2015 04:08:26 PM: Mail Sent
+27-08-2015 04:08:26 PM: Processing SID 2
+27-08-2015 04:08:26 PM: SID 2 has 5 records
+27-08-2015 04:08:26 PM: BEB51B72GT190327M0000539112082015100000264DS
+27-08-2015 04:08:26 PM: BEB51B94DL220191Y0001802112082015100000276DS
+27-08-2015 04:08:26 PM: BEB51B73LS130046W0000173112082015100000277DS
+27-08-2015 04:08:26 PM: BEB51B73LS130440F0000742112082015100000278DS
+27-08-2015 04:08:26 PM: BEB51B72GT190311F0000833112082015100000284DS
+27-08-2015 04:08:26 PM: gurpreet007@gmail.com
+27-08-2015 04:08:26 PM: bsbhogal@gmail.com
+27-08-2015 04:08:26 PM: lakhvirsmrar@gmail.com
+27-08-2015 04:08:26 PM: lakhvirsmrar@gmail.com
+27-08-2015 04:08:38 PM: Mail Sent
+27-08-2015 04:08:38 PM: SID 3 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 04:08:38 PM: Processing SID 4
+27-08-2015 04:08:38 PM: SID 4 has 0 records
+27-08-2015 04:08:38 PM: Processing SID 5
+27-08-2015 04:08:38 PM: SID 5 has 0 records
+27-08-2015 04:08:38 PM: Processing SID 6
+27-08-2015 04:08:38 PM: SID 6 has 0 records
+27-08-2015 04:08:38 PM: SID 7 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 04:08:38 PM: Processing SID 8
+27-08-2015 04:08:38 PM: SID 8 has 0 records
+27-08-2015 04:08:38 PM: Processing SID 9
+27-08-2015 04:08:38 PM: SID 9 has 0 records
+27-08-2015 04:08:38 PM: Processing SID 10
+27-08-2015 04:08:38 PM: SID 10 has 0 records
+27-08-2015 04:08:38 PM: SID 11 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 04:08:38 PM: Processing SID 12
+27-08-2015 04:08:38 PM: SID 12 has 0 records
+27-08-2015 04:08:38 PM: Processing SID 13
+27-08-2015 04:08:38 PM: SID 13 has 0 records
+27-08-2015 04:08:38 PM: Processing SID 14
+27-08-2015 04:08:38 PM: SID 14 has 0 records
+27-08-2015 04:08:38 PM: SID 15 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 04:08:38 PM: Processing SID 16
+27-08-2015 04:08:38 PM: SID 16 has 0 records
+27-08-2015 04:08:38 PM: Processing SID 17
+27-08-2015 04:08:38 PM: SID 17 has 0 records
+27-08-2015 04:08:38 PM: Processing SID 18
+27-08-2015 04:08:38 PM: SID 18 has 0 records
+27-08-2015 04:08:38 PM: SID 19's Send Day is in future. Send Day: 28, Today: 27
+27-08-2015 04:08:38 PM: Processing SID 20
+27-08-2015 04:08:38 PM: SID 20 has 0 records
+27-08-2015 04:08:38 PM: Processing SID 21
+27-08-2015 04:08:38 PM: SID 21 has 0 records
+27-08-2015 04:08:38 PM: Processing SID 22
+27-08-2015 04:08:38 PM: SID 22 has 0 records
+27-08-2015 04:08:38 PM: SID 23's Send Day is in future. Send Day: 28, Today: 27
+27-08-2015 04:08:38 PM: Processing SID 24
+27-08-2015 04:08:38 PM: SID 24 has 0 records
+27-08-2015 04:09:04 PM: Processing SID 1
+27-08-2015 04:10:27 PM: Processing SID 1
+27-08-2015 04:10:27 PM: SID 1 has 4 records
+27-08-2015 04:10:27 PM: BEB51B72GT190315X0000220102082015100000257DS
+27-08-2015 04:10:27 PM: BEB51B72GT190117M0001372102082015100000259DS
+27-08-2015 04:10:27 PM: BEB51B72GT190122X0000090102082015100000260DS
+27-08-2015 04:10:27 PM: BEB51B72GT190127W0002137102082015100000288DS
+27-08-2015 04:10:27 PM: gurpreet007@gmail.com
+27-08-2015 04:10:27 PM: bsbhogal@gmail.com
+27-08-2015 04:10:27 PM: lakhvirsmrar@gmail.com
+27-08-2015 04:10:27 PM: lakhvirsmrar@gmail.com
+27-08-2015 04:11:26 PM: Processing SID 1
+27-08-2015 04:11:26 PM: SID 1 has 4 records
+27-08-2015 04:11:26 PM: BEB51B72GT190315X0000220102082015100000257DS
+27-08-2015 04:11:26 PM: BEB51B72GT190117M0001372102082015100000259DS
+27-08-2015 04:11:26 PM: BEB51B72GT190122X0000090102082015100000260DS
+27-08-2015 04:11:26 PM: BEB51B72GT190127W0002137102082015100000288DS
+27-08-2015 04:11:26 PM: gurpreet007@gmail.com
+27-08-2015 04:11:26 PM: bsbhogal@gmail.com
+27-08-2015 04:11:26 PM: lakhvirsmrar@gmail.com
+27-08-2015 04:11:26 PM: lakhvirsmrar@gmail.com
+27-08-2015 04:11:32 PM: Mail Sent
+27-08-2015 04:11:32 PM: Processing SID 2
+27-08-2015 04:11:32 PM: SID 2 has 5 records
+27-08-2015 04:11:32 PM: BEB51B72GT190327M0000539112082015100000264DS
+27-08-2015 04:11:32 PM: BEB51B94DL220191Y0001802112082015100000276DS
+27-08-2015 04:11:32 PM: BEB51B73LS130046W0000173112082015100000277DS
+27-08-2015 04:11:32 PM: BEB51B73LS130440F0000742112082015100000278DS
+27-08-2015 04:11:32 PM: BEB51B72GT190311F0000833112082015100000284DS
+27-08-2015 04:11:32 PM: gurpreet007@gmail.com
+27-08-2015 04:11:32 PM: bsbhogal@gmail.com
+27-08-2015 04:11:32 PM: lakhvirsmrar@gmail.com
+27-08-2015 04:11:32 PM: lakhvirsmrar@gmail.com
+27-08-2015 04:11:40 PM: Mail Sent
+27-08-2015 04:11:40 PM: SID 3 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 04:11:40 PM: Processing SID 4
+27-08-2015 04:11:40 PM: SID 4 has 0 records
+27-08-2015 04:11:40 PM: Processing SID 5
+27-08-2015 04:11:40 PM: SID 5 has 0 records
+27-08-2015 04:11:40 PM: Processing SID 6
+27-08-2015 04:11:40 PM: SID 6 has 0 records
+27-08-2015 04:11:40 PM: SID 7 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 04:11:40 PM: Processing SID 8
+27-08-2015 04:11:40 PM: SID 8 has 0 records
+27-08-2015 04:11:40 PM: Processing SID 9
+27-08-2015 04:11:40 PM: SID 9 has 0 records
+27-08-2015 04:11:40 PM: Processing SID 10
+27-08-2015 04:11:40 PM: SID 10 has 0 records
+27-08-2015 04:11:40 PM: SID 11 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 04:11:40 PM: Processing SID 12
+27-08-2015 04:11:40 PM: SID 12 has 0 records
+27-08-2015 04:11:40 PM: Processing SID 13
+27-08-2015 04:11:40 PM: SID 13 has 0 records
+27-08-2015 04:11:40 PM: Processing SID 14
+27-08-2015 04:11:40 PM: SID 14 has 0 records
+27-08-2015 04:11:40 PM: SID 15 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 04:11:40 PM: Processing SID 16
+27-08-2015 04:11:40 PM: SID 16 has 0 records
+27-08-2015 04:11:40 PM: Processing SID 17
+27-08-2015 04:11:40 PM: SID 17 has 0 records
+27-08-2015 04:11:40 PM: Processing SID 18
+27-08-2015 04:11:40 PM: SID 18 has 0 records
+27-08-2015 04:11:40 PM: SID 19's Send Day is in future. Send Day: 28, Today: 27
+27-08-2015 04:11:40 PM: Processing SID 20
+27-08-2015 04:11:40 PM: SID 20 has 0 records
+27-08-2015 04:11:40 PM: Processing SID 21
+27-08-2015 04:11:40 PM: SID 21 has 0 records
+27-08-2015 04:11:40 PM: Processing SID 22
+27-08-2015 04:11:40 PM: SID 22 has 0 records
+27-08-2015 04:11:40 PM: SID 23's Send Day is in future. Send Day: 28, Today: 27
+27-08-2015 04:11:40 PM: Processing SID 24
+27-08-2015 04:11:40 PM: SID 24 has 0 records
+27-08-2015 04:37:07 PM: Processing SID 1
+27-08-2015 04:37:07 PM: SID 1 has 4 records
+27-08-2015 04:37:19 PM: Mail Sent
+27-08-2015 04:37:42 PM: Processing SID 1
+27-08-2015 04:37:42 PM: SID 1 has 4 records
+27-08-2015 04:37:49 PM: Mail Sent
+27-08-2015 04:37:50 PM: Error handling SID 1 - ORA-06550: line 1, column 77:
+PL/SQL: ORA-00933: SQL command not properly ended
+ORA-06550: line 1, column 7:
+PL/SQL: SQL Statement ignored
+27-08-2015 04:37:50 PM: Processing SID 2
+27-08-2015 04:37:50 PM: SID 2 has 5 records
+27-08-2015 04:38:03 PM: Mail Sent
+27-08-2015 04:38:03 PM: Error handling SID 2 - ORA-06550: line 1, column 77:
+PL/SQL: ORA-00933: SQL command not properly ended
+ORA-06550: line 1, column 7:
+PL/SQL: SQL Statement ignored
+27-08-2015 04:38:03 PM: SID 3 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 04:38:03 PM: Processing SID 4
+27-08-2015 04:38:03 PM: SID 4 has 0 records
+27-08-2015 04:38:03 PM: Processing SID 5
+27-08-2015 04:38:03 PM: SID 5 has 0 records
+27-08-2015 04:38:03 PM: Processing SID 6
+27-08-2015 04:38:03 PM: SID 6 has 0 records
+27-08-2015 04:38:03 PM: SID 7 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 04:38:03 PM: Processing SID 8
+27-08-2015 04:38:03 PM: SID 8 has 0 records
+27-08-2015 04:38:03 PM: Processing SID 9
+27-08-2015 04:38:03 PM: SID 9 has 0 records
+27-08-2015 04:38:03 PM: Processing SID 10
+27-08-2015 04:38:03 PM: SID 10 has 0 records
+27-08-2015 04:38:03 PM: SID 11 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 04:38:03 PM: Processing SID 12
+27-08-2015 04:38:03 PM: SID 12 has 0 records
+27-08-2015 04:38:03 PM: Processing SID 13
+27-08-2015 04:38:03 PM: SID 13 has 0 records
+27-08-2015 04:38:03 PM: Processing SID 14
+27-08-2015 04:38:03 PM: SID 14 has 0 records
+27-08-2015 04:38:03 PM: SID 15 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 04:38:03 PM: Processing SID 16
+27-08-2015 04:38:03 PM: SID 16 has 0 records
+27-08-2015 04:38:03 PM: Processing SID 17
+27-08-2015 04:38:03 PM: SID 17 has 0 records
+27-08-2015 04:38:03 PM: Processing SID 18
+27-08-2015 04:38:03 PM: SID 18 has 0 records
+27-08-2015 04:38:03 PM: SID 19's Send Day is in future. Send Day: 28, Today: 27
+27-08-2015 04:38:03 PM: Processing SID 20
+27-08-2015 04:38:03 PM: SID 20 has 0 records
+27-08-2015 04:38:03 PM: Processing SID 21
+27-08-2015 04:38:03 PM: SID 21 has 0 records
+27-08-2015 04:38:03 PM: Processing SID 22
+27-08-2015 04:38:03 PM: SID 22 has 0 records
+27-08-2015 04:38:03 PM: SID 23's Send Day is in future. Send Day: 28, Today: 27
+27-08-2015 04:38:03 PM: Processing SID 24
+27-08-2015 04:38:03 PM: SID 24 has 0 records
+27-08-2015 04:38:22 PM: Processing SID 1
+27-08-2015 04:38:22 PM: SID 1 has 4 records
+27-08-2015 04:38:36 PM: Mail Sent
+27-08-2015 04:38:36 PM: Processing SID 2
+27-08-2015 04:38:36 PM: SID 2 has 5 records
+27-08-2015 04:38:56 PM: Mail Sent
+27-08-2015 04:38:56 PM: SID 3 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 04:38:56 PM: Processing SID 4
+27-08-2015 04:38:56 PM: SID 4 has 0 records
+27-08-2015 04:38:56 PM: Processing SID 5
+27-08-2015 04:38:56 PM: SID 5 has 0 records
+27-08-2015 04:38:56 PM: Processing SID 6
+27-08-2015 04:38:56 PM: SID 6 has 0 records
+27-08-2015 04:38:56 PM: SID 7 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 04:38:56 PM: Processing SID 8
+27-08-2015 04:38:56 PM: SID 8 has 0 records
+27-08-2015 04:38:56 PM: Processing SID 9
+27-08-2015 04:38:56 PM: SID 9 has 0 records
+27-08-2015 04:38:56 PM: Processing SID 10
+27-08-2015 04:38:56 PM: SID 10 has 0 records
+27-08-2015 04:38:56 PM: SID 11 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 04:38:56 PM: Processing SID 12
+27-08-2015 04:38:56 PM: SID 12 has 0 records
+27-08-2015 04:38:56 PM: Processing SID 13
+27-08-2015 04:38:56 PM: SID 13 has 0 records
+27-08-2015 04:38:56 PM: Processing SID 14
+27-08-2015 04:38:56 PM: SID 14 has 0 records
+27-08-2015 04:38:56 PM: SID 15 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 04:38:56 PM: Processing SID 16
+27-08-2015 04:38:56 PM: SID 16 has 0 records
+27-08-2015 04:38:56 PM: Processing SID 17
+27-08-2015 04:38:56 PM: SID 17 has 0 records
+27-08-2015 04:38:56 PM: Processing SID 18
+27-08-2015 04:38:56 PM: SID 18 has 0 records
+27-08-2015 04:38:56 PM: SID 19's Send Day is in future. Send Day: 28, Today: 27
+27-08-2015 04:38:56 PM: Processing SID 20
+27-08-2015 04:38:56 PM: SID 20 has 0 records
+27-08-2015 04:38:56 PM: Processing SID 21
+27-08-2015 04:38:56 PM: SID 21 has 0 records
+27-08-2015 04:38:56 PM: Processing SID 22
+27-08-2015 04:38:56 PM: SID 22 has 0 records
+27-08-2015 04:38:56 PM: SID 23's Send Day is in future. Send Day: 28, Today: 27
+27-08-2015 04:38:56 PM: Processing SID 24
+27-08-2015 04:38:56 PM: SID 24 has 0 records
+27-08-2015 04:40:28 PM: Processing SID 1
+27-08-2015 04:40:28 PM: SID 1 has 0 records
+27-08-2015 04:40:28 PM: Processing SID 2
+27-08-2015 04:40:28 PM: SID 2 has 0 records
+27-08-2015 04:40:28 PM: SID 3 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 04:40:28 PM: Processing SID 4
+27-08-2015 04:40:28 PM: SID 4 has 0 records
+27-08-2015 04:40:28 PM: Processing SID 5
+27-08-2015 04:40:28 PM: SID 5 has 0 records
+27-08-2015 04:40:28 PM: Processing SID 6
+27-08-2015 04:40:28 PM: SID 6 has 0 records
+27-08-2015 04:40:28 PM: SID 7 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 04:40:28 PM: Processing SID 8
+27-08-2015 04:40:28 PM: SID 8 has 0 records
+27-08-2015 04:40:28 PM: Processing SID 9
+27-08-2015 04:40:28 PM: SID 9 has 0 records
+27-08-2015 04:40:28 PM: Processing SID 10
+27-08-2015 04:40:28 PM: SID 10 has 0 records
+27-08-2015 04:40:28 PM: SID 11 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 04:40:28 PM: Processing SID 12
+27-08-2015 04:40:28 PM: SID 12 has 0 records
+27-08-2015 04:40:28 PM: Processing SID 13
+27-08-2015 04:40:28 PM: SID 13 has 0 records
+27-08-2015 04:40:28 PM: Processing SID 14
+27-08-2015 04:40:28 PM: SID 14 has 0 records
+27-08-2015 04:40:28 PM: SID 15 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 04:40:28 PM: Processing SID 16
+27-08-2015 04:40:28 PM: SID 16 has 0 records
+27-08-2015 04:40:28 PM: Processing SID 17
+27-08-2015 04:40:28 PM: SID 17 has 0 records
+27-08-2015 04:40:28 PM: Processing SID 18
+27-08-2015 04:40:28 PM: SID 18 has 0 records
+27-08-2015 04:40:28 PM: SID 19's Send Day is in future. Send Day: 28, Today: 27
+27-08-2015 04:40:28 PM: Processing SID 20
+27-08-2015 04:40:28 PM: SID 20 has 0 records
+27-08-2015 04:40:28 PM: Processing SID 21
+27-08-2015 04:40:28 PM: SID 21 has 0 records
+27-08-2015 04:40:28 PM: Processing SID 22
+27-08-2015 04:40:28 PM: SID 22 has 0 records
+27-08-2015 04:40:28 PM: SID 23's Send Day is in future. Send Day: 28, Today: 27
+27-08-2015 04:40:28 PM: Processing SID 24
+27-08-2015 04:40:28 PM: SID 24 has 0 records
+27-08-2015 04:42:13 PM: -------------Starting-------------
+27-08-2015 04:42:13 PM: Processing SID 1
+27-08-2015 04:42:13 PM: SID 1 has 0 records
+27-08-2015 04:42:13 PM: Processing SID 2
+27-08-2015 04:42:13 PM: SID 2 has 0 records
+27-08-2015 04:42:13 PM: SID 3 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 04:42:13 PM: Processing SID 4
+27-08-2015 04:42:13 PM: SID 4 has 0 records
+27-08-2015 04:42:13 PM: Processing SID 5
+27-08-2015 04:42:13 PM: SID 5 has 0 records
+27-08-2015 04:42:13 PM: Processing SID 6
+27-08-2015 04:42:13 PM: SID 6 has 0 records
+27-08-2015 04:42:13 PM: SID 7 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 04:42:13 PM: Processing SID 8
+27-08-2015 04:42:13 PM: SID 8 has 0 records
+27-08-2015 04:42:13 PM: Processing SID 9
+27-08-2015 04:42:13 PM: SID 9 has 0 records
+27-08-2015 04:42:13 PM: Processing SID 10
+27-08-2015 04:42:13 PM: SID 10 has 0 records
+27-08-2015 04:42:13 PM: SID 11 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 04:42:13 PM: Processing SID 12
+27-08-2015 04:42:13 PM: SID 12 has 0 records
+27-08-2015 04:42:13 PM: Processing SID 13
+27-08-2015 04:42:13 PM: SID 13 has 0 records
+27-08-2015 04:42:13 PM: Processing SID 14
+27-08-2015 04:42:13 PM: SID 14 has 0 records
+27-08-2015 04:42:13 PM: SID 15 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 04:42:13 PM: Processing SID 16
+27-08-2015 04:42:13 PM: SID 16 has 0 records
+27-08-2015 04:42:13 PM: Processing SID 17
+27-08-2015 04:42:13 PM: SID 17 has 0 records
+27-08-2015 04:42:13 PM: Processing SID 18
+27-08-2015 04:42:13 PM: SID 18 has 0 records
+27-08-2015 04:42:13 PM: SID 19's Send Day is in future. Send Day: 28, Today: 27
+27-08-2015 04:42:13 PM: Processing SID 20
+27-08-2015 04:42:13 PM: SID 20 has 0 records
+27-08-2015 04:42:13 PM: Processing SID 21
+27-08-2015 04:42:13 PM: SID 21 has 0 records
+27-08-2015 04:42:13 PM: Processing SID 22
+27-08-2015 04:42:13 PM: SID 22 has 0 records
+27-08-2015 04:42:13 PM: SID 23's Send Day is in future. Send Day: 28, Today: 27
+27-08-2015 04:42:13 PM: Processing SID 24
+27-08-2015 04:42:13 PM: SID 24 has 0 records
+27-08-2015 04:42:43 PM: ===================Starting===================
+27-08-2015 04:42:44 PM: Processing SID 1
+27-08-2015 04:42:44 PM: SID 1 has 0 records
+27-08-2015 04:42:44 PM: Processing SID 2
+27-08-2015 04:42:44 PM: SID 2 has 0 records
+27-08-2015 04:42:44 PM: SID 3 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 04:42:44 PM: Processing SID 4
+27-08-2015 04:42:44 PM: SID 4 has 0 records
+27-08-2015 04:42:44 PM: Processing SID 5
+27-08-2015 04:42:44 PM: SID 5 has 0 records
+27-08-2015 04:42:44 PM: Processing SID 6
+27-08-2015 04:42:44 PM: SID 6 has 0 records
+27-08-2015 04:42:44 PM: SID 7 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 04:42:44 PM: Processing SID 8
+27-08-2015 04:42:44 PM: SID 8 has 0 records
+27-08-2015 04:42:44 PM: Processing SID 9
+27-08-2015 04:42:44 PM: SID 9 has 0 records
+27-08-2015 04:42:44 PM: Processing SID 10
+27-08-2015 04:42:44 PM: SID 10 has 0 records
+27-08-2015 04:42:44 PM: SID 11 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 04:42:44 PM: Processing SID 12
+27-08-2015 04:42:44 PM: SID 12 has 0 records
+27-08-2015 04:42:44 PM: Processing SID 13
+27-08-2015 04:42:44 PM: SID 13 has 0 records
+27-08-2015 04:42:44 PM: Processing SID 14
+27-08-2015 04:42:44 PM: SID 14 has 0 records
+27-08-2015 04:42:44 PM: SID 15 skipped due to pending recon. To: 20150824, Recon: 20150821
+27-08-2015 04:42:44 PM: Processing SID 16
+27-08-2015 04:42:44 PM: SID 16 has 0 records
+27-08-2015 04:42:44 PM: Processing SID 17
+27-08-2015 04:42:44 PM: SID 17 has 0 records
+27-08-2015 04:42:44 PM: Processing SID 18
+27-08-2015 04:42:44 PM: SID 18 has 0 records
+27-08-2015 04:42:44 PM: SID 19's Send Day is in future. Send Day: 28, Today: 27
+27-08-2015 04:42:44 PM: Processing SID 20
+27-08-2015 04:42:44 PM: SID 20 has 0 records
+27-08-2015 04:42:44 PM: Processing SID 21
+27-08-2015 04:42:44 PM: SID 21 has 0 records
+27-08-2015 04:42:44 PM: Processing SID 22
+27-08-2015 04:42:44 PM: SID 22 has 0 records
+27-08-2015 04:42:44 PM: SID 23's Send Day is in future. Send Day: 28, Today: 27
+27-08-2015 04:42:44 PM: Processing SID 24
+27-08-2015 04:42:44 PM: SID 24 has 0 records
+31-08-2015 11:10:45 AM: ===================Starting===================
+31-08-2015 11:10:45 AM: Processing SID 1
+31-08-2015 11:10:45 AM: SID 1 has 0 records
+31-08-2015 11:10:45 AM: Processing SID 2
+31-08-2015 11:10:45 AM: SID 2 has 0 records
+31-08-2015 11:10:45 AM: SID 3 skipped due to pending recon. To: 20150824, Recon: 20150821
+31-08-2015 11:10:45 AM: Processing SID 4
+31-08-2015 11:10:45 AM: SID 4 has 0 records
+31-08-2015 11:10:45 AM: Processing SID 5
+31-08-2015 11:10:45 AM: SID 5 has 0 records
+31-08-2015 11:10:45 AM: Processing SID 6
+31-08-2015 11:10:45 AM: SID 6 has 0 records
+31-08-2015 11:10:45 AM: SID 7 skipped due to pending recon. To: 20150824, Recon: 20150821
+31-08-2015 11:10:45 AM: Processing SID 8
+31-08-2015 11:10:45 AM: SID 8 has 0 records
+31-08-2015 11:10:45 AM: Processing SID 9
+31-08-2015 11:10:45 AM: SID 9 has 0 records
+31-08-2015 11:10:45 AM: Processing SID 10
+31-08-2015 11:10:45 AM: SID 10 has 0 records
+31-08-2015 11:10:45 AM: SID 11 skipped due to pending recon. To: 20150824, Recon: 20150821
+31-08-2015 11:10:45 AM: Processing SID 12
+31-08-2015 11:10:45 AM: SID 12 has 0 records
+31-08-2015 11:10:45 AM: Processing SID 13
+31-08-2015 11:10:45 AM: SID 13 has 0 records
+31-08-2015 11:10:45 AM: Processing SID 14
+31-08-2015 11:10:45 AM: SID 14 has 0 records
+31-08-2015 11:10:45 AM: SID 15 skipped due to pending recon. To: 20150824, Recon: 20150821
+31-08-2015 11:10:45 AM: Processing SID 16
+31-08-2015 11:10:45 AM: SID 16 has 0 records
+31-08-2015 11:10:45 AM: Processing SID 17
+31-08-2015 11:10:45 AM: SID 17 has 0 records
+31-08-2015 11:10:45 AM: Processing SID 18
+31-08-2015 11:10:45 AM: SID 18 has 0 records
+31-08-2015 11:10:45 AM: SID 19 skipped due to pending recon. To: 20150826, Recon: 20150821
+31-08-2015 11:10:45 AM: Processing SID 20
+31-08-2015 11:10:45 AM: SID 20 has 0 records
+31-08-2015 11:10:45 AM: Processing SID 21
+31-08-2015 11:10:45 AM: SID 21 has 0 records
+31-08-2015 11:10:45 AM: Processing SID 22
+31-08-2015 11:10:45 AM: SID 22 has 0 records
+31-08-2015 11:10:45 AM: SID 23 skipped due to pending recon. To: 20150826, Recon: 20150821
+31-08-2015 11:10:45 AM: Processing SID 24
+31-08-2015 11:10:45 AM: SID 24 has 0 records
+31-08-2015 11:10:56 AM: ===================Starting===================
+31-08-2015 11:10:56 AM: Processing SID 1
+31-08-2015 11:10:56 AM: SID 1 has 0 records
+31-08-2015 11:10:56 AM: Processing SID 2
+31-08-2015 11:10:56 AM: SID 2 has 0 records
+31-08-2015 11:10:56 AM: SID 3 skipped due to pending recon. To: 20150824, Recon: 20150821
+31-08-2015 11:10:56 AM: Processing SID 4
+31-08-2015 11:10:56 AM: SID 4 has 0 records
+31-08-2015 11:10:56 AM: Processing SID 5
+31-08-2015 11:10:56 AM: SID 5 has 0 records
+31-08-2015 11:10:56 AM: Processing SID 6
+31-08-2015 11:10:56 AM: SID 6 has 0 records
+31-08-2015 11:10:56 AM: SID 7 skipped due to pending recon. To: 20150824, Recon: 20150821
+31-08-2015 11:10:56 AM: Processing SID 8
+31-08-2015 11:10:56 AM: SID 8 has 0 records
+31-08-2015 11:10:56 AM: Processing SID 9
+31-08-2015 11:10:56 AM: SID 9 has 0 records
+31-08-2015 11:10:56 AM: Processing SID 10
+31-08-2015 11:10:56 AM: SID 10 has 0 records
+31-08-2015 11:10:56 AM: SID 11 skipped due to pending recon. To: 20150824, Recon: 20150821
+31-08-2015 11:10:56 AM: Processing SID 12
+31-08-2015 11:10:56 AM: SID 12 has 0 records
+31-08-2015 11:10:56 AM: Processing SID 13
+31-08-2015 11:10:56 AM: SID 13 has 0 records
+31-08-2015 11:10:56 AM: Processing SID 14
+31-08-2015 11:10:56 AM: SID 14 has 0 records
+31-08-2015 11:10:56 AM: SID 15 skipped due to pending recon. To: 20150824, Recon: 20150821
+31-08-2015 11:10:56 AM: Processing SID 16
+31-08-2015 11:10:56 AM: SID 16 has 0 records
+31-08-2015 11:10:56 AM: Processing SID 17
+31-08-2015 11:10:56 AM: SID 17 has 0 records
+31-08-2015 11:10:56 AM: Processing SID 18
+31-08-2015 11:10:56 AM: SID 18 has 0 records
+31-08-2015 11:10:56 AM: SID 19 skipped due to pending recon. To: 20150826, Recon: 20150821
+31-08-2015 11:10:56 AM: Processing SID 20
+31-08-2015 11:10:56 AM: SID 20 has 0 records
+31-08-2015 11:10:56 AM: Processing SID 21
+31-08-2015 11:10:56 AM: SID 21 has 0 records
+31-08-2015 11:10:56 AM: Processing SID 22
+31-08-2015 11:10:56 AM: SID 22 has 0 records
+31-08-2015 11:10:56 AM: SID 23 skipped due to pending recon. To: 20150826, Recon: 20150821
+31-08-2015 11:10:56 AM: Processing SID 24
+31-08-2015 11:10:56 AM: SID 24 has 0 records
+31-08-2015 11:11:10 AM: ===================Starting===================
+31-08-2015 11:16:38 AM: Processing SID 1
+31-08-2015 11:18:33 AM: ===================Starting===================
+31-08-2015 11:18:36 AM: Processing SID 1
+31-08-2015 11:18:36 AM: SID 1 has 4 records
+31-08-2015 11:27:25 AM: ===================Starting===================
+31-08-2015 11:27:25 AM: Processing SID 1
+31-08-2015 11:27:25 AM: SID 1 has 4 records
+31-08-2015 11:27:51 AM: ===================Starting===================
+31-08-2015 11:27:52 AM: Processing SID 1
+31-08-2015 11:27:52 AM: SID 1 has 4 records
+31-08-2015 11:28:15 AM: Mail Sent
+31-08-2015 11:28:15 AM: Processing SID 2
+31-08-2015 11:28:15 AM: SID 2 has 5 records
+31-08-2015 11:28:24 AM: Mail Sent
+31-08-2015 11:28:24 AM: SID 3 skipped due to pending recon. To: 20150824, Recon: 20150821
+31-08-2015 11:28:24 AM: Processing SID 4
+31-08-2015 11:28:24 AM: SID 4 has 0 records
+31-08-2015 11:28:24 AM: Processing SID 5
+31-08-2015 11:28:24 AM: SID 5 has 0 records
+31-08-2015 11:28:24 AM: Processing SID 6
+31-08-2015 11:28:24 AM: SID 6 has 0 records
+31-08-2015 11:28:24 AM: SID 7 skipped due to pending recon. To: 20150824, Recon: 20150821
+31-08-2015 11:28:24 AM: Processing SID 8
+31-08-2015 11:28:24 AM: SID 8 has 0 records
+31-08-2015 11:28:24 AM: Processing SID 9
+31-08-2015 11:28:24 AM: SID 9 has 0 records
+31-08-2015 11:28:24 AM: Processing SID 10
+31-08-2015 11:28:24 AM: SID 10 has 0 records
+31-08-2015 11:28:24 AM: SID 11 skipped due to pending recon. To: 20150824, Recon: 20150821
+31-08-2015 11:28:24 AM: Processing SID 12
+31-08-2015 11:28:24 AM: SID 12 has 0 records
+31-08-2015 11:28:24 AM: Processing SID 13
+31-08-2015 11:28:24 AM: SID 13 has 0 records
+31-08-2015 11:28:24 AM: Processing SID 14
+31-08-2015 11:28:24 AM: SID 14 has 0 records
+31-08-2015 11:28:24 AM: SID 15 skipped due to pending recon. To: 20150824, Recon: 20150821
+31-08-2015 11:28:24 AM: Processing SID 16
+31-08-2015 11:28:24 AM: SID 16 has 0 records
+31-08-2015 11:28:24 AM: Processing SID 17
+31-08-2015 11:28:24 AM: SID 17 has 0 records
+31-08-2015 11:28:24 AM: Processing SID 18
+31-08-2015 11:28:24 AM: SID 18 has 0 records
+31-08-2015 11:28:24 AM: SID 19 skipped due to pending recon. To: 20150826, Recon: 20150821
+31-08-2015 11:28:24 AM: Processing SID 20
+31-08-2015 11:28:24 AM: SID 20 has 0 records
+31-08-2015 11:28:24 AM: Processing SID 21
+31-08-2015 11:28:24 AM: SID 21 has 0 records
+31-08-2015 11:28:24 AM: Processing SID 22
+31-08-2015 11:28:24 AM: SID 22 has 0 records
+31-08-2015 11:28:24 AM: SID 23 skipped due to pending recon. To: 20150826, Recon: 20150821
+31-08-2015 11:28:24 AM: Processing SID 24
+31-08-2015 11:28:24 AM: SID 24 has 0 records
+31-08-2015 11:38:40 AM: ===================Starting===================
+31-08-2015 11:38:40 AM: Processing SID 1
+31-08-2015 11:38:40 AM: SID 1 has 4 records
+31-08-2015 11:38:48 AM: Mail Sent
+31-08-2015 11:38:48 AM: Processing SID 2
+31-08-2015 11:38:48 AM: SID 2 has 5 records
+31-08-2015 11:38:55 AM: Mail Sent
+31-08-2015 11:38:55 AM: SID 3 skipped due to pending recon. To: 20150824, Recon: 20150821
+31-08-2015 11:38:55 AM: Processing SID 4
+31-08-2015 11:38:55 AM: SID 4 has 0 records
+31-08-2015 11:38:55 AM: Processing SID 5
+31-08-2015 11:38:55 AM: SID 5 has 0 records
+31-08-2015 11:38:55 AM: Processing SID 6
+31-08-2015 11:38:55 AM: SID 6 has 0 records
+31-08-2015 11:38:55 AM: SID 7 skipped due to pending recon. To: 20150824, Recon: 20150821
+31-08-2015 11:38:55 AM: Processing SID 8
+31-08-2015 11:38:55 AM: SID 8 has 0 records
+31-08-2015 11:38:55 AM: Processing SID 9
+31-08-2015 11:38:55 AM: SID 9 has 0 records
+31-08-2015 11:38:55 AM: Processing SID 10
+31-08-2015 11:38:55 AM: SID 10 has 0 records
+31-08-2015 11:38:55 AM: SID 11 skipped due to pending recon. To: 20150824, Recon: 20150821
+31-08-2015 11:38:55 AM: Processing SID 12
+31-08-2015 11:38:55 AM: SID 12 has 0 records
+31-08-2015 11:38:55 AM: Processing SID 13
+31-08-2015 11:38:55 AM: SID 13 has 0 records
+31-08-2015 11:38:55 AM: Processing SID 14
+31-08-2015 11:38:55 AM: SID 14 has 0 records
+31-08-2015 11:38:55 AM: SID 15 skipped due to pending recon. To: 20150824, Recon: 20150821
+31-08-2015 11:38:55 AM: Processing SID 16
+31-08-2015 11:38:55 AM: SID 16 has 0 records
+31-08-2015 11:38:55 AM: Processing SID 17
+31-08-2015 11:38:55 AM: SID 17 has 0 records
+31-08-2015 11:38:55 AM: Processing SID 18
+31-08-2015 11:38:55 AM: SID 18 has 0 records
+31-08-2015 11:38:55 AM: SID 19 skipped due to pending recon. To: 20150826, Recon: 20150821
+31-08-2015 11:38:55 AM: Processing SID 20
+31-08-2015 11:38:55 AM: SID 20 has 0 records
+31-08-2015 11:38:55 AM: Processing SID 21
+31-08-2015 11:38:55 AM: SID 21 has 0 records
+31-08-2015 11:38:55 AM: Processing SID 22
+31-08-2015 11:38:55 AM: SID 22 has 0 records
+31-08-2015 11:38:55 AM: SID 23 skipped due to pending recon. To: 20150826, Recon: 20150821
+31-08-2015 11:38:55 AM: Processing SID 24
+31-08-2015 11:38:55 AM: SID 24 has 0 records
+31-08-2015 12:05:22 PM: ===================Starting===================
+31-08-2015 12:05:22 PM: Processing SID 1
+31-08-2015 12:05:22 PM: SID 1 has 4 records
+31-08-2015 12:05:29 PM: Mail Sent
+31-08-2015 12:05:29 PM: Processing SID 2
+31-08-2015 12:05:29 PM: SID 2 has 5 records
+31-08-2015 12:05:36 PM: Mail Sent
+31-08-2015 12:05:36 PM: SID 3 skipped due to pending recon. To: 20150824, Recon: 20150821
+31-08-2015 12:05:36 PM: Processing SID 4
+31-08-2015 12:05:36 PM: SID 4 has 0 records
+31-08-2015 12:05:36 PM: Processing SID 5
+31-08-2015 12:05:36 PM: SID 5 has 0 records
+31-08-2015 12:05:36 PM: Processing SID 6
+31-08-2015 12:05:36 PM: SID 6 has 0 records
+31-08-2015 12:05:36 PM: SID 7 skipped due to pending recon. To: 20150824, Recon: 20150821
+31-08-2015 12:05:36 PM: Processing SID 8
+31-08-2015 12:05:36 PM: SID 8 has 0 records
+31-08-2015 12:05:36 PM: Processing SID 9
+31-08-2015 12:05:36 PM: SID 9 has 0 records
+31-08-2015 12:05:36 PM: Processing SID 10
+31-08-2015 12:05:36 PM: SID 10 has 0 records
+31-08-2015 12:05:36 PM: SID 11 skipped due to pending recon. To: 20150824, Recon: 20150821
+31-08-2015 12:05:36 PM: Processing SID 12
+31-08-2015 12:05:36 PM: SID 12 has 0 records
+31-08-2015 12:05:36 PM: Processing SID 13
+31-08-2015 12:05:36 PM: SID 13 has 0 records
+31-08-2015 12:05:36 PM: Processing SID 14
+31-08-2015 12:05:36 PM: SID 14 has 0 records
+31-08-2015 12:05:36 PM: SID 15 skipped due to pending recon. To: 20150824, Recon: 20150821
+31-08-2015 12:05:36 PM: Processing SID 16
+31-08-2015 12:05:36 PM: SID 16 has 0 records
+31-08-2015 12:05:36 PM: Processing SID 17
+31-08-2015 12:05:36 PM: SID 17 has 0 records
+31-08-2015 12:05:36 PM: Processing SID 18
+31-08-2015 12:05:36 PM: SID 18 has 0 records
+31-08-2015 12:05:36 PM: SID 19 skipped due to pending recon. To: 20150826, Recon: 20150821
+31-08-2015 12:05:36 PM: Processing SID 20
+31-08-2015 12:05:36 PM: SID 20 has 0 records
+31-08-2015 12:05:36 PM: Processing SID 21
+31-08-2015 12:05:36 PM: SID 21 has 0 records
+31-08-2015 12:05:36 PM: Processing SID 22
+31-08-2015 12:05:36 PM: SID 22 has 0 records
+31-08-2015 12:05:36 PM: SID 23 skipped due to pending recon. To: 20150826, Recon: 20150821
+31-08-2015 12:05:36 PM: Processing SID 24
+31-08-2015 12:05:36 PM: SID 24 has 0 records
+31-08-2015 12:10:35 PM: ===================Starting===================
+31-08-2015 12:10:44 PM: Processing SID 1
+31-08-2015 12:10:44 PM: SID 1 has 4 records
+31-08-2015 12:10:50 PM: Mail Sent
+31-08-2015 12:10:50 PM: Processing SID 2
+31-08-2015 12:10:50 PM: SID 2 has 5 records
+31-08-2015 12:10:56 PM: Mail Sent
+31-08-2015 12:10:56 PM: SID 3 skipped due to pending recon. To: 20150824, Recon: 20150821
+31-08-2015 12:10:56 PM: Processing SID 4
+31-08-2015 12:10:56 PM: SID 4 has 0 records
+31-08-2015 12:10:56 PM: Processing SID 5
+31-08-2015 12:10:56 PM: SID 5 has 0 records
+31-08-2015 12:10:56 PM: Processing SID 6
+31-08-2015 12:10:56 PM: SID 6 has 0 records
+31-08-2015 12:10:56 PM: SID 7 skipped due to pending recon. To: 20150824, Recon: 20150821
+31-08-2015 12:10:56 PM: Processing SID 8
+31-08-2015 12:10:56 PM: SID 8 has 0 records
+31-08-2015 12:10:56 PM: Processing SID 9
+31-08-2015 12:10:56 PM: SID 9 has 0 records
+31-08-2015 12:10:56 PM: Processing SID 10
+31-08-2015 12:10:56 PM: SID 10 has 0 records
+31-08-2015 12:10:56 PM: SID 11 skipped due to pending recon. To: 20150824, Recon: 20150821
+31-08-2015 12:10:56 PM: Processing SID 12
+31-08-2015 12:10:56 PM: SID 12 has 0 records
+31-08-2015 12:10:56 PM: Processing SID 13
+31-08-2015 12:10:56 PM: SID 13 has 0 records
+31-08-2015 12:10:56 PM: Processing SID 14
+31-08-2015 12:10:56 PM: SID 14 has 0 records
+31-08-2015 12:10:56 PM: SID 15 skipped due to pending recon. To: 20150824, Recon: 20150821
+31-08-2015 12:10:56 PM: Processing SID 16
+31-08-2015 12:10:56 PM: SID 16 has 0 records
+31-08-2015 12:10:56 PM: Processing SID 17
+31-08-2015 12:10:56 PM: SID 17 has 0 records
+31-08-2015 12:10:56 PM: Processing SID 18
+31-08-2015 12:10:56 PM: SID 18 has 0 records
+31-08-2015 12:10:56 PM: SID 19 skipped due to pending recon. To: 20150826, Recon: 20150821
+31-08-2015 12:10:56 PM: Processing SID 20
+31-08-2015 12:10:56 PM: SID 20 has 0 records
+31-08-2015 12:10:56 PM: Processing SID 21
+31-08-2015 12:10:56 PM: SID 21 has 0 records
+31-08-2015 12:10:56 PM: Processing SID 22
+31-08-2015 12:10:56 PM: SID 22 has 0 records
+31-08-2015 12:10:56 PM: SID 23 skipped due to pending recon. To: 20150826, Recon: 20150821
+31-08-2015 12:10:56 PM: Processing SID 24
+31-08-2015 12:10:56 PM: SID 24 has 0 records
+31-08-2015 12:19:31 PM: ===================Starting===================
+31-08-2015 12:19:52 PM: Processing SID 1
+31-08-2015 12:19:52 PM: SID 1 has 4 records
+31-08-2015 12:20:04 PM: Mail Sent
+31-08-2015 12:20:04 PM: Processing SID 2
+31-08-2015 12:20:04 PM: SID 2 has 5 records
+31-08-2015 12:20:17 PM: Mail Sent
+31-08-2015 12:20:18 PM: SID 3 skipped due to pending recon. To: 20150824, Recon: 20150821
+31-08-2015 12:20:28 PM: Processing SID 4
+31-08-2015 12:20:28 PM: SID 4 has 0 records
+31-08-2015 12:20:28 PM: Processing SID 5
+31-08-2015 12:20:28 PM: SID 5 has 0 records
+31-08-2015 12:20:28 PM: Processing SID 6
+31-08-2015 12:20:28 PM: SID 6 has 0 records
+31-08-2015 12:20:28 PM: SID 7 skipped due to pending recon. To: 20150824, Recon: 20150821
+31-08-2015 12:20:38 PM: Processing SID 8
+31-08-2015 12:20:38 PM: SID 8 has 0 records
+31-08-2015 12:20:38 PM: Processing SID 9
+31-08-2015 12:20:38 PM: SID 9 has 0 records
+31-08-2015 12:20:38 PM: Processing SID 10
+31-08-2015 12:20:38 PM: SID 10 has 0 records
+31-08-2015 12:20:38 PM: SID 11 skipped due to pending recon. To: 20150824, Recon: 20150821
+31-08-2015 12:20:44 PM: Processing SID 12
+31-08-2015 12:20:44 PM: SID 12 has 0 records
+31-08-2015 12:20:44 PM: Processing SID 13
+31-08-2015 12:20:44 PM: SID 13 has 0 records
+31-08-2015 12:20:44 PM: Processing SID 14
+31-08-2015 12:20:44 PM: SID 14 has 0 records
+31-08-2015 12:20:44 PM: SID 15 skipped due to pending recon. To: 20150824, Recon: 20150821
+31-08-2015 12:20:54 PM: Processing SID 16
+31-08-2015 12:20:54 PM: SID 16 has 0 records
+31-08-2015 12:20:54 PM: Processing SID 17
+31-08-2015 12:20:54 PM: SID 17 has 0 records
+31-08-2015 12:20:54 PM: Processing SID 18
+31-08-2015 12:20:54 PM: SID 18 has 0 records
+31-08-2015 12:20:54 PM: SID 19 skipped due to pending recon. To: 20150826, Recon: 20150821
+31-08-2015 12:21:11 PM: Processing SID 20
+31-08-2015 12:21:11 PM: SID 20 has 0 records
+31-08-2015 12:21:11 PM: Processing SID 21
+31-08-2015 12:21:11 PM: SID 21 has 0 records
+31-08-2015 12:21:11 PM: Processing SID 22
+31-08-2015 12:21:11 PM: SID 22 has 0 records
+31-08-2015 12:21:11 PM: SID 23 skipped due to pending recon. To: 20150826, Recon: 20150821
+31-08-2015 12:21:32 PM: Processing SID 24
+31-08-2015 12:21:32 PM: SID 24 has 0 records
+31-08-2015 12:42:39 PM: ===================Starting===================
+31-08-2015 12:42:47 PM: Processing SID 1
+31-08-2015 12:42:47 PM: SID 1 has 4 records
+31-08-2015 12:42:57 PM: Mail Sent
+31-08-2015 12:42:57 PM: Processing SID 2
+31-08-2015 12:42:57 PM: SID 2 has 5 records
+31-08-2015 12:43:06 PM: Mail Sent
+31-08-2015 12:43:06 PM: SID 3 skipped due to pending recon. To: 24/08/15, Recon: 21/08/15
+31-08-2015 12:43:13 PM: Processing SID 4
+31-08-2015 12:43:13 PM: SID 4 has 0 records
+31-08-2015 12:43:13 PM: Processing SID 5
+31-08-2015 12:43:14 PM: SID 5 has 0 records
+31-08-2015 12:43:14 PM: Processing SID 6
+31-08-2015 12:43:14 PM: SID 6 has 0 records
+31-08-2015 12:43:14 PM: SID 7 skipped due to pending recon. To: 24/08/15, Recon: 21/08/15
+31-08-2015 12:43:20 PM: Processing SID 8
+31-08-2015 12:43:20 PM: SID 8 has 0 records
+31-08-2015 12:43:20 PM: Processing SID 9
+31-08-2015 12:43:20 PM: SID 9 has 0 records
+31-08-2015 12:43:20 PM: Processing SID 10
+31-08-2015 12:43:20 PM: SID 10 has 0 records
+31-08-2015 12:43:20 PM: SID 11 skipped due to pending recon. To: 24/08/15, Recon: 21/08/15
+31-08-2015 12:43:26 PM: Processing SID 12
+31-08-2015 12:43:26 PM: SID 12 has 0 records
+31-08-2015 12:43:26 PM: Processing SID 13
+31-08-2015 12:43:26 PM: SID 13 has 0 records
+31-08-2015 12:43:26 PM: Processing SID 14
+31-08-2015 12:43:26 PM: SID 14 has 0 records
+31-08-2015 12:43:26 PM: SID 15 skipped due to pending recon. To: 24/08/15, Recon: 21/08/15
+31-08-2015 12:43:33 PM: Processing SID 16
+31-08-2015 12:43:33 PM: SID 16 has 0 records
+31-08-2015 12:43:33 PM: Processing SID 17
+31-08-2015 12:43:33 PM: SID 17 has 0 records
+31-08-2015 12:43:33 PM: Processing SID 18
+31-08-2015 12:43:33 PM: SID 18 has 0 records
+31-08-2015 12:43:33 PM: SID 19 skipped due to pending recon. To: 26/08/15, Recon: 21/08/15
+31-08-2015 12:43:41 PM: Processing SID 20
+31-08-2015 12:43:41 PM: SID 20 has 0 records
+31-08-2015 12:43:41 PM: Processing SID 21
+31-08-2015 12:43:41 PM: SID 21 has 0 records
+31-08-2015 12:43:41 PM: Processing SID 22
+31-08-2015 12:43:41 PM: SID 22 has 0 records
+31-08-2015 12:43:41 PM: SID 23 skipped due to pending recon. To: 26/08/15, Recon: 21/08/15
+31-08-2015 12:43:47 PM: Processing SID 24
+31-08-2015 12:43:47 PM: SID 24 has 0 records
+31-08-2015 12:47:20 PM: ===================Starting===================
+31-08-2015 12:47:28 PM: Processing SID 1
+31-08-2015 12:47:28 PM: SID 1 has 0 records
+31-08-2015 12:47:28 PM: Processing SID 2
+31-08-2015 12:47:28 PM: SID 2 has 0 records
+31-08-2015 12:47:28 PM: SID 3, Circle Code B (BATHINDA), Category DSBELOW10KW skipped due to pending recon. To: 24-08-2015, Recon: 21-08-2015
+31-08-2015 12:47:35 PM: Processing SID 4
+31-08-2015 12:47:35 PM: SID 4 has 0 records
+31-08-2015 12:47:35 PM: Processing SID 5
+31-08-2015 12:47:35 PM: SID 5 has 0 records
+31-08-2015 12:47:35 PM: Processing SID 6
+31-08-2015 12:47:35 PM: SID 6 has 0 records
+31-08-2015 12:47:35 PM: SID 7, Circle Code L (BARNALA), Category DSBELOW10KW skipped due to pending recon. To: 24-08-2015, Recon: 21-08-2015
+31-08-2015 12:47:42 PM: Processing SID 8
+31-08-2015 12:47:42 PM: SID 8 has 0 records
+31-08-2015 12:47:42 PM: Processing SID 9
+31-08-2015 12:47:42 PM: SID 9 has 0 records
+31-08-2015 12:47:42 PM: Processing SID 10
+31-08-2015 12:47:42 PM: SID 10 has 0 records
+31-08-2015 12:47:42 PM: SID 11, Circle Code S (SANGRUR), Category DSBELOW10KW skipped due to pending recon. To: 24-08-2015, Recon: 21-08-2015
+31-08-2015 12:47:50 PM: Processing SID 12
+31-08-2015 12:47:50 PM: SID 12 has 0 records
+31-08-2015 12:47:50 PM: Processing SID 13
+31-08-2015 12:47:50 PM: SID 13 has 0 records
+31-08-2015 12:47:50 PM: Processing SID 14
+31-08-2015 12:47:50 PM: SID 14 has 0 records
+31-08-2015 12:47:50 PM: SID 15, Circle Code P (PATIALA), Category DSBELOW10KW skipped due to pending recon. To: 24-08-2015, Recon: 21-08-2015
+31-08-2015 12:47:56 PM: Processing SID 16
+31-08-2015 12:47:56 PM: SID 16 has 0 records
+31-08-2015 12:47:56 PM: Processing SID 17
+31-08-2015 12:47:56 PM: SID 17 has 0 records
+31-08-2015 12:47:56 PM: Processing SID 18
+31-08-2015 12:47:56 PM: SID 18 has 0 records
+31-08-2015 12:47:56 PM: SID 19, Circle Code J (JALANDHAR), Category DSBELOW10KW skipped due to pending recon. To: 26-08-2015, Recon: 21-08-2015
+31-08-2015 12:48:04 PM: Processing SID 20
+31-08-2015 12:48:04 PM: SID 20 has 0 records
+31-08-2015 12:48:04 PM: Processing SID 21
+31-08-2015 12:48:04 PM: SID 21 has 0 records
+31-08-2015 12:48:04 PM: Processing SID 22
+31-08-2015 12:48:04 PM: SID 22 has 0 records
+31-08-2015 12:48:04 PM: SID 23, Circle Code H (HOSHIARPUR), Category DSBELOW10KW skipped due to pending recon. To: 26-08-2015, Recon: 21-08-2015
+31-08-2015 12:48:11 PM: Processing SID 24
+31-08-2015 12:48:11 PM: SID 24 has 0 records
+31-08-2015 12:49:43 PM: ===================Starting===================
+31-08-2015 12:49:53 PM: Processing SID 1
+31-08-2015 12:49:53 PM: SID 1 has 4 records
+31-08-2015 12:50:03 PM: Mail Sent
+31-08-2015 12:50:03 PM: Processing SID 2
+31-08-2015 12:50:03 PM: SID 2 has 5 records
+31-08-2015 12:50:11 PM: Mail Sent
+31-08-2015 12:50:11 PM: SID 3, Circle B (BATHINDA), Category DSBELOW10KW skipped due to pending recon. To: 24-08-2015, Recon: 21-08-2015
+31-08-2015 12:50:18 PM: Processing SID 4
+31-08-2015 12:50:18 PM: SID 4 has 0 records
+31-08-2015 12:50:18 PM: Processing SID 5
+31-08-2015 12:50:18 PM: SID 5 has 0 records
+31-08-2015 12:50:18 PM: Processing SID 6
+31-08-2015 12:50:18 PM: SID 6 has 0 records
+31-08-2015 12:50:18 PM: SID 7, Circle L (BARNALA), Category DSBELOW10KW skipped due to pending recon. To: 24-08-2015, Recon: 21-08-2015
+31-08-2015 12:50:25 PM: Processing SID 8
+31-08-2015 12:50:25 PM: SID 8 has 0 records
+31-08-2015 12:50:25 PM: Processing SID 9
+31-08-2015 12:50:25 PM: SID 9 has 0 records
+31-08-2015 12:50:25 PM: Processing SID 10
+31-08-2015 12:50:25 PM: SID 10 has 0 records
+31-08-2015 12:50:25 PM: SID 11, Circle S (SANGRUR), Category DSBELOW10KW skipped due to pending recon. To: 24-08-2015, Recon: 21-08-2015
+31-08-2015 12:50:32 PM: Processing SID 12
+31-08-2015 12:50:32 PM: SID 12 has 0 records
+31-08-2015 12:50:32 PM: Processing SID 13
+31-08-2015 12:50:32 PM: SID 13 has 0 records
+31-08-2015 12:50:32 PM: Processing SID 14
+31-08-2015 12:50:32 PM: SID 14 has 0 records
+31-08-2015 12:50:32 PM: SID 15, Circle P (PATIALA), Category DSBELOW10KW skipped due to pending recon. To: 24-08-2015, Recon: 21-08-2015
+31-08-2015 12:50:39 PM: Processing SID 16
+31-08-2015 12:50:39 PM: SID 16 has 0 records
+31-08-2015 12:50:39 PM: Processing SID 17
+31-08-2015 12:50:39 PM: SID 17 has 0 records
+31-08-2015 12:50:39 PM: Processing SID 18
+31-08-2015 12:50:39 PM: SID 18 has 0 records
+31-08-2015 12:50:39 PM: SID 19, Circle J (JALANDHAR), Category DSBELOW10KW skipped due to pending recon. To: 26-08-2015, Recon: 21-08-2015
+31-08-2015 12:50:46 PM: Processing SID 20
+31-08-2015 12:50:46 PM: SID 20 has 0 records
+31-08-2015 12:50:46 PM: Processing SID 21
+31-08-2015 12:50:46 PM: SID 21 has 0 records
+31-08-2015 12:50:46 PM: Processing SID 22
+31-08-2015 12:50:46 PM: SID 22 has 0 records
+31-08-2015 12:50:46 PM: SID 23, Circle H (HOSHIARPUR), Category DSBELOW10KW skipped due to pending recon. To: 26-08-2015, Recon: 21-08-2015
+31-08-2015 12:50:53 PM: Processing SID 24
+31-08-2015 12:50:53 PM: SID 24 has 0 records

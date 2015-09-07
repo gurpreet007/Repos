@@ -1,0 +1,5 @@
+c:\users\gurpreet\documents\visual studio 2010\Projects\doecc_scheduler\doecc_scheduler\bin\Debug\doecc_scheduler.exe.config
+c:\users\gurpreet\documents\visual studio 2010\Projects\doecc_scheduler\doecc_scheduler\bin\Debug\doecc_scheduler.exe
+c:\users\gurpreet\documents\visual studio 2010\Projects\doecc_scheduler\doecc_scheduler\bin\Debug\doecc_scheduler.pdb
+c:\users\gurpreet\documents\visual studio 2010\Projects\doecc_scheduler\doecc_scheduler\obj\x86\Debug\doecc_scheduler.exe
+c:\users\gurpreet\documents\visual studio 2010\Projects\doecc_scheduler\doecc_scheduler\obj\x86\Debug\doecc_scheduler.pdb
