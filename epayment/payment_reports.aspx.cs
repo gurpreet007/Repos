@@ -66,19 +66,26 @@ public partial class reports : System.Web.UI.Page
 
         drpVendor.Items.Insert(0, new ListItem("All", "ALL"));
     }
-    private void fillCategories()
+    private void fillCategories(string type = "sap")
     {
         DataSet ds;
+        string sql;
         //string sql = "select "+
         //"distinct decode(if_sap,'Y','SAP_','N','NonSAP_') || upper(trim(category)) as cat_text,"+
         //"upper(trim(category)) as cat_val,"+
         //"if_sap from payment order by if_sap desc, cat_text";
 
-        string sql = "select distinct 'Non_SAP_' || tbl_name as cat_text, " +
-            "tbl_name as cat_val from payment where if_sap='N' " +
-            "union all " +
-            "select distinct 'SAP_' || substr(category,1,3) as cat_text, " +
-            "substr(category,1,3) as cat_val from payment where if_sap = 'Y'";
+        if (type == "sap")
+        {
+            sql = "select distinct 'SAP_' || substr(category,1,3) as cat_text, " +
+                    "substr(category,1,3) as cat_val from payment where if_sap = 'Y'";
+        }
+        else
+        {
+            sql = "select distinct 'Non_SAP_' || tbl_name as cat_text, " +
+            "tbl_name as cat_val from payment where if_sap='N' ";
+        }
+            
         ds = OraDBConnection.GetData(sql);
         drpCategory.DataSource = ds;
         drpCategory.DataValueField = "cat_val";
@@ -150,5 +157,9 @@ public partial class reports : System.Web.UI.Page
         {
             lblMsg.Text = "No Record";
         }
+    }
+    protected void drpType_SelectedIndexChanged(object sender, EventArgs e)
+    {
+        fillCategories(drpType.SelectedValue);
     }
 }

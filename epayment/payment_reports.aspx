@@ -23,7 +23,8 @@
         <form id="form1" runat="server" class="tableWrapper">
             <div class="tableRow">
                 <p><label for="panActivity_drpDuration">Type</label></p>
-                <p><asp:DropDownList ID="drpType" runat="server">
+                <p><asp:DropDownList ID="drpType" runat="server" AutoPostBack="True" 
+                        onselectedindexchanged="drpType_SelectedIndexChanged">
                         <asp:ListItem Value="sap">SAP</asp:ListItem>
                         <asp:ListItem Value="nonsap">Non SAP</asp:ListItem>
                     </asp:DropDownList>
