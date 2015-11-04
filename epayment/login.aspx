@@ -35,7 +35,9 @@
     <script src="scripts/jquery-2.1.3.min.js"></script>  
     <script>
         $(document).ready(function () {
-            $("#pageFooter").load("resources/snippets.html #snipPageFooter");
+            $("#pageFooter").load("resources/snippets.html #snipPageFooter", function () {
+                $("#ftSupport").remove();
+            });
         });
     </script>
     <script>

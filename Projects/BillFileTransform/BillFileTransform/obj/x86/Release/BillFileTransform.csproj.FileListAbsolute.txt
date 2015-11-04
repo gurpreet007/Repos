@@ -1,0 +1,7 @@
+C:\Users\gurpreet\Documents\Visual Studio 2010\Projects\BillFileTransform\BillFileTransform\bin\Release\BillFileTransform.exe
+C:\Users\gurpreet\Documents\Visual Studio 2010\Projects\BillFileTransform\BillFileTransform\bin\Release\BillFileTransform.pdb
+C:\Users\gurpreet\Documents\Visual Studio 2010\Projects\BillFileTransform\BillFileTransform\obj\x86\Release\BillFileTransform.Form1.resources
+C:\Users\gurpreet\Documents\Visual Studio 2010\Projects\BillFileTransform\BillFileTransform\obj\x86\Release\BillFileTransform.Properties.Resources.resources
+C:\Users\gurpreet\Documents\Visual Studio 2010\Projects\BillFileTransform\BillFileTransform\obj\x86\Release\BillFileTransform.csproj.GenerateResource.Cache
+C:\Users\gurpreet\Documents\Visual Studio 2010\Projects\BillFileTransform\BillFileTransform\obj\x86\Release\BillFileTransform.exe
+C:\Users\gurpreet\Documents\Visual Studio 2010\Projects\BillFileTransform\BillFileTransform\obj\x86\Release\BillFileTransform.pdb

@@ -1,0 +1,8 @@
+c:\users\gurpreet\documents\visual studio 2010\Projects\BillFileTransform\BillFileTransform\bin\Debug\BillFileTransform.exe
+c:\users\gurpreet\documents\visual studio 2010\Projects\BillFileTransform\BillFileTransform\bin\Debug\BillFileTransform.pdb
+c:\users\gurpreet\documents\visual studio 2010\Projects\BillFileTransform\BillFileTransform\obj\x86\Debug\BillFileTransform.Form1.resources
+c:\users\gurpreet\documents\visual studio 2010\Projects\BillFileTransform\BillFileTransform\obj\x86\Debug\BillFileTransform.Properties.Resources.resources
+c:\users\gurpreet\documents\visual studio 2010\Projects\BillFileTransform\BillFileTransform\obj\x86\Debug\BillFileTransform.csproj.GenerateResource.Cache
+c:\users\gurpreet\documents\visual studio 2010\Projects\BillFileTransform\BillFileTransform\obj\x86\Debug\BillFileTransform.exe
+c:\users\gurpreet\documents\visual studio 2010\Projects\BillFileTransform\BillFileTransform\obj\x86\Debug\BillFileTransform.pdb
+C:\Users\gurpreet\Documents\Visual Studio 2010\Projects\BillFileTransform\BillFileTransform\obj\x86\Debug\BillFileTransform.csprojResolveAssemblyReference.cache

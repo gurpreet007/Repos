@@ -1,0 +1,4 @@
+c:\users\gurpreet\documents\visual studio 2010\Projects\consoleEmailTest\consoleEmailTest\bin\Debug\consoleEmailTest.exe
+c:\users\gurpreet\documents\visual studio 2010\Projects\consoleEmailTest\consoleEmailTest\bin\Debug\consoleEmailTest.pdb
+c:\users\gurpreet\documents\visual studio 2010\Projects\consoleEmailTest\consoleEmailTest\obj\x86\Debug\consoleEmailTest.exe
+c:\users\gurpreet\documents\visual studio 2010\Projects\consoleEmailTest\consoleEmailTest\obj\x86\Debug\consoleEmailTest.pdb

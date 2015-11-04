@@ -1,0 +1,2470 @@
+09-09-2015 04:35:59 PM: ===================Starting===================
+09-09-2015 04:43:09 PM: ===================Starting===================
+09-09-2015 04:45:55 PM: ===================Starting===================
+09-09-2015 04:46:52 PM: ===================Starting===================
+09-09-2015 04:47:16 PM: ===================Starting===================
+09-09-2015 04:47:27 PM: ===================Starting===================
+09-09-2015 04:47:46 PM: ===================Starting===================
+09-09-2015 04:51:03 PM: ===================Starting===================
+09-09-2015 04:53:13 PM: ===================Starting===================
+09-09-2015 04:53:36 PM: ===================Starting===================
+09-09-2015 04:57:23 PM: ===================Starting===================
+09-09-2015 04:57:53 PM: Payment Table is Empty!
+09-09-2015 04:58:40 PM: ===================Starting===================
+09-09-2015 04:58:45 PM: Payment Table is Empty!
+09-09-2015 04:58:56 PM: ===================Starting===================
+09-09-2015 04:59:04 PM: Payment Table is Empty!
+09-09-2015 04:59:17 PM: ===================Starting===================
+09-09-2015 04:59:22 PM: Payment Table is Empty!
+09-09-2015 04:59:26 PM: ===================Starting===================
+09-09-2015 04:59:31 PM: Payment Table is Empty!
+09-09-2015 04:59:34 PM: ===================Starting===================
+09-09-2015 04:59:38 PM: Payment Table is Empty!
+09-09-2015 04:59:44 PM: ===================Starting===================
+09-09-2015 04:59:53 PM: Payment Table is Empty!
+09-09-2015 05:00:00 PM: ===================Starting===================
+09-09-2015 05:00:05 PM: Payment Table is Empty!
+09-09-2015 05:00:43 PM: ===================Starting===================
+09-09-2015 05:00:49 PM: Payment Table is Empty!
+09-09-2015 05:02:07 PM: ===================Starting===================
+09-09-2015 05:02:16 PM: Payment Table is Empty!
+09-09-2015 05:02:21 PM: ===================Starting===================
+09-09-2015 05:02:26 PM: Payment Table is Empty!
+09-09-2015 05:02:38 PM: ===================Starting===================
+09-09-2015 05:02:44 PM: Payment Table is Empty!
+09-09-2015 05:02:52 PM: ===================Starting===================
+09-09-2015 05:03:02 PM: ===================Starting===================
+09-09-2015 05:03:07 PM: ===================Starting===================
+09-09-2015 05:03:14 PM: ===================Starting===================
+09-09-2015 05:03:24 PM: ===================Starting===================
+09-09-2015 05:04:04 PM: ===================Starting===================
+09-09-2015 05:04:10 PM: ===================Starting===================
+09-09-2015 05:04:46 PM: ===================Starting===================
+09-09-2015 05:04:55 PM: ===================Starting===================
+09-09-2015 05:05:07 PM: ===================Starting===================
+09-09-2015 05:05:25 PM: ===================Starting===================
+10-09-2015 09:34:43 AM: ===================Starting===================
+10-09-2015 09:36:39 AM: ===================Starting===================
+10-09-2015 09:38:11 AM: ===================Starting===================
+10-09-2015 03:38:31 PM: ===================Starting===================
+10-09-2015 03:38:43 PM: Payment Table is Empty!
+10-09-2015 03:38:51 PM: ===================Starting===================
+10-09-2015 03:39:01 PM: Payment Table is Empty!
+11-09-2015 07:01:32 PM: ===================Starting===================
+11-09-2015 07:01:38 PM: SID 124, Circle H (HOSHIARPUR), Category DSABOVE10KW skipped due to pending reconcilation. Due Date: 06-09-2015, Last Recon: 20-08-2015
+11-09-2015 07:01:42 PM: SID 125, Circle M (FEROZPUR), Category DSABOVE10KW skipped due to pending reconcilation. Due Date: 31-08-2015, Last Recon: 20-08-2015
+11-09-2015 07:01:47 PM: SID 126, Circle M (FEROZPUR), Category DSABOVE10KW skipped due to pending reconcilation. Due Date: 06-09-2015, Last Recon: 20-08-2015
+11-09-2015 07:01:51 PM: SID 127, Circle R (ROPAR), Category DSABOVE10KW skipped due to pending reconcilation. Due Date: 31-08-2015, Last Recon: 20-08-2015
+11-09-2015 07:01:56 PM: SID 121, Circle A (AMRITSAR(SUB)), Category DSABOVE10KW skipped due to pending reconcilation. Due Date: 31-08-2015, Last Recon: 20-08-2015
+11-09-2015 07:02:00 PM: SID 122, Circle A (AMRITSAR(SUB)), Category DSABOVE10KW skipped due to pending reconcilation. Due Date: 06-09-2015, Last Recon: 20-08-2015
+11-09-2015 07:02:04 PM: SID 123, Circle H (HOSHIARPUR), Category DSABOVE10KW skipped due to pending reconcilation. Due Date: 31-08-2015, Last Recon: 20-08-2015
+11-09-2015 07:02:08 PM: SID 128, Circle R (ROPAR), Category DSABOVE10KW skipped due to pending reconcilation. Due Date: 06-09-2015, Last Recon: 20-08-2015
+11-09-2015 07:02:12 PM: SID 129, Circle U (LUDHIANA(SUB)), Category DSABOVE10KW skipped due to pending reconcilation. Due Date: 31-08-2015, Last Recon: 20-08-2015
+11-09-2015 07:02:16 PM: SID 130, Circle U (LUDHIANA(SUB)), Category DSABOVE10KW skipped due to pending reconcilation. Due Date: 06-09-2015, Last Recon: 20-08-2015
+11-09-2015 07:02:21 PM: SID 131, Circle F (FARIDKOT), Category DSABOVE10KW skipped due to pending reconcilation. Due Date: 31-08-2015, Last Recon: 20-08-2015
+11-09-2015 07:02:25 PM: SID 132, Circle F (FARIDKOT), Category DSABOVE10KW skipped due to pending reconcilation. Due Date: 06-09-2015, Last Recon: 20-08-2015
+11-09-2015 07:02:29 PM: SID 133, Circle G (GURDASPUR), Category DSABOVE10KW skipped due to pending reconcilation. Due Date: 31-08-2015, Last Recon: 20-08-2015
+11-09-2015 07:02:34 PM: SID 134, Circle G (GURDASPUR), Category DSABOVE10KW skipped due to pending reconcilation. Due Date: 06-09-2015, Last Recon: 20-08-2015
+11-09-2015 07:02:38 PM: SID 139, Circle T (TARANTARAN), Category DSABOVE10KW skipped due to pending reconcilation. Due Date: 06-09-2015, Last Recon: 20-08-2015
+11-09-2015 07:02:42 PM: SID 140, Circle T (TARANTARAN), Category DSABOVE10KW skipped due to pending reconcilation. Due Date: 31-08-2015, Last Recon: 20-08-2015
+11-09-2015 07:02:47 PM: SID 141, Circle Z (MOHALI), Category DSABOVE10KW skipped due to pending reconcilation. Due Date: 31-08-2015, Last Recon: 20-08-2015
+11-09-2015 07:02:51 PM: SID 142, Circle Z (MOHALI), Category DSABOVE10KW skipped due to pending reconcilation. Due Date: 06-09-2015, Last Recon: 20-08-2015
+11-09-2015 07:02:55 PM: SID 143's Send Day is in future. Send Day: 15, Today: 11
+11-09-2015 07:02:55 PM: SID 144's Send Day is in future. Send Day: 21, Today: 11
+11-09-2015 07:02:55 PM: SID 145's Send Day is in future. Send Day: 15, Today: 11
+11-09-2015 07:02:55 PM: SID 146's Send Day is in future. Send Day: 21, Today: 11
+11-09-2015 07:02:55 PM: SID 147's Send Day is in future. Send Day: 15, Today: 11
+11-09-2015 07:02:55 PM: SID 148's Send Day is in future. Send Day: 21, Today: 11
+11-09-2015 07:02:55 PM: SID 149's Send Day is in future. Send Day: 15, Today: 11
+11-09-2015 07:02:55 PM: SID 150's Send Day is in future. Send Day: 21, Today: 11
+11-09-2015 07:02:55 PM: SID 151's Send Day is in future. Send Day: 15, Today: 11
+11-09-2015 07:02:55 PM: SID 152's Send Day is in future. Send Day: 21, Today: 11
+11-09-2015 07:02:55 PM: SID 153's Send Day is in future. Send Day: 15, Today: 11
+11-09-2015 07:02:55 PM: SID 154's Send Day is in future. Send Day: 21, Today: 11
+11-09-2015 07:02:55 PM: SID 155's Send Day is in future. Send Day: 15, Today: 11
+11-09-2015 07:02:55 PM: SID 156's Send Day is in future. Send Day: 21, Today: 11
+11-09-2015 07:02:55 PM: SID 159's Send Day is in future. Send Day: 15, Today: 11
+11-09-2015 07:02:55 PM: SID 160's Send Day is in future. Send Day: 21, Today: 11
+11-09-2015 07:02:55 PM: SID 161's Send Day is in future. Send Day: 15, Today: 11
+11-09-2015 07:02:55 PM: SID 162's Send Day is in future. Send Day: 21, Today: 11
+11-09-2015 07:02:55 PM: SID 83, Circle Y (MUKATSAR), Category MS skipped due to pending reconcilation. Due Date: 05-09-2015, Last Recon: 20-08-2015
+11-09-2015 07:02:59 PM: SID 84, Circle G (GURDASPUR), Category MS skipped due to pending reconcilation. Due Date: 05-09-2015, Last Recon: 20-08-2015
+11-09-2015 07:03:04 PM: SID 85, Circle J (JALANDHAR), Category MS skipped due to pending reconcilation. Due Date: 05-09-2015, Last Recon: 20-08-2015
+11-09-2015 07:03:07 PM: SID 81, Circle U (LUDHIANA(SUB)), Category MS skipped due to pending reconcilation. Due Date: 05-09-2015, Last Recon: 20-08-2015
+11-09-2015 07:03:12 PM: SID 82, Circle H (HOSHIARPUR), Category MS skipped due to pending reconcilation. Due Date: 05-09-2015, Last Recon: 20-08-2015
+11-09-2015 07:03:16 PM: SID 86, Circle M (FEROZPUR), Category MS skipped due to pending reconcilation. Due Date: 05-09-2015, Last Recon: 20-08-2015
+11-09-2015 07:03:20 PM: SID 87, Circle R (ROPAR), Category MS skipped due to pending reconcilation. Due Date: 05-09-2015, Last Recon: 20-08-2015
+11-09-2015 07:03:25 PM: SID 88, Circle Z (MOHALI), Category MS skipped due to pending reconcilation. Due Date: 05-09-2015, Last Recon: 20-08-2015
+11-09-2015 07:03:29 PM: SID 89's Send Day is in future. Send Day: 22, Today: 11
+11-09-2015 07:03:29 PM: SID 90's Send Day is in future. Send Day: 22, Today: 11
+11-09-2015 07:03:29 PM: SID 91's Send Day is in future. Send Day: 22, Today: 11
+11-09-2015 07:03:29 PM: SID 92's Send Day is in future. Send Day: 22, Today: 11
+11-09-2015 07:03:29 PM: SID 93's Send Day is in future. Send Day: 22, Today: 11
+11-09-2015 07:03:29 PM: SID 94's Send Day is in future. Send Day: 22, Today: 11
+11-09-2015 07:03:29 PM: SID 95's Send Day is in future. Send Day: 22, Today: 11
+11-09-2015 07:03:29 PM: SID 96's Send Day is in future. Send Day: 22, Today: 11
+11-09-2015 07:03:29 PM: SID 97's Send Day is in future. Send Day: 22, Today: 11
+11-09-2015 07:03:29 PM: SID 98's Send Day is in future. Send Day: 22, Today: 11
+11-09-2015 07:03:29 PM: SID 99, Circle E (), Category MS skipped due to pending reconcilation. Due Date: 05-09-2015, Last Recon: 20-08-2015
+11-09-2015 07:03:33 PM: SID 100, Circle W (), Category MS skipped due to pending reconcilation. Due Date: 05-09-2015, Last Recon: 20-08-2015
+11-09-2015 07:03:38 PM: SID 101's Send Day is in future. Send Day: 22, Today: 11
+11-09-2015 07:03:38 PM: SID 102, Circle A (AMRITSAR(SUB)), Category SP skipped due to pending reconcilation. Due Date: 31-08-2015, Last Recon: 20-08-2015
+11-09-2015 07:03:44 PM: SID 103, Circle C (), Category SP skipped due to pending reconcilation. Due Date: 31-08-2015, Last Recon: 20-08-2015
+11-09-2015 07:03:48 PM: SID 104, Circle H (HOSHIARPUR), Category SP skipped due to pending reconcilation. Due Date: 31-08-2015, Last Recon: 20-08-2015
+11-09-2015 07:03:53 PM: SID 105, Circle M (FEROZPUR), Category SP skipped due to pending reconcilation. Due Date: 31-08-2015, Last Recon: 20-08-2015
+11-09-2015 07:03:57 PM: SID 106, Circle R (ROPAR), Category SP skipped due to pending reconcilation. Due Date: 31-08-2015, Last Recon: 20-08-2015
+11-09-2015 07:04:02 PM: SID 107, Circle F (FARIDKOT), Category SP skipped due to pending reconcilation. Due Date: 31-08-2015, Last Recon: 20-08-2015
+11-09-2015 07:04:06 PM: SID 108, Circle G (GURDASPUR), Category SP skipped due to pending reconcilation. Due Date: 31-08-2015, Last Recon: 20-08-2015
+11-09-2015 07:04:10 PM: SID 109, Circle T (TARANTARAN), Category SP skipped due to pending reconcilation. Due Date: 31-08-2015, Last Recon: 20-08-2015
+11-09-2015 07:04:14 PM: SID 110, Circle U (LUDHIANA(SUB)), Category SP skipped due to pending reconcilation. Due Date: 31-08-2015, Last Recon: 20-08-2015
+11-09-2015 07:04:19 PM: SID 111, Circle K (KHANNA), Category SP skipped due to pending reconcilation. Due Date: 31-08-2015, Last Recon: 20-08-2015
+11-09-2015 07:04:23 PM: SID 112's Send Day is in future. Send Day: 15, Today: 11
+11-09-2015 07:04:23 PM: SID 113's Send Day is in future. Send Day: 15, Today: 11
+11-09-2015 07:04:23 PM: SID 114's Send Day is in future. Send Day: 15, Today: 11
+11-09-2015 07:04:23 PM: SID 115's Send Day is in future. Send Day: 15, Today: 11
+11-09-2015 07:04:23 PM: SID 116's Send Day is in future. Send Day: 15, Today: 11
+11-09-2015 07:04:23 PM: SID 117's Send Day is in future. Send Day: 15, Today: 11
+11-09-2015 07:04:23 PM: SID 118's Send Day is in future. Send Day: 15, Today: 11
+11-09-2015 07:04:23 PM: SID 119's Send Day is in future. Send Day: 15, Today: 11
+11-09-2015 07:04:23 PM: SID 120's Send Day is in future. Send Day: 15, Today: 11
+11-09-2015 07:04:23 PM: SID 9's Send Day is in future. Send Day: 12, Today: 11
+11-09-2015 07:04:23 PM: SID 10's Send Day is in future. Send Day: 18, Today: 11
+11-09-2015 07:04:23 PM: SID 11's Send Day is in future. Send Day: 26, Today: 11
+11-09-2015 07:04:23 PM: SID 12, Circle S (SANGRUR), Category DSBELOW10KW skipped due to pending reconcilation. Due Date: 31-08-2015, Last Recon: 20-08-2015
+11-09-2015 07:04:28 PM: SID 17's Send Day is in future. Send Day: 12, Today: 11
+11-09-2015 07:04:28 PM: SID 4's Send Day is in future. Send Day: 12, Today: 11
+11-09-2015 07:04:28 PM: SID 5's Send Day is in future. Send Day: 18, Today: 11
+11-09-2015 07:04:28 PM: SID 6's Send Day is in future. Send Day: 26, Today: 11
+11-09-2015 07:04:28 PM: SID 7, Circle L (BARNALA), Category DSBELOW10KW skipped due to pending reconcilation. Due Date: 31-08-2015, Last Recon: 20-08-2015
+11-09-2015 07:04:32 PM: SID 18's Send Day is in future. Send Day: 18, Today: 11
+11-09-2015 07:04:32 PM: SID 19's Send Day is in future. Send Day: 26, Today: 11
+11-09-2015 07:04:32 PM: SID 20, Circle B (BATHINDA), Category DSBELOW10KW skipped due to pending reconcilation. Due Date: 31-08-2015, Last Recon: 20-08-2015
+11-09-2015 07:04:36 PM: SID 21's Send Day is in future. Send Day: 15, Today: 11
+11-09-2015 07:04:36 PM: SID 22's Send Day is in future. Send Day: 19, Today: 11
+11-09-2015 07:04:36 PM: SID 23's Send Day is in future. Send Day: 25, Today: 11
+11-09-2015 07:04:36 PM: SID 24, Circle P (PATIALA), Category DSBELOW10KW skipped due to pending reconcilation. Due Date: 31-08-2015, Last Recon: 20-08-2015
+11-09-2015 07:04:40 PM: SID 25's Send Day is in future. Send Day: 14, Today: 11
+11-09-2015 07:04:40 PM: SID 26's Send Day is in future. Send Day: 20, Today: 11
+11-09-2015 07:04:40 PM: SID 27's Send Day is in future. Send Day: 28, Today: 11
+11-09-2015 07:04:40 PM: SID 28, Circle J (JALANDHAR), Category DSBELOW10KW skipped due to pending reconcilation. Due Date: 03-09-2015, Last Recon: 20-08-2015
+11-09-2015 07:04:44 PM: SID 29's Send Day is in future. Send Day: 15, Today: 11
+11-09-2015 07:04:44 PM: SID 30's Send Day is in future. Send Day: 20, Today: 11
+11-09-2015 07:04:44 PM: SID 31's Send Day is in future. Send Day: 28, Today: 11
+11-09-2015 07:04:44 PM: SID 32, Circle H (HOSHIARPUR), Category DSBELOW10KW skipped due to pending reconcilation. Due Date: 03-09-2015, Last Recon: 20-08-2015
+11-09-2015 07:04:49 PM: SID 33, Circle X (KAPURTHALA), Category DSBELOW10KW skipped due to pending reconcilation. Due Date: 04-09-2015, Last Recon: 20-08-2015
+11-09-2015 07:04:54 PM: SID 34's Send Day is in future. Send Day: 14, Today: 11
+11-09-2015 07:04:54 PM: SID 35's Send Day is in future. Send Day: 19, Today: 11
+11-09-2015 07:04:54 PM: SID 36, Circle X (KAPURTHALA), Category DSBELOW10KW skipped due to pending reconcilation. Due Date: 31-08-2015, Last Recon: 20-08-2015
+11-09-2015 07:04:58 PM: SID 37, Circle N (NAWASHAHER), Category DSBELOW10KW skipped due to pending reconcilation. Due Date: 04-09-2015, Last Recon: 20-08-2015
+11-09-2015 07:05:02 PM: SID 38's Send Day is in future. Send Day: 14, Today: 11
+11-09-2015 07:05:02 PM: SID 39's Send Day is in future. Send Day: 21, Today: 11
+11-09-2015 07:05:02 PM: SID 40, Circle N (NAWASHAHER), Category DSBELOW10KW skipped due to pending reconcilation. Due Date: 31-08-2015, Last Recon: 20-08-2015
+11-09-2015 07:05:07 PM: SID 41, Circle G (GURDASPUR), Category DSBELOW10KW skipped due to pending reconcilation. Due Date: 05-09-2015, Last Recon: 20-08-2015
+11-09-2015 07:05:11 PM: SID 42's Send Day is in future. Send Day: 17, Today: 11
+11-09-2015 07:05:11 PM: SID 43's Send Day is in future. Send Day: 23, Today: 11
+11-09-2015 07:05:11 PM: SID 44, Circle G (GURDASPUR), Category DSBELOW10KW skipped due to pending reconcilation. Due Date: 31-08-2015, Last Recon: 20-08-2015
+11-09-2015 07:05:16 PM: SID 45, Circle K (KHANNA), Category DSBELOW10KW skipped due to pending reconcilation. Due Date: 07-09-2015, Last Recon: 20-08-2015
+11-09-2015 07:05:20 PM: SID 46's Send Day is in future. Send Day: 18, Today: 11
+11-09-2015 07:05:20 PM: SID 47's Send Day is in future. Send Day: 24, Today: 11
+11-09-2015 07:05:20 PM: SID 48, Circle K (KHANNA), Category DSBELOW10KW skipped due to pending reconcilation. Due Date: 31-08-2015, Last Recon: 20-08-2015
+11-09-2015 07:05:24 PM: SID 49, Circle U (LUDHIANA(SUB)), Category DSBELOW10KW skipped due to pending reconcilation. Due Date: 07-09-2015, Last Recon: 20-08-2015
+11-09-2015 07:05:28 PM: SID 50's Send Day is in future. Send Day: 18, Today: 11
+11-09-2015 07:05:28 PM: SID 51's Send Day is in future. Send Day: 24, Today: 11
+11-09-2015 07:05:28 PM: SID 52, Circle U (LUDHIANA(SUB)), Category DSBELOW10KW skipped due to pending reconcilation. Due Date: 31-08-2015, Last Recon: 20-08-2015
+11-09-2015 07:05:33 PM: SID 53, Circle T (TARANTARAN), Category DSBELOW10KW skipped due to pending reconcilation. Due Date: 07-09-2015, Last Recon: 20-08-2015
+11-09-2015 07:05:37 PM: SID 54's Send Day is in future. Send Day: 18, Today: 11
+11-09-2015 07:05:37 PM: SID 55's Send Day is in future. Send Day: 24, Today: 11
+11-09-2015 07:05:37 PM: SID 56, Circle T (TARANTARAN), Category DSBELOW10KW skipped due to pending reconcilation. Due Date: 31-08-2015, Last Recon: 20-08-2015
+11-09-2015 07:05:41 PM: SID 57, Circle A (AMRITSAR(SUB)), Category DSBELOW10KW skipped due to pending reconcilation. Due Date: 07-09-2015, Last Recon: 20-08-2015
+11-09-2015 07:05:46 PM: SID 58's Send Day is in future. Send Day: 18, Today: 11
+11-09-2015 07:05:46 PM: SID 59's Send Day is in future. Send Day: 24, Today: 11
+11-09-2015 07:05:46 PM: SID 60, Circle A (AMRITSAR(SUB)), Category DSBELOW10KW skipped due to pending reconcilation. Due Date: 31-08-2015, Last Recon: 20-08-2015
+11-09-2015 07:05:50 PM: SID 61, Circle Z (MOHALI), Category DSBELOW10KW skipped due to pending reconcilation. Due Date: 08-09-2015, Last Recon: 20-08-2015
+11-09-2015 07:05:54 PM: SID 62's Send Day is in future. Send Day: 19, Today: 11
+11-09-2015 07:05:54 PM: SID 63's Send Day is in future. Send Day: 25, Today: 11
+11-09-2015 07:05:54 PM: SID 64, Circle Z (MOHALI), Category DSBELOW10KW skipped due to pending reconcilation. Due Date: 31-08-2015, Last Recon: 20-08-2015
+11-09-2015 07:05:58 PM: SID 65, Circle R (ROPAR), Category DSBELOW10KW skipped due to pending reconcilation. Due Date: 08-09-2015, Last Recon: 20-08-2015
+11-09-2015 07:06:02 PM: SID 66's Send Day is in future. Send Day: 19, Today: 11
+11-09-2015 07:06:02 PM: SID 67's Send Day is in future. Send Day: 25, Today: 11
+11-09-2015 07:06:02 PM: SID 68, Circle R (ROPAR), Category DSBELOW10KW skipped due to pending reconcilation. Due Date: 31-08-2015, Last Recon: 20-08-2015
+11-09-2015 07:06:06 PM: SID 69, Circle F (FARIDKOT), Category DSBELOW10KW skipped due to pending reconcilation. Due Date: 09-09-2015, Last Recon: 20-08-2015
+11-09-2015 07:06:11 PM: SID 70's Send Day is in future. Send Day: 20, Today: 11
+11-09-2015 07:06:11 PM: SID 71's Send Day is in future. Send Day: 26, Today: 11
+11-09-2015 07:06:11 PM: SID 72, Circle F (FARIDKOT), Category DSBELOW10KW skipped due to pending reconcilation. Due Date: 31-08-2015, Last Recon: 20-08-2015
+11-09-2015 07:06:15 PM: SID 73, Circle M (FEROZPUR), Category DSBELOW10KW skipped due to pending reconcilation. Due Date: 09-09-2015, Last Recon: 20-08-2015
+11-09-2015 07:06:20 PM: SID 74's Send Day is in future. Send Day: 20, Today: 11
+11-09-2015 07:06:20 PM: SID 75's Send Day is in future. Send Day: 26, Today: 11
+11-09-2015 07:06:20 PM: SID 76, Circle M (FEROZPUR), Category DSBELOW10KW skipped due to pending reconcilation. Due Date: 31-08-2015, Last Recon: 20-08-2015
+11-09-2015 07:06:24 PM: SID 77's Send Day is in future. Send Day: 12, Today: 11
+11-09-2015 07:06:24 PM: SID 78's Send Day is in future. Send Day: 21, Today: 11
+11-09-2015 07:06:24 PM: SID 79's Send Day is in future. Send Day: 27, Today: 11
+11-09-2015 07:06:24 PM: SID 80, Circle Y (MUKATSAR), Category DSBELOW10KW skipped due to pending reconcilation. Due Date: 31-08-2015, Last Recon: 20-08-2015
+28-10-2015 11:39:18 AM: ===================Starting===================
+28-10-2015 11:39:25 AM: Processing SID 266
+28-10-2015 11:39:25 AM: SID 266 has 0 records
+28-10-2015 11:39:25 AM: Processing SID 267
+28-10-2015 11:39:25 AM: SID 267 has 0 records
+28-10-2015 11:39:25 AM: Processing SID 268
+28-10-2015 11:39:25 AM: SID 268 has 0 records
+28-10-2015 11:39:25 AM: Processing SID 269
+28-10-2015 11:39:25 AM: SID 269 has 0 records
+28-10-2015 11:39:25 AM: Processing SID 270
+28-10-2015 11:39:25 AM: SID 270 has 0 records
+28-10-2015 11:39:25 AM: Processing SID 271
+28-10-2015 11:39:25 AM: SID 271 has 0 records
+28-10-2015 11:39:25 AM: Processing SID 272
+28-10-2015 11:39:25 AM: SID 272 has 0 records
+28-10-2015 11:39:25 AM: Processing SID 273
+28-10-2015 11:39:25 AM: SID 273 has 0 records
+28-10-2015 11:39:25 AM: Processing SID 280
+28-10-2015 11:39:25 AM: SID 280 has 0 records
+28-10-2015 11:39:25 AM: Processing SID 281
+28-10-2015 11:39:25 AM: SID 281 has 0 records
+28-10-2015 11:39:25 AM: Processing SID 282
+28-10-2015 11:39:25 AM: SID 282 has 0 records
+28-10-2015 11:39:25 AM: Processing SID 283
+28-10-2015 11:39:25 AM: SID 283 has 0 records
+28-10-2015 11:39:25 AM: Processing SID 284
+28-10-2015 11:39:25 AM: SID 284 has 0 records
+28-10-2015 11:39:25 AM: Processing SID 285
+28-10-2015 11:39:25 AM: SID 285 has 0 records
+28-10-2015 11:39:25 AM: Processing SID 286
+28-10-2015 11:39:25 AM: SID 286 has 0 records
+28-10-2015 11:39:25 AM: Processing SID 287
+28-10-2015 11:39:25 AM: SID 287 has 0 records
+28-10-2015 11:39:25 AM: Processing SID 288
+28-10-2015 11:39:25 AM: SID 288 has 0 records
+28-10-2015 11:39:25 AM: Processing SID 289
+28-10-2015 11:39:25 AM: SID 289 has 0 records
+28-10-2015 11:39:25 AM: Processing SID 290
+28-10-2015 11:39:25 AM: SID 290 has 0 records
+28-10-2015 11:39:25 AM: Processing SID 291
+28-10-2015 11:39:25 AM: SID 291 has 0 records
+28-10-2015 11:39:25 AM: Processing SID 292
+28-10-2015 11:39:25 AM: SID 292 has 0 records
+28-10-2015 11:39:25 AM: Processing SID 293
+28-10-2015 11:39:25 AM: SID 293 has 0 records
+28-10-2015 11:39:25 AM: Processing SID 294
+28-10-2015 11:39:25 AM: SID 294 has 0 records
+28-10-2015 11:39:25 AM: Processing SID 295
+28-10-2015 11:39:25 AM: SID 295 has 0 records
+28-10-2015 11:39:25 AM: Processing SID 296
+28-10-2015 11:39:25 AM: SID 296 has 0 records
+28-10-2015 11:39:25 AM: Processing SID 297
+28-10-2015 11:39:25 AM: SID 297 has 0 records
+28-10-2015 11:39:25 AM: Processing SID 434
+28-10-2015 11:39:25 AM: SID 434 has 0 records
+28-10-2015 11:39:25 AM: Processing SID 435
+28-10-2015 11:39:25 AM: SID 435 has 0 records
+28-10-2015 11:39:25 AM: Processing SID 436
+28-10-2015 11:39:25 AM: SID 436 has 9 records
+28-10-2015 11:39:25 AM: Mail Sent
+28-10-2015 11:39:25 AM: Processing SID 437
+28-10-2015 11:39:25 AM: SID 437 has 0 records
+28-10-2015 11:39:25 AM: Processing SID 438
+28-10-2015 11:39:25 AM: SID 438 has 0 records
+28-10-2015 11:39:25 AM: Processing SID 439
+28-10-2015 11:39:25 AM: SID 439 has 0 records
+28-10-2015 11:39:25 AM: Processing SID 440
+28-10-2015 11:39:25 AM: SID 440 has 0 records
+28-10-2015 11:39:25 AM: Processing SID 441
+28-10-2015 11:39:25 AM: SID 441 has 0 records
+28-10-2015 11:39:25 AM: Processing SID 442
+28-10-2015 11:39:25 AM: SID 442 has 0 records
+28-10-2015 11:39:25 AM: Processing SID 443
+28-10-2015 11:39:25 AM: SID 443 has 0 records
+28-10-2015 11:39:25 AM: Processing SID 444
+28-10-2015 11:39:25 AM: SID 444 has 0 records
+28-10-2015 11:39:25 AM: Processing SID 445
+28-10-2015 11:39:25 AM: SID 445 has 0 records
+28-10-2015 11:39:25 AM: Processing SID 446
+28-10-2015 11:39:25 AM: SID 446 has 0 records
+28-10-2015 11:39:25 AM: Processing SID 447
+28-10-2015 11:39:25 AM: SID 447 has 0 records
+28-10-2015 11:39:25 AM: Processing SID 448
+28-10-2015 11:39:25 AM: SID 448 has 0 records
+28-10-2015 11:39:25 AM: Processing SID 449
+28-10-2015 11:39:25 AM: SID 449 has 0 records
+28-10-2015 11:39:25 AM: Processing SID 450
+28-10-2015 11:39:25 AM: SID 450 has 0 records
+28-10-2015 11:39:25 AM: Processing SID 451
+28-10-2015 11:39:25 AM: SID 451 has 0 records
+28-10-2015 11:39:25 AM: Processing SID 452
+28-10-2015 11:39:25 AM: SID 452 has 0 records
+28-10-2015 11:39:25 AM: Processing SID 453
+28-10-2015 11:39:25 AM: SID 453 has 0 records
+28-10-2015 11:39:25 AM: Processing SID 454
+28-10-2015 11:39:25 AM: SID 454 has 0 records
+28-10-2015 11:39:25 AM: Processing SID 455
+28-10-2015 11:39:25 AM: SID 455 has 0 records
+28-10-2015 11:39:25 AM: Processing SID 456
+28-10-2015 11:39:25 AM: SID 456 has 0 records
+28-10-2015 11:39:25 AM: Processing SID 457
+28-10-2015 11:39:25 AM: SID 457 has 0 records
+28-10-2015 11:39:25 AM: Processing SID 458
+28-10-2015 11:39:25 AM: SID 458 has 0 records
+28-10-2015 11:39:25 AM: Processing SID 459
+28-10-2015 11:39:25 AM: SID 459 has 0 records
+28-10-2015 11:39:25 AM: Processing SID 460
+28-10-2015 11:39:25 AM: SID 460 has 0 records
+28-10-2015 11:39:25 AM: Processing SID 461
+28-10-2015 11:39:25 AM: SID 461 has 0 records
+28-10-2015 11:39:25 AM: Processing SID 462
+28-10-2015 11:39:25 AM: SID 462 has 0 records
+28-10-2015 11:39:25 AM: Processing SID 463
+28-10-2015 11:39:25 AM: SID 463 has 0 records
+28-10-2015 11:39:25 AM: Processing SID 464
+28-10-2015 11:39:25 AM: SID 464 has 0 records
+28-10-2015 11:39:25 AM: Processing SID 466
+28-10-2015 11:39:25 AM: SID 466 has 0 records
+28-10-2015 11:39:25 AM: Processing SID 467
+28-10-2015 11:39:25 AM: SID 467 has 0 records
+28-10-2015 11:39:25 AM: Processing SID 468
+28-10-2015 11:39:25 AM: SID 468 has 0 records
+28-10-2015 11:39:25 AM: Processing SID 469
+28-10-2015 11:39:25 AM: SID 469 has 0 records
+28-10-2015 11:39:25 AM: Processing SID 470
+28-10-2015 11:39:25 AM: SID 470 has 0 records
+28-10-2015 11:39:25 AM: Processing SID 471
+28-10-2015 11:39:25 AM: SID 471 has 0 records
+28-10-2015 11:39:25 AM: Processing SID 476
+28-10-2015 11:39:25 AM: SID 476 has 0 records
+28-10-2015 11:39:25 AM: Processing SID 477
+28-10-2015 11:39:25 AM: SID 477 has 0 records
+28-10-2015 11:39:25 AM: Processing SID 478
+28-10-2015 11:39:25 AM: SID 478 has 0 records
+28-10-2015 11:39:25 AM: Processing SID 479
+28-10-2015 11:39:25 AM: SID 479 has 0 records
+28-10-2015 11:39:25 AM: Processing SID 480
+28-10-2015 11:39:25 AM: SID 480 has 0 records
+28-10-2015 11:39:25 AM: Processing SID 481
+28-10-2015 11:39:25 AM: SID 481 has 0 records
+28-10-2015 11:39:25 AM: Processing SID 482
+28-10-2015 11:39:25 AM: SID 482 has 0 records
+28-10-2015 11:39:25 AM: Processing SID 483
+28-10-2015 11:39:25 AM: SID 483 has 0 records
+28-10-2015 11:39:25 AM: Processing SID 484
+28-10-2015 11:39:25 AM: SID 484 has 0 records
+28-10-2015 11:39:25 AM: Processing SID 485
+28-10-2015 11:39:25 AM: SID 485 has 0 records
+28-10-2015 11:39:25 AM: Processing SID 486
+28-10-2015 11:39:25 AM: SID 486 has 0 records
+28-10-2015 11:39:25 AM: Processing SID 487
+28-10-2015 11:39:25 AM: SID 487 has 0 records
+28-10-2015 11:39:25 AM: Processing SID 488
+28-10-2015 11:39:25 AM: SID 488 has 0 records
+28-10-2015 11:39:25 AM: Processing SID 489
+28-10-2015 11:39:25 AM: SID 489 has 0 records
+28-10-2015 11:39:25 AM: Processing SID 490
+28-10-2015 11:39:25 AM: SID 490 has 0 records
+28-10-2015 11:39:25 AM: Processing SID 99
+28-10-2015 11:39:25 AM: SID 99 has 0 records
+28-10-2015 11:39:25 AM: Processing SID 100
+28-10-2015 11:39:25 AM: SID 100 has 0 records
+28-10-2015 11:39:25 AM: Processing SID 317
+28-10-2015 11:39:25 AM: SID 317 has 0 records
+28-10-2015 11:39:25 AM: Processing SID 318
+28-10-2015 11:39:25 AM: SID 318 has 0 records
+28-10-2015 11:39:25 AM: Processing SID 340
+28-10-2015 11:39:25 AM: SID 340 has 0 records
+28-10-2015 11:39:25 AM: Processing SID 341
+28-10-2015 11:39:25 AM: SID 341 has 0 records
+28-10-2015 11:39:25 AM: Processing SID 342
+28-10-2015 11:39:25 AM: SID 342 has 0 records
+28-10-2015 11:39:25 AM: Processing SID 343
+28-10-2015 11:39:25 AM: SID 343 has 0 records
+28-10-2015 11:39:25 AM: Processing SID 346
+28-10-2015 11:39:25 AM: SID 346 has 0 records
+28-10-2015 11:39:25 AM: Processing SID 347
+28-10-2015 11:39:26 AM: SID 347 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 348
+28-10-2015 11:39:26 AM: SID 348 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 349
+28-10-2015 11:39:26 AM: SID 349 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 350
+28-10-2015 11:39:26 AM: SID 350 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 351
+28-10-2015 11:39:26 AM: SID 351 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 352
+28-10-2015 11:39:26 AM: SID 352 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 353
+28-10-2015 11:39:26 AM: SID 353 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 354
+28-10-2015 11:39:26 AM: SID 354 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 355
+28-10-2015 11:39:26 AM: SID 355 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 356
+28-10-2015 11:39:26 AM: SID 356 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 357
+28-10-2015 11:39:26 AM: SID 357 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 358
+28-10-2015 11:39:26 AM: SID 358 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 359
+28-10-2015 11:39:26 AM: SID 359 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 360
+28-10-2015 11:39:26 AM: SID 360 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 361
+28-10-2015 11:39:26 AM: SID 361 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 362
+28-10-2015 11:39:26 AM: SID 362 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 363
+28-10-2015 11:39:26 AM: SID 363 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 364
+28-10-2015 11:39:26 AM: SID 364 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 365
+28-10-2015 11:39:26 AM: SID 365 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 366
+28-10-2015 11:39:26 AM: SID 366 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 367
+28-10-2015 11:39:26 AM: SID 367 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 368
+28-10-2015 11:39:26 AM: SID 368 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 369
+28-10-2015 11:39:26 AM: SID 369 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 370
+28-10-2015 11:39:26 AM: SID 370 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 371
+28-10-2015 11:39:26 AM: SID 371 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 372
+28-10-2015 11:39:26 AM: SID 372 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 373
+28-10-2015 11:39:26 AM: SID 373 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 374
+28-10-2015 11:39:26 AM: SID 374 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 375
+28-10-2015 11:39:26 AM: SID 375 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 376
+28-10-2015 11:39:26 AM: SID 376 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 377
+28-10-2015 11:39:26 AM: SID 377 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 378
+28-10-2015 11:39:26 AM: SID 378 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 379
+28-10-2015 11:39:26 AM: SID 379 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 384
+28-10-2015 11:39:26 AM: SID 384 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 385
+28-10-2015 11:39:26 AM: SID 385 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 386
+28-10-2015 11:39:26 AM: SID 386 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 387
+28-10-2015 11:39:26 AM: SID 387 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 388
+28-10-2015 11:39:26 AM: SID 388 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 389
+28-10-2015 11:39:26 AM: SID 389 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 390
+28-10-2015 11:39:26 AM: SID 390 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 391
+28-10-2015 11:39:26 AM: SID 391 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 392
+28-10-2015 11:39:26 AM: SID 392 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 393
+28-10-2015 11:39:26 AM: SID 393 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 394
+28-10-2015 11:39:26 AM: SID 394 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 395
+28-10-2015 11:39:26 AM: SID 395 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 396
+28-10-2015 11:39:26 AM: SID 396 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 397
+28-10-2015 11:39:26 AM: SID 397 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 406
+28-10-2015 11:39:26 AM: SID 406 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 407
+28-10-2015 11:39:26 AM: SID 407 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 408
+28-10-2015 11:39:26 AM: SID 408 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 409
+28-10-2015 11:39:26 AM: SID 409 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 410
+28-10-2015 11:39:26 AM: SID 410 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 411
+28-10-2015 11:39:26 AM: SID 411 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 412
+28-10-2015 11:39:26 AM: SID 412 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 413
+28-10-2015 11:39:26 AM: SID 413 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 414
+28-10-2015 11:39:26 AM: SID 414 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 415
+28-10-2015 11:39:26 AM: SID 415 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 416
+28-10-2015 11:39:26 AM: SID 416 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 417
+28-10-2015 11:39:26 AM: SID 417 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 491
+28-10-2015 11:39:26 AM: SID 491 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 492
+28-10-2015 11:39:26 AM: SID 492 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 493
+28-10-2015 11:39:26 AM: SID 493 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 494
+28-10-2015 11:39:26 AM: SID 494 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 495
+28-10-2015 11:39:26 AM: SID 495 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 496
+28-10-2015 11:39:26 AM: SID 496 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 497
+28-10-2015 11:39:26 AM: SID 497 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 498
+28-10-2015 11:39:26 AM: SID 498 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 499
+28-10-2015 11:39:26 AM: SID 499 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 500
+28-10-2015 11:39:26 AM: SID 500 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 501
+28-10-2015 11:39:26 AM: SID 501 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 502
+28-10-2015 11:39:26 AM: SID 502 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 503
+28-10-2015 11:39:26 AM: SID 503 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 504
+28-10-2015 11:39:26 AM: SID 504 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 505
+28-10-2015 11:39:26 AM: SID 505 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 506
+28-10-2015 11:39:26 AM: SID 506 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 507
+28-10-2015 11:39:26 AM: SID 507 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 508
+28-10-2015 11:39:26 AM: SID 508 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 509
+28-10-2015 11:39:26 AM: SID 509 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 510
+28-10-2015 11:39:26 AM: SID 510 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 511
+28-10-2015 11:39:26 AM: SID 511 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 512
+28-10-2015 11:39:26 AM: SID 512 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 513
+28-10-2015 11:39:26 AM: SID 513 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 514
+28-10-2015 11:39:26 AM: SID 514 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 515
+28-10-2015 11:39:26 AM: SID 515 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 520
+28-10-2015 11:39:26 AM: SID 520 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 521
+28-10-2015 11:39:26 AM: SID 521 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 522
+28-10-2015 11:39:26 AM: SID 522 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 523
+28-10-2015 11:39:26 AM: SID 523 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 524
+28-10-2015 11:39:26 AM: SID 524 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 525
+28-10-2015 11:39:26 AM: SID 525 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 526
+28-10-2015 11:39:26 AM: SID 526 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 527
+28-10-2015 11:39:26 AM: SID 527 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 528
+28-10-2015 11:39:26 AM: SID 528 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 529
+28-10-2015 11:39:26 AM: SID 529 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 530
+28-10-2015 11:39:26 AM: SID 530 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 531
+28-10-2015 11:39:26 AM: SID 531 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 532
+28-10-2015 11:39:26 AM: SID 532 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 533
+28-10-2015 11:39:26 AM: SID 533 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 534
+28-10-2015 11:39:26 AM: SID 534 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 535
+28-10-2015 11:39:26 AM: SID 535 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 172
+28-10-2015 11:39:26 AM: SID 172 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 173
+28-10-2015 11:39:26 AM: SID 173 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 174
+28-10-2015 11:39:26 AM: SID 174 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 175
+28-10-2015 11:39:26 AM: SID 175 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 176
+28-10-2015 11:39:26 AM: SID 176 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 177
+28-10-2015 11:39:26 AM: SID 177 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 178
+28-10-2015 11:39:26 AM: SID 178 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 179
+28-10-2015 11:39:26 AM: SID 179 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 180
+28-10-2015 11:39:26 AM: SID 180 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 181
+28-10-2015 11:39:26 AM: SID 181 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 182
+28-10-2015 11:39:26 AM: SID 182 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 183
+28-10-2015 11:39:26 AM: SID 183 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 184
+28-10-2015 11:39:26 AM: SID 184 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 185
+28-10-2015 11:39:26 AM: SID 185 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 186
+28-10-2015 11:39:26 AM: SID 186 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 187
+28-10-2015 11:39:26 AM: SID 187 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 188
+28-10-2015 11:39:26 AM: SID 188 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 189
+28-10-2015 11:39:26 AM: SID 189 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 190
+28-10-2015 11:39:26 AM: SID 190 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 191
+28-10-2015 11:39:26 AM: SID 191 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 192
+28-10-2015 11:39:26 AM: SID 192 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 193
+28-10-2015 11:39:26 AM: SID 193 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 194
+28-10-2015 11:39:26 AM: SID 194 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 195
+28-10-2015 11:39:26 AM: SID 195 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 196
+28-10-2015 11:39:26 AM: SID 196 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 197
+28-10-2015 11:39:26 AM: SID 197 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 198
+28-10-2015 11:39:26 AM: SID 198 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 199
+28-10-2015 11:39:26 AM: SID 199 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 200
+28-10-2015 11:39:26 AM: SID 200 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 201
+28-10-2015 11:39:26 AM: SID 201 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 202
+28-10-2015 11:39:26 AM: SID 202 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 203
+28-10-2015 11:39:26 AM: SID 203 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 204
+28-10-2015 11:39:26 AM: SID 204 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 205
+28-10-2015 11:39:26 AM: SID 205 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 206
+28-10-2015 11:39:26 AM: SID 206 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 207
+28-10-2015 11:39:26 AM: SID 207 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 214
+28-10-2015 11:39:26 AM: SID 214 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 215
+28-10-2015 11:39:26 AM: SID 215 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 216
+28-10-2015 11:39:26 AM: SID 216 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 217
+28-10-2015 11:39:26 AM: SID 217 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 218
+28-10-2015 11:39:26 AM: SID 218 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 219
+28-10-2015 11:39:26 AM: SID 219 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 220
+28-10-2015 11:39:26 AM: SID 220 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 221
+28-10-2015 11:39:26 AM: SID 221 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 222
+28-10-2015 11:39:26 AM: SID 222 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 223
+28-10-2015 11:39:26 AM: SID 223 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 224
+28-10-2015 11:39:26 AM: SID 224 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 225
+28-10-2015 11:39:26 AM: SID 225 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 226
+28-10-2015 11:39:26 AM: SID 226 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 227
+28-10-2015 11:39:26 AM: SID 227 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 228
+28-10-2015 11:39:26 AM: SID 228 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 229
+28-10-2015 11:39:26 AM: SID 229 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 230
+28-10-2015 11:39:26 AM: SID 230 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 231
+28-10-2015 11:39:26 AM: SID 231 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 232
+28-10-2015 11:39:26 AM: SID 232 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 233
+28-10-2015 11:39:26 AM: SID 233 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 234
+28-10-2015 11:39:26 AM: SID 234 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 235
+28-10-2015 11:39:26 AM: SID 235 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 236
+28-10-2015 11:39:26 AM: SID 236 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 237
+28-10-2015 11:39:26 AM: SID 237 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 238
+28-10-2015 11:39:26 AM: SID 238 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 239
+28-10-2015 11:39:26 AM: SID 239 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 240
+28-10-2015 11:39:26 AM: SID 240 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 241
+28-10-2015 11:39:26 AM: SID 241 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 242
+28-10-2015 11:39:26 AM: SID 242 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 243
+28-10-2015 11:39:26 AM: SID 243 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 244
+28-10-2015 11:39:26 AM: SID 244 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 245
+28-10-2015 11:39:26 AM: SID 245 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 246
+28-10-2015 11:39:26 AM: SID 246 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 247
+28-10-2015 11:39:26 AM: SID 247 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 248
+28-10-2015 11:39:26 AM: SID 248 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 249
+28-10-2015 11:39:26 AM: SID 249 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 250
+28-10-2015 11:39:26 AM: SID 250 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 251
+28-10-2015 11:39:26 AM: SID 251 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 252
+28-10-2015 11:39:26 AM: SID 252 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 253
+28-10-2015 11:39:26 AM: SID 253 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 254
+28-10-2015 11:39:26 AM: SID 254 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 255
+28-10-2015 11:39:26 AM: SID 255 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 256
+28-10-2015 11:39:26 AM: SID 256 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 257
+28-10-2015 11:39:26 AM: SID 257 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 258
+28-10-2015 11:39:26 AM: SID 258 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 259
+28-10-2015 11:39:26 AM: SID 259 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 260
+28-10-2015 11:39:26 AM: SID 260 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 261
+28-10-2015 11:39:26 AM: SID 261 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 262
+28-10-2015 11:39:26 AM: SID 262 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 263
+28-10-2015 11:39:26 AM: SID 263 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 264
+28-10-2015 11:39:26 AM: SID 264 has 0 records
+28-10-2015 11:39:26 AM: Processing SID 265
+28-10-2015 11:39:26 AM: SID 265 has 0 records
+28-10-2015 11:42:56 AM: ===================Starting===================
+28-10-2015 11:42:57 AM: Processing SID 266
+28-10-2015 11:42:57 AM: SID 266 has 0 records
+28-10-2015 11:42:57 AM: Processing SID 267
+28-10-2015 11:42:57 AM: SID 267 has 0 records
+28-10-2015 11:42:57 AM: Processing SID 268
+28-10-2015 11:42:57 AM: SID 268 has 0 records
+28-10-2015 11:42:57 AM: Processing SID 269
+28-10-2015 11:42:57 AM: SID 269 has 0 records
+28-10-2015 11:42:57 AM: Processing SID 270
+28-10-2015 11:42:57 AM: SID 270 has 0 records
+28-10-2015 11:42:57 AM: Processing SID 271
+28-10-2015 11:42:57 AM: SID 271 has 0 records
+28-10-2015 11:42:57 AM: Processing SID 272
+28-10-2015 11:42:57 AM: SID 272 has 0 records
+28-10-2015 11:42:57 AM: Processing SID 273
+28-10-2015 11:42:57 AM: SID 273 has 0 records
+28-10-2015 11:42:57 AM: Processing SID 280
+28-10-2015 11:42:57 AM: SID 280 has 0 records
+28-10-2015 11:42:57 AM: Processing SID 281
+28-10-2015 11:42:57 AM: SID 281 has 0 records
+28-10-2015 11:42:57 AM: Processing SID 282
+28-10-2015 11:42:57 AM: SID 282 has 0 records
+28-10-2015 11:42:57 AM: Processing SID 283
+28-10-2015 11:42:57 AM: SID 283 has 0 records
+28-10-2015 11:42:57 AM: Processing SID 284
+28-10-2015 11:42:57 AM: SID 284 has 0 records
+28-10-2015 11:42:57 AM: Processing SID 285
+28-10-2015 11:42:57 AM: SID 285 has 0 records
+28-10-2015 11:42:57 AM: Processing SID 286
+28-10-2015 11:42:57 AM: SID 286 has 0 records
+28-10-2015 11:42:57 AM: Processing SID 287
+28-10-2015 11:42:57 AM: SID 287 has 0 records
+28-10-2015 11:42:57 AM: Processing SID 288
+28-10-2015 11:42:57 AM: SID 288 has 0 records
+28-10-2015 11:42:57 AM: Processing SID 289
+28-10-2015 11:42:57 AM: SID 289 has 0 records
+28-10-2015 11:42:57 AM: Processing SID 290
+28-10-2015 11:42:57 AM: SID 290 has 0 records
+28-10-2015 11:42:57 AM: Processing SID 291
+28-10-2015 11:42:57 AM: SID 291 has 0 records
+28-10-2015 11:42:57 AM: Processing SID 292
+28-10-2015 11:42:57 AM: SID 292 has 0 records
+28-10-2015 11:42:57 AM: Processing SID 293
+28-10-2015 11:42:57 AM: SID 293 has 0 records
+28-10-2015 11:42:57 AM: Processing SID 294
+28-10-2015 11:42:57 AM: SID 294 has 0 records
+28-10-2015 11:42:57 AM: Processing SID 295
+28-10-2015 11:42:57 AM: SID 295 has 0 records
+28-10-2015 11:42:57 AM: Processing SID 296
+28-10-2015 11:42:57 AM: SID 296 has 0 records
+28-10-2015 11:42:57 AM: Processing SID 297
+28-10-2015 11:42:57 AM: SID 297 has 0 records
+28-10-2015 11:42:57 AM: Processing SID 434
+28-10-2015 11:42:57 AM: SID 434 has 0 records
+28-10-2015 11:42:57 AM: Processing SID 435
+28-10-2015 11:42:57 AM: SID 435 has 0 records
+28-10-2015 11:42:57 AM: Processing SID 436
+28-10-2015 11:42:57 AM: SID 436 has 9 records
+28-10-2015 11:43:02 AM: Mail Sent
+28-10-2015 11:43:02 AM: Processing SID 437
+28-10-2015 11:43:02 AM: SID 437 has 0 records
+28-10-2015 11:43:02 AM: Processing SID 438
+28-10-2015 11:43:02 AM: SID 438 has 0 records
+28-10-2015 11:43:02 AM: Processing SID 439
+28-10-2015 11:43:02 AM: SID 439 has 0 records
+28-10-2015 11:43:02 AM: Processing SID 440
+28-10-2015 11:43:02 AM: SID 440 has 0 records
+28-10-2015 11:43:02 AM: Processing SID 441
+28-10-2015 11:43:02 AM: SID 441 has 0 records
+28-10-2015 11:43:02 AM: Processing SID 442
+28-10-2015 11:43:02 AM: SID 442 has 0 records
+28-10-2015 11:43:02 AM: Processing SID 443
+28-10-2015 11:43:02 AM: SID 443 has 0 records
+28-10-2015 11:43:02 AM: Processing SID 444
+28-10-2015 11:43:02 AM: SID 444 has 0 records
+28-10-2015 11:43:02 AM: Processing SID 445
+28-10-2015 11:43:02 AM: SID 445 has 0 records
+28-10-2015 11:43:02 AM: Processing SID 446
+28-10-2015 11:43:02 AM: SID 446 has 0 records
+28-10-2015 11:43:02 AM: Processing SID 447
+28-10-2015 11:43:02 AM: SID 447 has 0 records
+28-10-2015 11:43:02 AM: Processing SID 448
+28-10-2015 11:43:02 AM: SID 448 has 0 records
+28-10-2015 11:43:02 AM: Processing SID 449
+28-10-2015 11:43:02 AM: SID 449 has 0 records
+28-10-2015 11:43:02 AM: Processing SID 450
+28-10-2015 11:43:02 AM: SID 450 has 0 records
+28-10-2015 11:43:02 AM: Processing SID 451
+28-10-2015 11:43:02 AM: SID 451 has 0 records
+28-10-2015 11:43:02 AM: Processing SID 452
+28-10-2015 11:43:02 AM: SID 452 has 0 records
+28-10-2015 11:43:02 AM: Processing SID 453
+28-10-2015 11:43:02 AM: SID 453 has 0 records
+28-10-2015 11:43:02 AM: Processing SID 454
+28-10-2015 11:43:02 AM: SID 454 has 0 records
+28-10-2015 11:43:02 AM: Processing SID 455
+28-10-2015 11:43:02 AM: SID 455 has 0 records
+28-10-2015 11:43:02 AM: Processing SID 456
+28-10-2015 11:43:02 AM: SID 456 has 0 records
+28-10-2015 11:43:02 AM: Processing SID 457
+28-10-2015 11:43:02 AM: SID 457 has 0 records
+28-10-2015 11:43:02 AM: Processing SID 458
+28-10-2015 11:43:02 AM: SID 458 has 0 records
+28-10-2015 11:43:02 AM: Processing SID 459
+28-10-2015 11:43:02 AM: SID 459 has 0 records
+28-10-2015 11:43:02 AM: Processing SID 460
+28-10-2015 11:43:02 AM: SID 460 has 0 records
+28-10-2015 11:43:02 AM: Processing SID 461
+28-10-2015 11:43:02 AM: SID 461 has 0 records
+28-10-2015 11:43:02 AM: Processing SID 462
+28-10-2015 11:43:02 AM: SID 462 has 0 records
+28-10-2015 11:43:02 AM: Processing SID 463
+28-10-2015 11:43:02 AM: SID 463 has 0 records
+28-10-2015 11:43:02 AM: Processing SID 464
+28-10-2015 11:43:02 AM: SID 464 has 0 records
+28-10-2015 11:43:02 AM: Processing SID 466
+28-10-2015 11:43:02 AM: SID 466 has 0 records
+28-10-2015 11:43:02 AM: Processing SID 467
+28-10-2015 11:43:02 AM: SID 467 has 0 records
+28-10-2015 11:43:02 AM: Processing SID 468
+28-10-2015 11:43:02 AM: SID 468 has 0 records
+28-10-2015 11:43:02 AM: Processing SID 469
+28-10-2015 11:43:02 AM: SID 469 has 0 records
+28-10-2015 11:43:02 AM: Processing SID 470
+28-10-2015 11:43:02 AM: SID 470 has 0 records
+28-10-2015 11:43:02 AM: Processing SID 471
+28-10-2015 11:43:02 AM: SID 471 has 0 records
+28-10-2015 11:43:02 AM: Processing SID 476
+28-10-2015 11:43:02 AM: SID 476 has 0 records
+28-10-2015 11:43:02 AM: Processing SID 477
+28-10-2015 11:43:02 AM: SID 477 has 0 records
+28-10-2015 11:43:02 AM: Processing SID 478
+28-10-2015 11:43:03 AM: SID 478 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 479
+28-10-2015 11:43:03 AM: SID 479 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 480
+28-10-2015 11:43:03 AM: SID 480 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 481
+28-10-2015 11:43:03 AM: SID 481 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 482
+28-10-2015 11:43:03 AM: SID 482 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 483
+28-10-2015 11:43:03 AM: SID 483 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 484
+28-10-2015 11:43:03 AM: SID 484 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 485
+28-10-2015 11:43:03 AM: SID 485 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 486
+28-10-2015 11:43:03 AM: SID 486 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 487
+28-10-2015 11:43:03 AM: SID 487 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 488
+28-10-2015 11:43:03 AM: SID 488 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 489
+28-10-2015 11:43:03 AM: SID 489 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 490
+28-10-2015 11:43:03 AM: SID 490 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 99
+28-10-2015 11:43:03 AM: SID 99 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 100
+28-10-2015 11:43:03 AM: SID 100 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 317
+28-10-2015 11:43:03 AM: SID 317 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 318
+28-10-2015 11:43:03 AM: SID 318 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 340
+28-10-2015 11:43:03 AM: SID 340 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 341
+28-10-2015 11:43:03 AM: SID 341 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 342
+28-10-2015 11:43:03 AM: SID 342 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 343
+28-10-2015 11:43:03 AM: SID 343 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 346
+28-10-2015 11:43:03 AM: SID 346 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 347
+28-10-2015 11:43:03 AM: SID 347 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 348
+28-10-2015 11:43:03 AM: SID 348 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 349
+28-10-2015 11:43:03 AM: SID 349 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 350
+28-10-2015 11:43:03 AM: SID 350 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 351
+28-10-2015 11:43:03 AM: SID 351 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 352
+28-10-2015 11:43:03 AM: SID 352 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 353
+28-10-2015 11:43:03 AM: SID 353 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 354
+28-10-2015 11:43:03 AM: SID 354 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 355
+28-10-2015 11:43:03 AM: SID 355 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 356
+28-10-2015 11:43:03 AM: SID 356 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 357
+28-10-2015 11:43:03 AM: SID 357 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 358
+28-10-2015 11:43:03 AM: SID 358 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 359
+28-10-2015 11:43:03 AM: SID 359 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 360
+28-10-2015 11:43:03 AM: SID 360 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 361
+28-10-2015 11:43:03 AM: SID 361 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 362
+28-10-2015 11:43:03 AM: SID 362 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 363
+28-10-2015 11:43:03 AM: SID 363 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 364
+28-10-2015 11:43:03 AM: SID 364 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 365
+28-10-2015 11:43:03 AM: SID 365 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 366
+28-10-2015 11:43:03 AM: SID 366 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 367
+28-10-2015 11:43:03 AM: SID 367 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 368
+28-10-2015 11:43:03 AM: SID 368 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 369
+28-10-2015 11:43:03 AM: SID 369 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 370
+28-10-2015 11:43:03 AM: SID 370 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 371
+28-10-2015 11:43:03 AM: SID 371 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 372
+28-10-2015 11:43:03 AM: SID 372 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 373
+28-10-2015 11:43:03 AM: SID 373 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 374
+28-10-2015 11:43:03 AM: SID 374 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 375
+28-10-2015 11:43:03 AM: SID 375 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 376
+28-10-2015 11:43:03 AM: SID 376 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 377
+28-10-2015 11:43:03 AM: SID 377 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 378
+28-10-2015 11:43:03 AM: SID 378 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 379
+28-10-2015 11:43:03 AM: SID 379 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 384
+28-10-2015 11:43:03 AM: SID 384 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 385
+28-10-2015 11:43:03 AM: SID 385 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 386
+28-10-2015 11:43:03 AM: SID 386 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 387
+28-10-2015 11:43:03 AM: SID 387 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 388
+28-10-2015 11:43:03 AM: SID 388 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 389
+28-10-2015 11:43:03 AM: SID 389 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 390
+28-10-2015 11:43:03 AM: SID 390 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 391
+28-10-2015 11:43:03 AM: SID 391 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 392
+28-10-2015 11:43:03 AM: SID 392 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 393
+28-10-2015 11:43:03 AM: SID 393 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 394
+28-10-2015 11:43:03 AM: SID 394 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 395
+28-10-2015 11:43:03 AM: SID 395 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 396
+28-10-2015 11:43:03 AM: SID 396 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 397
+28-10-2015 11:43:03 AM: SID 397 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 406
+28-10-2015 11:43:03 AM: SID 406 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 407
+28-10-2015 11:43:03 AM: SID 407 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 408
+28-10-2015 11:43:03 AM: SID 408 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 409
+28-10-2015 11:43:03 AM: SID 409 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 410
+28-10-2015 11:43:03 AM: SID 410 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 411
+28-10-2015 11:43:03 AM: SID 411 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 412
+28-10-2015 11:43:03 AM: SID 412 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 413
+28-10-2015 11:43:03 AM: SID 413 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 414
+28-10-2015 11:43:03 AM: SID 414 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 415
+28-10-2015 11:43:03 AM: SID 415 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 416
+28-10-2015 11:43:03 AM: SID 416 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 417
+28-10-2015 11:43:03 AM: SID 417 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 491
+28-10-2015 11:43:03 AM: SID 491 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 492
+28-10-2015 11:43:03 AM: SID 492 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 493
+28-10-2015 11:43:03 AM: SID 493 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 494
+28-10-2015 11:43:03 AM: SID 494 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 495
+28-10-2015 11:43:03 AM: SID 495 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 496
+28-10-2015 11:43:03 AM: SID 496 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 497
+28-10-2015 11:43:03 AM: SID 497 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 498
+28-10-2015 11:43:03 AM: SID 498 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 499
+28-10-2015 11:43:03 AM: SID 499 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 500
+28-10-2015 11:43:03 AM: SID 500 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 501
+28-10-2015 11:43:03 AM: SID 501 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 502
+28-10-2015 11:43:03 AM: SID 502 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 503
+28-10-2015 11:43:03 AM: SID 503 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 504
+28-10-2015 11:43:03 AM: SID 504 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 505
+28-10-2015 11:43:03 AM: SID 505 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 506
+28-10-2015 11:43:03 AM: SID 506 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 507
+28-10-2015 11:43:03 AM: SID 507 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 508
+28-10-2015 11:43:03 AM: SID 508 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 509
+28-10-2015 11:43:03 AM: SID 509 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 510
+28-10-2015 11:43:03 AM: SID 510 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 511
+28-10-2015 11:43:03 AM: SID 511 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 512
+28-10-2015 11:43:03 AM: SID 512 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 513
+28-10-2015 11:43:03 AM: SID 513 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 514
+28-10-2015 11:43:03 AM: SID 514 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 515
+28-10-2015 11:43:03 AM: SID 515 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 520
+28-10-2015 11:43:03 AM: SID 520 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 521
+28-10-2015 11:43:03 AM: SID 521 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 522
+28-10-2015 11:43:03 AM: SID 522 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 523
+28-10-2015 11:43:03 AM: SID 523 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 524
+28-10-2015 11:43:03 AM: SID 524 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 525
+28-10-2015 11:43:03 AM: SID 525 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 526
+28-10-2015 11:43:03 AM: SID 526 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 527
+28-10-2015 11:43:03 AM: SID 527 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 528
+28-10-2015 11:43:03 AM: SID 528 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 529
+28-10-2015 11:43:03 AM: SID 529 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 530
+28-10-2015 11:43:03 AM: SID 530 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 531
+28-10-2015 11:43:03 AM: SID 531 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 532
+28-10-2015 11:43:03 AM: SID 532 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 533
+28-10-2015 11:43:03 AM: SID 533 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 534
+28-10-2015 11:43:03 AM: SID 534 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 535
+28-10-2015 11:43:03 AM: SID 535 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 172
+28-10-2015 11:43:03 AM: SID 172 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 173
+28-10-2015 11:43:03 AM: SID 173 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 174
+28-10-2015 11:43:03 AM: SID 174 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 175
+28-10-2015 11:43:03 AM: SID 175 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 176
+28-10-2015 11:43:03 AM: SID 176 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 177
+28-10-2015 11:43:03 AM: SID 177 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 178
+28-10-2015 11:43:03 AM: SID 178 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 179
+28-10-2015 11:43:03 AM: SID 179 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 180
+28-10-2015 11:43:03 AM: SID 180 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 181
+28-10-2015 11:43:03 AM: SID 181 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 182
+28-10-2015 11:43:03 AM: SID 182 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 183
+28-10-2015 11:43:03 AM: SID 183 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 184
+28-10-2015 11:43:03 AM: SID 184 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 185
+28-10-2015 11:43:03 AM: SID 185 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 186
+28-10-2015 11:43:03 AM: SID 186 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 187
+28-10-2015 11:43:03 AM: SID 187 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 188
+28-10-2015 11:43:03 AM: SID 188 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 189
+28-10-2015 11:43:03 AM: SID 189 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 190
+28-10-2015 11:43:03 AM: SID 190 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 191
+28-10-2015 11:43:03 AM: SID 191 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 192
+28-10-2015 11:43:03 AM: SID 192 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 193
+28-10-2015 11:43:03 AM: SID 193 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 194
+28-10-2015 11:43:03 AM: SID 194 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 195
+28-10-2015 11:43:03 AM: SID 195 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 196
+28-10-2015 11:43:03 AM: SID 196 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 197
+28-10-2015 11:43:03 AM: SID 197 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 198
+28-10-2015 11:43:03 AM: SID 198 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 199
+28-10-2015 11:43:03 AM: SID 199 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 200
+28-10-2015 11:43:03 AM: SID 200 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 201
+28-10-2015 11:43:03 AM: SID 201 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 202
+28-10-2015 11:43:03 AM: SID 202 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 203
+28-10-2015 11:43:03 AM: SID 203 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 204
+28-10-2015 11:43:03 AM: SID 204 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 205
+28-10-2015 11:43:03 AM: SID 205 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 206
+28-10-2015 11:43:03 AM: SID 206 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 207
+28-10-2015 11:43:03 AM: SID 207 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 214
+28-10-2015 11:43:03 AM: SID 214 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 215
+28-10-2015 11:43:03 AM: SID 215 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 216
+28-10-2015 11:43:03 AM: SID 216 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 217
+28-10-2015 11:43:03 AM: SID 217 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 218
+28-10-2015 11:43:03 AM: SID 218 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 219
+28-10-2015 11:43:03 AM: SID 219 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 220
+28-10-2015 11:43:03 AM: SID 220 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 221
+28-10-2015 11:43:03 AM: SID 221 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 222
+28-10-2015 11:43:03 AM: SID 222 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 223
+28-10-2015 11:43:03 AM: SID 223 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 224
+28-10-2015 11:43:03 AM: SID 224 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 225
+28-10-2015 11:43:03 AM: SID 225 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 226
+28-10-2015 11:43:03 AM: SID 226 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 227
+28-10-2015 11:43:03 AM: SID 227 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 228
+28-10-2015 11:43:03 AM: SID 228 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 229
+28-10-2015 11:43:03 AM: SID 229 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 230
+28-10-2015 11:43:03 AM: SID 230 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 231
+28-10-2015 11:43:03 AM: SID 231 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 232
+28-10-2015 11:43:03 AM: SID 232 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 233
+28-10-2015 11:43:03 AM: SID 233 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 234
+28-10-2015 11:43:03 AM: SID 234 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 235
+28-10-2015 11:43:03 AM: SID 235 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 236
+28-10-2015 11:43:03 AM: SID 236 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 237
+28-10-2015 11:43:03 AM: SID 237 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 238
+28-10-2015 11:43:03 AM: SID 238 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 239
+28-10-2015 11:43:03 AM: SID 239 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 240
+28-10-2015 11:43:03 AM: SID 240 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 241
+28-10-2015 11:43:03 AM: SID 241 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 242
+28-10-2015 11:43:03 AM: SID 242 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 243
+28-10-2015 11:43:03 AM: SID 243 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 244
+28-10-2015 11:43:03 AM: SID 244 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 245
+28-10-2015 11:43:03 AM: SID 245 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 246
+28-10-2015 11:43:03 AM: SID 246 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 247
+28-10-2015 11:43:03 AM: SID 247 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 248
+28-10-2015 11:43:03 AM: SID 248 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 249
+28-10-2015 11:43:03 AM: SID 249 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 250
+28-10-2015 11:43:03 AM: SID 250 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 251
+28-10-2015 11:43:03 AM: SID 251 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 252
+28-10-2015 11:43:03 AM: SID 252 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 253
+28-10-2015 11:43:03 AM: SID 253 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 254
+28-10-2015 11:43:03 AM: SID 254 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 255
+28-10-2015 11:43:03 AM: SID 255 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 256
+28-10-2015 11:43:03 AM: SID 256 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 257
+28-10-2015 11:43:03 AM: SID 257 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 258
+28-10-2015 11:43:03 AM: SID 258 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 259
+28-10-2015 11:43:03 AM: SID 259 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 260
+28-10-2015 11:43:03 AM: SID 260 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 261
+28-10-2015 11:43:03 AM: SID 261 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 262
+28-10-2015 11:43:03 AM: SID 262 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 263
+28-10-2015 11:43:03 AM: SID 263 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 264
+28-10-2015 11:43:03 AM: SID 264 has 0 records
+28-10-2015 11:43:03 AM: Processing SID 265
+28-10-2015 11:43:03 AM: SID 265 has 0 records
+28-10-2015 11:46:31 AM: ===================Starting===================
+28-10-2015 11:46:31 AM: Processing SID 436
+28-10-2015 11:46:31 AM: SID 436 has 0 records
+28-10-2015 11:46:31 AM: Processing SID 436
+28-10-2015 11:46:31 AM: SID 436 has 0 records
+28-10-2015 11:46:31 AM: Processing SID 436
+28-10-2015 11:46:31 AM: SID 436 has 0 records
+28-10-2015 11:46:31 AM: Processing SID 436
+28-10-2015 11:46:31 AM: SID 436 has 0 records
+28-10-2015 11:46:31 AM: Processing SID 436
+28-10-2015 11:46:31 AM: SID 436 has 0 records
+28-10-2015 11:46:31 AM: Processing SID 436
+28-10-2015 11:46:31 AM: SID 436 has 0 records
+28-10-2015 11:46:31 AM: Processing SID 436
+28-10-2015 11:46:31 AM: SID 436 has 0 records
+28-10-2015 11:46:31 AM: Processing SID 436
+28-10-2015 11:46:31 AM: SID 436 has 0 records
+28-10-2015 11:46:31 AM: Processing SID 436
+28-10-2015 11:46:31 AM: SID 436 has 0 records
+28-10-2015 11:46:31 AM: Processing SID 436
+28-10-2015 11:46:31 AM: SID 436 has 0 records
+28-10-2015 11:46:31 AM: Processing SID 436
+28-10-2015 11:46:31 AM: SID 436 has 0 records
+28-10-2015 11:46:31 AM: Processing SID 436
+28-10-2015 11:46:31 AM: SID 436 has 0 records
+28-10-2015 11:46:31 AM: Processing SID 436
+28-10-2015 11:46:31 AM: SID 436 has 0 records
+28-10-2015 11:46:31 AM: Processing SID 436
+28-10-2015 11:46:31 AM: SID 436 has 0 records
+28-10-2015 11:46:31 AM: Processing SID 436
+28-10-2015 11:46:31 AM: SID 436 has 0 records
+28-10-2015 11:46:31 AM: Processing SID 436
+28-10-2015 11:46:31 AM: SID 436 has 0 records
+28-10-2015 11:46:31 AM: Processing SID 436
+28-10-2015 11:46:31 AM: SID 436 has 0 records
+28-10-2015 11:46:31 AM: Processing SID 436
+28-10-2015 11:46:31 AM: SID 436 has 0 records
+28-10-2015 11:46:31 AM: Processing SID 436
+28-10-2015 11:46:31 AM: SID 436 has 0 records
+28-10-2015 11:46:31 AM: Processing SID 436
+28-10-2015 11:46:31 AM: SID 436 has 0 records
+28-10-2015 11:46:31 AM: Processing SID 436
+28-10-2015 11:46:31 AM: SID 436 has 0 records
+28-10-2015 11:46:31 AM: Processing SID 436
+28-10-2015 11:46:31 AM: SID 436 has 0 records
+28-10-2015 11:46:31 AM: Processing SID 436
+28-10-2015 11:46:31 AM: SID 436 has 0 records
+28-10-2015 11:46:31 AM: Processing SID 436
+28-10-2015 11:46:31 AM: SID 436 has 0 records
+28-10-2015 11:46:31 AM: Processing SID 436
+28-10-2015 11:46:31 AM: SID 436 has 0 records
+28-10-2015 11:46:31 AM: Processing SID 436
+28-10-2015 11:46:31 AM: SID 436 has 0 records
+28-10-2015 11:46:31 AM: Processing SID 436
+28-10-2015 11:46:31 AM: SID 436 has 0 records
+28-10-2015 11:46:31 AM: Processing SID 436
+28-10-2015 11:46:31 AM: SID 436 has 0 records
+28-10-2015 11:46:31 AM: Processing SID 436
+28-10-2015 11:46:31 AM: SID 436 has 9 records
+28-10-2015 11:46:37 AM: Mail Sent
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:37 AM: Processing SID 436
+28-10-2015 11:46:37 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:46:38 AM: Processing SID 436
+28-10-2015 11:46:38 AM: SID 436 has 0 records
+28-10-2015 11:47:36 AM: ===================Starting===================
+28-10-2015 11:48:13 AM: Processing SID 266
+28-10-2015 11:48:13 AM: SID 266 has 0 records
+28-10-2015 11:48:13 AM: Processing SID 436
+28-10-2015 11:48:13 AM: SID 436 has 0 records
+28-10-2015 11:48:13 AM: Processing SID 436
+28-10-2015 11:48:13 AM: SID 436 has 0 records
+28-10-2015 11:48:13 AM: Processing SID 436
+28-10-2015 11:48:13 AM: SID 436 has 0 records
+28-10-2015 11:48:13 AM: Processing SID 436
+28-10-2015 11:48:13 AM: SID 436 has 0 records
+28-10-2015 11:48:13 AM: Processing SID 436
+28-10-2015 11:48:13 AM: SID 436 has 0 records
+28-10-2015 11:48:13 AM: Processing SID 436
+28-10-2015 11:48:13 AM: SID 436 has 0 records
+28-10-2015 11:48:13 AM: Processing SID 436
+28-10-2015 11:48:13 AM: SID 436 has 0 records
+28-10-2015 11:48:13 AM: Processing SID 436
+28-10-2015 11:48:13 AM: SID 436 has 0 records
+28-10-2015 11:48:13 AM: Processing SID 436
+28-10-2015 11:48:13 AM: SID 436 has 0 records
+28-10-2015 11:48:13 AM: Processing SID 436
+28-10-2015 11:48:13 AM: SID 436 has 0 records
+28-10-2015 11:48:13 AM: Processing SID 436
+28-10-2015 11:48:13 AM: SID 436 has 0 records
+28-10-2015 11:48:13 AM: Processing SID 436
+28-10-2015 11:48:13 AM: SID 436 has 0 records
+28-10-2015 11:48:13 AM: Processing SID 436
+28-10-2015 11:48:13 AM: SID 436 has 0 records
+28-10-2015 11:48:13 AM: Processing SID 436
+28-10-2015 11:48:13 AM: SID 436 has 0 records
+28-10-2015 11:48:13 AM: Processing SID 436
+28-10-2015 11:48:13 AM: SID 436 has 0 records
+28-10-2015 11:48:13 AM: Processing SID 436
+28-10-2015 11:48:13 AM: SID 436 has 0 records
+28-10-2015 11:48:13 AM: Processing SID 436
+28-10-2015 11:48:13 AM: SID 436 has 0 records
+28-10-2015 11:48:13 AM: Processing SID 436
+28-10-2015 11:48:13 AM: SID 436 has 0 records
+28-10-2015 11:48:13 AM: Processing SID 436
+28-10-2015 11:48:13 AM: SID 436 has 0 records
+28-10-2015 11:48:13 AM: Processing SID 436
+28-10-2015 11:48:13 AM: SID 436 has 0 records
+28-10-2015 11:48:13 AM: Processing SID 436
+28-10-2015 11:48:13 AM: SID 436 has 0 records
+28-10-2015 11:48:13 AM: Processing SID 436
+28-10-2015 11:48:13 AM: SID 436 has 0 records
+28-10-2015 11:48:13 AM: Processing SID 436
+28-10-2015 11:48:13 AM: SID 436 has 0 records
+28-10-2015 11:48:13 AM: Processing SID 436
+28-10-2015 11:48:13 AM: SID 436 has 0 records
+28-10-2015 11:48:13 AM: Processing SID 436
+28-10-2015 11:48:13 AM: SID 436 has 0 records
+28-10-2015 11:48:13 AM: Processing SID 436
+28-10-2015 11:48:13 AM: SID 436 has 0 records
+28-10-2015 11:48:13 AM: Processing SID 436
+28-10-2015 11:48:13 AM: SID 436 has 0 records
+28-10-2015 11:48:13 AM: Processing SID 436
+28-10-2015 11:48:13 AM: SID 436 has 9 records
+28-10-2015 11:48:18 AM: Mail Sent
+28-10-2015 11:48:18 AM: Processing SID 436
+28-10-2015 11:48:18 AM: SID 436 has 0 records
+28-10-2015 11:48:18 AM: Processing SID 436
+28-10-2015 11:48:18 AM: SID 436 has 0 records
+28-10-2015 11:48:18 AM: Processing SID 436
+28-10-2015 11:48:18 AM: SID 436 has 0 records
+28-10-2015 11:48:18 AM: Processing SID 436
+28-10-2015 11:48:18 AM: SID 436 has 0 records
+28-10-2015 11:48:18 AM: Processing SID 436
+28-10-2015 11:48:18 AM: SID 436 has 0 records
+28-10-2015 11:48:18 AM: Processing SID 436
+28-10-2015 11:48:18 AM: SID 436 has 0 records
+28-10-2015 11:48:18 AM: Processing SID 436
+28-10-2015 11:48:18 AM: SID 436 has 0 records
+28-10-2015 11:48:18 AM: Processing SID 436
+28-10-2015 11:48:18 AM: SID 436 has 0 records
+28-10-2015 11:48:18 AM: Processing SID 436
+28-10-2015 11:48:18 AM: SID 436 has 0 records
+28-10-2015 11:48:18 AM: Processing SID 436
+28-10-2015 11:48:18 AM: SID 436 has 0 records
+28-10-2015 11:48:18 AM: Processing SID 436
+28-10-2015 11:48:18 AM: SID 436 has 0 records
+28-10-2015 11:48:18 AM: Processing SID 436
+28-10-2015 11:48:18 AM: SID 436 has 0 records
+28-10-2015 11:48:18 AM: Processing SID 436
+28-10-2015 11:48:18 AM: SID 436 has 0 records
+28-10-2015 11:48:18 AM: Processing SID 436
+28-10-2015 11:48:18 AM: SID 436 has 0 records
+28-10-2015 11:48:18 AM: Processing SID 436
+28-10-2015 11:48:18 AM: SID 436 has 0 records
+28-10-2015 11:48:18 AM: Processing SID 436
+28-10-2015 11:48:18 AM: SID 436 has 0 records
+28-10-2015 11:48:18 AM: Processing SID 436
+28-10-2015 11:48:18 AM: SID 436 has 0 records
+28-10-2015 11:48:18 AM: Processing SID 436
+28-10-2015 11:48:18 AM: SID 436 has 0 records
+28-10-2015 11:48:18 AM: Processing SID 436
+28-10-2015 11:48:18 AM: SID 436 has 0 records
+28-10-2015 11:48:18 AM: Processing SID 436
+28-10-2015 11:48:18 AM: SID 436 has 0 records
+28-10-2015 11:48:18 AM: Processing SID 436
+28-10-2015 11:48:18 AM: SID 436 has 0 records
+28-10-2015 11:48:18 AM: Processing SID 436
+28-10-2015 11:48:18 AM: SID 436 has 0 records
+28-10-2015 11:48:18 AM: Processing SID 436
+28-10-2015 11:48:18 AM: SID 436 has 0 records
+28-10-2015 11:48:18 AM: Processing SID 436
+28-10-2015 11:48:18 AM: SID 436 has 0 records
+28-10-2015 11:48:18 AM: Processing SID 436
+28-10-2015 11:48:18 AM: SID 436 has 0 records
+28-10-2015 11:48:18 AM: Processing SID 436
+28-10-2015 11:48:18 AM: SID 436 has 0 records
+28-10-2015 11:48:18 AM: Processing SID 436
+28-10-2015 11:48:18 AM: SID 436 has 0 records
+28-10-2015 11:48:18 AM: Processing SID 436
+28-10-2015 11:48:18 AM: SID 436 has 0 records
+28-10-2015 11:48:18 AM: Processing SID 436
+28-10-2015 11:48:18 AM: SID 436 has 0 records
+28-10-2015 11:48:18 AM: Processing SID 436
+28-10-2015 11:48:18 AM: SID 436 has 0 records
+28-10-2015 11:48:18 AM: Processing SID 436
+28-10-2015 11:48:18 AM: SID 436 has 0 records
+28-10-2015 11:48:18 AM: Processing SID 436
+28-10-2015 11:48:18 AM: SID 436 has 0 records
+28-10-2015 11:48:18 AM: Processing SID 436
+28-10-2015 11:48:18 AM: SID 436 has 0 records
+28-10-2015 11:48:18 AM: Processing SID 436
+28-10-2015 11:48:18 AM: SID 436 has 0 records
+28-10-2015 11:48:18 AM: Processing SID 436
+28-10-2015 11:48:18 AM: SID 436 has 0 records
+28-10-2015 11:48:18 AM: Processing SID 436
+28-10-2015 11:48:18 AM: SID 436 has 0 records
+28-10-2015 11:48:18 AM: Processing SID 436
+28-10-2015 11:48:18 AM: SID 436 has 0 records
+28-10-2015 11:48:18 AM: Processing SID 436
+28-10-2015 11:48:18 AM: SID 436 has 0 records
+28-10-2015 11:48:18 AM: Processing SID 436
+28-10-2015 11:48:18 AM: SID 436 has 0 records
+28-10-2015 11:48:18 AM: Processing SID 436
+28-10-2015 11:48:18 AM: SID 436 has 0 records
+28-10-2015 11:48:18 AM: Processing SID 436
+28-10-2015 11:48:18 AM: SID 436 has 0 records
+28-10-2015 11:48:18 AM: Processing SID 436
+28-10-2015 11:48:18 AM: SID 436 has 0 records
+28-10-2015 11:48:18 AM: Processing SID 436
+28-10-2015 11:48:18 AM: SID 436 has 0 records
+28-10-2015 11:48:18 AM: Processing SID 436
+28-10-2015 11:48:18 AM: SID 436 has 0 records
+28-10-2015 11:48:18 AM: Processing SID 436
+28-10-2015 11:48:18 AM: SID 436 has 0 records
+28-10-2015 11:48:18 AM: Processing SID 436
+28-10-2015 11:48:18 AM: SID 436 has 0 records
+28-10-2015 11:48:18 AM: Processing SID 436
+28-10-2015 11:48:18 AM: SID 436 has 0 records
+28-10-2015 11:48:18 AM: Processing SID 436
+28-10-2015 11:48:18 AM: SID 436 has 0 records
+28-10-2015 11:48:18 AM: Processing SID 436
+28-10-2015 11:48:18 AM: SID 436 has 0 records
+28-10-2015 11:48:18 AM: Processing SID 436
+28-10-2015 11:48:18 AM: SID 436 has 0 records
+28-10-2015 11:48:18 AM: Processing SID 436
+28-10-2015 11:48:18 AM: SID 436 has 0 records
+28-10-2015 11:48:18 AM: Processing SID 436
+28-10-2015 11:48:18 AM: SID 436 has 0 records
+28-10-2015 11:48:18 AM: Processing SID 436
+28-10-2015 11:48:18 AM: SID 436 has 0 records
+28-10-2015 11:48:18 AM: Processing SID 436
+28-10-2015 11:48:18 AM: SID 436 has 0 records
+28-10-2015 11:48:18 AM: Processing SID 436
+28-10-2015 11:48:18 AM: SID 436 has 0 records
+28-10-2015 11:48:18 AM: Processing SID 436
+28-10-2015 11:48:18 AM: SID 436 has 0 records
+28-10-2015 11:48:18 AM: Processing SID 436
+28-10-2015 11:48:18 AM: SID 436 has 0 records
+28-10-2015 11:48:18 AM: Processing SID 436
+28-10-2015 11:48:18 AM: SID 436 has 0 records
+28-10-2015 11:48:18 AM: Processing SID 436
+28-10-2015 11:48:18 AM: SID 436 has 0 records
+28-10-2015 11:48:18 AM: Processing SID 436
+28-10-2015 11:48:18 AM: SID 436 has 0 records
+28-10-2015 11:48:18 AM: Processing SID 436
+28-10-2015 11:48:18 AM: SID 436 has 0 records
+28-10-2015 11:48:18 AM: Processing SID 436
+28-10-2015 11:48:18 AM: SID 436 has 0 records
+28-10-2015 11:48:18 AM: Processing SID 436
+28-10-2015 11:48:18 AM: SID 436 has 0 records
+28-10-2015 11:48:18 AM: Processing SID 436
+28-10-2015 11:48:18 AM: SID 436 has 0 records
+28-10-2015 11:48:18 AM: Processing SID 436
+28-10-2015 11:48:18 AM: SID 436 has 0 records
+28-10-2015 11:48:18 AM: Processing SID 436
+28-10-2015 11:48:18 AM: SID 436 has 0 records
+28-10-2015 11:48:18 AM: Processing SID 436
+28-10-2015 11:48:18 AM: SID 436 has 0 records
+28-10-2015 11:48:18 AM: Processing SID 436
+28-10-2015 11:48:18 AM: SID 436 has 0 records
+28-10-2015 11:48:18 AM: Processing SID 436
+28-10-2015 11:48:18 AM: SID 436 has 0 records
+28-10-2015 11:48:18 AM: Processing SID 436
+28-10-2015 11:48:18 AM: SID 436 has 0 records
+28-10-2015 11:48:18 AM: Processing SID 436
+28-10-2015 11:48:18 AM: SID 436 has 0 records
+28-10-2015 11:48:18 AM: Processing SID 436
+28-10-2015 11:48:18 AM: SID 436 has 0 records
+28-10-2015 11:48:18 AM: Processing SID 436
+28-10-2015 11:48:18 AM: SID 436 has 0 records
+28-10-2015 11:48:18 AM: Processing SID 436
+28-10-2015 11:48:18 AM: SID 436 has 0 records
+28-10-2015 11:48:18 AM: Processing SID 436
+28-10-2015 11:48:18 AM: SID 436 has 0 records
+28-10-2015 11:48:18 AM: Processing SID 436
+28-10-2015 11:48:18 AM: SID 436 has 0 records
+28-10-2015 11:48:18 AM: Processing SID 436
+28-10-2015 11:48:18 AM: SID 436 has 0 records
+28-10-2015 11:48:18 AM: Processing SID 436
+28-10-2015 11:48:18 AM: SID 436 has 0 records
+28-10-2015 11:48:18 AM: Processing SID 436
+28-10-2015 11:48:18 AM: SID 436 has 0 records
+28-10-2015 11:48:18 AM: Processing SID 436
+28-10-2015 11:48:18 AM: SID 436 has 0 records
+28-10-2015 11:48:18 AM: Processing SID 436
+28-10-2015 11:48:18 AM: SID 436 has 0 records
+28-10-2015 11:48:18 AM: Processing SID 436
+28-10-2015 11:48:18 AM: SID 436 has 0 records
+28-10-2015 11:48:18 AM: Processing SID 436
+28-10-2015 11:48:18 AM: SID 436 has 0 records
+28-10-2015 11:48:18 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:19 AM: SID 436 has 0 records
+28-10-2015 11:48:19 AM: Processing SID 436
+28-10-2015 11:48:20 AM: SID 436 has 0 records
+28-10-2015 11:48:20 AM: Processing SID 436
+28-10-2015 11:48:20 AM: SID 436 has 0 records
+28-10-2015 11:48:20 AM: Processing SID 436
+28-10-2015 11:48:20 AM: SID 436 has 0 records
+28-10-2015 11:48:20 AM: Processing SID 436
+28-10-2015 11:48:20 AM: SID 436 has 0 records
+28-10-2015 11:48:20 AM: Processing SID 436
+28-10-2015 11:48:20 AM: SID 436 has 0 records
+28-10-2015 11:48:20 AM: Processing SID 436
+28-10-2015 11:48:20 AM: SID 436 has 0 records
+28-10-2015 11:48:20 AM: Processing SID 436
+28-10-2015 11:48:20 AM: SID 436 has 0 records
+28-10-2015 11:48:20 AM: Processing SID 436
+28-10-2015 11:48:20 AM: SID 436 has 0 records
+28-10-2015 11:48:20 AM: Processing SID 436
+28-10-2015 11:48:20 AM: SID 436 has 0 records
+28-10-2015 11:48:20 AM: Processing SID 436
+28-10-2015 11:48:20 AM: SID 436 has 0 records
+28-10-2015 11:48:20 AM: Processing SID 436
+28-10-2015 11:48:20 AM: SID 436 has 0 records
+28-10-2015 11:48:20 AM: Processing SID 436
+28-10-2015 11:48:20 AM: SID 436 has 0 records
+28-10-2015 11:48:20 AM: Processing SID 436
+28-10-2015 11:48:20 AM: SID 436 has 0 records
+28-10-2015 11:48:20 AM: Processing SID 436
+28-10-2015 11:48:20 AM: SID 436 has 0 records
+28-10-2015 11:48:20 AM: Processing SID 436
+28-10-2015 11:48:20 AM: SID 436 has 0 records
+28-10-2015 11:48:20 AM: Processing SID 436
+28-10-2015 11:48:20 AM: SID 436 has 0 records
+28-10-2015 11:48:20 AM: Processing SID 436
+28-10-2015 11:48:20 AM: SID 436 has 0 records
+28-10-2015 11:48:20 AM: Processing SID 436
+28-10-2015 11:48:20 AM: SID 436 has 0 records
+28-10-2015 11:48:20 AM: Processing SID 436
+28-10-2015 11:48:20 AM: SID 436 has 0 records
+28-10-2015 11:48:20 AM: Processing SID 436
+28-10-2015 11:48:20 AM: SID 436 has 0 records
+28-10-2015 11:48:20 AM: Processing SID 436
+28-10-2015 11:48:20 AM: SID 436 has 0 records
+28-10-2015 11:49:18 AM: ===================Starting===================
+28-10-2015 11:49:18 AM: Processing SID 266
+28-10-2015 11:49:18 AM: SID 266 has 0 records
+28-10-2015 11:49:18 AM: Processing SID 267
+28-10-2015 11:49:18 AM: SID 267 has 0 records
+28-10-2015 11:49:18 AM: Processing SID 268
+28-10-2015 11:49:18 AM: SID 268 has 0 records
+28-10-2015 11:49:18 AM: Processing SID 269
+28-10-2015 11:49:18 AM: SID 269 has 0 records
+28-10-2015 11:49:18 AM: Processing SID 270
+28-10-2015 11:49:18 AM: SID 270 has 0 records
+28-10-2015 11:49:18 AM: Processing SID 271
+28-10-2015 11:49:18 AM: SID 271 has 0 records
+28-10-2015 11:49:18 AM: Processing SID 272
+28-10-2015 11:49:18 AM: SID 272 has 0 records
+28-10-2015 11:49:18 AM: Processing SID 273
+28-10-2015 11:49:18 AM: SID 273 has 0 records
+28-10-2015 11:49:18 AM: Processing SID 280
+28-10-2015 11:49:18 AM: SID 280 has 0 records
+28-10-2015 11:49:18 AM: Processing SID 281
+28-10-2015 11:49:18 AM: SID 281 has 0 records
+28-10-2015 11:49:18 AM: Processing SID 282
+28-10-2015 11:49:18 AM: SID 282 has 0 records
+28-10-2015 11:49:18 AM: Processing SID 283
+28-10-2015 11:49:18 AM: SID 283 has 0 records
+28-10-2015 11:49:18 AM: Processing SID 284
+28-10-2015 11:49:18 AM: SID 284 has 0 records
+28-10-2015 11:49:18 AM: Processing SID 285
+28-10-2015 11:49:18 AM: SID 285 has 0 records
+28-10-2015 11:49:18 AM: Processing SID 286
+28-10-2015 11:49:18 AM: SID 286 has 0 records
+28-10-2015 11:49:18 AM: Processing SID 287
+28-10-2015 11:49:18 AM: SID 287 has 0 records
+28-10-2015 11:49:19 AM: Processing SID 288
+28-10-2015 11:49:19 AM: SID 288 has 0 records
+28-10-2015 11:49:19 AM: Processing SID 289
+28-10-2015 11:49:19 AM: SID 289 has 0 records
+28-10-2015 11:49:19 AM: Processing SID 290
+28-10-2015 11:49:19 AM: SID 290 has 0 records
+28-10-2015 11:49:19 AM: Processing SID 291
+28-10-2015 11:49:19 AM: SID 291 has 0 records
+28-10-2015 11:49:19 AM: Processing SID 292
+28-10-2015 11:49:19 AM: SID 292 has 0 records
+28-10-2015 11:49:19 AM: Processing SID 293
+28-10-2015 11:49:19 AM: SID 293 has 0 records
+28-10-2015 11:49:19 AM: Processing SID 294
+28-10-2015 11:49:19 AM: SID 294 has 0 records
+28-10-2015 11:49:19 AM: Processing SID 295
+28-10-2015 11:49:19 AM: SID 295 has 0 records
+28-10-2015 11:49:19 AM: Processing SID 296
+28-10-2015 11:49:19 AM: SID 296 has 0 records
+28-10-2015 11:49:19 AM: Processing SID 297
+28-10-2015 11:49:19 AM: SID 297 has 0 records
+28-10-2015 11:49:19 AM: Processing SID 434
+28-10-2015 11:49:19 AM: SID 434 has 0 records
+28-10-2015 11:49:19 AM: Processing SID 435
+28-10-2015 11:49:19 AM: SID 435 has 0 records
+28-10-2015 11:49:41 AM: Processing SID 436
+28-10-2015 11:49:47 AM: SID 436 has 9 records
+28-10-2015 11:50:15 AM: Mail Sent
+30-10-2015 09:41:38 AM: ===================Starting===================

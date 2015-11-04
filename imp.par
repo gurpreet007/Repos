@@ -1,0 +1,5 @@
+directory=oradb
+content=all
+dumpfile=OB_DP1_COMP
+full=Y
+remap_tablespace=users:TBL_CURR

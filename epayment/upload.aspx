@@ -111,8 +111,8 @@
                 }
             }
             function FillSAP() {
-                var arrTypeText = ["Bill Type", "DSBELOW10KW (Spot Billing)", "DSBELOW20KW (Spot Billing)", "SBM Reading (MS/SP/Temp)"];
-                var arrTypeVal = ["BT", "DSBELOW10KW", "DSBELOW20KW", "SBMREADING"];
+                var arrTypeText = ["Bill Type", "GSC/GT", "SBM Reading (MS/SP/Temp/GC)"];
+                var arrTypeVal = ["BT", "DSBELOW10KW", "SBMREADING"];
 
                 $("#drpBillType").html("");
 
