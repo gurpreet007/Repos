@@ -58,8 +58,9 @@ public class Service : IAndroidService
         List<Android_Bill_Ret> lstColsRet = new List<Android_Bill_Ret>();
         #endregion
 
-        using (eventLog1 = new EventLog("ePayment", ".", "WS_Android_Bill"))
+        using (eventLog1 = new EventLog("ePay_ANDROID", ".", "Android_Bill"))
         {
+
             if (arr_scols == null)
             {
                 eventLog1.WriteEntry("No Object Received");
@@ -92,12 +93,12 @@ public class Service : IAndroidService
                     eventLog1.WriteEntry(string.Format("{0}_{1}_{2}_{3}", scols.LtBillID, "FAILURE", "Invalid CurrentReadingDate", scols.ToString()));
                     continue;
                 }
-                else if (scols.PreviousReadingDate < DateTime.Now.AddYears(-1))
-                {
-                    lstColsRet.Add(new Android_Bill_Ret(scols.LtBillID.ToString(), "F", "Invalid PreviousReadingDate"));
-                    eventLog1.WriteEntry(string.Format("{0}_{1}_{2}_{3}", scols.LtBillID, "FAILURE", "Invalid PreviousReadingDate", scols.ToString()));
-                    continue;
-                }
+                //else if (scols.PreviousReadingDate < DateTime.Now.AddYears(-1))
+                //{
+                //    lstColsRet.Add(new Android_Bill_Ret(scols.LtBillID.ToString(), "F", "Invalid PreviousReadingDate"));
+                //    eventLog1.WriteEntry(string.Format("{0}_{1}_{2}_{3}", scols.LtBillID, "FAILURE", "Invalid PreviousReadingDate", scols.ToString()));
+                //    continue;
+                //}
 #endregion
                 #region queries
                 sql = string.Format(sqlIns,

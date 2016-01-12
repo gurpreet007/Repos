@@ -19,7 +19,7 @@ public class Service_SAP_NCODE : IService
         string strRet;
 
         System.Threading.Thread.Sleep(15000);
-        using (eventLog1 = new EventLog("ePayment", ".", "WS_NCODE"))
+        using (eventLog1 = new EventLog("epay_NCODE", ".", "NCODE"))
         {
             if (scols == null)
             {

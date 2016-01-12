@@ -7,15 +7,15 @@ using System.Data.Odbc ;
 using System.Data.OracleClient;
 public class OraDBConnection
 {
-    private const string constr = "user id=onlinebill;password=pspcl;"+
+    private const string constr = "user id=onlinebill;password=pspcl123;"+
         "data source="+
             "(DESCRIPTION="+
                 "(ADDRESS_LIST="+
                     "(ADDRESS=(PROTOCOL=TCP)"+
-                             "(HOST=127.0.0.1)"+
+                             "(HOST=10.10.1.221)"+
                              "(PORT=1521)"+
                     ")"+
-                ")(CONNECT_DATA=(SERVICE_NAME=pshr))"+
+                ")(CONNECT_DATA=(SERVICE_NAME=epay))"+
             ")";
     
     public static DataSet GetData(String sql)

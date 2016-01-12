@@ -101,7 +101,7 @@ public class Service_WS_SAP_NonSBM_240 : IService
         List<SAP_Cols_Ret> lstColsRet = new List<SAP_Cols_Ret>();
         #endregion
 
-        using (eventLog1 = new EventLog("ePayment", ".", "Service_WS_SAP_NonSBM_240"))
+        using (eventLog1 = new EventLog("ePay_NonSBM", ".", "SAP_NonSBM_240"))
         {
             if (arr_scols == null)
             {
@@ -111,12 +111,13 @@ public class Service_WS_SAP_NonSBM_240 : IService
 
             foreach (SAP_Cols scols in arr_scols)
             {
+                //eventLog1.WriteEntry(string.Format("Sub Div Code = {0}", scols.Sub_Div_Code));
                 #region queries
                 sql = string.Format(sqlIns,
                         scols.Tariff_Type, scols.Circle, scols.Division, scols.Sub_Div, scols.Bill_Cycle,
                         scols.Zz_Year, scols.Bill_Date, scols.Opbel, scols.Faedn_Cash, scols.Faedn_Cheque,
                         scols.Nft_Admvlt, scols.Nft_Supvlt, scols.Nft_Mtrvlt, scols.Vkont, scols.Vkona,
-                        scols.Name, scols.Address.Replace("'",""), scols.Date_Of_Conn, scols.Sndgen, scols.Sndif,
+                        scols.Name.Replace("'", "`"), scols.Address.Replace("'", "`"), scols.Date_Of_Conn, scols.Sndgen, scols.Sndif,
                         scols.Sndpiu, scols.Sndsea, scols.Sndgen_Date, scols.Sndif_Date, scols.Sndpiu_Date,
                         scols.Sndsea_Date, scols.Cdgen, scols.Cdif, scols.Cdpiu, scols.Cdsea,
                         scols.Cdgen_Date, scols.Cdif_Date, scols.Cdpiu_Date, scols.Cdsea_Date, scols.Ind_Typ,
@@ -160,7 +161,8 @@ public class Service_WS_SAP_NonSBM_240 : IService
                         scols.Cons_Kva_20, scols.Cons_Kwh_21, scols.Cons_Kvah_21, scols.Cons_Kva_21, scols.Cons_Kwh_22,
                         scols.Cons_Kvah_22, scols.Cons_Kva_22, scols.Cons_Kwh_23, scols.Cons_Kvah_23, scols.Cons_Kva_23,
                         scols.Cons_Kwh_24, scols.Cons_Kvah_24, scols.Cons_Kva_24, scols.Variation, scols.Tod_Schr_Cons,
-                        scols.Tod_Schr_Amt, scols.Tod_Rbt_Cons, scols.Tod_Rbt_Amt, scols.Opbel_Hash, scols.Sub_Div_Code
+                        //scols.Tod_Schr_Amt, scols.Tod_Rbt_Cons, scols.Tod_Rbt_Amt, scols.Opbel_Hash, scols.Sub_Div_Code
+                        scols.Tod_Schr_Amt, scols.Tod_Rbt_Cons, scols.Tod_Rbt_Amt, scols.Sub_Div_Code
                     );
 
                 sql_merge = string.Format(sqlMerge, scols.Vkont, "ONLINEBILL.SAP_NONSBM");
