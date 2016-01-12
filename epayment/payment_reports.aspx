@@ -36,12 +36,12 @@
                 <p style="vertical-align:middle"><label for="txtLoc">Location</label></p>
                 <p style="margin-left:0px; padding-left:0px;"><input type="text" runat="server" id="txtLoc" maxlength="4" placeholder="e.g. U11, 1234"/></p>
             </div>
-            <div class="tableRow" id="toHide1" runat="server">
+            <div class="tableRow" id="divVendor" runat="server">
                 <p><label for="drpVendor">Vendors</label></p>
                 <p><asp:DropDownList ID="drpVendor" runat="server">
                     </asp:DropDownList></p>
             </div>
-            <div class="tableRow" id="toHide2" runat="server">
+            <div class="tableRow" id="divPayMode" runat="server">
                 <p><label for="drpPayMode">Payment Mode</label></p>
                 <p><asp:DropDownList ID="drpPayMode" runat="server">
                         <asp:ListItem Value="ALL">All</asp:ListItem>
@@ -49,7 +49,7 @@
                         <asp:ListItem Value="CH">Cheque</asp:ListItem>
                    </asp:DropDownList></p>
             </div>
-            <div class="tableRow" id="toHide3" runat="server">
+            <div class="tableRow" id="divCategory" runat="server">
                 <p><label for="drpCategory">Category</label></p>
                 <p><asp:DropDownList ID="drpCategory" runat="server">
                     </asp:DropDownList></p>

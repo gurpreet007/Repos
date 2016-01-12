@@ -16,6 +16,8 @@
         <img class="login" alt="PSPCL Logo" src="resources/pspcl.gif"/>
         Punjab State Power Corporation Limited
     </h3>
+    <%--<h2 class="login">ePayment Server will be down for maintenance Today (26<sup>th</sup> Nov) 03:00 PM Onwards.
+    </h2>--%>
     <form runat="server" class="login">
         <header class="login">e-Payment System</header>
         <input type="text" id="txtUserID" placeholder="Location Code" runat="server" 

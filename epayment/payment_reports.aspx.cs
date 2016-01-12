@@ -77,8 +77,8 @@ public partial class reports : System.Web.UI.Page
 
         if (type == "sapd" || type == "saps")
         {
-            sql = "select distinct 'SAP_' || trim(substr(category,1,3)) as cat_text, " +
-                    "trim(substr(category,1,3)) as cat_val from payment where if_sap = 'Y'";
+            sql = "select distinct 'SAP_' || substr(trim(category),1,2) as cat_text, " +
+                    "substr(trim(category),1,2) as cat_val from payment where if_sap = 'Y'";
             txtLoc.Attributes.Add("Placeholder", "e.g 12, 1234");
         }
         else
@@ -87,18 +87,7 @@ public partial class reports : System.Web.UI.Page
             "trim(tbl_name) as cat_val from payment where if_sap='N' ";
             txtLoc.Attributes.Add("Placeholder", "e.g U, U31");
         }
-        if (type == "saps" || type == "nonsaps")
-        {
-            toHide1.Visible = false;
-            toHide2.Visible = false;
-            toHide3.Visible = false;
-        }
-        else
-        {
-            toHide1.Visible = true;
-            toHide2.Visible = true;
-            toHide3.Visible = true;
-        }
+        
         ds = OraDBConnection.GetData(sql);
         drpCategory.DataSource = ds;
         drpCategory.DataValueField = "cat_val";
@@ -124,33 +113,41 @@ public partial class reports : System.Web.UI.Page
         isSAP = drpType.SelectedValue.StartsWith("sap");
         loc = txtLoc.Value.Trim().PadRight(isSAP ? 4 : 3, '_').ToUpper();
 
-        if ((isSAP && !Regex.IsMatch(loc, "^[1-9][1-9_]{3}$")) ||
+        if ((Session[common.strUserID].ToString().ToUpper() != common.strAdminName) &&
+            ((isSAP && !Regex.IsMatch(loc, "^[1-9][1-9_]{3}$")) ||
             (!isSAP && !Regex.IsMatch(loc, "^[A-Z][1-9_]{2}$")))
+            )
         {
             lblMsg.Text = "Invalid Location.";
             return;
         }
 
-        if ((isSAP && !(drpCategory.SelectedItem.Text.Split('_')[0] == "SAP")) ||
-            (!isSAP && !(drpCategory.SelectedItem.Text.Split('_')[0] == "Non")))
+        if ((isSAP && !(drpCategory.SelectedItem.Text.StartsWith("SAP_"))) ||
+            (!isSAP && !(drpCategory.SelectedItem.Text.StartsWith("Non_SAP_"))))
         {
             lblMsg.Text = "Invalid Category.";
             return;
         }
         sql = string.Format("select * from payment where " +
-                "{0} = trim('{1}')" +
-                "and txndate between '{2}' and '{3}' " +
+                "{0} = trim('{1}') " +
+                "and txndate between to_date('{2} 00:00:00','{8}') and to_date('{3} 23:59:59','{8}') " +
+            //"and txndate between '{2}' and '{3}' " +
                 "and upper({4}) like '{5}' " +
                 "and {6} and {7} " +
-                "and recon_id is not null " +
+                "and if_sap = '{9}' " +
+                "and status_p = 'SUCCESS' "+
+            //"and recon_id is not null " +
                 "order by txnid",
-                isSAP ? "substr(category,1,3)" : "tbl_name", 
-                drpCategory.SelectedValue,
-                sDate, eDate,
-                isSAP ? "code_sdiv" : "substr(acno,1,3)", 
-                loc,
-                drpPayMode.SelectedValue == "ALL" ? "1=1" : "payment_mode = '" + drpPayMode.SelectedValue + "'",
-                drpVendor.SelectedValue == "ALL" ? "1=1" : "vid = '" + drpVendor.SelectedValue + "'");
+                isSAP ? "substr(trim(category),1,2)" : "tbl_name",                                                      //0
+                drpCategory.SelectedValue,                                                                              //1
+                sDate,                                                                                                  //2
+                eDate,                                                                                                  //3
+                isSAP ? "code_sdiv" : "substr(acno,1,3)",                                                               //4
+                loc,                                                                                                    //5
+                drpPayMode.SelectedValue == "ALL" ? "1=1" : "payment_mode = '" + drpPayMode.SelectedValue + "'",        //6
+                drpVendor.SelectedValue == "ALL" ? "1=1" : "vid = '" + drpVendor.SelectedValue + "'",                   //7
+                common.dtFmtOracle,                                                                                     //8
+                (isSAP ? "Y" : "N"));                                                                                   //9
        
         if (!common.DownloadXLS(sql, "payment.xls", this))
         {
@@ -184,8 +181,8 @@ public partial class reports : System.Web.UI.Page
             return;
         }
 
-        if ((isSAP && !(drpCategory.SelectedItem.Text.Split('_')[0] == "SAP")) ||
-            (!isSAP && !(drpCategory.SelectedItem.Text.Split('_')[0] == "Non")))
+        if ((isSAP && !(drpCategory.SelectedItem.Text.StartsWith("SAP_"))) ||
+           (!isSAP && !(drpCategory.SelectedItem.Text.StartsWith("Non_SAP_"))))
         {
             lblMsg.Text = "Invalid Category.";
             return;
@@ -197,21 +194,31 @@ public partial class reports : System.Web.UI.Page
         //4 = location
         sql = string.Format("select GET_CDSNAME(a.subdivcode,'{0}','S') as SubDivisonName, a.* from ( " +
                 "SELECT upper({3}) as subdivcode, " +
+                "category as cat, " +
                 "to_char(txndate,'dd/mm/yy') as dte, " +
                 "count(*) num_trans, " +
                 "sum(sop) as ssop, sum(ed) as sed, " +
                 "sum(octrai) soct, sum(tot_amt) as gross_amount, " +
                 "sum(surcharge) as ssur, sum(amt_after_duedate) as net_amount, " +
                 "sum(amt) as amt_paid " +
-                "FROM payment WHERE txndate BETWEEN '{1}' AND '{2}' " +
+                "FROM payment WHERE " +
+                "txndate BETWEEN to_date('{1} 00:00:00','{6}') and to_date('{2} 23:59:59','{6}') " +
                 "AND upper({3}) LIKE '{4}' " +
-                "AND if_sap = '{5}' "+
-                "group by to_char(txndate,'dd/mm/yy'),upper({3})) a " +
+                "AND if_sap = '{5}' " +
+                "AND status_p = 'SUCCESS' " +
+                "AND {7} = trim('{8}') " +
+                "group by to_char(txndate,'dd/mm/yy'), category, upper({3})) a " +
                 "order by a.dte",
-                (isSAP ? "Y" : "N"), sDate, eDate,
-                isSAP ? "code_sdiv" : "substr(acno,1,3)", 
-                loc,
-                isSAP?"Y":"N");
+                (isSAP ? "Y" : "N"),                                            //0
+                sDate,                                                          //1
+                eDate,                                                          //2
+                isSAP ? "code_sdiv" : "substr(acno,1,3)",                       //3
+                loc,                                                            //4
+                isSAP ? "Y" : "N",                                              //5
+                common.dtFmtOracle,                                             //6
+                isSAP ? "substr(trim(category),1,2)" : "tbl_name",              //7
+                drpCategory.SelectedValue                                       //8
+                );
 
         if (!common.DownloadXLS(sql, "summary.xls", this))
         {
@@ -237,6 +244,20 @@ public partial class reports : System.Web.UI.Page
     }
     protected void drpType_SelectedIndexChanged(object sender, EventArgs e)
     {
+        string type = drpType.SelectedValue;
+
+        if (type == "saps" || type == "nonsaps")
+        {
+            divVendor.Visible = false;
+            divPayMode.Visible = false;
+            //divCategory.Visible = false;
+        }
+        else
+        {
+            divVendor.Visible = true;
+            divPayMode.Visible = true;
+            //divCategory.Visible = true;
+        }
         fillCategories(drpType.SelectedValue);
     }
     protected void btnShowReport_Click(object sender, EventArgs e)

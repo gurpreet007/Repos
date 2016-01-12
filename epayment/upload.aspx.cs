@@ -118,26 +118,25 @@ public partial class upload : System.Web.UI.Page
 
             //add userID, empID and date_upload at last, we already have comma and space at the end of string
             //sbsql.AppendFormat("'{0}', '{1}', to_date('{2}','{3}'))", userID, empID, dtUpload, common.dtFmtOracle);
-            sbsql.AppendFormat(",'{0}', '{1}', to_date('{2}','{3}'))", userID, '0', dtUpload, common.dtFmtOracle);
+            sbsql.AppendFormat(",'{0}', '{1}', to_date('{2}','{3}')); ", userID, '0', dtUpload, common.dtFmtOracle);
 
             //insert into oracle 
             //Composite Primary Key: ACCOUNTNO, BILLCYCLE, BILLYEAR
             //to handle dups we let the exception come and then continue
             //in case of error, we record the info about record containing error and continue
             
-            //end insert query
-            sbsql.Append("; ");
-
             //append merge query
             sbsql.AppendFormat("merge into onlinebill.mast_account m1 using " +
-                "(select '{0}' as acno from dual) d on (m1.account_no=d.acno) " +
-                "when matched then update set m1.table_name = '{1}' " +
-                "when not matched then insert (m1.account_no,m1.table_name) values(d.acno,'{1}') ",
-                fields[categ.posAccountNo].ToUpper(), categ.tableName.ToUpper());
+                    "(select '{0}' as acno from dual) d on (m1.account_no=d.acno) " +
+                    "when matched then update set m1.table_name = '{1}', m1.cname = '{2}', m1.category = '{3}', if_sap = 'N', m1.code_sdiv='{4}' " +
+                    "when not matched then insert (m1.account_no, m1.table_name, m1.cname, m1.category, m1.if_sap, m1.code_sdiv) values(d.acno,'{1}','{2}','{3}','N','{4}'); ",
+                    fields[categ.posAccountNo].ToUpper(), categ.tableName.ToUpper().Trim(), fields[categ.posCname].ToUpper().Trim(),
+                    fields[categ.posCategory].ToUpper().Trim(), "0");
+
             try
             {
                 //make atomic transaction and execute
-                OraDBConnection.ExecQryOnConnection(con, string.Format("BEGIN {0}; END;",sbsql.ToString()));
+                OraDBConnection.ExecQryOnConnection(con, string.Format("BEGIN {0} END;",sbsql.ToString()));
                 oracle_ins++;
             }
             catch (Exception ex)
@@ -194,7 +193,11 @@ public partial class upload : System.Web.UI.Page
         StringBuilder sbsql = new StringBuilder(2000);
         OracleConnection con;
         string[] qtdFields;
-
+        const int POS_SCHMRDT = 7;
+        const int POS_PRVMRDT = 24;
+        const int POS_CURMRDT = 18;
+        const int POS_BILLDT = 49;
+        const int POS_DUEDT = 50;
         //int posSancLoad = 80;
 
         //capture sessionid
@@ -296,11 +299,11 @@ public partial class upload : System.Web.UI.Page
 
             //make the insert query
             qtdFields = fields.Select(n => "'" + n + "'").ToArray();
-            qtdFields[7] = string.Format("to_date({0},'dd/mm/yyyy')", qtdFields[7]);
-            qtdFields[24] = string.Format("to_date({0},'dd/mm/yyyy')", qtdFields[24]);
-            qtdFields[18] = string.Format("to_date({0},'dd-mm-yyyy')", qtdFields[18]);
-            qtdFields[49] = string.Format("to_date({0},'dd-mm-yyyy')", qtdFields[49]);
-            qtdFields[50] = string.Format("to_date({0},'dd-mm-yyyy')", qtdFields[50]);
+            qtdFields[POS_SCHMRDT] = string.Format("to_date({0},'dd/mm/yyyy')", qtdFields[POS_SCHMRDT]);
+            qtdFields[POS_PRVMRDT] = string.Format("to_date({0},'dd/mm/yyyy')", qtdFields[POS_PRVMRDT]);
+            qtdFields[POS_CURMRDT] = string.Format("to_date({0},'dd-mm-yyyy')", qtdFields[POS_CURMRDT]);
+            qtdFields[POS_BILLDT] = string.Format("to_date({0},'dd-mm-yyyy')", qtdFields[POS_BILLDT]);
+            qtdFields[POS_DUEDT] = string.Format("to_date({0},'dd-mm-yyyy')", qtdFields[POS_DUEDT]);
             sbsql.Append(string.Join(",", qtdFields));
 
             //add userID, empID, date_upload, synched, syncmsg, syncdt as NULL at last, we already have comma and space at the end of string
@@ -308,7 +311,7 @@ public partial class upload : System.Web.UI.Page
             sbsql.AppendFormat(",'{0}', '{1}', to_date('{2}','{3}'), NULL, NULL, NULL); ", userID, '0', dtUpload, common.dtFmtOracle);
 
             //insert into oracle 
-            //Composite Primary Key: ACCOUNTNO, BILLCYCLE, BILLYEAR
+            //Primary Key: MR_DOC_NO
             //to handle dups we let the exception come and then continue
             //in case of error, we record the info about record containing error and continue
 
@@ -318,9 +321,10 @@ public partial class upload : System.Web.UI.Page
             {
                 sbsql.AppendFormat("merge into onlinebill.mast_account m1 using " +
                     "(select '{0}' as acno from dual) d on (m1.account_no=d.acno) " +
-                    "when matched then update set m1.table_name = '{1}' " +
-                    "when not matched then insert (m1.account_no,m1.table_name) values(d.acno,'{1}'); ",
-                    fields[categ.posAccountNo].ToUpper(), categ.tableName.ToUpper());
+                    "when matched then update set m1.table_name = '{1}', m1.cname = '{2}', m1.category = '{3}', if_sap = 'Y', m1.code_sdiv='{4}' " +
+                    "when not matched then insert (m1.account_no, m1.table_name, m1.cname, m1.category, m1.if_sap, m1.code_sdiv) values(d.acno,'{1}','{2}','{3}','Y','{4}'); ",
+                    fields[categ.posAccountNo].ToUpper(), categ.tableName.ToUpper().Trim(), fields[categ.posCname].ToUpper().Trim(), 
+                    fields[categ.posCategory].ToUpper().Trim(), fields[categ.posCode_sdiv].ToUpper().Trim());
             }
 
             try
