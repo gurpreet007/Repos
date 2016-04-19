@@ -8,50 +8,6 @@ using System.Data;
 using System.Text.RegularExpressions;
 public partial class reports : System.Web.UI.Page
 {
-    private bool getDates(out string startDate, out string endDate)
-    {
-        string duration = panActivity_drpDuration.SelectedValue;
-        string dtFormat = string.Empty;
-        startDate = DateTime.Now.ToString("dd-MMM-yyyy");
-        endDate = DateTime.Now.ToString("dd-MMM-yyyy");
-        try
-        {
-            switch (duration)
-            {
-                case "dates":
-                    startDate = sDate.Value;
-                    endDate = eDate.Value;
-                    dtFormat = startDate.Contains("-") ? "yyyy-MM-dd" : "dd/MM/yyyy";
-                    startDate = DateTime.ParseExact(startDate, dtFormat, null).ToString("dd-MMM-yyyy");
-                    endDate = DateTime.ParseExact(endDate, dtFormat, null).ToString("dd-MMM-yyyy");
-                    break;
-                case "day1":
-                    startDate = endDate;
-                    break;
-                case "day2":
-                    startDate = DateTime.ParseExact(endDate, "dd-MMM-yyyy", null).AddDays(-1).ToString("dd-MMM-yyyy");
-                    break;
-                case "day3":
-                    startDate = DateTime.ParseExact(endDate, "dd-MMM-yyyy", null).AddDays(-2).ToString("dd-MMM-yyyy");
-                    break;
-                case "week":
-                    startDate = DateTime.ParseExact(endDate, "dd-MMM-yyyy", null).AddDays(-7).ToString("dd-MMM-yyyy");
-                    break;
-                case "month":
-                    startDate = DateTime.ParseExact(endDate, "dd-MMM-yyyy", null).AddMonths(-1).ToString("dd-MMM-yyyy");
-                    break;
-                case "year":
-                    startDate = DateTime.ParseExact(endDate, "dd-MMM-yyyy", null).AddYears(-1).ToString("dd-MMM-yyyy");
-                    break;
-            }
-        }
-        catch (System.FormatException)
-        {
-            lblMsg.Text = "Invalid Date. Use format dd/mm/yyyy.";
-            return false;
-        }
-        return true;
-    }
     private void fillVendors()
     {
         DataSet ds;
@@ -98,20 +54,21 @@ public partial class reports : System.Web.UI.Page
     private void showDetailedReport()
     {
         string sql;
-        string sDate = string.Empty;
-        string eDate = string.Empty;
+        string sDate2 = string.Empty;
+        string eDate2 = string.Empty;
         bool isSAP;
         string loc;
 
         lblMsg.Text = "";
-        if (!getDates(out sDate, out eDate))
+        if (!common.getDates(sDate.Value, eDate.Value, panActivity_drpDuration.SelectedValue, out sDate2, out eDate2))
         {
-            //date error, msg already shown, return
+            //date error, return
+            lblMsg.Text = "Invalid Date. Use format DD-Mon-YYYY (e.g. 01-Jan-2016).";
             return;
         }
 
         isSAP = drpType.SelectedValue.StartsWith("sap");
-        loc = txtLoc.Value.Trim().PadRight(isSAP ? 4 : 3, '_').ToUpper();
+        loc = txtLoc.Value.Trim().Trim('0').PadRight(isSAP ? 4 : 3, '_').ToUpper();
 
         if ((Session[common.strUserID].ToString().ToUpper() != common.strAdminName) &&
             ((isSAP && !Regex.IsMatch(loc, "^[1-9][1-9_]{3}$")) ||
@@ -140,8 +97,8 @@ public partial class reports : System.Web.UI.Page
                 "order by txnid",
                 isSAP ? "substr(trim(category),1,2)" : "tbl_name",                                                      //0
                 drpCategory.SelectedValue,                                                                              //1
-                sDate,                                                                                                  //2
-                eDate,                                                                                                  //3
+                sDate2,                                                                                                 //2
+                eDate2,                                                                                                 //3
                 isSAP ? "code_sdiv" : "substr(acno,1,3)",                                                               //4
                 loc,                                                                                                    //5
                 drpPayMode.SelectedValue == "ALL" ? "1=1" : "payment_mode = '" + drpPayMode.SelectedValue + "'",        //6
@@ -157,15 +114,18 @@ public partial class reports : System.Web.UI.Page
     private void showSummaryReport()
     {
         string sql;
-        string sDate = string.Empty;
-        string eDate = string.Empty;
+        string sDate2 = string.Empty;
+        string eDate2 = string.Empty;
         bool isSAP;
         string loc;
-
+        string vendortext = string.Empty;
+        string vendorid = string.Empty;
         lblMsg.Text = "";
-        if (!getDates(out sDate, out eDate))
+
+        if (!common.getDates(sDate.Value, eDate.Value, panActivity_drpDuration.SelectedValue, out sDate2, out eDate2))
         {
-            //date error, msg already shown, return
+            //date error, return
+            lblMsg.Text = "Invalid Date. Use format DD-Mon-YYYY (e.g. 01-Jan-2016).";
             return;
         }
 
@@ -187,6 +147,10 @@ public partial class reports : System.Web.UI.Page
             lblMsg.Text = "Invalid Category.";
             return;
         }
+
+        vendortext = drpVendor.SelectedItem.Text;
+        vendorid = drpVendor.SelectedValue;
+
         //0 = ifsap Y/N
         //1 = from date
         //2 = to date
@@ -207,20 +171,22 @@ public partial class reports : System.Web.UI.Page
                 "AND if_sap = '{5}' " +
                 "AND status_p = 'SUCCESS' " +
                 "AND {7} = trim('{8}') " +
+                "{9} " +
                 "group by to_char(txndate,'dd/mm/yy'), category, upper({3})) a " +
                 "order by a.dte",
                 (isSAP ? "Y" : "N"),                                            //0
-                sDate,                                                          //1
-                eDate,                                                          //2
+                sDate2,                                                         //1
+                eDate2,                                                         //2
                 isSAP ? "code_sdiv" : "substr(acno,1,3)",                       //3
                 loc,                                                            //4
                 isSAP ? "Y" : "N",                                              //5
                 common.dtFmtOracle,                                             //6
                 isSAP ? "substr(trim(category),1,2)" : "tbl_name",              //7
-                drpCategory.SelectedValue                                       //8
+                drpCategory.SelectedValue,                                      //8
+                vendortext == "All" ? "" : "AND VID = " + vendorid
                 );
 
-        if (!common.DownloadXLS(sql, "summary.xls", this))
+        if (!common.DownloadXLS(sql, "summary_"+vendortext+".xls", this))
         {
             lblMsg.Text = "No Such Record";
         }
@@ -236,8 +202,8 @@ public partial class reports : System.Web.UI.Page
         {
             common.FillInfo(Page.Session, lblLoggedInAs);
             //fillUsers(panActivity_drpUsers, false, true);
-            sDate.Attributes["type"] = "date";
-            eDate.Attributes["type"] = "date";
+            //sDate.Attributes["type"] = "date";
+            //eDate.Attributes["type"] = "date";
             fillCategories();
             fillVendors();
         }
@@ -248,13 +214,13 @@ public partial class reports : System.Web.UI.Page
 
         if (type == "saps" || type == "nonsaps")
         {
-            divVendor.Visible = false;
+            //divVendor.Visible = false;
             divPayMode.Visible = false;
             //divCategory.Visible = false;
         }
         else
         {
-            divVendor.Visible = true;
+            //divVendor.Visible = true;
             divPayMode.Visible = true;
             //divCategory.Visible = true;
         }

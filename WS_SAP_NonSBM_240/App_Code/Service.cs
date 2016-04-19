@@ -96,8 +96,10 @@ public class Service_WS_SAP_NonSBM_240 : IService
                     ) ";
         string sqlMerge = "merge into onlinebill.mast_account m1 using " +
                     "(select '{0}' as acno from dual) d on (m1.account_no=d.acno) " +
-                    "when matched then update set m1.table_name = '{1}' " +
-                    "when not matched then insert (m1.account_no,m1.table_name) values(d.acno,'{1}')";
+                    "when matched then update set m1.table_name = '{1}', m1.cname = '{2}', m1.category = '{3}', if_sap = 'Y', m1.code_sdiv='{4}', m1.updatedt = sysdate " +
+                    "when not matched then insert (m1.account_no, m1.table_name, m1.cname, m1.category, m1.if_sap, m1.code_sdiv, m1.updatedt) "+
+                    "values(d.acno,'{1}','{2}','{3}','Y','{4}', sysdate) ";
+
         List<SAP_Cols_Ret> lstColsRet = new List<SAP_Cols_Ret>();
         #endregion
 
@@ -165,7 +167,8 @@ public class Service_WS_SAP_NonSBM_240 : IService
                         scols.Tod_Schr_Amt, scols.Tod_Rbt_Cons, scols.Tod_Rbt_Amt, scols.Sub_Div_Code
                     );
 
-                sql_merge = string.Format(sqlMerge, scols.Vkont, "ONLINEBILL.SAP_NONSBM");
+                sql_merge = string.Format(sqlMerge, scols.Vkont, "ONLINEBILL.SAP_NONSBM", 
+                    scols.Name.Replace("'", "`").ToUpper().Trim(), scols.Tariff_Type.ToUpper().Trim(), scols.Sub_Div_Code.Trim());
 
                 sql_atomic = string.Format("BEGIN {0}; {1}; END; ", sql, sql_merge).Replace(Environment.NewLine, "");
                 #endregion 

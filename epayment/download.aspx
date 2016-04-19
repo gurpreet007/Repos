@@ -88,7 +88,7 @@
         </div>
     </form>
     <footer id="pageFooter" class="pageFooter">	</footer>
-    <script src="scripts/jquery-2.1.3.min.js"></script>
+    <script src="scripts/jquery-2.2.0.min.js"></script>
     <script src="scripts/common.js"></script>
     <script>
         $(function () {

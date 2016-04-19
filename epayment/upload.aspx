@@ -23,8 +23,8 @@
         <div class="tableRow">
             <p></p>
             <p>
-                <input type="radio" class="billClass" name="billClass" value="sap" checked>SAP
-                <input type="radio" class="billClass" name="billClass" value="nonsap">Non-SAP
+                <input type="radio" id="idBillClass1" class="billClass" name="billClass" value="sap" checked>SAP
+                <input type="radio" id="idBillClass2" class="billClass" name="billClass" value="nonsap">Non-SAP
             </p>
         </div>
         <div class="tableRow">
@@ -57,47 +57,49 @@
                 <asp:Button ID="btnExport" runat="server" onclick="btnExport_Click" 
                         Text="Error Details" Visible="False" />
                 <asp:HiddenField ID="hidSID" runat="server" />
-                <asp:HiddenField ID="hidBillType" value = "0" runat="server" />
+                <asp:HiddenField ID="hidBillType" runat="server" />
+                <asp:HiddenField ID="hidBillClass" runat="server" />
             </p>
         </div>
     </form>
     <footer id="pageFooter" class="pageFooter">	</footer>
-    <script src="scripts/jquery-2.1.3.min.js"></script>
+    <script src="scripts/jquery-2.2.0.min.js"></script>
     <script>
         $(function () {
-            function ChangeVals() {
-                var value = $("input[type='radio'][name='billClass']:checked").val();
+            $("#drpBillType").change(function () {
+                $("#hidBillType").val($(this).val());
+            });
+            $("#idBillClass1,#idBillClass2").change(function () {
+                var value = "nonsap";
+                if ($("#idBillClass1").is(":checked")) {
+                    value = "sap";
+                }
+                $("#drpBillType").prop("selectedIndex", 0);
+                $("#hidBillType").val($("#drpBillType").val());
+                $("#hidBillClass").val(value);
+
                 if (value == "sap") {
                     FillSAP();
                 }
                 else {
                     FillNonSAP();
                 }
-                SetHidBillType();
+            });
+            if ($("#hidBillClass").val() == "nonsap") {
+                $("#idBillClass2").prop("checked", true);
+                FillNonSAP();
             }
-            function SetHidBillType() {
-                var billClass = $("input[type='radio'][name='billClass']:checked").val();
-                var billType = $("#drpBillType").val()
-                var billComb = billClass + "-" + billType;
-                //alert("setting: " + billComb);
-                $("#hidBillType").val(billComb);
+            else {
+                $("#idBillClass1").prop("checked", true);
+                $("#hidBillClass").val("sap");
+                FillSAP();
             }
-            function HidReplace() {
-                var hidVal = $("#hidBillType").val();
-                if (hidVal != "0") {
-                    //alert(hidVal);
-                    var billClass = hidVal.split("-")[0];
-                    var billType = hidVal.split("-")[1];
-                    //$("input[type='radio'][name='billClass']:checked").val(billClass);
-                    //$("#drpBillType").val(billType)
-                    $('input[name=billClass]').val([billClass]);
-                    ChangeVals();
-                    $("#drpBillType").val(billType)
-                }
-            }
+//            if ($("#hidBillType").val() == "") {
+//                $("#hidBillType").val("BT");
+//            }
             function FillNonSAP() {
-                var arrTypeText = ["Bill Type", "DSBELOW10KW (Spot Billing)", "LS", "SP", "MS", "DSABOVE10KW"];
-                var arrTypeVal = ["BT", "DSBELOW10KW", "LS", "SP", "MS", "DSABOVE10KW"];
+                var arrTypeText = ["Select", "DSBELOW10KW (Spot Billing)", "LS", "SP", "MS", "DSABOVE10KW"];
+                var arrTypeVal = ["", "DSBELOW10KW", "LS", "SP", "MS", "DSABOVE10KW"];
 
                 $("#drpBillType").html("");
 
@@ -108,11 +110,14 @@
                     el.textContent = arrTypeText[index];
                     el.value = arrTypeVal[index];
                     $("#drpBillType").append(el);
+                }
+                if ($("#hidBillType").val() != "") {
+                    $("#drpBillType").val($("#hidBillType").val());
                 }
             }
             function FillSAP() {
-                var arrTypeText = ["Bill Type", "GSC/GT", "SBM Reading (MS/SP/Temp/GC)"];
-                var arrTypeVal = ["BT", "DSBELOW10KW", "SBMREADING"];
+                var arrTypeText = ["Select", "GSC/GT", "SBM Reading (MS/SP/Temp/GC)"];
+                var arrTypeVal = ["", "DSBELOW10KW", "SBMREADING"];
 
                 $("#drpBillType").html("");
 
@@ -124,9 +129,10 @@
                     el.value = arrTypeVal[index];
                     $("#drpBillType").append(el);
                 }
+                if ($("#hidBillType").val() != "") {
+                    $("#drpBillType").val($("#hidBillType").val());
+                }
             }
-            FillSAP();
-            HidReplace();
             $("#pageHeader").load("resources/snippets.html #snipPageHeader")
             $("#pageNav").load("resources/snippets.html #snipPageNav", function () {
                 $("#pageNav li").removeClass("selected");
@@ -140,8 +146,8 @@
             $("#FileUpload1").click(function () {
                 $("#lblMessage").text("");
             });
-            $(".billClass").change(ChangeVals);
-            $("#drpBillType").change(SetHidBillType);
+            //            $(".billClass").change(ChangeVals);
+            //            $("#drpBillType").change(SetHidBillType);
         });
     </script>
 </body>

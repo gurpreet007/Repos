@@ -9,6 +9,7 @@
         <script src="scripts/html5shiv.min.js"></script>        
    <![endif]-->
 	<%--<link rel="stylesheet" href="styles/epayment.css">--%>
+    <link rel="stylesheet" href="styles/jquery-ui.min.css" type="text/css" />
     <link rel="stylesheet/less" href="styles/epayment.less" type="text/css" />
     <script src="scripts/less.min.js"></script>
 </head>
@@ -67,12 +68,12 @@
                     </asp:DropDownList></p>
             </div> 
             <div class="tableRow exactDate">
-                <p><label for="sDate">Start Date</label></p>
-                <p><input type="text" runat="server" id="sDate" placeholder="DD/MM/YYYY"/></p>
+                <p style="vertical-align:middle"><label for="sDate">Start Date</label></p>
+                <p><input type="text" runat="server" id="sDate" class="dtclass" placeholder="DD-Mon-YYYY" maxlength="11"/></p>
             </div> 
             <div class="tableRow exactDate">
-                <p><label for="eDate">End Date</label></p>
-                <p><input type="text" runat="server" id="eDate" placeholder="DD/MM/YYYY"/></p>
+                <p style="vertical-align:middle"><label for="eDate">End Date</label></p>
+                <p><input type="text" runat="server" id="eDate" class="dtclass" placeholder="DD-Mon-YYYY" maxlength="11"/></p>
             </div>
             <div class="tableRow">
                 <p></p>
@@ -85,8 +86,10 @@
         </form>
     </asp:Panel>
     <footer id="pageFooter" class="pageFooter"></footer>
-    <script src="scripts/jquery-2.1.3.min.js"></script>
-    <script src="scripts/common.js"></script>
+    <script src="scripts/jquery-2.2.0.min.js?2"></script>
+    <script src="Scripts/jquery-ui.min.js?2"></script>
+    <script src="Scripts/moment.js?2"></script>
+    <script src="scripts/common.js?2"></script>
     <script>
         $(document).ready(function () {
             $("#pageHeader").load("resources/snippets.html #snipPageHeader");
@@ -122,7 +125,7 @@
                     $(".exactDate").addClass("hide");
                 }
             }
-
+            $(".dtclass").datepicker({ dateFormat: "dd-M-yy", changeMonth: "true", changeYear: "true", maxDate: 0, showMonthAfterYear: "true" });
             exactDates(); //needed incase of FF refresh while Exact Date is selected in drpdown
             $("#panActivity_drpDuration").change(exactDates);
             $("#panActivity_btnAddUser").click(function () {

@@ -116,9 +116,9 @@ public class Service_SAP_NCODE : IService
 
             sql_merge = string.Format("merge into onlinebill.mast_account m1 using " +
                     "(select '{0}' as acno from dual) d on (m1.account_no=d.acno) " +
-                    "when matched then update set m1.table_name = '{1}' " +
-                    "when not matched then insert (m1.account_no,m1.table_name) values(d.acno,'{1}')",
-                    scols.Contract_Account_Number, "ONLINEBILL.SAP_SBM_GSC");
+                    "when matched then update set m1.table_name = '{1}', m1.cname = '{2}', m1.category = '{3}', if_sap = 'Y', m1.code_sdiv='{4}', m1.updatedt = sysdate " +
+                    "when not matched then insert (m1.account_no, m1.table_name, m1.cname, m1.category, m1.if_sap, m1.code_sdiv, m1.updatedt) values(d.acno,'{1}','{2}','{3}','Y','{4}', sysdate) ",
+                    scols.Contract_Account_Number, "ONLINEBILL.SAP_SBM_GSC", scols.Consumername.ToUpper().Trim(), scols.Category.ToUpper().Trim(), scols.Sub_Division_Code.Trim());
 
             sql_atomic = string.Format("BEGIN {0}; {1}; END; ", sql, sql_merge).Replace(Environment.NewLine, "");
             try

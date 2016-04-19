@@ -34,7 +34,7 @@
     </form>
     <footer id="pageFooter" class="pageFooter">	</footer>
     <div id="forIE"></div>
-    <script src="scripts/jquery-2.1.3.min.js"></script>  
+    <script src="scripts/jquery-2.2.0.min.js"></script>  
     <script>
         $(document).ready(function () {
             $("#pageFooter").load("resources/snippets.html #snipPageFooter", function () {

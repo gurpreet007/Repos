@@ -53,8 +53,9 @@ public class Service : IAndroidService
                     ) ";
         string sqlMerge = "merge into onlinebill.mast_account m1 using " +
                     "(select '{0}' as acno from dual) d on (m1.account_no=d.acno) " +
-                    "when matched then update set m1.table_name = '{1}' " +
-                    "when not matched then insert (m1.account_no,m1.table_name) values(d.acno,'{1}')";
+                    "when matched then update set m1.table_name = '{1}', m1.cname = '{2}', m1.category = '{3}', if_sap = 'N', m1.code_sdiv='{4}', m1.billinggroup = '{5}', m1.updatedt = sysdate " +
+                    "when not matched then insert (m1.account_no, m1.table_name, m1.cname, m1.category, m1.if_sap, m1.code_sdiv, m1.billinggroup, m1.updatedt) values(d.acno,'{1}','{2}','{3}','N','{4}', '{5}', sysdate) ";
+
         List<Android_Bill_Ret> lstColsRet = new List<Android_Bill_Ret>();
         #endregion
 
@@ -118,7 +119,7 @@ public class Service : IAndroidService
                         scols.Consumption3, scols.Consumption4, scols.Consumption5, scols.Consumption6
                     );
 
-                sql_merge = string.Format(sqlMerge, scols.AccountNumber, "ONLINEBILL.ANDROID_BILLS");
+                sql_merge = string.Format(sqlMerge, scols.AccountNumber, "ONLINEBILL.ANDROID_BILLS", scols.ConsumerName, scols.TariffCode, "0", scols.BillingGroup);
 
                 sql_atomic = string.Format("BEGIN {0}; {1}; END; ", sql, sql_merge).Replace(Environment.NewLine, "");
                 #endregion

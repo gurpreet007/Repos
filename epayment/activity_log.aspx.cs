@@ -34,50 +34,6 @@ public partial class reports : System.Web.UI.Page
         ds.Clear();
         ds.Dispose();
     }
-    private bool getDates(out string startDate, out string endDate)
-    {
-        string duration = panActivity_drpDuration.SelectedValue;
-        string dtFormat = string.Empty;
-        startDate = DateTime.Now.ToString("dd-MMM-yyyy");
-        endDate = DateTime.Now.ToString("dd-MMM-yyyy");
-        try
-        {
-            switch (duration)
-            {
-                case "dates":
-                    startDate = sDate.Value;
-                    endDate = eDate.Value;
-                    dtFormat = startDate.Contains("-") ? "yyyy-MM-dd" : "dd/MM/yyyy";
-                    startDate = DateTime.ParseExact(startDate, dtFormat, null).ToString("dd-MMM-yyyy");
-                    endDate = DateTime.ParseExact(endDate, dtFormat, null).ToString("dd-MMM-yyyy");
-                    break;
-                case "day1":
-                    startDate = endDate;
-                    break;
-                case "day2":
-                    startDate = DateTime.ParseExact(endDate, "dd-MMM-yyyy", null).AddDays(-1).ToString("dd-MMM-yyyy");
-                    break;
-                case "day3":
-                    startDate = DateTime.ParseExact(endDate, "dd-MMM-yyyy", null).AddDays(-2).ToString("dd-MMM-yyyy");
-                    break;
-                case "week":
-                    startDate = DateTime.ParseExact(endDate, "dd-MMM-yyyy", null).AddDays(-7).ToString("dd-MMM-yyyy");
-                    break;
-                case "month":
-                    startDate = DateTime.ParseExact(endDate, "dd-MMM-yyyy", null).AddMonths(-1).ToString("dd-MMM-yyyy");
-                    break;
-                case "year":
-                    startDate = DateTime.ParseExact(endDate, "dd-MMM-yyyy", null).AddYears(-1).ToString("dd-MMM-yyyy");
-                    break;
-            }
-        }
-        catch(System.FormatException)
-        {
-            panActivity_lblMsg.Text = "Invalid Date. Use format dd/mm/yyyy.";
-            return false;
-        }
-        return true;
-    }
     protected void Page_Load(object sender, EventArgs e)
     {
         if (!common.isValidSession(Page.Session))
@@ -89,8 +45,8 @@ public partial class reports : System.Web.UI.Page
         {
             common.FillInfo(Page.Session, lblLoggedInAs);
             fillUsers(panActivity_drpUsers, false, true);
-            sDate.Attributes["type"] = "date";
-            eDate.Attributes["type"] = "date";
+            //sDate.Attributes["type"] = "date";
+            //eDate.Attributes["type"] = "date";
         }
     }
     protected void btnUserActivity_Click(object sender, EventArgs e)
@@ -100,17 +56,17 @@ public partial class reports : System.Web.UI.Page
         string sql = string.Empty;
         string sqlUser = string.Empty;
         string sqlBillType = string.Empty;
-        string sDate = string.Empty;
-        string eDate = string.Empty;
+        string sDate2 = string.Empty;
+        string eDate2 = string.Empty;
         bool xlReturn = false;
-        bool dtReturn = false;
 
-        dtReturn = getDates(out sDate, out eDate);
-        if(dtReturn ==  false)
+        if (!common.getDates(sDate.Value, eDate.Value, panActivity_drpDuration.SelectedValue, out sDate2, out eDate2))
         {
-            //date error, msg already shown, return
+            //date error, return
+            panActivity_lblMsg.Text = "Invalid Date. Use format DD-Mon-YYYY (e.g. 01-Jan-2016).";
             return;
         }
+
         if(userID != "ALL") {
             sqlUser = string.Format("and userid = '{0}'",userID);
         }
@@ -126,7 +82,7 @@ public partial class reports : System.Web.UI.Page
                  "insrec as Rec_Inserted, duprec as Rec_Duplicate, " +
                  "to_char(dated,'DD-MON-YYYY HH24:MI:SS') as dated from onlinebill.userrec " +
                  "where 1=1 {0} {1} and trunc(dated) between '{2}' and '{3}' order by dated desc",
-                 sqlUser, sqlBillType, sDate, eDate);
+                 sqlUser, sqlBillType, sDate2, eDate2);
         xlReturn = common.DownloadXLS(sql, "activity.xls", this);
 
         
@@ -141,18 +97,18 @@ public partial class reports : System.Web.UI.Page
         string billType = panActivity_drpBillType.SelectedValue;
         string sql = string.Empty;
         string sqlUser = string.Empty;
-        string sDate = string.Empty;
-        string eDate = string.Empty;
+        string sDate2 = string.Empty;
+        string eDate2 = string.Empty;
         string strCount = string.Empty;
         string strSQLSynced = string.Empty;
-        bool dtReturn = false;
 
-        dtReturn = getDates(out sDate, out eDate);
-        if (dtReturn == false)
+        if (!common.getDates(sDate.Value, eDate.Value, panActivity_drpDuration.SelectedValue, out sDate2, out eDate2))
         {
-            //date error, msg already shown, return
+            //date error, return
+            panActivity_lblMsg.Text = "Invalid Date. Use format DD-Mon-YYYY (e.g. 01-Jan-2016).";
             return;
         }
+
         if (userID != "ALL")
         {
             sqlUser = string.Format("and userid = '{0}'", userID);
@@ -169,7 +125,7 @@ public partial class reports : System.Web.UI.Page
 
         sql = string.Format("select count(*) from onlinebill.{0} " +
                  "where 1=1 {1} and trunc(dtupload) between '{2}' and '{3}' {4}",
-                 billType, sqlUser, sDate, eDate, strSQLSynced);
+                 billType, sqlUser, sDate2, eDate2, strSQLSynced);
 
         strCount = OraDBConnection.GetScalar(sql);
         panActivity_lblMsg.Text = strCount;
@@ -180,19 +136,19 @@ public partial class reports : System.Web.UI.Page
         string billType = panActivity_drpBillType.SelectedValue;
         string sql = string.Empty;
         string sqlUser = string.Empty;
-        string sDate = string.Empty;
-        string eDate = string.Empty;
+        string sDate2 = string.Empty;
+        string eDate2 = string.Empty;
         string strCount = string.Empty;
         string strSQLSynced = string.Empty;
-        bool dtReturn = false;
         bool xlReturn = false;
 
-        dtReturn = getDates(out sDate, out eDate);
-        if (dtReturn == false)
+        if (!common.getDates(sDate.Value, eDate.Value, panActivity_drpDuration.SelectedValue, out sDate2, out eDate2))
         {
-            //date error, msg already shown, return
+            //date error, return
+            panActivity_lblMsg.Text = "Invalid Date. Use format DD-Mon-YYYY (e.g. 01-Jan-2016).";
             return;
         }
+        
         if (userID != "ALL")
         {
             sqlUser = string.Format("and userid = '{0}'", userID);
@@ -209,7 +165,7 @@ public partial class reports : System.Web.UI.Page
 
         sql = string.Format("select * from onlinebill.{0} " +
                  "where 1=1 {1} and trunc(dtupload) between '{2}' and '{3}' {4}",
-                 billType, sqlUser, sDate, eDate, strSQLSynced);
+                 billType, sqlUser, sDate2, eDate2, strSQLSynced);
 
         xlReturn = common.DownloadXLS(sql, billType+".xls", this);
 

@@ -23,6 +23,7 @@ public partial class upload : System.Web.UI.Page
         OracleConnection con;
         string[] qtdFields;
         StringBuilder sbsql = new StringBuilder(2000);
+        int Check_NumFields = categ.numFields;
 
         //capture sessionid
         hidSID.Value = System.Guid.NewGuid().ToString();
@@ -32,7 +33,8 @@ public partial class upload : System.Web.UI.Page
             strExtension = System.IO.Path.GetExtension(FileUpload1.PostedFile.FileName).ToLower();
             if (strExtension == ".txt" || strExtension == ".web")
             {
-                path = Server.MapPath(string.Format("./bills/BILL_{0}.txt", hidSID.Value));
+                path = string.Format("C:/SBM_Bills/BILL_{0}.txt", hidSID.Value);
+                //path = Server.MapPath(string.Format("./bills/BILL_{0}.txt", hidSID.Value));
                 FileUpload1.SaveAs(path);
             }
             else
@@ -69,9 +71,21 @@ public partial class upload : System.Web.UI.Page
             string[] fields = lines[line].Split(categ.delimiter);
 
             #region invalid_record_check
+
+            /*Support modified DSABOVE (82) and DSBELOW (78) files 
+             * along with old format 76 and 72 respectively */
+            if (fields.Length == 79)
+            {
+                Check_NumFields = 79;
+            }
+            //else if (fields.Length == 82)
+            //{
+            //    Check_NumFields = 82;
+            //}
+
             //check the field length for every record 
             //to avoid crash if sbm m/c malfunctions
-            if (fields.Length != categ.numFields)
+            if (fields.Length != Check_NumFields)
             {
                 //if its first line then exit
                 //as its an invalid file
@@ -118,6 +132,15 @@ public partial class upload : System.Web.UI.Page
 
             //add userID, empID and date_upload at last, we already have comma and space at the end of string
             //sbsql.AppendFormat("'{0}', '{1}', to_date('{2}','{3}'))", userID, empID, dtUpload, common.dtFmtOracle);
+
+            /*add empty values in the last fields of the tables if old 
+             * format of DSA and DSB is being used*/
+            //if (Check_NumFields == 72 || Check_NumFields == 76)
+            if (Check_NumFields == 72)
+            {
+                sbsql.AppendFormat(",'','','','','','',''");
+            }
+
             sbsql.AppendFormat(",'{0}', '{1}', to_date('{2}','{3}')); ", userID, '0', dtUpload, common.dtFmtOracle);
 
             //insert into oracle 
@@ -128,8 +151,8 @@ public partial class upload : System.Web.UI.Page
             //append merge query
             sbsql.AppendFormat("merge into onlinebill.mast_account m1 using " +
                     "(select '{0}' as acno from dual) d on (m1.account_no=d.acno) " +
-                    "when matched then update set m1.table_name = '{1}', m1.cname = '{2}', m1.category = '{3}', if_sap = 'N', m1.code_sdiv='{4}' " +
-                    "when not matched then insert (m1.account_no, m1.table_name, m1.cname, m1.category, m1.if_sap, m1.code_sdiv) values(d.acno,'{1}','{2}','{3}','N','{4}'); ",
+                    "when matched then update set m1.table_name = '{1}', m1.cname = '{2}', m1.category = '{3}', if_sap = 'N', m1.code_sdiv='{4}', updatedt = sysdate " +
+                    "when not matched then insert (m1.account_no, m1.table_name, m1.cname, m1.category, m1.if_sap, m1.code_sdiv, updatedt) values(d.acno,'{1}','{2}','{3}','N','{4}', sysdate); ",
                     fields[categ.posAccountNo].ToUpper(), categ.tableName.ToUpper().Trim(), fields[categ.posCname].ToUpper().Trim(),
                     fields[categ.posCategory].ToUpper().Trim(), "0");
 
@@ -208,7 +231,8 @@ public partial class upload : System.Web.UI.Page
             strExtension = System.IO.Path.GetExtension(FileUpload1.PostedFile.FileName).ToLower();
             if (strExtension == ".enc")
             {
-                path = Server.MapPath(string.Format("./bills/BILL_{0}.txt", hidSID.Value));
+                path = string.Format("C:/SBM_Bills/BILL_{0}.txt", hidSID.Value);
+                //path = Server.MapPath(string.Format("./bills/BILL_{0}.txt", hidSID.Value));
                 FileUpload1.SaveAs(path);
             }
             else
@@ -321,10 +345,10 @@ public partial class upload : System.Web.UI.Page
             {
                 sbsql.AppendFormat("merge into onlinebill.mast_account m1 using " +
                     "(select '{0}' as acno from dual) d on (m1.account_no=d.acno) " +
-                    "when matched then update set m1.table_name = '{1}', m1.cname = '{2}', m1.category = '{3}', if_sap = 'Y', m1.code_sdiv='{4}' " +
-                    "when not matched then insert (m1.account_no, m1.table_name, m1.cname, m1.category, m1.if_sap, m1.code_sdiv) values(d.acno,'{1}','{2}','{3}','Y','{4}'); ",
-                    fields[categ.posAccountNo].ToUpper(), categ.tableName.ToUpper().Trim(), fields[categ.posCname].ToUpper().Trim(), 
-                    fields[categ.posCategory].ToUpper().Trim(), fields[categ.posCode_sdiv].ToUpper().Trim());
+                    "when matched then update set m1.table_name = '{1}', m1.cname = '{2}', m1.category = '{3}', if_sap = 'Y', m1.code_sdiv='{4}', updatedt = sysdate " +
+                    "when not matched then insert (m1.account_no, m1.table_name, m1.cname, m1.category, m1.if_sap, m1.code_sdiv, updatedt) values(d.acno,'{1}','{2}','{3}','Y','{4}', sysdate); ",
+                    fields[categ.posAccountNo], categ.tableName.ToUpper().Trim(), fields[categ.posCname].ToUpper().Trim(), 
+                    fields[categ.posCategory].ToUpper().Trim(), fields[categ.posCode_sdiv].Trim());
             }
 
             try
@@ -408,13 +432,12 @@ public partial class upload : System.Web.UI.Page
         string billClass = string.Empty;
         string billType = string.Empty;
         
-        if(hidBillType.Value == "0") {
+        if(hidBillType.Value == "") {
             lblMessage.Text = "Select a valid Bill Type";
             return;
         }
-        
-        billClass = hidBillType.Value.Split('-')[0];
-        billType = hidBillType.Value.Split('-')[1];
+        billClass = hidBillClass.Value;
+        billType = hidBillType.Value;
         
         if(billClass==common.strSAP){
             switch (billType)

@@ -24,6 +24,7 @@ public class common
     public const string strDupLetter = "D";
     public const string strReading = "READING";
     public const string dtFmtDotNet = "dd-MMM-yyyy HH:mm:ss";
+    public const string dtFmtDotNetShort = "dd-MMM-yyyy";
     public const string dtFmtOracle = "DD-MON-YYYY HH24:MI:SS";
     public const string keystr = "1234567890abcdefabcdefab";
     #endregion
@@ -278,6 +279,44 @@ public class common
 
         tdes.Clear();
         return UTF8Encoding.UTF8.GetString(resultArray);
+    }
+    public static bool getDates(string sDate, string eDate, string duration, out string startDate, out string endDate)
+    {
+        startDate = DateTime.Now.ToString(common.dtFmtDotNetShort);
+        endDate = DateTime.Now.ToString(common.dtFmtDotNetShort);
+        try
+        {
+            switch (duration)
+            {
+                case "dates":
+                    startDate = DateTime.ParseExact(sDate, common.dtFmtDotNetShort, null).ToString(common.dtFmtDotNetShort);
+                    endDate = DateTime.ParseExact(eDate, common.dtFmtDotNetShort, null).ToString(common.dtFmtDotNetShort);
+                    break;
+                case "day1":
+                    startDate = endDate;
+                    break;
+                case "day2":
+                    startDate = DateTime.ParseExact(endDate, common.dtFmtDotNetShort, null).AddDays(-1).ToString(common.dtFmtDotNetShort);
+                    break;
+                case "day3":
+                    startDate = DateTime.ParseExact(endDate, common.dtFmtDotNetShort, null).AddDays(-2).ToString(common.dtFmtDotNetShort);
+                    break;
+                case "week":
+                    startDate = DateTime.ParseExact(endDate, common.dtFmtDotNetShort, null).AddDays(-7).ToString(common.dtFmtDotNetShort);
+                    break;
+                case "month":
+                    startDate = DateTime.ParseExact(endDate, common.dtFmtDotNetShort, null).AddMonths(-1).ToString(common.dtFmtDotNetShort);
+                    break;
+                case "year":
+                    startDate = DateTime.ParseExact(endDate, common.dtFmtDotNetShort, null).AddYears(-1).ToString(common.dtFmtDotNetShort);
+                    break;
+            }
+        }
+        catch (System.FormatException)
+        {
+            return false;
+        }
+        return true;
     }
 }
 

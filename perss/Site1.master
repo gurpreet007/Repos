@@ -1,0 +1,117 @@
+﻿<%@ Master Language="VB" CodeFile="Site1.master.vb" Inherits="Site1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head id="Head1" runat="server">
+    <title></title>
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+
+
+
+
+
+</head>
+<body>
+    <form id="Form1" runat="server">
+    <div class="page">
+        <div class="header">
+            <div class="title">
+                <h1>
+                    HUMAN RESOURCE INFORMATION SYSTEM (CADRE STRENGTH)
+                </h1>
+            </div>
+            <div class="loginDisplay">
+                <asp:Label ID="lblDummy" runat="server" Font-Bold="False" Font-Size="Large" 
+                    ForeColor="#FF3300"></asp:Label>
+                <asp:LoginView ID="HeadLoginView" runat="server" EnableViewState="false">
+                    <AnonymousTemplate>
+                        [ <a href="~/Account/Login.aspx" ID="HeadLoginStatus" runat="server">Log In</a> ]
+                    </AnonymousTemplate>
+                    <LoggedInTemplate>
+                        Welcome <span class="bold"><asp:LoginName ID="HeadLoginName" runat="server" /></span>!
+                        [ <asp:LoginStatus ID="HeadLoginStatus" runat="server" LogoutAction="Redirect" LogoutText="Log Out" LogoutPageUrl="~/account/login.aspx"/> ]
+                    </LoggedInTemplate>
+                </asp:LoginView>
+            </div>
+            <div class="clear hideSkiplink">
+                <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal">
+                    <Items>
+                        <asp:MenuItem NavigateUrl="~/Mainpage.aspx" Text="Home"/>
+                        <asp:MenuItem Text="Post" Value="Post">
+                            <asp:MenuItem Text="Create New Post" Value="Create Post" 
+                                NavigateUrl="~/frm_new_post.aspx"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/frm_new_post_div.aspx" 
+                                Text="Create Post by Diversion/Conversion" 
+                                Value="Create Post by Diversion/Conversion"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/frm_post_edit.aspx" Text="Edit Post" 
+                                Value="Edit Post"></asp:MenuItem>
+                        </asp:MenuItem>
+                        <asp:MenuItem Text="Location" Value="Location">
+                            <asp:MenuItem Text="Create Location" Value="Create Location" 
+                                NavigateUrl="~/frm_new_location.aspx"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/frm_edit_location.aspx" Text="Edit Location" 
+                                Value="Edit Location"></asp:MenuItem>
+                        </asp:MenuItem>
+                        <asp:MenuItem Text="Designation" Value="Designation">
+                            <asp:MenuItem Text="Create Desg" Value="Create Desg" 
+                                NavigateUrl="~/frm_new_desg.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="Edit Designation" Value="Edit Designation" 
+                                NavigateUrl="~/frm_desg_edit.aspx"></asp:MenuItem>
+                        </asp:MenuItem>
+                        <asp:MenuItem Text="Reports" Value="Reports">
+                            <asp:MenuItem Text="By Location" 
+                                Value="Lists">
+                                <asp:MenuItem NavigateUrl="~/rptcont.aspx" Text="Continuation" 
+                                    Value="Organisation Wise"></asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="~/frmcontabs.aspx" Text="Cadre Strength" 
+                                    Value="Abstract">
+                                </asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="~/frmlocdetailed.aspx" 
+                                    Text="Individual Location Wise" Value="Individual Location Wise">
+                                </asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="~/rptcont_eng.aspx" Text="Continuation Eng Off" 
+                                    Value="Continuation Eng Off"></asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="~/locrptcont.aspx" Text="Location Info" 
+                                    Value="Location Info"></asp:MenuItem>
+                            </asp:MenuItem>
+                            <asp:MenuItem Text="Abstract" 
+                                Value="Abstracts">
+                                <asp:MenuItem NavigateUrl="~/frmrptdesgwise.aspx" Text="Org. Wise" 
+                                    Value="Abstract Organisation Wise">
+                                </asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="~/frmDesgCount.aspx" Text="Desg. Wise" 
+                                    Value="By Designation Count">
+                                </asp:MenuItem>
+                            </asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/frmsqlquery.aspx" Text="SQL Bin" Value="SQL Bin">
+                            </asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/frmDesgCountClass.aspx" Text="MIR" 
+                                    Value="MIR">
+                            </asp:MenuItem>
+                        </asp:MenuItem>
+                        <asp:MenuItem Text="Change Password" Value="Change Password" 
+                            NavigateUrl="~/Account/ChangePassword.aspx"></asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="~/frmfindemp.aspx" Text="Find Employee" 
+                            Value="Find Employee"></asp:MenuItem>
+                    </Items>
+                </asp:Menu>
+            </div>
+        </div>
+        <div class="main">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                <p>
+                </p>
+            </asp:ContentPlaceHolder>
+        </div>
+        <div class="clear">
+        </div>
+    </div>
+    <div class="footer">
+        
+    </div>
+    </form>
+</body>
+</html>
